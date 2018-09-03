@@ -1,0 +1,29 @@
+site_name: FreeFlarum docs
+site_url: https://www.freeflarum.com/docs/
+
+theme:
+   name: 'material'
+  #  custom_dir: theme
+
+# need to enumerate everything, see this issue:
+# https://github.com/mkdocs/mkdocs/issues/714
+nav:
+  - About: about.md
+  - FAQ: index.md
+  - Roadmap: roadmap.md
+  - Howto:
+    - howto/custom-domain.md
+    - howto/flarum-facebook-login.md
+    - howto/flarum-google-login.md
+    - howto/personalize.md
+    - howto/private-forum.md
+    - howto/configure-mail.md
+  - Legal:
+    - legal/privacy.md
+    - legal/terms.md
+
+markdown_extensions:
+  - admonition
+  
+repo_url: https://github.com/gwillem/freeflarum.com
+# edit_uri not required for github
