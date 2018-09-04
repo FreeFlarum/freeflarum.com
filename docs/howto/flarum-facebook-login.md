@@ -30,7 +30,7 @@ App review -> "Make Public"
 Go to your Forum admin panel. Go to extensions. Enable the Facebook extension. Enter App ID and App Secret as noted earlier.
 ![](https://buq.eu/screenshots/n690ud4VBGZF4IBlZScaNKvq.png)
 
-In some cases, you have to run a `php flarum cache:clear` and `rm assets/rev-manifest.json` in the shell as a last step.
+If you are not using FreeFlarum, you might have to run a `php flarum cache:clear` and `rm assets/rev-manifest.json` in the shell as a last step.
 
 Your facebook login should work now!
 
