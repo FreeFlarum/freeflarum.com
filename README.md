@@ -1,4 +1,4 @@
-# freeflarum.com
+# FreeFlarum.com
 
 Contains the front-end for FreeFlarum.com:
 
@@ -7,7 +7,7 @@ Contains the front-end for FreeFlarum.com:
 
 Works in conjuction with freeflarum-backend.
 
-PRs welcome!
+PRs welcome! Please submit bugs/feature requests as issues in this repo.
 
 # How to run locally
 

@@ -37,3 +37,6 @@ Say you use "www.your.com" as FreeFlarum domain name. However, you want people b
 
 ![](https://buq.eu/screenshots/MMlyMjo6I6Hb7IfSXwHXOaxu.png)
 
+## Reset the domain
+
+If you used a custom domain but don't want it anymore, you can enter your xxx.freeflarum.com name in the settings.
