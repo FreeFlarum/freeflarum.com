@@ -19,3 +19,9 @@ pipenv install
 pipenv run mkdocs serve
 ```
 And see your live edits at http://localhost:8000/
+
+# How to deploy
+
+```
+./deploy.sh
+```
