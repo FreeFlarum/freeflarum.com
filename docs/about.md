@@ -37,16 +37,14 @@ Feature requests are weighed using the FreeFlarum priorities:
 
 ## Company
 
-FreeFlarum is operated and funded by Sanguine Projects, registered in The Netherlands. It is founded by [Willem de Groot](https://twitter.com/gwillem), hacker and entrepreneur. 
+FreeFlarum is operated and funded from in The Netherlands. 
 
 ![](https://buq.eu/screenshots/7gFossnr6Nb4WWscLYCL4r8Z.png)
 
 ```
-Sanguine Projects
+FreeFlarum
 Europalaan 20
 3526 KS Utrecht
 The Netherlands
 ```
 
-Chamber of Commerce registration: 71814396 &minus;
-Tax ID: NL177950675B01
