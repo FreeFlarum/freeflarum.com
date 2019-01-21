@@ -17,6 +17,12 @@ Currently there is no button for that, but please do this:
 
 Ad-free, premium plans are expected for version 3.0 (see the [roadmap](roadmap.md)). Until then, no ads will be implemented, except for a "Powered by" footer link.
 
+You are allowed to remove the footer, if you create a link to FreeFlarum elsewhere (not invisible). Send the page where you created the link to info@freeflarum.com, then you can remove the footer by adding this custom CSS:
+
+```
+#ff-footer { display:none; }
+```
+
 ## Can we hire you for a custom job?
 
 FreeFlarum does not do consultancy, as it distracts from our objective to build the best platform. But there are several highly skilled Flarum developers available on the Flarum forum.
