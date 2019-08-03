@@ -11,13 +11,15 @@ Please post feature requests as [new Github issues](https://github.com/gwillem/f
 - Paid ad-free premium plans
 - Ads implemented for free plans
 
-## v2.2 (unreleased)
+## v2.3 (unreleased)
 
 - Forums can be deleted
 - Forums can reset their header/smtp settings
 - Front-end decoupled from back-end (using JS/API)
 - New design implemented
-- Beta8 support 
+
+## v2.2 (3rd August, 2019)
+- Beta9 support!
 
 ## v2.1 (9th January 2018)
 
