@@ -19,8 +19,6 @@ FreeFlarum works to make online communities simple and available to anyone. It c
 
 We are a "keep customers happy" company. You are the owner of your forum/data. We will not lock you in, in any way. If you want to move your forum elsewhere, we will totally facilitate that. We will not use dark marketing patterns.
 
-While FreeFlarum is a commercial venture, it is so because it needs to be sustainable and somebody's gotta pay for servers and maintenance. Simple forums should be free, large forums should be affordable. 
-
 ## Strategy 
 
 Feature requests are weighed using the FreeFlarum priorities:
