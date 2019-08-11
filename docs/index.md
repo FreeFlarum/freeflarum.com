@@ -2,26 +2,23 @@
 
 ## Can you add extension XX ?
 
-Currently, there is an extension freeze, due to the pending release of Flarum beta8. Given that beta8 will break all existing extensions, it will slow the upgrade process if extensions are added that won't be made compatible in time. See also the release procedure below. 
+We will add most extensions on requests. However, some extensions are incompatible with the FreeFlarum platform. We can not install Bazaar or anything that accepts file uploads or runs custom PHP code.
 
-However, you can always submit an extension request as a [Github issue](https://github.com/gwillem/freeflarum.com/issues), and it will be considered once beta8 is out.
+For an extension request to be honored, it should be upvoted by at least two persons.
+
+Submit your extension request as a [Github issue](https://github.com/gwillem/freeflarum.com/issues).
 
 ## Can you remove my test forum?
 
-Currently there is no button for that, but please do this:
+Yes, [log in](https://www.freeflarum.com/settings) and click DESTROY FORUM.
 
-1. Add - as an admin - a post to your forum that says "DELETE THIS FORUM"
-1. Send request to info@freeflarum.com, stating your forum name and we will purge it manually
+## Can I pay to remove the "powered by FreeFlarum" footer?
 
-## Can I pay to remove the ads?
+Yes, you can make a voluntary [donation by paypal](https://www.freeflarum.com/donate). The amount is up to you: how much is FreeFlarum worth to you? Send your forum name (the part before .freeflarum.com) in the donation message.
 
-Ad-free, premium plans are expected for version 3.0 (see the [roadmap](roadmap.md)). Until then, no ads will be implemented, except for a "Powered by" footer link.
+## Error booting Flarum: Return value of Flarum\Extension\Extension::getExtenderFile() must be of the type string or null, none returned
 
-You are allowed to remove the footer, if you create a link to FreeFlarum elsewhere (not invisible). Send the page where you created the link to info@freeflarum.com, then you can remove the footer by adding this custom CSS:
-
-```
-#ff-footer { display:none; }
-```
+This happens when new extensions are added to the FreeFlarum forum. It will resolve quickly within 30 minutes.
 
 ## Can we hire you for a custom job?
 

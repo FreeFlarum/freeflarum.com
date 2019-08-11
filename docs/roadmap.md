@@ -5,18 +5,17 @@
 Please post feature requests as [new Github issues](https://github.com/gwillem/freeflarum.com/issues). 
 
 ## v3.0 (unreleased)
-
 - Forums can import data from existing forum.
 - Pre-configured Facebook/Twitter login.
-- Paid ad-free premium plans
-- Ads implemented for free plans
 
-## v2.3 (unreleased)
-
-- Forums can be deleted
+## v2.4 (unreleased)
 - Forums can reset their header/smtp settings
 - Front-end decoupled from back-end (using JS/API)
 - New design implemented
+
+## v2.3 (11th August, 2019)
+- Forums can be deleted
+- No more ads
 
 ## v2.2 (3rd August, 2019)
 - Beta9 support!
