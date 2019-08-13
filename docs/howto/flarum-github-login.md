@@ -32,7 +32,7 @@ Hit save.
 
 ![oh, where are you sneaky modal? OH, THERE YOU ARE!!!](https://snag.gy/VZIxkf.jpg)
 
-If you have enabled GitHub Login already, you can click on the dotted navigation menu popup to revive the sneaky modal we mentioned above:
+If you have enabled GitHub Login already, you can click on the dotted navigation menu popup to revive the sneaky modal we mentioned above.
 
 ![we DID IT!!!](https://snag.gy/YXJNoO.jpg)
 
