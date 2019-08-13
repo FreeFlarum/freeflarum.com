@@ -30,8 +30,9 @@ Find the __GitHub Login__ extension and enable it by clicking on it.
 Another modal should popup, with __Client ID__ and __Client Secret__ fields. You probably know what to do now - copy your __Client Credentials__ from your __App__ page and paste it into this modal.
 Hit save.
 
-If you have enabled GitHub Login already, you can click on the dotted navigation menu popup to revive the sneaky modal we mentioned above:
 ![oh, where are you sneaky modal? OH, THERE YOU ARE!!!](https://snag.gy/VZIxkf.jpg)
+
+If you have enabled GitHub Login already, you can click on the dotted navigation menu popup to revive the sneaky modal we mentioned above:
 
 ![we DID IT!!!](https://snag.gy/YXJNoO.jpg)
 
