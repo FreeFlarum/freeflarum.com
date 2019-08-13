@@ -1,5 +1,4 @@
-GitHub Login
--
+# Login with Github
 
 In order to setup GitHub login, you firstly need to create a [GitHub App](https://developer.github.com/apps/building-github-apps/creating-a-github-app/)
 
