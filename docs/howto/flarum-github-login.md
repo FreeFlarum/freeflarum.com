@@ -9,7 +9,7 @@ To create a GitHub App, navigate to your __User Settings__:
 Navigate to __Developer Settings:__
 ![ÓwÓ, now this is something devilish!](https://snag.gy/zbsdRL.jpg)
 
-Click on __OAuth Apps_, then on __New OAuth App__ button:
+Click on __OAuth Apps__, then on __New OAuth App__ button:
 ![ôwô, much wows!](https://snag.gy/szy9Vd.jpg)
 
 Now, fill in some basic and required settings:
