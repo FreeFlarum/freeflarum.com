@@ -33,7 +33,8 @@ Hit save.
 If you have enabled GitHub Login already, you can click on the dotted navigation menu popup to revive the sneaky modal we mentioned above:
 ![oh, where are you sneaky modal? OH, THERE YOU ARE!!!](https://snag.gy/VZIxkf.jpg)
 
-If you did all the steps above correctly, congratulations! Your users should be able to login with GitHub now! You can test it in __Incognito Mode__, if supported.
 ![we DID IT!!!](https://snag.gy/YXJNoO.jpg)
+
+If you did all the steps above correctly, congratulations! Your users should be able to login with GitHub now! You can test it in __Incognito Mode__, if supported.
 
 If an error appeared after logining in using GitHub, please [open up a new issue](https://github.com/gwillem/freeflarum.com/issues/new), so we can look into it!
