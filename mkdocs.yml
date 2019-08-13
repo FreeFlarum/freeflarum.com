@@ -15,6 +15,7 @@ nav:
     - howto/custom-domain.md
     - howto/flarum-facebook-login.md
     - howto/flarum-google-login.md
+    - howto/flarum-github-login.md
     - howto/personalize.md
     - howto/private-forum.md
     - howto/configure-mail.md
