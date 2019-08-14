@@ -2,7 +2,7 @@
 name: Extension request
 about: Missing an extension?
 title: ''
-labels: Enhancement
+labels: ''
 assignees: ''
 
 ---
@@ -11,8 +11,8 @@ assignees: ''
 
 **Bazaar or Upload extensions are not compatible with FreeFlarum**
 
-Your desired extension (composer name):  
-composer require xxx/xxx
+Packagist URL for extension:
+https://packagist.com/...
 
-URL with proof that extension works on the latest Flarum version: 
+URL with proof that extension works on the latest Flarum version (eg statement by author)
 https://....
