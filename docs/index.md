@@ -14,11 +14,13 @@ Yes, [log in](https://www.freeflarum.com/settings) and click DESTROY FORUM.
 
 ## Can I pay to remove the "powered by FreeFlarum" footer?
 
-Yes, you can make a voluntary [donation by paypal](https://www.freeflarum.com/donate). The amount is up to you: how much is FreeFlarum worth to you? Send your forum name (the part before .freeflarum.com) in the donation message.
+FreeFlarum doesn't have paid accounts and runs entirely on donations. Those are very much welcome, because running this service takes many hours of our unpaid time. And servers aren't free to rent either ;) 
 
-## Error booting Flarum: Return value of Flarum\Extension\Extension::getExtenderFile() must be of the type string or null, none returned
+Should you make a voluntary [donation](https://www.freeflarum.com/donate), we say "thank you!" and will remove the FreeFlarum footer link for you. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you? Please send your forum name (the part before .freeflarum.com) in the donation message.
 
-This happens when new extensions are added to the FreeFlarum forum. It will resolve quickly within 30 minutes.
+## I got an error: "Error booting Flarum: Return value of Flarum"
+
+This happens incidentally when new extensions are added to the FreeFlarum forum. It will resolve quickly within a few minutes.
 
 ## Can we hire you for a custom job?
 
