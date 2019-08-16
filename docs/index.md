@@ -22,6 +22,10 @@ Should you make a voluntary [donation](https://www.freeflarum.com/donate), we sa
 
 This happens incidentally when new extensions are added to the FreeFlarum forum. It will resolve quickly within a few minutes.
 
+## Can I import users from another forum?
+
+Flarum does currently not support adding users from the admin panel or API, there's an issue for that: https://github.com/flarum/core/issues/885. However, you can use the [Doorman](https://discuss.flarum.org/d/17845-doorman-by-reflar) extension to invite people.
+
 ## Can we hire you for a custom job?
 
 FreeFlarum does not do consultancy, as it distracts from our objective to build the best platform. But there are several highly skilled Flarum developers available on the Flarum forum.
