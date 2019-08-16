@@ -21,6 +21,7 @@ nav:
     - howto/configure-mail.md
     - howto/create-account.md
     - howto/enable-extension.md
+    - howto/export.md
   - Legal:
     - legal/privacy.md
     - legal/terms.md
