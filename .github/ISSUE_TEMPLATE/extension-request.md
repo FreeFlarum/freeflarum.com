@@ -2,7 +2,7 @@
 name: Extension request
 about: Missing an extension?
 title: ''
-labels: 'Extension Request'
+labels: 'Extension request'
 assignees: ''
 
 ---
