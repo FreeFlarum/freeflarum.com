@@ -2,11 +2,7 @@
 
 ## Can you add extension XX ?
 
-We will add most extensions on requests. However, some extensions are incompatible with the FreeFlarum platform. We can not install Bazaar or anything that accepts file uploads or runs custom PHP code.
-
-For an extension request to be honored, it should be upvoted by at least two persons.
-
-Submit your extension request as a [Github issue](https://github.com/gwillem/freeflarum.com/issues).
+We will add most extensions on requests. However, some extensions are incompatible with the FreeFlarum platform. We can not install Bazaar or anything that accepts file uploads or runs custom PHP code. For an extension request to be honored, it should be upvoted by at least two persons. Here, you can see all pending requests or add your own: [Github](https://github.com/gwillem/freeflarum.com/issues).
 
 ## Can you remove my test forum?
 
