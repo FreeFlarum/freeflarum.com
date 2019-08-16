@@ -26,6 +26,10 @@ This happens incidentally when new extensions are added to the FreeFlarum forum.
 
 Flarum does currently not support adding users from the admin panel or API, there's an issue for that: https://github.com/flarum/core/issues/885. However, you can use the [Doorman](https://discuss.flarum.org/d/17845-doorman-by-reflar) extension to invite people.
 
+## How can I send all users a mail?
+
+Sending mass-mails is currently not supported. Because it is so easy to start a forum, our servers would quickly be taken over by spammers. 
+
 ## Can we hire you for a custom job?
 
 FreeFlarum does not do consultancy, as it distracts from our objective to build the best platform. But there are several highly skilled Flarum developers available on the Flarum forum.
