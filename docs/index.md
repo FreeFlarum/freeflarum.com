@@ -50,6 +50,10 @@ Currently we use Upcloud servers in London, Hetzner servers in Nuremberg and Tra
 
 You have to enable the tag system first. Log in, go to Admin -> Administration -> Extensions -> Scroll to "Tags" and enable it. 
 
+## The post composer is weird on mobile - the buttons, like tags, recipients and polls take up entire space and I can't write my post.
+
+See https://discuss.flarum.org/d/21015-post-box-on-mobile/5
+
 ## I have another question
 
 Ideas always welcome. If it is not on the roadmap, post a feature request as a new [Github issue](https://github.com/gwillem/freeflarum.com/issues). Please post questions about FreeFlarum in the main [discussion on flarum.org](https://discuss.flarum.org/d/7585-freeflarum-com-now-open-for-beta-access) and questions about Flarum in general in the Support section.
