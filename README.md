@@ -1,5 +1,6 @@
 # FreeFlarum.com
 
+
 Contains the front-end for FreeFlarum.com:
 
 - [x] docs
@@ -7,9 +8,11 @@ Contains the front-end for FreeFlarum.com:
 
 Works in conjuction with freeflarum-backend.
 
-PRs welcome! Please submit bugs/feature requests as issues in this repo.
+## Submitting feature/extension requests:
 
-# How to run locally
+Please, submit feature and extension request as a new issue in this repository. 
+
+## How to run locally:
 
 Instructions for Ubuntu:
 ```
@@ -20,7 +23,7 @@ pipenv run mkdocs serve
 ```
 And see your live edits at http://localhost:8000/
 
-# How to deploy
+## How to deploy:
 
 ```
 ./deploy.sh
