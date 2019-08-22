@@ -4,9 +4,9 @@
 
 We will add most extensions on requests. However, some extensions are incompatible with the FreeFlarum platform. We can not install Bazaar or anything that accepts file uploads or runs custom PHP code. For an extension request to be honored, it should be upvoted by at least two persons. Here, you can see all pending requests or add your own: [Github](https://github.com/gwillem/freeflarum.com/issues).
 
-## Can you remove my test forum?
+## How do I delete my forum?
 
-Yes, [log in](https://www.freeflarum.com/settings) and click DESTROY FORUM.
+To delete your forum, [log in](https://www.freeflarum.com/settings) and click "Destroy Forum".
 
 ## Can I pay to remove the "powered by FreeFlarum" footer?
 
