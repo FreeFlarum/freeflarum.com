@@ -28,3 +28,6 @@ And see your live edits at http://localhost:8000/
 ```
 ./deploy.sh
 ```
+
+### Note:
+FreeFlarum.com is a community provided host for Flarum. FreeFlarum is NOT affiliated with Flarum. Questions related to forum software should be adressed to the [Flarum's Discussion Forums](https://discuss.flarum.org/).
