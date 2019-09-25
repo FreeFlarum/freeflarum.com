@@ -14,9 +14,13 @@ FreeFlarum doesn't have paid accounts and runs entirely on donations. Those are 
 
 Should you make a voluntary [donation](https://www.freeflarum.com/donate), we say "thank you!", will name our first born after you and will remove the FreeFlarum footer link on your forum. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you? Please send your forum name (the part before .freeflarum.com) in the donation message. NB. Please note that if you donate less than $5, Paypal will take nearly all of it as "transaction fees". 
 
-## I got an error: "Error booting Flarum: Return value of Flarum"
+## I got error: "Error booting Flarum: Return value of Flarum"
 
 This happens incidentally when new extensions are added to the FreeFlarum forum. It will resolve quickly within a few minutes.
+
+## I get an error when signing up or replying to an existing post
+
+This is most likely caused by the wrong mail settings. You should reset these to their defaults, which you [can find here](/docs/howto/configure-mail/). Notably, do not use the mail driver **mail** which will crash your forum, but use **smtp** instead.
 
 ## Can I import users from another forum?
 
@@ -50,9 +54,9 @@ Currently we use Upcloud servers in London, Hetzner servers in Nuremberg and Tra
 
 You have to enable the tag system first. Log in, go to Admin -> Administration -> Extensions -> Scroll to "Tags" and enable it. 
 
-## The post composer is weird on mobile - the buttons, like tags, recipients and polls take up entire space and I can't write my post.
+## The post composer seems broken on mobile
 
-See https://discuss.flarum.org/d/21015-post-box-on-mobile/5
+When the buttons, like tags, recipients and polls take up the entire space and you can't write my post, see [this discussion](https://discuss.flarum.org/d/21015-post-box-on-mobile/5) for more info.
 
 ## I have another question
 
