@@ -12,7 +12,7 @@ To delete your forum, [log in](https://www.freeflarum.com/settings) and click "D
 
 FreeFlarum doesn't have paid accounts and runs entirely on donations. Those are very much welcome, because running this service takes many hours of our unpaid time. And servers aren't free to rent either ;) 
 
-Should you make a voluntary [donation](https://www.freeflarum.com/donate), we say "thank you!", will name our first born after you and will remove the FreeFlarum footer link on your forum. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you? Please send your forum name (the part before .freeflarum.com) in the donation message.
+Should you make a voluntary [donation](https://www.freeflarum.com/donate), we say "thank you!", will name our first born after you and will remove the FreeFlarum footer link on your forum. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you? Please send your forum name (the part before .freeflarum.com) in the donation message. NB. Please note that if you donate less than $5, Paypal will take nearly all of it as "transaction fees". 
 
 ## I got an error: "Error booting Flarum: Return value of Flarum"
 
