@@ -56,7 +56,7 @@ You have to enable the tag system first. Log in, go to Admin -> Administration -
 
 ## The post composer seems broken on mobile
 
-When the buttons, like tags, recipients and polls take up the entire space and you can't write my post, see [this discussion](https://discuss.flarum.org/d/21015-post-box-on-mobile/5) for more info.
+When the buttons, like tags, recipients and polls take up the entire space and you can't write the post, see [this discussion](https://discuss.flarum.org/d/21015-post-box-on-mobile/5) for more info.
 
 ## I have another question
 
