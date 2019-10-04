@@ -1,4 +1,4 @@
-site_name: FreeFlarum docs
+site_name: FreeFlarum Documentation
 site_url: https://www.freeflarum.com/docs/
 
 theme:
@@ -11,7 +11,9 @@ nav:
   - About: about.md
   - FAQ: index.md
   - Roadmap: roadmap.md
-  - Howto:
+  - Tutorials:
+    Extensions:
+      - howto/extensions/introduction.md
     - howto/custom-domain.md
     - howto/flarum-facebook-login.md
     - howto/flarum-google-login.md
