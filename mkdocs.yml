@@ -2,8 +2,9 @@ site_name: FreeFlarum Documentation
 site_url: https://www.freeflarum.com/docs/
 
 theme:
-   name: 'gitbook' #hehehe
-  #  custom_dir: theme
+   name: gitbook
+   #hehehe
+   #  custom_dir: theme
 
 # need to enumerate everything, see this issue:
 # https://github.com/mkdocs/mkdocs/issues/714
