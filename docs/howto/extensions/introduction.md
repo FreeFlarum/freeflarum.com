@@ -24,7 +24,9 @@ We work hard to keep all of your forums as up to date as possible. But you can a
 ## I need more help...
 Don't hesitate to [open up an issue](https://www.github.com/gwillem/freeflarum.com/issues/new) then. We will be happy to respond to you as fast as possible.
 
+<br/> 
+
 > ---
-> __You might be looking for:__
-> - [Requesting an extension](https://www.freeflarum.com/docs/faq)
+> #### __You might be looking for:__
+> - #### [Requesting an extension](https://www.freeflarum.com/docs/faq)
 > ---
