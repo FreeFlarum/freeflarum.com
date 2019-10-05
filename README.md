@@ -29,9 +29,9 @@
 
 ### ☼ Don't believe us? __[Check it out](https://www.freeflarum.com)__! ☼
 
-<details><summary>Old Version (before 5th October, 2019):</summary>
+<details><summary>Repository Information:</summary>
 <p>
-Contains the front-end for FreeFlarum.com:
+This repository contains the front-end for FreeFlarum.com:
 
 - [x] docs
 - [ ] control panel
