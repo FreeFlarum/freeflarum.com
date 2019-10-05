@@ -28,5 +28,5 @@ Don't hesitate to [open up an issue](https://www.github.com/gwillem/freeflarum.c
 
 > ---
 > #### __You might be looking for:__
-> - #### [Requesting an extension](https://www.freeflarum.com/docs/faq)
+> - #### [Requesting an extension](https://www.freeflarum.com/docs/faq/#can-you-add-extension-x)
 > ---
