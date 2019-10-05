@@ -1,7 +1,3 @@
-
-FaQ
----
-
 This page is used to answer the most common questions we receive, so we won't have to answer similar questions all over again in a loop.
 
 You can see the list of questions below:
