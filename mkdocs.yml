@@ -14,9 +14,10 @@ nav:
   - Roadmap: roadmap.md
   - Tutorials:
     - howto/custom-domain.md
-    - howto/flarum-facebook-login.md
-    - howto/flarum-google-login.md
-    - howto/flarum-github-login.md
+    - Social Logins:
+      - howto/social-login/google.md
+      - howto/social-login/facebook.md
+      - howto/social-login/github.md
     - howto/personalize.md
     - howto/private-forum.md
     - howto/configure-mail.md
