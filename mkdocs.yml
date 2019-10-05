@@ -9,7 +9,7 @@ theme:
 # https://github.com/mkdocs/mkdocs/issues/714
 nav:
   - About: about.md
-  - FAQ: index.md
+  - FAQ: faq.md
   - Roadmap: roadmap.md
   - Tutorials:
     - howto/custom-domain.md
