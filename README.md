@@ -4,9 +4,15 @@
 
  __FreeFlarum__ is a community provided [Flarum](https://www.flarum.org) hosting allowing you to quickly launch your forum under 1 minute! Flarum can be hard to set up. Not anymore! Create your own Flarum forum instantly and start building your community.
  
----
+> ---
+> ### __Navigation:__
+> 1. __[Overview](https://github.com/gwillem/freeflarum.com)__
+> 2. __[Official Website](https://www.freeflarum.com)__
+> 3. __[Documentation](https://www.freeflarum.com/docs)__
+>
+> ---
 
-## 𝙵̲𝚎̲𝚊̲𝚝̲𝚞̲𝚛̲𝚎̲𝚜̲:͢
+# Features:
 • __Quick forum creation:__ Create your forum in 1 minute - just pick a name, administrator E-Mail and you are good to go!
 
 • __No technical skills required:__ FreeFlarum is easy to use with no hard setup required! You are just a few clicks away from your forum!
@@ -22,7 +28,7 @@
 
 ---
 
-#### ☼ Don't believe us? __[Check it out](https://www.freeflarum.com)__! ☼
+### ☼ Don't believe us? __[Check it out](https://www.freeflarum.com)__! ☼
 
 <details><summary>Old Version (before 5th October, 2019):</summary>
 <p>
