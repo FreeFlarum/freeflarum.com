@@ -26,8 +26,6 @@ _Please note that if you donate less than $5, Paypal will take nearly all of it 
 ---
 
 <br/>
-<br/>
-<br/>
 
 ## __Errors/glitches:__
 
@@ -42,8 +40,6 @@ This is most likely caused by the wrong mail settings. You should reset these to
 ---
 
 <br/>
-<br/>
-<br/>
 
 ## __Questions related to importing forum:__
 
@@ -57,8 +53,6 @@ When the buttons, like tags, recipients and polls take up the entire space and y
 
 ---
 
-<br/>
-<br/>
 <br/>
 
 ## __Mail issues:__
@@ -77,8 +71,6 @@ Additionally, you can contact still [contact us](#contact-us).
 ---
 
 <br/>
-<br/>
-<br/>
 
 ## __Questions regarding software updating:__
 
@@ -96,8 +88,6 @@ Please, be patient. Big things grow slowly and we have a life too.
 
 ---
 
-<br/>
-<br/>
 <br/>
 
 ## __Other questions:__
@@ -118,8 +108,6 @@ Currently we use Upcloud servers in London, Hetzner servers in Nuremberg and Tra
 
 You have to enable the tag system first. Log in, go to Admin -> Administration -> Extensions -> Scroll to "Tags" and enable it. 
 
-<br/>
-<br/>
 <br/>
 
 > ---
