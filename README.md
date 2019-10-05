@@ -31,6 +31,9 @@
 
 <details><summary>Repository Information:</summary>
 <p>
+
+# Repository Info:
+
 This repository contains the front-end for FreeFlarum.com:
 
 - [x] docs
