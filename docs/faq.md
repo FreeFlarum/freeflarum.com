@@ -5,7 +5,7 @@ You can see the list of questions below:
 <br/>
 <br/>
 
-## General Issues:
+## __General Issues:__
 
 ### Can you add extension X?
 
@@ -29,7 +29,7 @@ _Please note that if you donate less than $5, Paypal will take nearly all of it 
 <br/>
 <br/>
 
-## Errors/glitches:
+## __Errors/glitches:__
 
 ### I got error: "Error booting Flarum: Return value of Flarum"
 
@@ -45,7 +45,7 @@ This is most likely caused by the wrong mail settings. You should reset these to
 <br/>
 <br/>
 
-## Questions related to importing forum:
+## __Questions related to importing forum:__
 
 ### Can I import users from another forum?
 
@@ -61,7 +61,7 @@ When the buttons, like tags, recipients and polls take up the entire space and y
 <br/>
 <br/>
 
-## Mail issues:
+## __Mail issues:__
 
 ### How can I send all users a mail?
 
@@ -80,7 +80,7 @@ Additionally, you can contact still [contact us](#contact-us).
 <br/>
 <br/>
 
-## Questions regarding software updating:
+## __Questions regarding software updating:__
 
 ### What happens when Flarum has a new release?
 
@@ -100,7 +100,7 @@ Please, be patient. Big things grow slowly and we have a life too.
 <br/>
 <br/>
 
-## Other questions:
+## __Other questions:__
 
 ### Can we hire you for a custom job?
 
@@ -123,7 +123,7 @@ You have to enable the tag system first. Log in, go to Admin -> Administration -
 <br/>
 
 > ---
-> ### Contact us:
+> ### __Contact us:__
 > Ideas are always welcome. If it is not on [the roadmap](https://www.freeflarum.com/docs/roadmap/), post feature and extension requests as a new [Github issue](https://github.com/gwillem/freeflarum.com/issues). Please post questions about FreeFlarum in the main [discussion on flarum.org](https://discuss.flarum.org/d/7585-freeflarum-com-now-open-for-beta-access) and questions about Flarum in general in the Support section.
 >
 > ---
