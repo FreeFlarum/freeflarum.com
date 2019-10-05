@@ -9,7 +9,6 @@
 > 1. __[Overview](https://github.com/gwillem/freeflarum.com)__
 > 2. __[Official Website](https://www.freeflarum.com)__
 > 3. __[Documentation](https://www.freeflarum.com/docs)__
->
 > ---
 
 # Features:
