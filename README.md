@@ -3,8 +3,10 @@
 </p>
 
  __FreeFlarum__ is a community provided [Flarum](https://www.flarum.org) hosting allowing you to quickly launch your forum under 1 minute! Flarum can be hard to set up. Not anymore! Create your own Flarum forum instantly and start building your community.
+ 
+---
 
-#### 𝙵̲𝚎̲𝚊̲𝚝̲𝚞̲𝚛̲𝚎̲𝚜̲:͢
+## 𝙵̲𝚎̲𝚊̲𝚝̲𝚞̲𝚛̲𝚎̲𝚜̲:͢
 • __Quick forum creation:__ Create your forum in 1 minute - just pick a name, administrator E-Mail and you are good to go!
 
 • __No technical skills required:__ FreeFlarum is easy to use with no hard setup required! You are just a few clicks away from your forum!
@@ -15,8 +17,10 @@
 
 • __Fast and kind support:__ You can contact us at anytime! We are always there for you!
 
-> __...but most importantly...
-FreeFlarum is 100% free! No overpriced plans or credit card required! You can have your Flarum running 24/7 with no finance needed!__
+
+#### ...but most importantly, FreeFlarum is 100% free! No overpriced plans or credit card required! You can have your Flarum running 24/7 with no finance needed!
+
+---
 
 #### ☼ Don't believe us? __[Check it out](https://www.freeflarum.com)__! ☼
 
