@@ -21,8 +21,10 @@ If he abandoned the extension for some reason we're just sorry but we can't real
 ### When will the X extension update?
 We work hard to keep all of your forums as up to date as possible. But you can always request to update a specific extension [here](https://www.github.com/gwillem/freeflarum.com/issues).
 
-### I need more help...
+## I need more help...
 Don't hesitate to [open up an issue](https://www.github.com/gwillem/freeflarum.com/issues/new) then. We will be happy to respond to you as fast as possible.
 
-__You might be looking for:__
-• [similar topic 1](https://www.freeflarum.com/docs)
+> ---
+> __You might be looking for:__
+> - [Requesting an extension](https://www.freeflarum.com/docs/faq)
+> ---
