@@ -9,32 +9,63 @@ Go to https://developers.facebook.com/apps/ and press "Add new app":
 ![](https://snipboard.io/1xCE9G.jpg)
  
 Enter your forum name and email. I have choosed "owo" for illustration purposes:
+
 ![](https://snipboard.io/3CJYRk.jpg)
 
 You know what to do here:
+
 ![](https://snipboard.io/Q8VoZJ.jpg)
 
-Go to Products and add Facebook Login
+Go to Products and add Facebook Login:
 
-Go to Settings > Basic. 
+![](https://snipboard.io/kwJTiE.jpg)
 
-Copy the App ID and App Secret.
-![](https://buq.eu/screenshots/vsMYx1tB2t6js3WIxOvlvFAy.png)
+Go to Settings > Basic:
+
+![](https://snipboard.io/RIJNUW.jpg)
+
+Copy the App ID and App Secret:
+
+![](https://snipboard.io/NJMEQy.jpg)
+
+Fill out the Privacy Policy and (optionally[?]) Terms of Service links:
+
+![](https://snipboard.io/Go7lR0.jpg)
 
 Add domain names (make sure to add both the "www" and non-"www" version if applicable.
+We will do that from the Settings section under our Facebook login module category:
+![](https://snipboard.io/zJatQj.jpg)
 
-Add site URL. Use http or https, whatever you have standardized on. Use trailing slash, like this: `https://myforum.com/`.
+Now you should see something like this:
 
-Add the privacy policy URL (noted earlier)
+![](https://snipboard.io/ZncT0P.jpg)
 
-Go to Settings > Advanced. Add your domain to "Domain Manager" including http(s) and trailing slash. 
+"Valid OAuth Redirect URIs". Seems complicated, yet so simple.
+It is in fact just the `https://yourforumname.flarum.cloud/auth/facebook` URL or whatever domain you use. If your forum is located at another domain or you probably used the [custom domain](https://www.freeflarum.com/docs/howto/custom-domain/) option, just use that domain. The `./auth/facebook` part is important.
 
-App review -> "Make Public"
+> ---
+> **Pro tip:** `./auth/google`, `./auth/twitter` for Goggle and Twitter logins and so on...
+> ---
+
+Go to Settings > Advanced. Add your domain to "Domain Manager" including http(s) and trailing slash:
+
+![](https://snipboard.io/HdXo4Q.jpg)
+![](https://snipboard.io/ULlYF9.jpg)
+![](https://snipboard.io/m9rADg.jpg)
+
+Finally, turn it on:
+
+![](https://snipboard.io/b2fekZ.jpg)
 
 Go to your Forum admin panel. Go to extensions. Enable the Facebook extension. Enter App ID and App Secret as noted earlier.
 ![](https://buq.eu/screenshots/n690ud4VBGZF4IBlZScaNKvq.png)
 
 If you are not using FreeFlarum, you might have to run a `php flarum cache:clear` and `rm assets/rev-manifest.json` in the shell as a last step.
 
-Your facebook login should work now!
+Your Facebook login should work now! If not, please contact us at our [official Flarum discussion](https://discuss.flarum.org/d/7585-free-flarum-hosting-on-an-expert-platform-by-freeflarum-com). 
 
+> ---
+> #### __You might be looking for:__
+> - #### [Google Login](https://www.freeflarum.com/docs/howto/social-login/google/)
+> - #### [GitHub Login](https://www.freeflarum.com/docs/howto/social-login/github/)
+> ---
