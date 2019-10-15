@@ -67,6 +67,7 @@ Your Facebook login should work now! If not, please contact us at our [official 
 
 > ---
 > #### __You might be looking for:__
-> - #### [Google Login](https://www.freeflarum.com/docs/howto/social-login/google/)
-> - #### [GitHub Login](https://www.freeflarum.com/docs/howto/social-login/github/)
+> - **[Google Login](https://www.freeflarum.com/docs/howto/social-login/google/)**
+> - **[GitHub Login](https://www.freeflarum.com/docs/howto/social-login/github/)**
+>
 > ---
