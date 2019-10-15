@@ -4,11 +4,15 @@ Many FreeFlarum users want to activate Facebook login, but there doesn't seem to
 
 First, create (or copy from [somewhere](https://www.freeprivacypolicy.com)) a privacy policy. You can just create a new discussion and use that. 
 
-Go to https://developers.facebook.com/apps/ and press "Add new app" 
-![](https://buq.eu/screenshots/36YmfNasBAtE6VOjwfQEPvje.png)
+Go to https://developers.facebook.com/apps/ and press "Add new app":
+
+![](https://snipboard.io/1xCE9G.jpg)
  
-Enter your forum name and email
-![](https://buq.eu/screenshots/B8nsDarneuainy6pRVmeC6Fo.png)
+Enter your forum name and email. I have choosed "owo" for illustration purposes:
+![](https://snipboard.io/3CJYRk.jpg)
+
+You know what to do here:
+![](https://snipboard.io/Q8VoZJ.jpg)
 
 Go to Products and add Facebook Login
 
