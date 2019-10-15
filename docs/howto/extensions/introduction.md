@@ -1,4 +1,4 @@
-# Introduction to extensions:
+# Introduction to extensions
 
 ### What are extensions?
 Extensions (or sometimes also "addons") are pieces of scripts that can extend your Flarum forum.
@@ -29,4 +29,5 @@ Don't hesitate to [open up an issue](https://www.github.com/gwillem/freeflarum.c
 > ---
 > #### __You might be looking for:__
 > - #### [Requesting an extension](https://www.freeflarum.com/docs/faq/#can-you-add-extension-x)
+>
 > ---
