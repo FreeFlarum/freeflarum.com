@@ -45,6 +45,7 @@ It is in fact just the `https://yourforumname.flarum.cloud/auth/facebook` URL or
 
 > ---
 > **Pro tip:** `./auth/google`, `./auth/twitter` for Goggle and Twitter logins and so on...
+>
 > ---
 
 Go to Settings > Advanced. Add your domain to "Domain Manager" including http(s) and trailing slash:
