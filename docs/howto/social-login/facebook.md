@@ -4,7 +4,7 @@ Many FreeFlarum users want to activate Facebook login, but there doesn't seem to
 
 First, create (or copy from [somewhere](https://www.freeprivacypolicy.com)) a privacy policy. You can just create a new discussion and use that. 
 
-Go to https://developers.facebook.com/apps/ and press "Add new app":
+Go to [https://developers.facebook.com/apps/](https://developers.facebook.com/apps/) and press "Add new app":
 
 ![](https://snipboard.io/1xCE9G.jpg)
  
