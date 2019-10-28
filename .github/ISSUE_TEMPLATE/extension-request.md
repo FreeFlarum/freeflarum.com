@@ -1,8 +1,8 @@
 ---
 name: Extension request
 about: Missing an extension?
-title: ''
-labels: 'Extension request'
+title: 'Insert name of the extension here'
+labels: '🙋‍♀️ Extension/feature request'
 assignees: ''
 
 ---
@@ -16,7 +16,10 @@ https://packagist.com/...
 
 __Why we should install this extension?__
 - You should install it because...
+...or...
 - I want this extension because...
+- Any more information(?)
 
 __Proof that extension works on the latest Flarum version (eg.: statement by author, image, URL link to the statement, forum that has the extension...):__
-https://....
+
+>
