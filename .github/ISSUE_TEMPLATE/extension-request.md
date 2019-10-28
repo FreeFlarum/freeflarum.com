@@ -2,7 +2,7 @@
 name: Extension request
 about: Missing an extension?
 title: 'Insert name of the extension here'
-labels: '🙋‍♀️ Extension/feature request'
+labels: '🙋 Extension/feature request'
 assignees: ''
 
 ---
