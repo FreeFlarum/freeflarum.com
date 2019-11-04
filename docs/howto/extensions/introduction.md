@@ -8,7 +8,7 @@ Here at FreeFlarum, extensions are treated a little different. For example, if y
 to be added, you have to request it [here](https://www.github.com/gwillem/freeflarum.com/issues). 
 
 ### The extension I am looking for is not on the list. How do I add an extension? 
-If you want your extension to be added, you need to [request an extension](https://www.freeflarum.com/docs).
+If you want your extension to be added, you need to [request an extension](https://github.com/gwillem/freeflarum.com/issues/new/choose).
 
 ### Can extensions break my forum?
 Yes, some extensions aren't compatible with Flarum or they are outdated. Please note that we do not check extensions every day if they are compatible or not.
