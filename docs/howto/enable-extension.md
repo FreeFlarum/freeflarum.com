@@ -13,6 +13,7 @@ You can modify your extension's settings by hovering on the extension and clicki
 Or just locate your extension in the menu on right (if avaliabe).
 
 You can request other Flarum extensions [here](https://www.github.com/gwillem/freeflarum.com/issues/new), however be sure to check if your extension:
+
 - is compatible with FreeFlarum
 - does not allow uploads of files directly to FreeFlarum, or run of custom PHP code
 - is stable and up-to-date.
