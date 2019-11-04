@@ -9,6 +9,7 @@ They can be enabled through your admin interface:
 4. Disable/Enable extensions by clicking on them.
 
 You can modify your extension's settings by hovering on the extension and clicking on the three dots popup menu. Then click on "Settings".
+
 Or just locate your extension in the menu on right (if avaliabe).
 
 You can request other Flarum extensions [here](https://www.github.com/gwillem/freeflarum.com/issues/new), however be sure to check if your extension:
