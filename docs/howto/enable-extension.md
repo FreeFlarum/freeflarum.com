@@ -2,6 +2,7 @@
 
 Extensions are basically addons for your Flarum. 
 They can be enabled through your admin interface:
+
 1. Click on your profile in top-right corner (open up hamburger menu for mobile)
 2. Click on "Administration" (or just go to `https://your.forum.url/admin`)
 3. Find "Extensions" in the menu on left (click on top dropdown menu for mobile)
