@@ -20,6 +20,8 @@ __Why we should install this extension?__
 - I want this extension because...
 - Any more information(?)
 
+> ** We only honor extension requests that have at least 5 upvotes on this ticket. So ask your friends to upvote. **
+
 __Proof that extension works on the latest Flarum version (eg.: statement by author, image, URL link to the statement, forum that has the extension...):__
 
 >
