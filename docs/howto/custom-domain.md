@@ -1,10 +1,10 @@
-Your forum is initially named `<you>.freeflarum.com`. But it is easy (and free) to use your own domain name. It looks more professional and also ensures your independence of FreeFlarum. If you ever want to migrate your forum elsewhere, you can keep the same name (and data).
+Your forum is initially named `<you>.freeflarum.com` or `<you>.flarum.cloud`. But it is easy (and free) to use your own domain name. It looks more professional and also ensures your independence of FreeFlarum. If you ever want to migrate your forum elsewhere, you can keep the same name (and data).
 
 To start using your own domain name, follow these steps:
 
 1. Get a domain name, with a registrar such as namecheap.com or gandi.net. 
 1. Add a CNAME DNS record at the registrars control panel ([what is DNS?](https://dnsmadeeasy.com/support/what-is-dns/))
-1. Enter your custom domain on the FreeFlarum "Settings" page
+1. Enter your custom domain on the [FreeFlarum Settings](https://www.freeflarum.com/settings) page
 
 Configuring the DNS can be tricky, because every registrar has a different method and rules to do so. 
 
@@ -41,4 +41,4 @@ Make sure to **disable the proxy** so that the icon is grey (not orange).
 
 ## Reset the domain
 
-If you used a custom domain but don't want it anymore, you can enter your xxx.freeflarum.com name in the settings.
+If you used a custom domain but don't want it anymore, you can enter your xxx.freeflarum.com (or flarum.cloud) name in the [settings](/settings).
