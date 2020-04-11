@@ -14,3 +14,11 @@
 
 **Notice**
 The *Hosted Domain* paramater is for only allowing emails in your Google Apps account access, otherwise you should leave it blank
+
+> ---
+> #### __You might be looking for:__
+> - #### **[Google Analytics](https://www.freeflarum.com/docs/howto/google-analytics/)**
+> - #### **[Facebook Login](https://www.freeflarum.com/docs/howto/social-login/facebook/)**
+> - #### **[GitHub Login](https://www.freeflarum.com/docs/howto/social-login/github/)**
+>
+> ---
