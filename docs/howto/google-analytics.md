@@ -23,3 +23,9 @@ And the **tracking code** for Google Analytics goes into the **footer**.
 ```
 
 **...goes into the footer.**
+
+> ---
+> #### __You might be looking for:__
+> - #### **[Google Login](https://www.freeflarum.com/docs/howto/social-login/google/)**
+>
+> ---
