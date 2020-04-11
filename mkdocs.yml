@@ -13,19 +13,21 @@ nav:
   - FAQ: faq.md
   - Roadmap: roadmap.md
   - Tutorials:
-    - howto/custom-domain.md
-    - Social Logins:
+    - Getting Started:
+      - howto/create-account.md
+      - howto/personalize.md
+      - howto/private-forum.md
+      - howto/custom-domain.md
+      - howto/configure-mail.md
+    - Third-party integrations:
+      - howto/google-analytics.md
       - howto/social-login/google.md
       - howto/social-login/facebook.md
       - howto/social-login/github.md
-    - howto/personalize.md
-    - howto/private-forum.md
-    - howto/configure-mail.md
-    - howto/create-account.md
-    - howto/enable-extension.md
     - howto/export.md
   - Extensions:
     - howto/extensions/introduction.md
+    - howto/enable-extension.md
   - Legal:
     - legal/privacy.md
     - legal/terms.md
