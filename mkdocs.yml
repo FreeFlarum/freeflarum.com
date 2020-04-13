@@ -27,7 +27,6 @@ nav:
     - howto/export.md
   - Extensions:
     - howto/extensions/about-extensions.md
-    - howto/enable-extension.md
     - Extensions:
       - howto/extensions/analytics.md
   - Legal:
