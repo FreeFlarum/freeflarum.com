@@ -65,16 +65,11 @@
 !!! note "Note" 
     Do NOT include the `&token_auth=` part (eg. include only the bunch of random characters in the "Authentication Token" box).
 
-!!! tip "Finished?
+!!! tip "Finished?"
     After you are done, click "Save". Your changes should be applied automatically.
     If all went well and you didn't receive any error, your Piwik integration should now work and you should start to receive incoming visitor data.
     Everything is automatic and doesn't require any manual interaction. You can now go to the main page of your forum (notice that it might take longer to load). If you now go back to your main Piwik page, a data charts and all the stuff you want should be created.
     You did it. If you have any questions, don't hesitate to open a [new issue](https://github.com/gwillem/freeflarum.com/issues/new/choose/).
 
-!!! note
-    > ---
-    > #### __You might be looking for:__
-    > - #### **[Google Analytics](https://www.freeflarum.com/docs/howto/google-analytics/)**
-    >
-    > ---
-
+!!! note "#### __You might be looking for:__"
+    - #### **[Google Analytics](https://www.freeflarum.com/docs/howto/google-analytics/)**
