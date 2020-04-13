@@ -7,7 +7,7 @@
 >
 > ---
 
-# About
+!!! quote "About"
 The analytics extension allows you to integrate Google & Piwik's analytics system into your FreeFlarum forum.
 It is an easy-to-use solution for tracking user visits & page views on your forum. In this tutorial, I'll guide you through the basic setup.
 
@@ -61,7 +61,8 @@ Scroll down until you see "Platform" > "API". Click it.
 The token starts with `&token_auth=bunch_of_random_characters`.
 The end of the token will be censored with `*`. Just click on the box to reveal the true token and copy it. Then, paste it inside the last box of the Analytics settings popup (back at your forum extension settings).
 
-> #### Note: Do NOT include the `&token_auth=` part (eg. include only the bunch of random characters in the "Authentication Token" box).
+!!! note "Note" 
+    Do NOT include the `&token_auth=` part (eg. include only the bunch of random characters in the "Authentication Token" box).
 
 After you are done, click "Save". Your changes should be applied automatically.
 If all went well and you didn't receive any error, your Piwik integration should now work and you should start to receive incoming visitor data.
