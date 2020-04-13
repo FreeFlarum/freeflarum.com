@@ -26,7 +26,7 @@ nav:
       - howto/social-login/github.md
     - howto/export.md
   - Extensions:
-    - howto/extensions/introduction.md
+    - howto/extensions/about-extensions.md
     - howto/enable-extension.md
     - Extensions:
       - howto/extensions/analytics.md
