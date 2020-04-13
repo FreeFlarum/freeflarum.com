@@ -28,6 +28,8 @@ nav:
   - Extensions:
     - howto/extensions/introduction.md
     - howto/enable-extension.md
+    - Extensions:
+      - howto/extensions/analytics.md
   - Legal:
     - legal/privacy.md
     - legal/terms.md
