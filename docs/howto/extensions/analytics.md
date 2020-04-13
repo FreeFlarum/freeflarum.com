@@ -71,5 +71,5 @@
     Everything is automatic and doesn't require any manual interaction. You can now go to the main page of your forum (notice that it might take longer to load). If you now go back to your main Piwik page, a data charts and all the stuff you want should be created.
     You did it. If you have any questions, don't hesitate to open a [new issue](https://github.com/gwillem/freeflarum.com/issues/new/choose/).
 
-!!! note "#### __You might be looking for:__"
+!!! note "You might be looking for:"
     - #### **[Google Analytics](https://www.freeflarum.com/docs/howto/google-analytics/)**
