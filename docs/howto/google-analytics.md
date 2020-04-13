@@ -1,3 +1,7 @@
+> ---
+> # Note:
+> - There is an easier way how to setup Google Analytics. Take a look at [this tutorial](
+
 # Google Analytics
 
 This guide will help you to setup Google Analytics for your forum.
@@ -26,6 +30,7 @@ And the **tracking code** for Google Analytics goes into the **footer**.
 
 > ---
 > #### __You might be looking for:__
-> - #### **[Google Login](https://www.freeflarum.com/docs/howto/social-login/google/)**
+> - #### **[Google Login](https://www.freeflarum.com/docs/howto/google-analytics/)**
+> - #### **[Analytics Extension](https://www.freeflarum.com/docs/extensions/analytics)**
 >
 > ---
