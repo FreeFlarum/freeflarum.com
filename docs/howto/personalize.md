@@ -33,7 +33,7 @@ Read the <a href="https://link.to.info">Information</a> page for information abo
   - Put `body { background: url("https://owo.com/image_url.png"); }` in your "Custom Styles" section of your forum in the "Appearance" section of the Administration. You can learn more about backgrounds with HTMl & CSS [here](https://www.w3schools.com/cssref/css3_pr_background.asp).
 
 
-??? note "Some nice & creative examples"
+!!! note "Some nice & creative examples"
     - [Giffgaff](https://community.giffgaff.com//)
     - [Bunq Bank](https://together.bunq.com/)
     - [French Saviors](https://frenchsaviors.freeflarum.com/)
