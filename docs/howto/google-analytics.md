@@ -1,8 +1,7 @@
-> ---
-> # Note:
-> - There is an easier way how to setup Google Analytics. Take a look at [this tutorial](
+!!! note "Note"
+     There is an easier way how to setup Google Analytics. Take a look at [this tutorial(https://www.freeflarum.com/docs/howto/extensions/analytics/)
 
-# Google Analytics
+# Google Analytics (the "old" way)
 
 This guide will help you to setup Google Analytics for your forum.
 We obviously can't let our customers to edit the DNS settings on their own, as this is a pretty dangerous setting to edit, so we gotta find other ways around that.
