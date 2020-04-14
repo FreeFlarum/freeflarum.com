@@ -19,7 +19,9 @@
 
     This popup will let you choose, what analytics system you'd like to setup. You can use both, or just one.
 
-    # Setting up Piwik
+# Setting up Piwik
+    
+!!! info    
     Let's try to setup Piwik. Just click on the switch to enable Piwik:
 
     ![Huh?](https://cdn.discordapp.com/attachments/585143304467906581/699219577242124328/unknown.png)
@@ -71,5 +73,63 @@
     Everything is automatic and doesn't require any manual interaction. You can now go to the main page of your forum (notice that it might take longer to load). If you now go back to your main Piwik page, a data charts and all the stuff you want should be created.
     You did it. If you have any questions, don't hesitate to open a [new issue](https://github.com/gwillem/freeflarum.com/issues/new/choose/).
 
+# Setting up Google Analytics
+
+!!! info
+    Piwik is great, but what if you want to setup Google Analytics? Well, you can and the setup is kind of easier, because you need only 
+    1 authentication key to make it work. And the best part - it's absolutely free (no trial).
+    
+    Navigate to [this page](https://analytics.google.com/analytics/web/provision/#/provision). You should see something like this:
+    
+    ![The page.](https://cdn.discordapp.com/attachments/585143304467906581/699542547252379668/unknown.png)
+    
+    Click on the blue button "Setup for free". Now this will show:
+    
+    ![The show](https://cdn.discordapp.com/attachments/585143304467906581/699542937331302420/unknown.png)
+    
+    Just fill in some friendly name for your Analytics account. You can also modify the other settings, but as for me I'll leave them alone.
+    When you're done, click on blue "Next" at the bottom of the page.
+    
+    ![](https://cdn.discordapp.com/attachments/585143304467906581/699543342656258068/unknown.png)
+    
+    We want to measure a webpage, which is the default option - just click on "Next" and don't bother with the other options - these are made for Android and iOS apps.
+    
+    ![](https://cdn.discordapp.com/attachments/585143304467906581/699544152903254056/unknown.png)
+    
+    This is probably the hardest part of the entire setup - and by that I mean the easiest. 
+    Just fill in your forum URL (if you use custom domain with FreeFlarum, you can use that domain, but it doesn't really matter. If you want to keep a good feeling after your domain expires, type the default `flarum.cloud` domain.
+    
+    The next part is important - accepting the ToS:
+    
+    ![ToS Agreement](https://cdn.discordapp.com/attachments/585143304467906581/699544856674041946/unknown.png)
+    
+    Be sure to select YOUR country when accepting the ToS. And be sure to accept it.
+    
+    After you have accepted the ToS, you will be redirected to the main Analytics page:
+    
+    ![BOO!](https://cdn.discordapp.com/attachments/585143304467906581/699545465678594158/unknown.png)
+    
+    Aim for the "Tracking ID". This is all we need. Copy it and go back to your forum. 
+    If you have checked the "Usage" box above, you probably already know what to do - go to your Analytics extension settings, enable "Google Analytics" and paste the Tracking ID into the Tracking code ID box:
+    
+    ![Paste the ID into the box](https://cdn.discordapp.com/attachments/585143304467906581/699546563214835742/unknown.png)
+    
+    And that's all. No seriously, you are done with the configuration. Just be sure to "Save changes", which will apply automatically.
+    
+    Now, if you have done everything correctly, you might want to go to your forum's main page. New data will come eventually into your Google Analytics account.
+    
+!!! bug "Troubleshooting"
+    If there is no sign of any data, you might have a tracker blocker extension installed in your browser. Some antiviruses block trackers like Google Analytics and Piwik, mostly because of security reasons.
+    You could also try to browse your forum in incognito mode.
+    
+    If any error pops up when you are doing the configuration, or it appear anywhere on your forum, please [open a new issue](https://github.com/gwillem/freeflarum.com/issues/new/choose), so that we can help you. Be sure to include as many details as possible.
+    
+And that's everything you need to know about the Analytics extension. One small note for the end of this story - if you want to quickly check your Analytics right from your forum, you can open up "Analytics" usually at the bottom of your sidebar of the Administration section:
+
+![Here we go!](https://cdn.discordapp.com/attachments/585143304467906581/699548329813475358/unknown.png)
+
+If you open up the section, you should see a lot of data of your visitors. You can now see everything, muohahah!
+Sorry, perhaps I've got taken away by the feeling of seeing everything that happens on my forum. 
+
 !!! note "You might be looking for:"
-    - #### **[Google Analytics](https://www.freeflarum.com/docs/howto/google-analytics/)**
+    - #### **[Google Analytics (the "old" way, or if the above doesn't work)](https://www.freeflarum.com/docs/howto/google-analytics/)**
