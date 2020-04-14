@@ -1,5 +1,5 @@
 !!! note "Note"
-     There is an easier way how to setup Google Analytics. Take a look at [this tutorial(https://www.freeflarum.com/docs/howto/extensions/analytics/)
+     There is an easier way how to setup Google Analytics. Take a look at [this tutorial](https://www.freeflarum.com/docs/howto/extensions/analytics/)
 
 # Google Analytics (the "old" way)
 
