@@ -14,14 +14,14 @@ To give your forum a distinct look and feel, there are several options:
     Very basic [HTML](https://www.w3schools.com/TAGS/default.ASP) tags are supported, such as `<h1>` (heading text/title/big text), `<br/>` (line break), etc. 
     Get creative. Here is template I use for my forum that you can modify:
     
-  ```
-  <h1><b>Welcome!</b></h2>
-  <hr/>
+```
+<h1><b>Welcome!</b></h2>
+<hr/>
 
-  Read the <a href="https://link.to.info">Information</a> page for information about translations and rules.
-  <br/><br/>
-  <h4>Thank you</h4>
-  ```
+Read the <a href="https://link.to.info">Information</a> page for information about translations and rules.
+<br/><br/>
+<h4>Thank you</h4>
+```
   
 - Change the color schema of your forum.
   - Go into "Appearance" in the "Administration" left sidebar. Edit HEX values in the "Colors" section on top of the page. You can use [color picker](https://www.google.com/search?q=color+picker) to obtain HEX values of colors.
