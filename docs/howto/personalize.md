@@ -13,7 +13,6 @@ To give your forum a distinct look and feel, there are several options:
     
     Very basic [HTML](https://www.w3schools.com/TAGS/default.ASP) tags are supported, such as `<h1>` (heading text/title/big text), `<br/>` (line break), etc. 
     Get creative. Here is template I use for my forum that you can modify:
-    
   ```
   <h1><b>Welcome!</b></h2>
   <hr/>
