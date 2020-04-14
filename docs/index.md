@@ -10,9 +10,10 @@ Additionally, if you find any tutorial that doesn't have the information you are
 <br/>
 
 > ---
-> #### Before you ask us anything, please check the [FaQ](https://www.freeflarum.com/docs/faq)
+> **Before you ask us anything, please check [the docs](https://www.freeflarum.com/docs) or [the issues tab](https://github.com/gwillem/freeflarum.com/issues/), if your question is not already answered!**
+>
 > ---
-> ### __Navigation:__
+> ### __Navigation__
 > 1. __[Home](https://www.freeflarum.com)__
 > 2. __[Documentation](https://www.freeflarum.com/docs)__
 > 3. __[GitHub Repository](https://github.com/gwillem/freeflarum.com)__
