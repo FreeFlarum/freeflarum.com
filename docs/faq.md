@@ -1,13 +1,11 @@
-This page is used to answer the most common questions we receive, so we won't have to answer similar questions all over again in a loop.
+!!! info
+    This page is used to answer the most common questions we receive, so we won't have to answer similar questions all over again in a loop.
 
 You can see the list of questions below:
 
-<br/>
-<br/>
+!!! info "## __General Issues:__"
 
-## __General Issues:__
-
-#### Can you add extension X?
+!!! question "#### Can you add extension X?"
 
 We will add most extensions on requests. However, some extensions are incompatible with the FreeFlarum platform. We can not install Bazaar or anything that accepts file uploads or runs custom PHP code. For an extension request to be honored, it should be upvoted by at least two persons. Here, you can see all pending requests or add your own: [Github](https://github.com/gwillem/freeflarum.com/issues).
 
