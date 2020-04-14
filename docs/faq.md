@@ -3,9 +3,9 @@
 
 You can see the list of questions below:
 
-!!! info "## __General Issues:__"
+## __General Issues:__
 
-!!! question "#### Can you add extension X?"
+#### Can you add extension X?
 
 We will add most extensions on requests. However, some extensions are incompatible with the FreeFlarum platform. We can not install Bazaar or anything that accepts file uploads or runs custom PHP code. For an extension request to be honored, it should be upvoted by at least two persons. Here, you can see all pending requests or add your own: [Github](https://github.com/gwillem/freeflarum.com/issues).
 
@@ -23,8 +23,6 @@ _Please note that if you donate less than $5, Paypal will take nearly all of it 
 
 ---
 
-<br/>
-
 ## __Errors/glitches:__
 
 #### I got error: "Error booting Flarum: Return value of Flarum"
@@ -37,8 +35,6 @@ This is most likely caused by the wrong mail settings. You should reset these to
 
 ---
 
-<br/>
-
 ## __Questions related to importing forum:__
 
 #### Can I import users from another forum?
@@ -50,8 +46,6 @@ Flarum does currently not support adding users from the admin panel or API, ther
 When the buttons, like tags, recipients and polls take up the entire space and you can't write the post, see [this discussion](https://discuss.flarum.org/d/21015-post-box-on-mobile/5) for more info.
 
 ---
-
-<br/>
 
 ## __Mail issues:__
 
@@ -68,8 +62,6 @@ Additionally, you can contact still [contact us](#contact-us).
 
 ---
 
-<br/>
-
 ## __Questions regarding software updating:__
 
 #### What happens when Flarum has a new release?
@@ -85,8 +77,6 @@ There is one caveat though: until the Flarum API is stable (planned for v0.2), e
 Please, be patient. Big things grow slowly and we have a life too.
 
 ---
-
-<br/>
 
 ## __Other questions:__
 
@@ -105,8 +95,6 @@ Currently we use Upcloud servers in London, Hetzner servers in Nuremberg and Tra
 #### How can I use tags?
 
 You have to enable the tag system first. Log in, go to Admin -> Administration -> Extensions -> Scroll to "Tags" and enable it. 
-
-<br/>
 
 > ---
 > ### __Contact us:__
