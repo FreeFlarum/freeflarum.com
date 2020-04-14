@@ -36,6 +36,7 @@ Learn how to configure some of them:
 - [GitHub Login](https://www.freeflarum.com/docs/howto/social-login/github/)
 
 Once you have filled in the form, a confirmation mail should be sent to the E-Mail address you provided. If it doesn't arrive soon:
+
 1. Check your spam folder.
 2. Re-send the mail.
 3. Re-register (if needed).
