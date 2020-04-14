@@ -5,11 +5,13 @@ To give your forum a distinct look and feel, there are several options:
 #### 1. Change the welcome message, which is displayed to new visitors
   - To achieve this, go to Administration section of your forum and click on "Basics"
   
-    ![The basics](https://cdn.discordapp.com/attachments/585143304467906581/699554932369653780/unknown.png)
+    !!! example
+        ![The basics](https://cdn.discordapp.com/attachments/585143304467906581/699554932369653780/unknown.png)
     
     The rest is simple - edit "Welcome Banner" to your liking.
     
-    ![Welcome Banner](https://cdn.discordapp.com/attachments/585143304467906581/699555483152941096/unknown.png)
+    !!! example
+        ![Welcome Banner](https://cdn.discordapp.com/attachments/585143304467906581/699555483152941096/unknown.png)
     
     Very basic [HTML](https://www.w3schools.com/TAGS/default.ASP) tags are supported, such as `<h1>` (heading text/title/big text), `<br/>` (line break), etc. 
     Get creative. Here is template I use for my forum that you can modify:
