@@ -3,11 +3,15 @@
 
 You can see the list of questions below:
 
-## __General Issues:__
+## __General Issues__
 
 #### Can you add extension X?
 
 We will add most extensions on requests. However, some extensions are incompatible with the FreeFlarum platform. We can not install Bazaar or anything that accepts file uploads or runs custom PHP code. For an extension request to be honored, it should be upvoted by at least two persons. Here, you can see all pending requests or add your own: [Github](https://github.com/gwillem/freeflarum.com/issues).
+
+#### How many users does FreeFlarum support?
+
+FreeFlarum is meant for smaller forums and supports up to 250 users. When you have more users _or_ your forum negatively affects the performance of other forums, we may ask you to move your forum elsewhere. 
 
 #### How do I delete my forum?
 
@@ -23,7 +27,7 @@ _Please note that if you donate less than $5, Paypal will take nearly all of it 
 
 ---
 
-## __Errors/glitches:__
+## __Errors & glitches__
 
 #### I got error: "Error booting Flarum: Return value of Flarum"
 
@@ -33,21 +37,13 @@ This happens incidentally when new extensions are added to the FreeFlarum forum.
 
 This is most likely caused by the wrong mail settings. You should reset these to their defaults, which you [can find here](/docs/howto/configure-mail/). Notably, do not use the mail driver **mail** which will crash your forum, but use **smtp** instead.
 
----
-
-## __Questions related to importing forum:__
-
-#### Can I import users from another forum?
-
-Flarum does currently not support adding users from the admin panel or API, there's [an issue for that](https://github.com/flarum/core/issues/885). However, you can use the [Doorman](https://discuss.flarum.org/d/17845-doorman-by-reflar) extension to invite people.
-
 #### The post composer seems broken on mobile
 
 When the buttons, like tags, recipients and polls take up the entire space and you can't write the post, see [this discussion](https://discuss.flarum.org/d/21015-post-box-on-mobile/5) for more info.
 
 ---
 
-## __Mail issues:__
+## __Mail issues__
 
 #### How can I send all users a mail?
 
@@ -62,7 +58,7 @@ Additionally, you can contact still [contact us](#contact-us).
 
 ---
 
-## __Questions regarding software updating:__
+## __Software updates__
 
 #### What happens when Flarum has a new release?
 
@@ -74,11 +70,16 @@ There is one caveat though: until the Flarum API is stable (planned for v0.2), e
 
 #### Why has not FreeFlarum updated yet?
 
-Please, be patient. Big things grow slowly and we have a life too.
+Please, be patient. Big things grow slowly and we have a life too. It may take up to 8 weeks for FreeFlarum to implement new Flarum releases (usually much faster though).
 
 ---
 
-## __Other questions:__
+## __Other questions__
+
+#### Can I import users from another forum?
+
+Flarum does currently not support adding users from the admin panel or API, there's [an issue for that](https://github.com/flarum/core/issues/885). However, you can use the [Doorman](https://discuss.flarum.org/d/17845-doorman-by-reflar) extension to invite people.
+
 
 #### Can we hire you for a custom job?
 
