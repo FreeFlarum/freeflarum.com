@@ -12,26 +12,26 @@ nav:
   - About: about.md
   - FAQ: faq.md
   - Roadmap: roadmap.md
-  - Tutorials:
-    - Getting Started:
-      - howto/create-account.md
-      - howto/personalize.md
-      - howto/private-forum.md
+  - Getting Started:
+    - howto/create-account.md
+    - howto/personalize.md
+    - howto/private-forum.md
+  - Extensions:
+    - howto/extensions/about-extensions.md
     - Extensions:
-      - howto/extensions/about-extensions.md
-      - Extensions:
-         - howto/extensions/analytics.md
-    - Third-party integrations:
-      - Analytics:
-         - howto/google-analytics.md
-      - Social logins:
-         - howto/social-login/google.md
-         - howto/social-login/facebook.md
-         - howto/social-login/github.md
-    - Advanced:
-      - howto/export.md
-      - howto/custom-domain.md
-      - howto/configure-mail.md
+        - howto/extensions/analytics.md
+  - Third-party integrations:
+    - Analytics:
+        - howto/google-analytics.md
+    - Social logins:
+        - howto/social-login/google.md
+        - howto/social-login/facebook.md
+        - howto/social-login/github.md
+        - howto/social-login/passport.md
+  - Advanced:
+    - howto/export.md
+    - howto/custom-domain.md
+    - howto/configure-mail.md
   - Legal:
     - legal/privacy.md
     - legal/terms.md
