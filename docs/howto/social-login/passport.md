@@ -10,7 +10,7 @@ The first requirement is enabling the [Passport extension](https://discuss.flaru
 
 Once installed you'll see the settings dialog
 
-[Imgur](https://i.imgur.com/HXMX9zd.png)
+![Imgur](https://i.imgur.com/HXMX9zd.png)
 
 The bits in red are your secret key, keep them private. The top 3 fields need to be filled with URLs to your Django app install (covered in the next bit). The OAuth scopes should be "read" and the Label for the button can be anything you like. This is what is shown on the button that's used to login.
 
@@ -71,4 +71,4 @@ As far as I know there is no way to remove the normal login currently, but you c
         text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     }
 
-[Imgur](https://i.imgur.com/IEfBtlx.png)
+![Imgur](https://i.imgur.com/IEfBtlx.png)
