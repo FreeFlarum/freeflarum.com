@@ -20,6 +20,7 @@ nav:
     - howto/extensions/about-extensions.md
     - Extensions:
         - howto/extensions/analytics.md
+        - howto/extensions/approval.md
   - Third-party integrations:
     - Analytics:
         - howto/google-analytics.md
