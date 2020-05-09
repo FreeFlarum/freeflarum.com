@@ -36,6 +36,9 @@
     
     - Validation by Laravel-lang
     - Moment.js for arabic language (date & time)
+    
+!!! warning
+    Some of the extensions that are listed above might not be available for FreeFlarum.
 
 !!! info "How to use this extension"
     Language extensions don't require an extra setup - just enable it from your Administrator section at your forum > Extensions, and you should now be able to select the language from the language selector
