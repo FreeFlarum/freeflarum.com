@@ -18,7 +18,6 @@ nav:
     - howto/private-forum.md
   - Extensions:
     - howto/extensions/about-extensions.md
-    - Extensions:
         - howto/extensions/analytics.md
         - howto/extensions/approval.md
         - howto/extensions/arabic-language.md
