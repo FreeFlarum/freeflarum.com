@@ -17,13 +17,11 @@
   -  ̶S̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶ ̶t̶e̶x̶t̶ | `[s]Strikethrough text[/s]`
   - [Some Link](https://example.com) | `[url=https://example.com]Some link[/url]`
   - ![* Image](https://link.to.image/path/to/image.png) | `[img]https://link.to.image/path/to/image.png[/img]`
-  - Quote
+  - Quote | `[quote="Author"]Quoted text[/quote]`
   
     > _Author wrote:_
     
          Quoted text.
-  
-  `[quote="Author"]Quoted text[/quote]`
   
   - `Code` | `[code]Code[/code]`
   - Text color | `[color="fuchsia"]Text color[/color]`
