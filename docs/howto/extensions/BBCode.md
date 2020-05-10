@@ -28,7 +28,6 @@
       - List:
       
         [list]
-          
             [*]Entry A
             
             [*]Entry B
@@ -36,7 +35,6 @@
               • Entry 1
               
               • Entry 2
-              
           [/list]
           
         -
