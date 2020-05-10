@@ -22,6 +22,7 @@ nav:
         - howto/extensions/analytics.md
         - howto/extensions/approval.md
         - howto/extensions/arabic-language.md
+        - howto/extensions/bbcode.md
   - Third-party integrations:
     - Analytics:
         - howto/google-analytics.md
