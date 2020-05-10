@@ -27,17 +27,17 @@
       - Text color | `[color="fuchsia"]Text color[/color]`
       - List:
       
-        > [list]
+            [list]
         
-            [*]Entry A
+                [*]Entry A
             
-            [*]Entry B
+                [*]Entry B
             
-              • Entry 1
+                • Entry 1
               
-              • Entry 2
+                • Entry 2
               
-          > [/list]
+             [/list]
           
         -
           * Entry A
