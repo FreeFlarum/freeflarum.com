@@ -14,7 +14,7 @@
   - **Bold text** | `[b]Bold text[/b]`
   - *Italic text* | `[i]Italic text[/i]`
   - __Underline text__ | `[u]Underline text[/u]`
-  - ~~Strikethrough text~~ | `[s]Strikethrouh text[/s]`
+  -  ̶S̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶ ̶t̶e̶x̶t̶ | `[s]Strikethrough text[/s]`
   - [Some Link](https://example.com) | `[url=https://example.com]Some link[/url]`
   - ![* Image](https://link.to.image/path/to/image.png) | `[img]https://link.to.image/path/to/image.png[/img]`
   - Quote
