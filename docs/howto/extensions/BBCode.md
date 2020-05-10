@@ -47,7 +47,7 @@
 
       - Tables are unfortunately currently not possible to do in the default BBCode installation for Flarum.
   
-**Preview at Flarum [(click to enlarge)](https://cdn.discordapp.com/attachments/585143304467906581/708973649335549993/unknown.png):**
+**Preview at Flarum [(click here to enlarge)](https://cdn.discordapp.com/attachments/585143304467906581/708973649335549993/unknown.png):**
   
 ![Preview](https://cdn.discordapp.com/attachments/585143304467906581/708973649335549993/unknown.png)
 
