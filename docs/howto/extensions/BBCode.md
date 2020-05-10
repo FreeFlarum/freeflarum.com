@@ -26,6 +26,7 @@
       - `Code` | `[code]Code[/code]`
       - Text color | `[color="fuchsia"]Text color[/color]`
       - List:
+      
         ```[list]
           
             [*]Entry A
@@ -37,6 +38,7 @@
               • Entry 2
               
           [/list]```
+          
         -
           * Entry A
           
