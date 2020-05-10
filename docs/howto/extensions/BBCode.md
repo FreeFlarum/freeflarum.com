@@ -21,7 +21,7 @@
   
     > _Author wrote:_
     
-       - `Quoted text.` 
+         `Quoted text.` 
   
   `[quote="Author"]Quoted text[/quote]`
   
