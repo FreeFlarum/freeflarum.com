@@ -39,14 +39,14 @@
               
              [/list]
           
-        -
-          * Entry A
+        
+            * Entry A
           
-          * Entry B
+            * Entry B
           
-            - Entry 1
+                - Entry 1
             
-            - Entry 2
+                - Entry 2
 
       - Tables are unfortunately currently not possible to do in the default BBCode installation for Flarum.
   
