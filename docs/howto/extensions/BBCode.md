@@ -18,6 +18,7 @@
   - [Some Link](https://example.com) | `[url=https://example.com]Some link[/url]`
   - ![* Image](https://link.to.image/path/to/image.png) | `[img]https://link.to.image/path/to/image.png[/img]`
   - Quote
+  
     > _Author wrote:_
     
        - `Quoted text.` 
