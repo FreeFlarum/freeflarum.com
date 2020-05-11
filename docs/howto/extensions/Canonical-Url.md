@@ -12,6 +12,7 @@
     As for FreeFlarum, this extension is automatically configured, and allows FreeFlarum to operate the large amount of forums with more ease:
     
     > Because of the huge number of forums, the FreeFlarum stack scales better via your extension than maintaining a centralized redirect map in Nginx.
+    >
     > _Sanguine on the Canonical Url extension._
     
     That means that it is a good idea to keep this extension enabled, as it improves the stability and accessibility of your forum.
