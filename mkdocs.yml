@@ -19,10 +19,12 @@ nav:
   - Extensions:
     - howto/extensions/about-extensions.md
     - Extension List:
-        - howto/extensions/analytics.md
-        - howto/extensions/approval.md
-        - howto/extensions/arabic-language.md
+        - howto/extensions/Analytics.md
+        - howto/extensions/Approval.md
+        - howto/extensions/Arabic-language.md
         - howto/extensions/BBCode.md
+        - howto/extensions/Bosanski.md
+        - howto/extensions/Bosnian-Extended-Pack.md
   - Third-party integrations:
     - Analytics:
         - howto/google-analytics.md
