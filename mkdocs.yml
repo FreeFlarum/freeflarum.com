@@ -17,7 +17,7 @@ nav:
     - howto/personalize.md
     - howto/private-forum.md
   - Extensions:
-    - howto/extensions/about-extensions.md
+    - howto/extensions/About-Extensions.md
     - Extension List:
         - howto/extensions/Analytics.md
         - howto/extensions/Approval.md
