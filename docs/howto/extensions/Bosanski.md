@@ -8,7 +8,7 @@
 > ---
 
 !!! quote "About"
-    This extension provides Bosnian language for Flarum & it's bundled extensions along with Momentum translation (date & time).
+    This extension provides Bosnian language for Flarum & it's bundled extensions along with Moment.js translation (date & time).
     
 
 !!! note "You might be looking for:"
