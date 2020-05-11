@@ -16,7 +16,8 @@ You should create a CNAME record from your own domain name to FreeFlarum, which 
 forum.your.com CNAME you.freeflarum.com
 ```
 
-Your provider might ask for a TTL, you should set this as low as possible, eg 2 minutes. This allows you to change servers quickly, if necessary.
+!!! note
+    Your provider might ask for a TTL, you should set this as low as possible, eg 2 minutes. This allows you to change servers quickly, if necessary.
 
 ## Using a root / naked domain
 
@@ -25,7 +26,8 @@ A domain without a subdomain (eg "your.com" instead of "www.your.com") is called
 1. There are no other records. So no "www" or other subdomains and no MX records. You will not be able to use any email addresses for this domain. You will have to remove all other records, if any.
 1. Your registrar / DNS provider supports it (Cloudflare does not).
 
-If you keep getting an error from FreeFlarum saying that a CNAME cannot be found, first double check whether a CNAME can be found using a [third party tool](https://www.ultratools.com/tools/dnsLookup). If no CNAME record can be added, your provider probably does support it. You may switch to another DNS provider. These DNS services are known to work with FreeFlarum: [Namecheap](https://www.namecheap.com), [HiChina](https://www.hichina.com), [Dynadot](https://www.dynadot.com), [Alidns](https://www.alidns.com), [HostFly.by](https://hostfly.by), [NameBright](https://www.namebright.com).
+!!! note
+    If you keep getting an error from FreeFlarum saying that a CNAME cannot be found, first double check whether a CNAME can be found  using a [third party tool](https://www.ultratools.com/tools/dnsLookup). If no CNAME record can be added, your provider probably does support it. You may switch to another DNS provider. These DNS services are known to work with FreeFlarum: [Namecheap](https://www.namecheap.com), [HiChina](https://www.hichina.com), [Dynadot](https://www.dynadot.com), [Alidns](https://www.alidns.com), [HostFly.by](https://hostfly.by), [NameBright](https://www.namebright.com).
 
 ## Redirect the root domain
 
@@ -39,7 +41,8 @@ Say you use "www.your.com" as FreeFlarum domain name. However, you want people b
 
 ![](https://buq.eu/screenshots/MMlyMjo6I6Hb7IfSXwHXOaxu.png)
 
-Make sure to **disable the proxy** so that the icon is grey (not orange).
+!!! warning
+    Make sure to **disable the proxy** so that the icon is grey (not orange).
 
 ## Reset the domain
 
