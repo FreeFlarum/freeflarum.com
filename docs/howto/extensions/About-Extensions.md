@@ -1,4 +1,4 @@
-# Introduction to extensions
+# About Extensions
 
 !!! question "What are extensions?"
     Extensions (or sometimes also "addons") are pieces of "scripts" that can extend your Flarum forum.
