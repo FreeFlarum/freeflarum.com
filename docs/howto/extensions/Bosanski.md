@@ -12,4 +12,4 @@
     
 
 !!! note "You might be looking for:"
-    - #### **[Comming Soon]()**
+    - #### **[Bosnian Extended Pack](https://www.freeflarum.com/docs/howto/extensions/Bosnian-Extended-Pack/)**
