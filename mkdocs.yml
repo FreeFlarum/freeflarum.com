@@ -25,6 +25,8 @@ nav:
         - howto/extensions/BBCode.md
         - howto/extensions/Bosanski.md
         - howto/extensions/Bosnian-Extended-Pack.md
+        - howto/extensions/Brazilian-Portuguese.md
+        - howto/extensions/Canonical-URL
   - Third-party integrations:
     - Analytics:
         - howto/google-analytics.md
