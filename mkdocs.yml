@@ -29,6 +29,8 @@ nav:
         - howto/extensions/Canonical-Url.md
         - howto/extensions/Deutsch.md
         - howto/extensions/Discussion-views.md
+        - howto/extensions/Dutch.md
+        - howto/extensions/Embed.md
   - Third-party integrations:
     - Analytics:
         - howto/google-analytics.md
