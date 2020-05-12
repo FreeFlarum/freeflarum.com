@@ -8,7 +8,12 @@
 > ---
 
 !!! quote "About"
-    This extension provides Dutch language for Flarum & it's bundled extensions.
+    This extension provides Dutch language for Flarum & it's bundled extensions + Third party extensions:
+    - Discussion views
+    - Profile views
+    - Fof Follow tags
+    - Fof forum stats
+    - Fof nightmode
 
 !!! note "You might be looking for:"
     - #### **[Comming Soon]()**
