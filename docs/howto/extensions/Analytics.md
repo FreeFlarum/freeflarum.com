@@ -132,5 +132,5 @@ If you open up the section, you should see a lot of data of your visitors. You c
 Sorry, perhaps I've got taken away by the feeling of seeing everything that happens on my forum. 
 
 !!! note "You might be looking for:"
-    - #### [About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)
-    - #### [Google Analytics (the "old" way, or if the above doesn't work)](https://www.freeflarum.com/docs/howto/google-analytics/)
+    - #### **[About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)**
+    - #### **[Google Analytics (the "old" way, or if the above doesn't work)](https://www.freeflarum.com/docs/howto/google-analytics/)**
