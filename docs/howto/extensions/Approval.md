@@ -1,8 +1,8 @@
 > ---
-> - **Name**: Approval
+> - **Name**: Approval (`flarum/approval`)
 > - **Author**: Flarum
 > - **Flarum discussion** N/A
-> - **Compatible with FreeFlarum**: Yes (as of 9th May 2020)
+> - **Compatible with FreeFlarum**: Yes.
 > - **Approximate time to setup:** 3 - 5 minutes
 >
 > ---
@@ -24,4 +24,4 @@
 And that's it. This extension is a great choice to keep track of every discussion made to stop unwanted content from being visible to others that don't have a permission.
 
 !!! note "You might be looking for:"
-    - #### **[To-do, when all extensions are finished](comming.soon)**
+    - #### [About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)
