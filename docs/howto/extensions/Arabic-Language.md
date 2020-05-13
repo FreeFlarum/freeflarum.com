@@ -1,5 +1,5 @@
 > ---
-> - **Name**: Arabic Language
+> - **Name**: Arabic Language (`ziymed/lang-arabic`)
 > - **Author**: Ziymed
 > - **Flarum discussion** [https://discuss.flarum.org/d/18231-arabic-language-pack-0-1-0-beta-8-2](https://discuss.flarum.org/d/18231-arabic-language-pack-0-1-0-beta-8-2)
 > - **Compatible with FreeFlarum**: Not fully (not all extensions are translated)
@@ -8,34 +8,7 @@
 > ---
 
 !!! quote "About"
-    This extension adds support for Arabic language for the following extensions:
-    
-    - flarum-akismet
-    - flarum-approval
-    - flarum-auth-facebook
-    - flarum-auth-github
-    - flarum-auth-twitter
-    - flarum-discussion-views
-    - flarum-emoji
-    - flarum-ext-best-answer
-    - flarum-ext-gamification
-    - flarum-ext-links
-    - flarum-flags
-    - flarum-likes
-    - flarum-lock
-    - flarum-markdown
-    - flarum-mentions
-    - flarum-pusher
-    - flarum-statistics
-    - flarum-sticky
-    - flarum-subscriptions
-    - flarum-suspend
-    - flarum-tags
-    
-    ...and following libraries:
-    
-    - Validation by Laravel-lang
-    - Moment.js for arabic language (date & time)
+    This extension adds support for Arabic language for Flarum & it's bundled extensions along with Moment.js translation (date & time).
     
 !!! warning
     Some of the extensions that are listed above might not be available for FreeFlarum.
@@ -45,4 +18,4 @@
     on the top right corner next to your profile button (English -> Click -> Desired language).
 
 !!! note "You might be looking for:"
-    - #### **[To-do, when all extensions are finished](comming.soon)**
+    - #### **[About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)**

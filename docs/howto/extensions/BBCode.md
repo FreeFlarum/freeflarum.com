@@ -1,8 +1,8 @@
 > ---
-> - **Name**: BBCode
+> - **Name**: BBCode (`flarum/bbcode`)
 > - **Author**: Flarum
 > - **Flarum discussion** N/A
-> - **Compatible with FreeFlarum**: Yes (as of the 10th of May 2020)
+> - **Compatible with FreeFlarum**: Yes.
 > - **Approximate time to setup:** 1 minute
 >
 > ---
@@ -52,4 +52,4 @@
 ![Preview](https://cdn.discordapp.com/attachments/585143304467906581/708973649335549993/unknown.png)
 
 !!! note "You might be looking for:"
-    - #### **[Some link]()**
+    - #### **[About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)**

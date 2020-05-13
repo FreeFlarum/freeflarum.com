@@ -1,6 +1,6 @@
 > ---
-> - **Name**: Bosanski
-> - **Author**: Possibly neercsys (there are many forks, if I mis-credited you, please [open up an issue](https://github.com/gwillem/freeflarum.com/issues/new/choose).
+> - **Name**: Bosanski (`neercsys/flarum-lang-bosanski`)
+> - **Author**: neercsys
 > - **Flarum discussion** N/A
 > - **Compatible with FreeFlarum**: Not fully (not all extensions are translated)
 > - **Approximate time to setup:** 1 - 3 minutes
@@ -12,4 +12,5 @@
     
 
 !!! note "You might be looking for:"
+    - #### **[About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)**
     - #### **[Bosnian Extended Pack](https://www.freeflarum.com/docs/howto/extensions/Bosnian-Extended-Pack/)**

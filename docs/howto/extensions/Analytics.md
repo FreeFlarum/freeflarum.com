@@ -1,9 +1,9 @@
 > ---
-> - **Name**: Analytics
-> - **Author**: FriendsOfFlarum
+> - **Name**: Analytics (`flagrow/flarum-ext-analytics`)
+> - **Author**: FriendsOfFlarum/Flagrow
 > - **Flarum discussion**: [https://discuss.flarum.org/d/1983-flagrow-analytics-extension-tracking-user-visits](https://discuss.flarum.org/d/1983-flagrow-analytics-extension-tracking-user-visits)
-> - **Compatible with FreeFlarum**: Yes (as of 13th April 2020)
-> - **Approximate time to setup:** 10 - 15 minutes
+> - **Compatible with FreeFlarum**: Yes.
+> - **Approximate time to setup:** 7 - 20 minutes
 >
 > ---
 
@@ -132,4 +132,5 @@ If you open up the section, you should see a lot of data of your visitors. You c
 Sorry, perhaps I've got taken away by the feeling of seeing everything that happens on my forum. 
 
 !!! note "You might be looking for:"
+    - #### **[About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)**
     - #### **[Google Analytics (the "old" way, or if the above doesn't work)](https://www.freeflarum.com/docs/howto/google-analytics/)**

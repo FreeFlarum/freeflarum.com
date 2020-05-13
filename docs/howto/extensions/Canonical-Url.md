@@ -1,9 +1,9 @@
 > ---
-> - **Name**: Canonical Url
+> - **Name**: Canonical Url (`migratetoflarum/canonical`)
 > - **Author**: MigrateToFlarum
 > - **Flarum discussion** [https://discuss.flarum.org/d/19307-canonical-url-redirect](https://discuss.flarum.org/d/19307-canonical-url-redirect)
 > - **Compatible with FreeFlarum**: Yes
-> - **Approximate time to setup:** 0 minutes - default settings suit everyone
+> - **Approximate time to setup:** 0 - 2 minutes
 >
 > ---
 
@@ -26,4 +26,5 @@
     Search engines are then confused, and they mismatch the URLs even more, causing mess about links and SEO. But that was a very brief explanation of what the extension does, and you should check the tutorial.
 
 !!! note "You might be looking for:"
+    - #### **[About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)**
     - #### **[What is Canonical URL?](https://yoast.com/what-is-a-canonical-url/)**

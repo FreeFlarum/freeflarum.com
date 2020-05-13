@@ -43,4 +43,4 @@
     I'm sure that if you get creative, you will find better uses ;)
 
 !!! note "You might be looking for:"
-    - #### **[Comming Soon]()**
+    - #### **[About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)**

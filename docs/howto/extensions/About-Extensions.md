@@ -56,5 +56,4 @@ If you find any bug in an extension, please report the bug to the author of the 
 List of all FreeFlarum extensions can be found [here](https://www.freeflarum.com/extensions).
 
 !!! note "You might be looking for:"
-    - #### [Introduction to extensions](https://www.freeflarum.com/docs/howto/extensions/introduction/)
-    - #### [Requesting an extension](https://www.freeflarum.com/docs/faq/#can-you-add-extension-x)
+    - #### **[Requesting an extension](https://www.freeflarum.com/docs/faq/#can-you-add-extension-x)**
