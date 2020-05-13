@@ -1,9 +1,9 @@
 > ---
-> - **Name**: Analytics
-> - **Author**: FriendsOfFlarum
+> - **Name**: Analytics (`flagrow/flarum-ext-analytics`)
+> - **Author**: FriendsOfFlarum/Flagrow
 > - **Flarum discussion**: [https://discuss.flarum.org/d/1983-flagrow-analytics-extension-tracking-user-visits](https://discuss.flarum.org/d/1983-flagrow-analytics-extension-tracking-user-visits)
 > - **Compatible with FreeFlarum**: Yes (as of 13th April 2020)
-> - **Approximate time to setup:** 10 - 15 minutes
+> - **Approximate time to setup:** 7 - 20 minutes
 >
 > ---
 
