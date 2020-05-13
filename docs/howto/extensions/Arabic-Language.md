@@ -8,34 +8,7 @@
 > ---
 
 !!! quote "About"
-    This extension adds support for Arabic language for the following extensions:
-    
-    - flarum-akismet
-    - flarum-approval
-    - flarum-auth-facebook
-    - flarum-auth-github
-    - flarum-auth-twitter
-    - flarum-discussion-views
-    - flarum-emoji
-    - flarum-ext-best-answer
-    - flarum-ext-gamification
-    - flarum-ext-links
-    - flarum-flags
-    - flarum-likes
-    - flarum-lock
-    - flarum-markdown
-    - flarum-mentions
-    - flarum-pusher
-    - flarum-statistics
-    - flarum-sticky
-    - flarum-subscriptions
-    - flarum-suspend
-    - flarum-tags
-    
-    ...and following libraries:
-    
-    - Validation by Laravel-lang
-    - Moment.js for arabic language (date & time)
+    This extension adds support for Arabic language for Flarum & it's bundled extensions along with Moment.js translation (date & time).
     
 !!! warning
     Some of the extensions that are listed above might not be available for FreeFlarum.
