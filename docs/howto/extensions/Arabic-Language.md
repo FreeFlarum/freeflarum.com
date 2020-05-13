@@ -1,5 +1,5 @@
 > ---
-> - **Name**: Arabic Language
+> - **Name**: Arabic Language (`ziymed/lang-arabic`)
 > - **Author**: Ziymed
 > - **Flarum discussion** [https://discuss.flarum.org/d/18231-arabic-language-pack-0-1-0-beta-8-2](https://discuss.flarum.org/d/18231-arabic-language-pack-0-1-0-beta-8-2)
 > - **Compatible with FreeFlarum**: Not fully (not all extensions are translated)
