@@ -1,9 +1,9 @@
 > ---
-> - **Name**: Canonical Url
+> - **Name**: Canonical Url (`migratetoflarum/canonical`)
 > - **Author**: MigrateToFlarum
 > - **Flarum discussion** [https://discuss.flarum.org/d/19307-canonical-url-redirect](https://discuss.flarum.org/d/19307-canonical-url-redirect)
 > - **Compatible with FreeFlarum**: Yes
-> - **Approximate time to setup:** 0 minutes - default settings suit everyone
+> - **Approximate time to setup:** 0 - 2 minutes
 >
 > ---
 
