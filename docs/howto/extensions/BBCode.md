@@ -52,4 +52,4 @@
 ![Preview](https://cdn.discordapp.com/attachments/585143304467906581/708973649335549993/unknown.png)
 
 !!! note "You might be looking for:"
-    - #### [About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)
+    - #### **[About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)**
