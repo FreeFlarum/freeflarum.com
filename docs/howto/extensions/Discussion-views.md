@@ -2,7 +2,7 @@
 > - **Name**: Discussion views
 > - **Author**: MichaelBelgium
 > - **Flarum discussion** [https://discuss.flarum.org/d/7339-discussion-views](https://discuss.flarum.org/d/7339-discussion-views)
-> - **Compatible with FreeFlarum**: Yes (as of the 11th May 2020)
+> - **Compatible with FreeFlarum**: Yes.
 > - **Approximate time to setup:** 1 - 2 minutes
 >
 > ---
@@ -20,4 +20,5 @@ Here is how it looks in action:
 ![Example demonstration of the "Discussion views" extension for Flarum](https://cdn.discordapp.com/attachments/585143304467906581/709348540597403658/unknown.png)
 
 !!! note "You might be looking for:"
+    - #### **[About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)**
     - #### **[Analytics](https://www.freeflarum.com/docs/howto/extensions/Analytics/)**
