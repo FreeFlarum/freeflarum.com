@@ -18,4 +18,4 @@
     on the top right corner next to your profile button (English -> Click -> Desired language).
 
 !!! note "You might be looking for:"
-    - #### [About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)
+    - #### **[About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)**
