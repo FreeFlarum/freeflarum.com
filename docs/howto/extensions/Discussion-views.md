@@ -16,8 +16,9 @@
 This extension is pretty basic. It does not require an additional setup, making things easier for you - just enable it and you are good to go.
 However, we do not recommend to use this extension as an Analytics tool. For that, we recommend you to check out the [Analytics](https://www.freeflarum.com/docs/howto/extensions/Analytics/) extension.
 
-Here is how it looks in action:
+**Here is how it looks in action:**
 ![Example demonstration of the "Discussion views" extension for Flarum](https://cdn.discordapp.com/attachments/585143304467906581/709348540597403658/unknown.png)
+###### (Screenshot from [https://discuss.flarum.org/d/7339-discussion-views](https://discuss.flarum.org/d/7339-discussion-views))
 
 !!! note "You might be looking for:"
     - #### **[About Extensions](https://www.freeflarum.com/docs/howto/extensions/About-Extensions/)**
