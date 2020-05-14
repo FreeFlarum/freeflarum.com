@@ -31,6 +31,11 @@ nav:
         - howto/extensions/Discussion-views.md
         - howto/extensions/Dutch.md
         - howto/extensions/Embed.md
+        - howto/extensions/Emoji.md
+        - howto/extensions/English.md
+        - howto/extensions/Facebook-Login.md
+        - howto/extensions/Flagrow-Sitemap.md
+        - howto/extensions/Flags.md
   - Third-party integrations:
     - Analytics:
         - howto/google-analytics.md
