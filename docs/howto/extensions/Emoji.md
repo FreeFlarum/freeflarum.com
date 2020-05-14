@@ -16,6 +16,7 @@
     
 !!! question "How can I insert an emoji into a post?"
     Just start to type `:` (colon) and a few of them available to choose will pop up:
+    
     ![The emoji picker](https://cdn.discordapp.com/attachments/585143304467906581/710398796676464722/unknown.png)
     
     You can then search for emojis there too! Or you can just directly paste an Unicode emoji - it will be converted into Twemoji automatically.
