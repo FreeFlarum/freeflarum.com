@@ -12,6 +12,7 @@
     
 !!! tip "Setting up"
     All you should do after you enable the discussion is specify the "Community Guidelines URL", which is basically the link to the rules of your forum. You can create a discussion for this and link that. If you don't specify anything, the redirect in the flag modal won't work.
+    
     ![The settings dialog](https://cdn.discordapp.com/attachments/585143304467906581/710408950125690920/unknown.png)
     
     "Allow users to flag their own posts" allows users to flag their own posts, as the name suggests... This is useful when someone wants to request a title change, or remove the discussion entirely, for example (instead of messaging or mentioning a staff member).
