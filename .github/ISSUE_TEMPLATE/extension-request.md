@@ -7,6 +7,11 @@ assignees: ''
 
 ---
 
+<!-- Text in these blocks, or in [//]: # "these" will NOT be
+visible in the issue. They are just comments to guide you through
+the issue creation process. Please, do not type anything in them.
+You can also remove them, if you want. -->
+
 <!--
 > **Please request only 1 extension per issue!**
 
