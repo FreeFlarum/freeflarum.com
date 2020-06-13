@@ -36,6 +36,9 @@ nav:
         - howto/extensions/Facebook-Login.md
         - howto/extensions/Flagrow-Sitemap.md
         - howto/extensions/Flags.md
+        - howto/extensions/FoF-BBCode-Details.md
+        - howto/extensions/FoF-Ban-IPs.md
+        - howto/extensions/FoF-Byobu.md
   - Third-party integrations:
     - Analytics:
         - howto/google-analytics.md
@@ -56,4 +59,4 @@ markdown_extensions:
   - admonition
   
 repo_url: https://github.com/gwillem/freeflarum.com
-# edit_uri not required for github
+# edit_uri is not required for GitHub
