@@ -10,7 +10,7 @@
 !!! quote "About"
     This extension adds a details expandable block, similar to spoilers.
     
-!!! information "Usage"
+!!! info "Usage"
     The extension adds one new piece of BBCode that you can use in your discussions and their posts: `[DETAILS title=Some title - Optional]The hidden text.[/DETAILS]`
     
     Just paste this code inside the post composer and it should be working. The title is the code that is shown at first glance and that is expandable into other text, which is hidden at first.
