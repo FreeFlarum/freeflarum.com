@@ -42,14 +42,17 @@ nav:
         - 'How-to/Extensions/FoF-BBCode-Details.md'
         - 'How-to/Extensions/FoF-Ban-IPs.md'
         - 'How-to/Extensions/FoF-Byobu.md'
+        - 'How-to/Extensions/FoF-Default-Group.md'
+        - 'How-to/Extensions/FoF-Default-User-Preferences.md'
+        - 'How-to/Extensions/FoF-Discord-Login.md'
   - Third-party Integrations:
     - Analytics:
         - 'How-to/Integrations/Google-Analytics.md'
     - Logins:
-        - Social Logins:
-          - 'How-to/Integrations/Google-Login.md'
-          - 'How-to/Integrations/Facebook-Login.md'
-          - 'How-to/Integrations/GitHub-Login.md'
+        - 'How-to/Integrations/Google-Login.md'
+        - 'How-to/Integrations/Facebook-Login.md'
+        - 'How-to/Integrations/GitHub-Login.md'
+        - 'How-to/Integrations/Discord-Login.md'
         - 'How-to/Integrations/Laravel-Passport.md'
   - Advanced Usage:
     - 'How-to/Advanced-Setup/Export.md'
