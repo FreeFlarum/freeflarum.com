@@ -15,7 +15,7 @@ Now, fill in some basic and required settings:
 ![](https://snag.gy/xP05qT.jpg)
 
 The __Authorization callback URL__ is the most important part. It has to be set to `yourforum.freeflarum.com/auth/github`.
-If you are using a [Custom Domain](/docs/How-to/Custom-Domain/), just add the `/auth/github` to the end of your domain.
+If you are using a [Custom Domain](/docs/how-to/custom-domain/), just add the `/auth/github` to the end of your domain.
 
 Once you have successfuly created your __OAuth App__, you should be redirected to a page similar to this:
 
@@ -43,8 +43,8 @@ If an error appeared after logining in using GitHub, please [open up a new issue
 > #### __You might be looking for:__
 > - #### **[Google Login](docs/How-to/Integrations/Google-Login/)**
 > - #### **[Facebook Login](docs/How-to/Integrations/Facebook-Login/)**
-> - #### **[Discord Login](/docs/How-to/Integrations/Discord-Login/)**
-> - #### **[Passport Login](/docs/How-to/Integrations/Laravel-Passport/)**
+> - #### **[Discord Login](/docs/how-to/integrations/discord-login/)**
+> - #### **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
 >
 > ---
 

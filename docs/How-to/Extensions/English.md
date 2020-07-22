@@ -15,4 +15,4 @@
     You can have multiple language packs enabled, allowing you to choose between languages from the language selector.
     
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

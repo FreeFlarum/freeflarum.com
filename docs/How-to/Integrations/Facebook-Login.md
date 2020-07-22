@@ -41,7 +41,7 @@ Now you should see something like this:
 ![](https://snipboard.io/ZncT0P.jpg)
 
 "Valid OAuth Redirect URIs". Seems complicated, yet so simple.
-It is in fact just the `https://yourforumname.flarum.cloud/auth/facebook` URL or whatever domain you use. If your forum is located at another domain or you probably used the [custom domain](/docs/How-to/Custom-Domain/) option, just use that domain. The `./auth/facebook` part is important.
+It is in fact just the `https://yourforumname.flarum.cloud/auth/facebook` URL or whatever domain you use. If your forum is located at another domain or you probably used the [custom domain](/docs/how-to/custom-domain/) option, just use that domain. The `./auth/facebook` part is important.
 
 > ---
 > **Pro tip:** `./auth/google`, `./auth/twitter` for Goggle and Twitter logins and so on...
@@ -68,8 +68,8 @@ Your Facebook login should work now! If not, please contact us at our [official 
 > ---
 > #### __You might be looking for:__
 > - #### **[Google Login](docs/How-to/Integrations/Google-Login/)**
-> - #### **[GitHub Login](/docs/How-to/Integrations/GitHub-Login/)**
-> - #### **[Discord Login](/docs/How-to/Integrations/Discord-Login/)**
-> - #### **[Passport Login](/docs/How-to/Integrations/Laravel-Passport/)**
+> - #### **[GitHub Login](/docs/how-to/integrations/github-login/)**
+> - #### **[Discord Login](/docs/how-to/integrations/discord-login/)**
+> - #### **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
 >
 > ---

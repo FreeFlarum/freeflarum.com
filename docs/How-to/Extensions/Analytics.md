@@ -132,5 +132,5 @@ If you open up the section, you should see a lot of data of your visitors. You c
 Sorry, perhaps I've got taken away by the feeling of seeing everything that happens on my forum. 
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
-    - #### **[Google Analytics (the "old" way, or if the above doesn't fit your needs)](/docs/How-to/Integrations/Google-Analytics/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - #### **[Google Analytics (the "old" way, or if the above doesn't fit your needs)](/docs/how-to/integrations/google-analytics/)**

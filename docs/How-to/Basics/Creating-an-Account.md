@@ -1,6 +1,6 @@
 # Creating an Account
 
-Maybe you wanted to register some accounts for your friends to make a [private forum](https://www.freeflarum.com/docs/howto/private-forum/). Or you just want to register one for yourself.
+Maybe you wanted to register some accounts for your friends to make a [private forum](/docs/howto/private-forum/). Or you just want to register one for yourself.
 
 It is very easy. Let's see how it can be done:
 
@@ -35,10 +35,10 @@ It is very easy. Let's see how it can be done:
 
     Learn how to configure some of them:
 
-    - [Google Login](https://www.freeflarum.com/docs/How-to/Integrations/Social-Logins/Google-Login/)
-    - [Facebook Login](https://www.freeflarum.com/docs/How-to/Integrations/Social-Logins/Facebook-Login/)
-    - [GitHub Login](https://www.freeflarum.com/docs/How-to/Integrations/Social-Logins/GitHub-Login/)
-    - [Passport Login](https://www.freeflarum.com/docs/How-to/Integrations/Laravel-Passport)
+    - [Google Login](/docs/how-to/integrations/social-logins/google-login/)
+    - [Facebook Login](/docs/how-to/integrations/social-logins/facebook-login/)
+    - [GitHub Login](/docs/how-to/integrations/social-logins/github-login/)
+    - [Passport Login](/docs/how-to/integrations/laravel-passport)
 
 !!! info "Final steps:"
 
@@ -51,7 +51,7 @@ It is very easy. Let's see how it can be done:
 If anything went wrong, [open up a new GitHub issue](https://github.com/gwillem/freeflarum.com/issues/new) so we can look into it.
 
 !!! note "You might be looking for:"
-    - #### **[Google Login](https://www.freeflarum.com/docs/How-to/Integrations/Social-Logins/Google-Login/)**
-    - #### **[Facebook Login](https://www.freeflarum.com/docs/How-to/Integrations/Social-Logins/Facebook-Login/)**
-    - #### **[GitHub Login](https://www.freeflarum.com/docs/How-to/Integrations/Social-Logins/GitHub-Login/)**
-    - #### **[Passport Login](https://www.freeflarum.com/docs/How-to/Integrations/Laravel-Passport)**
+    - #### **[Google Login](/docs/how-to/integrations/social-logins/google-login/)**
+    - #### **[Facebook Login](/docs/how-to/integrations/social-logins/facebook-login/)**
+    - #### **[GitHub Login](/docs/how-to/integrations/social-logins/github-login/)**
+    - #### **[Passport Login](/docs/how-to/integrations/laravel-passport)**

@@ -11,4 +11,4 @@
     This extension provides Czech tutorial for Flarum and it's bundled extensions along with Moment.js locale (date & time).
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

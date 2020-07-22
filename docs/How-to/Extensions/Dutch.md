@@ -17,4 +17,4 @@
     - Fof nightmode
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

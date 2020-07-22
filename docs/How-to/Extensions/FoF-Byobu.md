@@ -45,4 +45,4 @@
     Depending on what extensions you have installed that modify discussions, you may use features from them in private discussions, such as the Tags extension.
     
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

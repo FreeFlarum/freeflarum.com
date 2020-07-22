@@ -26,5 +26,5 @@
     Search engines are then confused, and they mismatch the URLs even more, causing mess about links and SEO. But that was a very brief explanation of what the extension does, and you should check the tutorial.
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
     - #### **[What is Canonical URL?](https://yoast.com/what-is-a-canonical-url/)**

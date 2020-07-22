@@ -20,4 +20,4 @@
     ![The official picture of the extension](https://cdn.discordapp.com/attachments/585143304467906581/721328511410897036/68747470733a2f2f692e696d6775722e636f6d2f6d6d744353334d2e706e67.png)
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

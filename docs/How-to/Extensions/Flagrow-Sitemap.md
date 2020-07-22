@@ -27,4 +27,4 @@
 !!! note "You might be looking for:"
     - #### **[What is a sitemap?](https://www.ccmarketingonline.com/what-is-a-sitemap/)**
     - #### **[How do I submit a sitemap to Google?](https://support.google.com/webmasters/answer/183668)**
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

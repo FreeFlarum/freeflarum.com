@@ -11,11 +11,11 @@
     Allows users to login with [Discord](https://discord.com).
     
 !!! info "Setup"
-    Please, [follow this tutorial](/docs/How-to/Integrations/Discord-Login/).
+    Please, [follow this tutorial](/docs/how-to/integrations/discord-login/).
     
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
     - #### **[Google Login](docs/How-to/Integrations/Google-Login/)**
-    - #### **[GitHub Login](/docs/How-to/Integrations/GitHub-Login/)**
-    - #### **[Facebook Login](/docs/How-to/Integrations/Facebook-Login/)**
-    - #### **[Passport Login](/docs/How-to/Integrations/Laravel-Passport/)**
+    - #### **[GitHub Login](/docs/how-to/integrations/github-login/)**
+    - #### **[Facebook Login](/docs/how-to/integrations/facebook-login/)**
+    - #### **[Passport Login](/docs/how-to/integrations/laravel-passport/)**

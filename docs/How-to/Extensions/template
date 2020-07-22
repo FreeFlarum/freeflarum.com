@@ -11,7 +11,7 @@
     Short & brief description of what this extension does.
     
 !!! warning
-    You can use all elements from mk-docs extension thingy. They are not visible directly at GitHub, but are at [the actual documentation](https://www.freeflarum.com/docs/).
+    You can use all elements from mk-docs extension thingy. They are not visible directly at GitHub, but are at [the actual documentation](/docs/).
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

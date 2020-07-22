@@ -19,8 +19,8 @@ The *Hosted Domain* paramater is for only allowing emails in your Google Apps ac
 > #### __You might be looking for:__
 > - #### **[Google Analytics](docs/How-to/Integrations/Google-Analytics/)**
 > - #### **[Facebook Login](docs/How-to/Integrations/Facebook-Login/)**
-> - #### **[GitHub Login](/docs/How-to/Integrations/GitHub-Login/)**
-> - #### **[Discord Login](/docs/How-to/Integrations/Discord-Login/)**
-> - #### **[Passport Login](/docs/How-to/Integrations/Laravel-Passport/)**
+> - #### **[GitHub Login](/docs/how-to/integrations/github-login/)**
+> - #### **[Discord Login](/docs/how-to/integrations/discord-login/)**
+> - #### **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
 >
 > ---

@@ -23,4 +23,4 @@
     For this to work, you will need to have at least 1 group. You can do that under Administration > Permissions.
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

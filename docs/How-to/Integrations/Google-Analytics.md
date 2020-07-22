@@ -1,5 +1,5 @@
 !!! note "Note"
-     There is an easier way how to setup Google Analytics. Take a look at [this tutorial](https://www.freeflarum.com/docs/How-to/Extensions/Analytics/)
+     There is an easier way how to setup Google Analytics. Take a look at [this tutorial](/docs/how-to/extensions/analytics/)
 
 # Google Analytics (the "old" way)
 
@@ -29,7 +29,7 @@ And the **tracking code** for Google Analytics goes into the **footer**.
 
 > ---
 > #### __You might be looking for:__
-> - #### **[Google Analytics](/docs/How-to/Integrations/Google-Analytics/)**
-> - #### **[Analytics Extension](/docs/How-to/Extensions/Analytics)**
+> - #### **[Google Analytics](/docs/how-to/integrations/google-analytics/)**
+> - #### **[Analytics Extension](/docs/how-to/extensions/analytics)**
 >
 > ---

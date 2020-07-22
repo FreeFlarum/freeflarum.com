@@ -29,7 +29,7 @@
 !!! question "After upgrading to new version of Flarum, one or more extensions do not work correctly."
     This issue is a common one. It occurs when Flarum gets a new update, and some changes in the API made the extension to stop working or behaving correctly.
     Again, we are not responsible for extensions. They are community provided ones. If an extension stops working, we have no other choice but remove it from all FreeFlarum forums.
-    You must then report the issue to the extension author. You can see FreeFlarum's extensions listed and documented [here](https://www.freeflarum.com/docs/How-to/Extensions/Analytics/).
+    You must then report the issue to the extension author. You can see FreeFlarum's extensions listed and documented [here](/docs/how-to/extensions/analytics/).
     After the issue has been fixed, you can request the extension to be re-added to FreeFlarum [here](https://github.com/gwillem/freeflarum.com/issues).
     
 !!! question "When I navigate to my forum, I see an error instead."

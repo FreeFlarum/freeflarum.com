@@ -16,7 +16,7 @@
     
     However, those bans can be evaded by a [VPN](https://us.norton.com/internetsecurity-privacy-what-is-a-vpn.html). Also, if you have a dynamic 
     IP address which changes over time, you can theoretically bypass those bans too. However, if you want more control over your community postings, you should
-    always use more moderation extensions, such as [Approval](https://www.freeflarum.com/docs/howto/extensions/Approval/) and more
+    always use more moderation extensions, such as [Approval](/docs/howto/extensions/approval/.) and more
     
 !!! info "Setup"
     First of all, if you want to ban a member, you need to get the actual IP address of them. To get an IP address of an user that submitted a post, click on the date the post was sent (it is right next to their username in the post):
@@ -44,5 +44,5 @@
     Again, we recommend you to use different moderation tools and you should use IP bans only if you really need to, as they are not really reliable.
     
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
-    - #### **[Approval](/docs/How-to/Extensions/Approval/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - #### **[Approval](/docs/how-to/extensions/approval/)**

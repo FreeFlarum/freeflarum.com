@@ -12,5 +12,5 @@
     
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
-    - #### **[Bosnian Extended Pack](/docs/How-to/Extensions/Bosnian-Extended-Pack/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - #### **[Bosnian Extended Pack](/docs/how-to/extensions/bosnian-extended-pack/)**

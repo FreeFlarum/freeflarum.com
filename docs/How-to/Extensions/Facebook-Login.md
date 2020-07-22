@@ -8,8 +8,8 @@
 > ---
 
 !!! quote "About"
-    This extension allows your users to login by using Facebook. Detailed tutorial about the setup can be found [here](https://www.freeflarum.com/docs/howto/social-login/facebook/)
+    This extension allows your users to login by using Facebook. Detailed tutorial about the setup can be found [here](/docs/howto/social-login/facebook/)
     
 !!! note "You might be looking for:"
-    - #### **[Facebook Login](/docs/How-to/Integrations/Facebook-Login/)**
-    - #### **[About Extensions](/docs/How-to/Extensions/About-Extensions/)**
+    - #### **[Facebook Login](/docs/how-to/integrations/facebook-login/)**
+    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

@@ -6,64 +6,64 @@ theme:
    #  custom_dir: theme
 
 # -----------------------------------------------
-# Need to enumerate everything, see this issue:
+# need to enumerate everything, see this issue:
 # https://github.com/mkdocs/mkdocs/issues/714
 # -----------------------------------------------
 nav:
-  - Home: 'https://www.freeflarum.com/docs/'
-  - About: 'About.md'
-  - FAQ: 'FaQ.md'
-  - Roadmap: 'Roadmap.md'
-  - Getting Started:
-    - Basics:
-        - 'How-to/Basics/Create-Account.md'
-        - 'How-to/Basics/Personalization.md'
-        - 'How-to/Basics/Private-Forum.md'
-  - Extensions:
-    - 'How-to/Extensions/About-Extensions.md'
-    - Extension List:
-        - 'How-to/Extensions/Analytics.md'
-        - 'How-to/Extensions/Approval.md'
-        - 'How-to/Extensions/Arabic-Language.md'
-        - 'How-to/Extensions/BBCode.md'
-        - 'How-to/Extensions/Bosanski.md'
-        - 'How-to/Extensions/Bosnian-Extended-Pack.md'
-        - 'How-to/Extensions/Brazilian-Portuguese.md'
-        - 'How-to/Extensions/Canonical-Url.md'
-        - 'How-to/Extensions/Deutsch.md'
-        - 'How-to/Extensions/Discussion-views.md'
-        - 'How-to/Extensions/Dutch.md'
-        - 'How-to/Extensions/Embed.md'
-        - 'How-to/Extensions/Emoji.md'
-        - 'How-to/Extensions/English.md'
-        - 'How-to/Extensions/Facebook-Login.md'
-        - 'How-to/Extensions/Flagrow-Sitemap.md'
-        - 'How-to/Extensions/Flags.md'
-        - 'How-to/Extensions/FoF-BBCode-Details.md'
-        - 'How-to/Extensions/FoF-Ban-IPs.md'
-        - 'How-to/Extensions/FoF-Byobu.md'
-        - 'How-to/Extensions/FoF-Default-Group.md'
-        - 'How-to/Extensions/FoF-Default-User-Preferences.md'
-        - 'How-to/Extensions/FoF-Discord-Login.md'
-  - Third-party Integrations:
-    - Analytics:
-        - 'How-to/Integrations/Google-Analytics.md'
-    - Logins:
-        - 'How-to/Integrations/Google-Login.md'
-        - 'How-to/Integrations/Facebook-Login.md'
-        - 'How-to/Integrations/GitHub-Login.md'
-        - 'How-to/Integrations/Discord-Login.md'
-        - 'How-to/Integrations/Laravel-Passport.md'
-  - Advanced Usage:
-    - 'How-to/Advanced-Setup/Export.md'
-    - 'How-to/Advanced-Setup/Custom-Domain.md'
-    - 'How-to/Advanced-Setup/Configuring-Mail.md'
-  - Legal:
-    - 'Legal/Privacy-Policy.md'
-    - 'Legal/Terms.md'
+  - home: 'https://www.freeflarum.com/docs/'
+  - about: 'about.md'
+  - faq: 'faq.md'
+  - roadmap: 'roadmap.md'
+  - getting started:
+    - basics:
+        - 'how-to/basics/create-account.md'
+        - 'how-to/basics/personalization.md'
+        - 'how-to/basics/private-forum.md'
+  - extensions:
+    - 'how-to/extensions/about-extensions.md'
+    - extension list:
+        - 'how-to/extensions/analytics.md'
+        - 'how-to/extensions/approval.md'
+        - 'how-to/extensions/arabic-language.md'
+        - 'how-to/extensions/bbcode.md'
+        - 'how-to/extensions/bosanski.md'
+        - 'how-to/extensions/bosnian-extended-pack.md'
+        - 'how-to/extensions/brazilian-portuguese.md'
+        - 'how-to/extensions/canonical-url.md'
+        - 'how-to/extensions/deutsch.md'
+        - 'how-to/extensions/discussion-views.md'
+        - 'how-to/extensions/dutch.md'
+        - 'how-to/extensions/embed.md'
+        - 'how-to/extensions/emoji.md'
+        - 'how-to/extensions/english.md'
+        - 'how-to/extensions/facebook-login.md'
+        - 'how-to/extensions/flagrow-sitemap.md'
+        - 'how-to/extensions/flags.md'
+        - 'how-to/extensions/fof-bbcode-details.md'
+        - 'how-to/extensions/fof-ban-ips.md'
+        - 'how-to/extensions/fof-byobu.md'
+        - 'how-to/extensions/fof-default-group.md'
+        - 'how-to/extensions/fof-default-user-preferences.md'
+        - 'how-to/extensions/fof-discord-login.md'
+  - third-party integrations:
+    - analytics:
+        - 'how-to/integrations/google-analytics.md'
+    - logins:
+        - 'how-to/integrations/google-login.md'
+        - 'how-to/integrations/facebook-login.md'
+        - 'how-to/integrations/github-login.md'
+        - 'how-to/integrations/discord-login.md'
+        - 'how-to/integrations/laravel-passport.md'
+  - advanced usage:
+    - 'how-to/advanced-setup/export.md'
+    - 'how-to/advanced-setup/custom-domain.md'
+    - 'how-to/advanced-setup/configuring-mail.md'
+  - legal:
+    - 'legal/privacy-policy.md'
+    - 'legal/terms.md'
 
-markdown_Extensions:
+markdown_extensions:
   - admonition
   
 repo_url: https://github.com/gwillem/freeflarum.com
-# edit_uri is not required for GitHub
+# edit_uri is not required for github
