@@ -1,8 +1,3 @@
-!!! info
-    This page is used to answer the most common questions we receive, so we won't have to answer similar questions all over again in a loop.
-
-You can see the list of questions below:
-
 ## __General Issues__
 
 #### Can you add extension X?
@@ -15,15 +10,16 @@ FreeFlarum is meant for smaller forums and supports up to 250 users. When you ha
 
 #### How do I delete my forum?
 
-To delete your forum, [log in](https://www.freeflarum.com/settings) and click "Destroy Forum".
+To delete your forum, go to your [FreeFlarum settings](/settings) and click "Destroy Forum".
 
 #### Can I pay to remove the "powered by FreeFlarum" footer?
 
 FreeFlarum doesn't have paid accounts and runs entirely on donations. Those are very much welcome, because running this service takes many hours of our unpaid time. And servers aren't free to rent either ;) 
 
-Should you make a voluntary [donation](https://www.freeflarum.com/donate), we say "thank you!", will name our first born after you and will remove the FreeFlarum footer link on your forum. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you? Please send your forum name (the part before .freeflarum.com) in the donation message. 
+Should you make a voluntary [donation](/donate), we say "thank you!", will name our first born after you and will remove the FreeFlarum footer link on your forum. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you? Please send your forum name (the part before .freeflarum.com) in the donation message. 
 
-_Please note that if you donate less than $5, Paypal will take nearly all of it as "transaction fees"._
+!!! note 
+    If you donate less than $5, Paypal will take nearly all of it as "transaction fees".
 
 ---
 
@@ -35,7 +31,7 @@ This happens incidentally when new extensions are added to the FreeFlarum forum.
 
 #### I get an error when signing up or replying to an existing post
 
-This is most likely caused by the wrong mail settings. You should reset these to their defaults, which you [can find here](/docs/howto/configure-mail/). Notably, do not use the mail driver **mail** which will crash your forum, but use **smtp** instead.
+This is most likely caused by the wrong mail settings. You should reset these to their defaults, which you [can find here](/docs/how-to/configuring-mail/). Notably, do not use the mail driver **mail** which will crash your forum, but use **smtp** instead.
 
 #### The post composer seems broken on mobile
 
@@ -52,7 +48,7 @@ Sending mass-mails is currently not supported. Because it is so easy to start a 
 #### My mails won't send. Why?
 
 This is often caused by wrong mail settings.
-Please, review [this guide](https://www.freeflarum.com/docs/howto/configure-mail) if you need help setting up mails.
+Please, review [this guide](/docs/howto/configuring-mail) if you need help setting up mails.
 
 Additionally, you can contact still [contact us](#contact-us).
 
@@ -99,6 +95,6 @@ You have to enable the tag system first. Log in, go to Admin -> Administration -
 
 > ---
 > ### __Contact us:__
-> Ideas are always welcome. If it is not on [the roadmap](https://www.freeflarum.com/docs/roadmap/), post feature and extension requests as a new [Github issue](https://github.com/gwillem/freeflarum.com/issues). Please post questions about FreeFlarum in the main [discussion on flarum.org](https://discuss.flarum.org/d/7585-freeflarum-com-now-open-for-beta-access) and questions about Flarum in general in the Support section.
+> Ideas are always welcome. If it is not on [the roadmap](/docs/roadmap/), post feature and extension requests as a new [Github issue](https://github.com/gwillem/freeflarum.com/issues). Please post questions about FreeFlarum in the main [discussion on flarum.org](https://discuss.flarum.org/d/7585-freeflarum-com-now-open-for-beta-access) and questions about Flarum in general in the Support section.
 >
 > ---
