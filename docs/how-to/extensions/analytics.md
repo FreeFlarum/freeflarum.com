@@ -110,7 +110,7 @@
     ![BOO!](https://cdn.discordapp.com/attachments/585143304467906581/699545465678594158/unknown.png)
     
     Aim for the "Tracking ID". This is all we need. Copy it and go back to your forum. 
-    If you have checked the "Usage" box above, you probably already know what to do - go to your Analytics extension settings, enable "Google Analytics" and paste the Tracking ID into the Tracking code ID box:
+    If you have checked the "Usage" box for Piwik above, you probably already know what to do - go to your Analytics extension settings, enable "Google Analytics" and paste the Tracking ID into the Tracking Code ID box:
     
     ![Paste the ID into the box](https://cdn.discordapp.com/attachments/585143304467906581/699546563214835742/unknown.png)
     
@@ -128,8 +128,7 @@ And that's everything you need to know about the Analytics extension. One small 
 
 ![Here we go!](https://cdn.discordapp.com/attachments/585143304467906581/699548329813475358/unknown.png)
 
-If you open up the section, you should see a lot of data of your visitors. You can now see everything, muohahah!
-Sorry, perhaps I've got taken away by the feeling of seeing everything that happens on my forum. 
+If you open up the section, you should see a lot of data of your visitors. You can now see everything!
 
 !!! note "You might be looking for:"
     - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
