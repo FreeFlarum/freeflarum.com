@@ -62,6 +62,9 @@ nav:
     - 'Privacy Policy': 'legal/privacy-policy.md'
     - 'Terms': 'legal/terms.md'
 
+extra_css:
+  - 'style-tweaks/font-size.css'
+
 markdown_extensions:
   - admonition
   
