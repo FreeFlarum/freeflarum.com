@@ -10,18 +10,18 @@ theme:
 # https://github.com/mkdocs/mkdocs/issues/714
 # -----------------------------------------------
 nav:
-  - home: 'https://www.freeflarum.com/docs/'
-  - about: 'about.md'
-  - faq: 'faq.md'
-  - roadmap: 'roadmap.md'
-  - getting started:
-    - basics:
+  - Home: 'https://www.freeflarum.com/docs/'
+  - About: 'about.md'
+  - FaQ: 'faq.md'
+  - Roadmap: 'roadmap.md'
+  - Getting Started:
+    - Basics:
         - 'how-to/basics/create-account.md'
         - 'how-to/basics/personalization.md'
         - 'how-to/basics/private-forum.md'
-  - extensions:
+  - Extensions:
     - 'how-to/extensions/about-extensions.md'
-    - extension list:
+    - Extension List:
         - 'how-to/extensions/analytics.md'
         - 'how-to/extensions/approval.md'
         - 'how-to/extensions/arabic-language.md'
@@ -45,20 +45,20 @@ nav:
         - 'how-to/extensions/fof-default-group.md'
         - 'how-to/extensions/fof-default-user-preferences.md'
         - 'how-to/extensions/fof-discord-login.md'
-  - third-party integrations:
+  - Third-party Integrations:
     - analytics:
         - 'how-to/integrations/google-analytics.md'
-    - logins:
+    - Logins:
         - 'how-to/integrations/google-login.md'
         - 'how-to/integrations/facebook-login.md'
         - 'how-to/integrations/github-login.md'
         - 'how-to/integrations/discord-login.md'
         - 'how-to/integrations/laravel-passport.md'
-  - advanced usage:
+  - Advanced Usage:
     - 'how-to/advanced-setup/export.md'
     - 'how-to/advanced-setup/custom-domain.md'
     - 'how-to/advanced-setup/configuring-mail.md'
-  - legal:
+  - Legal:
     - 'legal/privacy-policy.md'
     - 'legal/terms.md'
 
