@@ -63,7 +63,7 @@ nav:
     - 'Terms': 'legal/terms.md'
 
 extra_css:
-  - 'style-tweaks/font-size.css'
+  - 'docs/style-tweaks/font-size.css'
 
 markdown_extensions:
   - admonition
