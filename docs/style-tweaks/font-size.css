@@ -1,1 +1,5 @@
-.md-content__inner { font-size: 13px !important; };
+/* Adjust the size of normal text in the docs: */
+.md-content__inner { font-size: .64rem !important; };
+
+/* Make admonition title (fancy box header) a little bit bigger to fit other titles: */
+.admonition-title { font-size: .8rem !important; };
