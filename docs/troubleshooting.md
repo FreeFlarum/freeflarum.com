@@ -20,7 +20,7 @@
     
     This issue is also a common browser cache problem, where your browser caches the translation strings, therefore it shows old bugged ones.
     
-    This issue was also reported [here](https://github.com/gwillem/freeflarum.com/issues/99).
+    This issue was also reported [here](https://github.com/gwillem/freeflarum.com/issues/99), [here](https://github.com/gwillem/freeflarum.com/issues/109) and also [here](https://github.com/gwillem/freeflarum.com/issues/112).
     
 !!! question "When I try to create a new discussion or post, an error shows up and the discussion is sent. Or it is sent after I reload the page, but the error still appears."
     This issue appeared when the Tags extension was disabled (as can be seen [here](https://github.com/gwillem/freeflarum.com/issues/102). However, some other factors might cause this issue.
