@@ -50,7 +50,7 @@ nav:
     - Analytics:
         - 'Google Analytics': 'how-to/integrations/google-analytics.md'
     - Logins:
-      - 'Logins': 'how-to/integrations/logins.md'
+      - 'Login Methods': 'how-to/integrations/logins.md'
         - 'Log In with Google': 'how-to/integrations/google-login.md'
         - 'Log In with Facebook': 'how-to/integrations/facebook-login.md'
         - 'Log In with GitHub': 'how-to/integrations/github-login.md'
