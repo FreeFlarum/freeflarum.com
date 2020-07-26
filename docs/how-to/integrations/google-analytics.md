@@ -13,7 +13,7 @@ The **verification code** from Google Search Console (formerly Google Webmaster 
 And the **tracking code** for Google Analytics goes into the **footer**.
 
 **Both codes have to be HTML**, so they will look something like this:
-`<meta name="google-site-verification" content="bunch of random letters and numbers"/>`
+`<meta name="google-site-verification" content="bunch of random letters and numbers"/>` (this code goes into the header).
 
 **Be sure to copy the whole code**, else it might not work. The code above goes into the header. And code that looks something like this...:
 
@@ -23,7 +23,7 @@ And the **tracking code** for Google Analytics goes into the **footer**.
 <script>
      window.dataLayer = ...
 ...and so on
-```
+``` (this code goes into the footer).
 
 **...goes into the footer.**
 
