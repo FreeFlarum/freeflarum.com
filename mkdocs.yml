@@ -13,6 +13,7 @@ nav:
   - Home: 'https://www.freeflarum.com/docs/'
   - About: 'about.md'
   - FaQ: 'faq.md'
+  - Troubleshooting: 'troubleshooting.md'
   - Roadmap: 'roadmap.md'
   - Getting Started:
     - Basics:
