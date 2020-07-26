@@ -7,15 +7,15 @@ assignees: ''
 
 ---
 
-<!-- Text in these blocks, or in [//]: # "these" will NOT be
+<!-- Text in these blocks, or in [//]: # <text> will NOT be
 visible in the issue. They are just comments to guide you through
 the issue creation process. Please, do not type anything in them.
 You can also remove them, if you want. -->
 
 <!--
-> **Please request only 1 extension per issue!**
+Please request only 1 extension per issue!**
 
-> **Bazaar or Upload extensions are not compatible with FreeFlarum. See [#18](https://github.com/gwillem/freeflarum.com/issues/18)**
+Bazaar or Upload extensions are not compatible with FreeFlarum. See #18 (https://github.com/gwillem/freeflarum.com/issues/18)
 -->
 
 __Packagist URL for extension:__
@@ -34,4 +34,15 @@ __Proof that extension works on the latest Flarum version (eg.: statement by aut
 Most extensions have their official discussion at https://discuss.flarum.org. 
 If they are labeled as "incompatible" there, it means that they are incompatible
 with Flarum, and therefore they will not work at FreeFlarum either. Sorry.
+
+You can quickly navigate to the discussion page by doing a quick search with keywords 
+such as "<extension name> Flarum" and you should get link to the Discuss. 
+Most extension authors also leave a link to the discussion at Discuss in the README.md 
+file in their GitHub repository.
+
+If you cannot find any discussion related to the extension at Discuss, there is also a
+possibility that it simply doesn't exist (yes, that is possible too).
+
+Also please note that extensions that are not labeled as incompatible at Discuss could
+still not be compatible with Flarum (Bazaar for example, see the top note, pinned issues or simply #18)
 -->
