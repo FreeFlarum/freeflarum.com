@@ -17,7 +17,7 @@ The bits in red are your secret key, keep them private. The top 3 fields need to
 
 ### Django
 
-On the Django side you need to add an OAuth provider. Thankfully someone else has done all the work of creating one, which is available here https://django-oauth-toolkit.readthedocs.io/en/latest/tutorial/tutorial_01.html#create-an-oauth2-client-application  ...you can follow this installation guide as-is.
+On the Django side you need to add an OAuth provider. Thankfully someone else has done all the work of creating one, which is available [here](https://django-oauth-toolkit.readthedocs.io/en/latest/tutorial/tutorial_01.html#create-an-oauth2-client-application) ...you can follow this installation guide as-is.
 
 In my case I changed the OAuth URL definition to
 
