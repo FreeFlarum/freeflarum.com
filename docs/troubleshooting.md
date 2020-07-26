@@ -13,7 +13,7 @@
     We, sadly, can't fix any issues with extensions - issues like this have to be reported to the extension author for assistance to fix 
     your problem.
     
-!!! question "The language extension(s) are broken. Instead of the actual translation, string IDs appear (for example, instead of the log in button, we can see something like 'flarum.login.example' in the place of the "Log In" text.)
+!!! question "The language extension(s) are broken. Instead of the actual translation, string IDs appear (for example, instead of the log in button, we can see something like 'flarum.login.example' in the place of the "Log In" text.)"
     Issues like this mostly happen when you have disabled the English language pack, which is required for untranslated strings to fallback to the English ones (found in the English pack). When the English extension is disabled,
     then when some translation extension has no translation for specific text (string), it cannot fallback to the English one, since English ones are disabled.
     This issue doesn't happen often and shouldn't even happen in most cases, however it is recommended to always have the English language enabled, so in case of translation mistake, you can see the original text in English.
