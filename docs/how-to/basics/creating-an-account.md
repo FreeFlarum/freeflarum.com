@@ -35,9 +35,9 @@ It is very easy. Let's see how it can be done:
 
     Learn how to configure some of them:
 
-    - [Google Login](/docs/how-to/integrations/social-logins/google-login/)
-    - [Facebook Login](/docs/how-to/integrations/social-logins/facebook-login/)
-    - [GitHub Login](/docs/how-to/integrations/social-logins/github-login/)
+    - [Google Login](/docs/how-to/integrations/google-login/)
+    - [Facebook Login](/docs/how-to/integrations/facebook-login/)
+    - [GitHub Login](/docs/how-to/integrations/github-login/)
     - [Passport Login](/docs/how-to/integrations/laravel-passport)
 
 !!! info "Final steps:"
@@ -51,7 +51,7 @@ It is very easy. Let's see how it can be done:
 If anything went wrong, [open up a new GitHub issue](https://github.com/gwillem/freeflarum.com/issues/new) so we can look into it.
 
 !!! note "You might be looking for:"
-    - #### **[Google Login](/docs/how-to/integrations/social-logins/google-login/)**
-    - #### **[Facebook Login](/docs/how-to/integrations/social-logins/facebook-login/)**
-    - #### **[GitHub Login](/docs/how-to/integrations/social-logins/github-login/)**
+    - #### **[Google Login](/docs/how-to/integrations/google-login/)**
+    - #### **[Facebook Login](/docs/how-to/integrations/facebook-login/)**
+    - #### **[GitHub Login](/docs/how-to/integrations/github-login/)**
     - #### **[Passport Login](/docs/how-to/integrations/laravel-passport)**
