@@ -48,7 +48,7 @@ Sending mass-mails is currently not supported. Because it is so easy to start a 
 #### My mails won't send. Why?
 
 This is often caused by wrong mail settings.
-Please, review [this guide](/docs/howto/configuring-mail) if you need help setting up mails.
+Please, review [this guide](/docs/how-to/advanced-setup/configuring-mail/) if you need help setting up mails.
 
 Additionally, you can contact still [contact us](#contact-us).
 
