@@ -7,6 +7,8 @@
 >
 > ---
 
+# Analytics Extension
+
 !!! quote "About"
     The analytics extension allows you to integrate Google & Piwik's analytics system into your FreeFlarum forum.
     It is an easy-to-use solution for tracking user visits & page views on your forum. In this tutorial, I'll guide you through the
