@@ -1,3 +1,5 @@
+# Analytics
+
 > ---
 > - **Name**: Analytics (`flagrow/flarum-ext-analytics`)
 > - **Author**: FriendsOfFlarum/Flagrow
@@ -6,8 +8,6 @@
 > - **Approximate time to setup:** 7 - 20 minutes
 >
 > ---
-
-# Analytics Extension
 
 !!! quote "About"
     The analytics extension allows you to integrate Google & Piwik's analytics system into your FreeFlarum forum.
