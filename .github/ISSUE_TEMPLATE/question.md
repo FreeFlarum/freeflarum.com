@@ -17,7 +17,9 @@ __Your question:__
 [//]: # "Please, tell us your question."
 
 <!--
-You can ask us anything you want to know about
-Flarum or FreeFlarum. However, remember to always
-stay polite, respectful and patient. Thank you!
+You can ask us anything you want to know about FreeFlarum. 
+However, remember to always stay polite, respectful and patient.
+ 
+Questions about the Flarum software should be directed to 
+https://discuss.flarum.org instead. Thank you!
 -->
