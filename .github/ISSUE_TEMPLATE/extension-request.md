@@ -7,22 +7,23 @@ assignees: ''
 
 ---
 
-<!-- Text in these blocks, or in [//]: # <text> will NOT be
+<!-- 
+WARNING: 
+
+Text in these blocks, or in [//]: # <text> will NOT be
 visible in the issue. They are just comments to guide you through
 the issue creation process. Please, do not type anything in them.
 You can also remove them, if you want. -->
 
-<!--
-Please request only 1 extension per issue!**
-
+<!-- Please request only 1 extension per issue!
 Bazaar or Upload extensions are not compatible with FreeFlarum. See #18 (https://github.com/gwillem/freeflarum.com/issues/18)
 -->
 
 __Packagist URL for extension:__
 
-[//]: # "https://packagist.com/..."
+[//]: # "https://packagist.com/... (this line is a comment, it won't be visible. Paste the URL under this, or remove this line)"
 
-__Why we should install this extension?__
+__Why should we install this extension?__
 
 [//]: # "In short, tell us why we should install this extension and how it would be beneficial towards the community."
 
@@ -34,6 +35,8 @@ __Proof that extension works on the latest Flarum version (eg.: statement by aut
 Most extensions have their official discussion at https://discuss.flarum.org. 
 If they are labeled as "incompatible" there, it means that they are incompatible
 with Flarum, and therefore they will not work at FreeFlarum either. Sorry.
+
+You can also check for version requirements at the extension's Packagist page.
 
 You can quickly navigate to the discussion page by doing a quick search with keywords 
 such as "<extension name> Flarum" and you should get link to the Discuss. 
