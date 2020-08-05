@@ -1,10 +1,7 @@
 # Requests users to follow the templates:
 blank_issues_enabled: false
 contact_links:
-#...or links in general. Makes sure people stay around FreeFlarum and that they do not share sensitive information.
+#...or links in general. Makes sure people stay to the topic on FreeFlarum.
   - name: Flarum Discuss
     url: https://discuss.flarum.org
     about: Please, ask questions about Flarum there. This repository is intended for FreeFlarum related issues only.
-  - name: E-Mail
-    url: mailto:info@freeflarum.com
-    about: If you are having issues and you believe that the information needed in order to fix the issue is sensitive, send us a mail there.
