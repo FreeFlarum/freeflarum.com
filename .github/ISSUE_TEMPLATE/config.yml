@@ -6,5 +6,5 @@ contact_links:
     url: https://discuss.flarum.org
     about: Please, ask questions about Flarum there. This repository is intended for FreeFlarum related issues only.
   - name: E-Mail
-    url: info@freeflarum.com
+    url: mailto:info@freeflarum.com
     about: If you are having issues and you believe that the information needed in order to fix the issue is sensitive, send us a mail there.
