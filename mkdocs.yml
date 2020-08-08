@@ -46,7 +46,7 @@ nav:
         - 'FoF Default User Preferences': 'how-to/extensions/fof-default-user-preferences.md'
         - 'FoF Discord Login': 'how-to/extensions/fof-discord-login.md'
         - 'FoF Drafts': 'how-to/extensions/fof-drafts.md'
-        - 'FoF Sitemap': 'how-to/extensions/flagrow-sitemap.md'
+        - 'FoF Sitemap': 'how-to/extensions/fof-sitemap.md'
   - Third-party Integrations:
     - Analytics:
         - 'Google Analytics': 'how-to/integrations/google-analytics.md'
