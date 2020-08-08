@@ -12,8 +12,8 @@
     Private discussions are essential for almost every forum nowadays, and we highly recommend you to setup this extension so your members can have a way to privately communicate between each other.
     
 !!! tip "Settings"
-    - Display a link to Private Discussions on the index page: When this option is enabled, a link from the forum main nav items to Private Discussions will be displayed. Enabled by default.
-    - Specify the tag that all private discussions must use: This forces all private discussions to use a specific tag. Select "- No restriction -" to allow users to select their own tag. This applies to newly created private discussions only. Not restricted by default.
+    - **Display a link to Private Discussions on the index page:** When this option is enabled, a link from the forum main nav items to Private Discussions will be displayed. Enabled by default.
+    - **Specify the tag that all private discussions must use:** This forces all private discussions to use a specific tag. Select "- No restriction -" to allow users to select their own tag. This applies to newly created private discussions only. Not restricted by default.
     
 !!! info "Usage"
     Once you have enabled the extension from your admin panel, next thing is to setup the permissions for your members so they can actually use
