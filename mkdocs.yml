@@ -23,7 +23,6 @@ nav:
   - Extensions:
     - 'What are Extensions?': 'how-to/extensions/about-extensions.md'
     - Extension List:
-        - 'Analytics': 'how-to/extensions/analytics.md'
         - 'Approval': 'how-to/extensions/approval.md'
         - 'Arabic Language': 'how-to/extensions/arabic-language.md'
         - 'BBCode': 'how-to/extensions/bbcode.md'
@@ -38,14 +37,16 @@ nav:
         - 'Emoji': 'how-to/extensions/emoji.md'
         - 'English': 'how-to/extensions/english.md'
         - 'Facebook Login': 'how-to/extensions/facebook-login.md'
-        - 'Sitemap': 'how-to/extensions/flagrow-sitemap.md'
         - 'Flags': 'how-to/extensions/flags.md'
-        - 'BBCode Details': 'how-to/extensions/fof-bbcode-details.md'
-        - 'Ban IPs': 'how-to/extensions/fof-ban-ips.md'
-        - 'Private Discussions (Byōbu)': 'how-to/extensions/fof-byobu.md'
-        - 'Default Group': 'how-to/extensions/fof-default-group.md'
-        - 'Default User Preferences': 'how-to/extensions/fof-default-user-preferences.md'
-        - 'Discord Login': 'how-to/extensions/fof-discord-login.md'
+        - 'FoF Analytics': 'how-to/extensions/fof-analytics.md'
+        - 'FoF BBCode Details': 'how-to/extensions/fof-bbcode-details.md'
+        - 'FoF Ban IPs': 'how-to/extensions/fof-ban-ips.md'
+        - 'FoF Private Discussions (Byōbu)': 'how-to/extensions/fof-byobu.md'
+        - 'FoF Default Group': 'how-to/extensions/fof-default-group.md'
+        - 'FoF Default User Preferences': 'how-to/extensions/fof-default-user-preferences.md'
+        - 'FoF Discord Login': 'how-to/extensions/fof-discord-login.md'
+        - 'FoF Drafts': 'how-to/extensions/fof-drafts.md'
+        - 'FoF Sitemap': 'how-to/extensions/flagrow-sitemap.md'
   - Third-party Integrations:
     - Analytics:
         - 'Google Analytics': 'how-to/integrations/google-analytics.md'
