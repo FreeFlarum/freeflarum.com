@@ -1,5 +1,5 @@
 > ---
-> - **Name**: Extension name
+> - **Name**: Extension name (`id`)
 > - **Author**: Author
 > - **Flarum discussion** Link to discussion
 > - **Compatible with FreeFlarum**: Yes/No/Not fully (not all of FreeFlarum's extensions are currently translated)

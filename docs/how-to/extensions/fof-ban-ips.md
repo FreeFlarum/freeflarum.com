@@ -1,5 +1,5 @@
 > ---
-> - **Name**: FoF Ban IPs
+> - **Name**: FoF Ban IPs (`fof/ban-ips`)
 > - **Author**: FriendsOfFlarum
 > - **Flarum discussion** N/A
 > - **Compatible with FreeFlarum**: Yes.
