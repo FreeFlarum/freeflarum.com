@@ -1,5 +1,5 @@
 > ---
-> - **Name**: FoF BBCode Details
+> - **Name**: FoF BBCode Details (`fof/bbcode-details`)
 > - **Author**: FriendsOfFlarum
 > - **Flarum discussion** [https://discuss.flarum.org/d/18796-friendsofflarum-bbcode-details](https://discuss.flarum.org/d/18796-friendsofflarum-bbcode-details)
 > - **Compatible with FreeFlarum**: Yes.

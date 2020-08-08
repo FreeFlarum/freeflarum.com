@@ -8,7 +8,7 @@
 > ---
 
 !!! quote "About"
-    Allows posts to be formatted with [BBCode](https://en.wikipedia.org/wiki/BBCode). Doesn't require any extra setup.
+    Allows posts to be formatted with [BBCode](https://en.wikipedia.org/wiki/BBCode). Doesn't contain any extra settings and is enabled by default. We highly recommend to keep this extension enabled, as many extensions rely on this one.
     
 !!! note "BBCode usage:"
       - **Bold text** | `[b]Bold text[/b]`
@@ -53,3 +53,4 @@
 
 !!! note "You might be looking for:"
     - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - #### **[More about BBCode](https://en.wikipedia.org/wiki/BBCode)**

@@ -1,5 +1,5 @@
 > ---
-> - **Name**: Flagrow Sitemap (`flagrow/sitemap`)
+> - **Name**: FoF Sitemap (`fof/sitemap`)
 > - **Author**: FriendsOfFlarum
 > - **Flarum discussion** [https://discuss.flarum.org/d/14941-fof-sitemap](https://discuss.flarum.org/d/14941-fof-sitemap)
 > - **Compatible with FreeFlarum**: Yes

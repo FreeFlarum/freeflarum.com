@@ -41,6 +41,10 @@
     Mainly for embedding Flarum discussions. There are many uses for that, you could for example integrate it with your blog and use a discussion as blog comments, or just to show articles from your forum on your website. 
     
     I'm sure that if you get creative, you will find better uses ;)
+    
+!!! question "Can I adjust the size, position and style of the iFrame?"
+    Well yes you can! Please, read [this article](https://www.w3schools.com/tags/tag_iframe.asp) to find out more about iFrames.
 
 !!! note "You might be looking for:"
     - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - #### **[More about iFrames](https://www.w3schools.com/tags/tag_iframe.asp)**

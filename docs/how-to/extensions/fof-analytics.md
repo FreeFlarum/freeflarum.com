@@ -1,8 +1,8 @@
 # Analytics
 
 > ---
-> - **Name**: Analytics (`flagrow/flarum-ext-analytics`)
-> - **Author**: FriendsOfFlarum/Flagrow
+> - **Name**: FoF Analytics (`fof/analytics`)
+> - **Author**: FriendsOfFlarum/
 > - **Flarum discussion**: [https://discuss.flarum.org/d/1983-flagrow-analytics-extension-tracking-user-visits](https://discuss.flarum.org/d/1983-flagrow-analytics-extension-tracking-user-visits)
 > - **Compatible with FreeFlarum**: Yes.
 > - **Approximate time to setup:** 7 - 20 minutes
@@ -131,6 +131,9 @@ And that's everything you need to know about the Analytics extension. One small 
 ![Here we go!](https://cdn.discordapp.com/attachments/585143304467906581/699548329813475358/unknown.png)
 
 If you open up the section, you should see a lot of data of your visitors. You can now see everything!
+
+!!! note "Additional settings"
+    Both methods contain additional settings such as "Optimize Tracking Code" for Google Analytics. These are optional and you should Google to see what each of these settings do.
 
 !!! note "You might be looking for:"
     - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

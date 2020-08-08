@@ -8,7 +8,7 @@
 > ---
 
 !!! quote "About"
-    This extensions provides extended Bosnian language for Flarum's third party extensions. Use along [Bosanski Pack](/docs/howto/extensions/bosanski/).
+    This extensions provides extended Bosnian language for Flarum's third party extensions. Use along with [Bosanski Pack](/docs/howto/extensions/bosanski/).
     
 !!! note "You might be looking for:"
     - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

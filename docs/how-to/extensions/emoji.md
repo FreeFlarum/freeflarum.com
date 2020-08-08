@@ -22,7 +22,7 @@
     You can then search for emojis there too! Or you can just directly paste an Unicode emoji - it will be converted into Twemoji automatically.
     
 !!! question "Can I add my own emojis?"
-    Unfortunately, that is currently not possible ._.
+    Unfortunately, that is currently not possible. You could try to make a workaround that with CSS and carefully set up selectors that replace certain markdown specific tags with custom emoji, however this is for advanced users only.
     
 !!! note "You might be looking for:"
     - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**

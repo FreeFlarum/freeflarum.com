@@ -19,7 +19,7 @@
     
 !!! question "What is 'config.php'?"
     This is the file that you can't access, since it is located in the root of FF's Flarum installation, and therefore it cannot be modified by you.
-    The best idea is just to not worry about this one, since default setting suits all of FF's forums.
+    The best idea is just to not worry about this one, since default settings suits all of FreeFlarum's forums.
     
 !!! question "Okay, but what is even this 'Canonical Url'?"
     [This article](https://yoast.com/what-is-a-canonical-url/) explains the use of Canocial Url the best. In short, it mostly prevents duplicate URLs, which may occur when there are dozens of forums out there.
