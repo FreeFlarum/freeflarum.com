@@ -17,4 +17,4 @@
     Just enable the extension from your admin panel. There are no options and it works automatically once it's enabled.
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**

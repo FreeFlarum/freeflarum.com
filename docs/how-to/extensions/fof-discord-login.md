@@ -14,8 +14,8 @@
     Please, [follow this tutorial](/docs/how-to/integrations/discord-login/).
     
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
-    - #### **[Google Login](docs/How-to/Integrations/Google-Login/)**
-    - #### **[GitHub Login](/docs/how-to/integrations/github-login/)**
-    - #### **[Facebook Login](/docs/how-to/integrations/facebook-login/)**
-    - #### **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[Google Login](docs/How-to/Integrations/Google-Login/)**
+    - **[GitHub Login](/docs/how-to/integrations/github-login/)**
+    - **[Facebook Login](/docs/how-to/integrations/facebook-login/)**
+    - **[Passport Login](/docs/how-to/integrations/laravel-passport/)**

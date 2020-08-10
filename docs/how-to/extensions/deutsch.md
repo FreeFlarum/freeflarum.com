@@ -11,4 +11,4 @@
     This extension provides full translations for Flarum & it's bundled extensions.
     
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**

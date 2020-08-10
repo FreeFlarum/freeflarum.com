@@ -44,5 +44,5 @@
     Again, we recommend you to use different moderation tools and you should use IP bans only if you really need to, as they are not really reliable.
     
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
-    - #### **[Approval](/docs/how-to/extensions/approval/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[Approval](/docs/how-to/extensions/approval/)**

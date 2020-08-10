@@ -25,4 +25,4 @@
     Unfortunately, that is currently not possible. You could try to make a workaround that with CSS and carefully set up selectors that replace certain markdown specific tags with custom emoji, however this is for advanced users only.
     
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**

@@ -18,4 +18,4 @@
     on the top right corner next to your profile button (English -> Click -> Desired language).
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**

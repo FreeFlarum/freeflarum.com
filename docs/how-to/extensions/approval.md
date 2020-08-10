@@ -24,4 +24,4 @@
 And that's it. This extension is a great choice to keep track of every discussion made to stop unwanted content from being visible to others that don't have a permission.
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**

@@ -46,5 +46,5 @@
     Well yes you can! Please, read [this article](https://www.w3schools.com/tags/tag_iframe.asp) to find out more about iFrames.
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
-    - #### **[More about iFrames](https://www.w3schools.com/tags/tag_iframe.asp)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[More about iFrames](https://www.w3schools.com/tags/tag_iframe.asp)**

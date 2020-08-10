@@ -41,9 +41,9 @@ Many gamers own [Discord](https://discord.com), and not only them. If you want y
     
 > ---
 > #### __You might be looking for:__
-> - #### **[Google Login](docs/How-to/Integrations/Google-Login/)**
-> - #### **[GitHub Login](/docs/how-to/integrations/github-login/)**
-> - #### **[Facebook Login](/docs/how-to/integrations/facebook-login/)**
-> - #### **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
+> - **[Google Login](docs/How-to/Integrations/Google-Login/)**
+> - **[GitHub Login](/docs/how-to/integrations/github-login/)**
+> - **[Facebook Login](/docs/how-to/integrations/facebook-login/)**
+> - **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
 >
 > ---

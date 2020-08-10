@@ -11,5 +11,5 @@
     This extensions provides extended Bosnian language for Flarum's third party extensions. Use along with [Bosanski Pack](/docs/howto/extensions/bosanski/).
     
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
-    - #### **[Bosanski Pack](/docs/how-to/extensions/bosanski/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[Bosanski Pack](/docs/how-to/extensions/bosanski/)**

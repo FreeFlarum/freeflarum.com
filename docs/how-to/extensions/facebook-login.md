@@ -11,5 +11,5 @@
     This extension allows your users to login by using Facebook. Detailed tutorial about the setup can be found [here](/docs/howto/social-login/facebook/)
     
 !!! note "You might be looking for:"
-    - #### **[Facebook Login](/docs/how-to/integrations/facebook-login/)**
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[Facebook Login](/docs/how-to/integrations/facebook-login/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**

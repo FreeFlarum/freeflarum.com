@@ -30,5 +30,5 @@ This extension should only provide you and your users a small insight of what's 
 ###### (Screenshot from [https://discuss.flarum.org/d/7339-discussion-views](https://discuss.flarum.org/d/7339-discussion-views))
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
-    - #### **[Analytics](/docs/how-to/extensions/analytics/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[Analytics](/docs/how-to/extensions/analytics/)**
