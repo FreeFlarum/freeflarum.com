@@ -16,8 +16,9 @@
 	- **Autoimage:** Converts image URLs into an acutal images automatically.
 	- **Autovideo:** Converts video URLs into playable videos automatically.
 	- **FancyPants:** Uses "fancy" typography.
-	- - So, for example `Fancy "quotes", symbols (c)(tm), dashes -- and elipsis...` -> `Fancy “quotes”, symbols ©™, dashes – and elipsis…`
-	- **HTMLExtities:** Uses HTML entities. Example: `I &hearts; HTML.` -> `I ♥ HTML.`
+	- * So, for example `Fancy "quotes", symbols (c)(tm), dashes -- and elipsis...` -> `Fancy “quotes”, symbols ©™, dashes – and elipsis…`
+	- **HTMLExtities:** Uses HTML entities. 
+	- * Example: `I &hearts; HTML.` -> `I ♥ HTML.`
 	- **MediaEmbed:** Automatically embeds content from allowed sites. Example: YouTube URL into actual YouTube video.
 	- **PipeTables:** ASCII-style tables ([learn more](https://s9etextformatter.readthedocs.io/Plugins/PipeTables/Synopsis/)).
 	- **TaskLists:** GitHub/GitLab-like flavored [task lists](https://s9etextformatter.readthedocs.io/Plugins/TaskLists/Synopsis/).
