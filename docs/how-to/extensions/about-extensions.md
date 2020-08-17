@@ -68,5 +68,5 @@ You can access an extension's settings by hovering on them in the extension list
     You cannot uninstall extensions from your forum, you can only enable/disable them. Extension's settings are persistent - this means that when you disable an extension, it will keep its settings again when you re-enable it.
 
 !!! note "You might be looking for:"
-    - #### **[Requesting an extension](/docs/faq/#can-you-add-extension-x)**
-    - #### **[Extension List](/extensions)**
+    - **[Requesting an extension](/docs/faq/#can-you-add-extension-x)**
+    - **[Extension List](/extensions)**

@@ -1,10 +1,12 @@
-FreeFlarum comes with a few extensions to integrate your forum with social logins.
+**FreeFlarum comes with a few extensions to integrate your forum with social logins:**
 
 - [Google Login](/docs/how-to/integrations/google-login/)
 
 - [Facebook Login](/docs/how-to/integrations/facebook-login/)
 
 - [GitHub Login](/docs/how-to/integrations/github-login/)
+
+- [Discord Login](/docs/how-to/integrations/discord-login/)
 
 - [Laravel Passport](/docs/how-to/integrations/laravel-passport/)
 

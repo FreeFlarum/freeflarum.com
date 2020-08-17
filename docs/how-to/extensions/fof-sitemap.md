@@ -25,6 +25,6 @@
     You can submit it to Google, so Googlebot can fetch data from your site better and more efficiently. You can [learn more here](https://support.google.com/webmasters/answer/183668).
     
 !!! note "You might be looking for:"
-    - #### **[What is a sitemap?](https://www.ccmarketingonline.com/what-is-a-sitemap/)**
-    - #### **[How do I submit a sitemap to Google?](https://support.google.com/webmasters/answer/183668)**
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[What is a sitemap?](https://www.ccmarketingonline.com/what-is-a-sitemap/)**
+    - **[How do I submit a sitemap to Google?](https://support.google.com/webmasters/answer/183668)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**

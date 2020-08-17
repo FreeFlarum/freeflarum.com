@@ -67,9 +67,9 @@ Your Facebook login should work now! If not, please contact us at our [official 
 
 > ---
 > #### __You might be looking for:__
-> - #### **[Google Login](docs/How-to/Integrations/Google-Login/)**
-> - #### **[GitHub Login](/docs/how-to/integrations/github-login/)**
-> - #### **[Discord Login](/docs/how-to/integrations/discord-login/)**
-> - #### **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
+> - **[Google Login](docs/How-to/Integrations/Google-Login/)**
+> - **[GitHub Login](/docs/how-to/integrations/github-login/)**
+> - **[Discord Login](/docs/how-to/integrations/discord-login/)**
+> - **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
 >
 > ---

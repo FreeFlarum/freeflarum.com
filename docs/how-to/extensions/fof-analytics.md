@@ -136,5 +136,5 @@ If you open up the section, you should see a lot of data of your visitors. You c
     Both methods contain additional settings such as "Optimize Tracking Code" for Google Analytics. These are optional and you should Google to see what each of these settings do.
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
-    - #### **[Google Analytics (the "old" way, or if the above doesn't fit your needs)](/docs/how-to/integrations/google-analytics/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[Google Analytics (the "old" way, or if the above doesn't fit your needs)](/docs/how-to/integrations/google-analytics/)**

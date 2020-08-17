@@ -41,10 +41,10 @@ If an error appeared after logining in using GitHub, please [open up a new issue
 
 > ---
 > #### __You might be looking for:__
-> - #### **[Google Login](docs/How-to/Integrations/Google-Login/)**
-> - #### **[Facebook Login](docs/How-to/Integrations/Facebook-Login/)**
-> - #### **[Discord Login](/docs/how-to/integrations/discord-login/)**
-> - #### **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
+> - **[Google Login](docs/How-to/Integrations/Google-Login/)**
+> - **[Facebook Login](docs/How-to/Integrations/Facebook-Login/)**
+> - **[Discord Login](/docs/how-to/integrations/discord-login/)**
+> - **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
 >
 > ---
 

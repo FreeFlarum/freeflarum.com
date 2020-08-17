@@ -47,4 +47,4 @@
 And that's about it for the drafts. This extension should be in use at your forum in case you want a scheduled and organized draft system. Happy discussing!
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**

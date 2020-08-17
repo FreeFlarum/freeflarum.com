@@ -11,4 +11,4 @@
     Translates Flarum & it's bundled extensions to Brazilian Portuguese.
 
 !!! note "You might be looking for:"
-    - #### **[About Extensions](/docs/how-to/extensions/about-extensions/)**
+    - **[About Extensions](/docs/how-to/extensions/about-extensions/)**
