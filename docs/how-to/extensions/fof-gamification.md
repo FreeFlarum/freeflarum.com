@@ -10,7 +10,7 @@
 !!! quote "About"
     This extension adds upvotes, downvotes & ranks based on karma count for your forum. It is meant as a replacement for the "Likes" extension, so we recommend to disable that extension.
     
-!!! question "How is hotness calcullated?"
+!!! question "How is hotness calculated?"
     This extension allows your users to sort discussion by the "Hot" factor.
     The total amount of hotness is got between the amount of votes on the discussion and the posts inside of it. 
     Also, newer posts with the same amount of upvotes as another post will have more hotness, so time is also an influent factor.
