@@ -48,6 +48,7 @@ nav:
         - 'FoF Formatting': 'how-to/extensions/fof-formatting.md'
         - 'FoF Forum Statistics Widget': 'how-to/extensions/fof-forum-statistics-widget.md'
         - 'FoF Gamification': 'how-to/extensions/fof-gamification.md'
+        - 'FoF Linguist': 'how-to/extensions/fof-linguist.md'
         - 'FoF Sitemap': 'how-to/extensions/fof-sitemap.md'
   - Third-party Integrations:
     - Analytics:
