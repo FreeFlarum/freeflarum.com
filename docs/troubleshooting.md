@@ -13,7 +13,18 @@
     We, sadly, can't fix any issues with extensions - issues like this have to be reported to the extension author for assistance to fix 
     your problem.
     
-!!! question "The language extension(s) are broken. Instead of the actual translation, string IDs appear (for example, instead of the log in button, we can see something like 'flarum.login.example' in the place of the "Log In" text.)"
+!!! tip "Try clearing your cache"
+    Because Flarum caches things, such as language strings for example, it can sometimes happen that your forum might not work the way it's supposed to. See the issue below for an example of broken language.
+    In cases like this, we always keep telling you to "clear your cache" But how do you do that?
+    
+    It's actually very simple. First, go to the "Administration" section of your forum. Then, click on "Tools" > "Clear cache".
+    
+    ![](https://cdn.discordapp.com/attachments/585143304467906581/745183144298283065/unknown.png)
+    
+    Please note that after clearing the cache, your forum might load for a bit longer the first time you load it after the cache was cleared. This is because of that. Cache is in place to speed your forum up.
+    If you don't really know what a cache is, [learn more here](https://en.wikipedia.org/wiki/Cache_(computing)), or look it up..
+    
+!!! question "The language of my forum is broken. Instead of the actual translation, string IDs appear (for example, instead of the log in button, we can see something like 'flarum.core.login' in the place of the "Log In" text.)"
     This is currently probably the most common Flarum bug. We sadly don't have the tools to monitor, track and debug these issues,
     but that doesn't mean that there is no fix.
 
