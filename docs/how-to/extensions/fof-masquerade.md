@@ -40,6 +40,7 @@
     - - **URL:** A valid URL address must be put in the field by the user.
     - - **Email:** A valid E-Mail address must be put in the field by the user.
     - - **Checkbox:** Represents the classic checkbox/tickbox. Users can check it or uncheck it (make it empty).
+    - - **Dropdown:** Allows you to configure more options that can be selected from a dropdown menu.
     - - **Advanced:** Advanced validation using the [Laravel validation rules](https://laravel.com/docs/5.2/validation#available-validation-rules), eg: "string|min:5" or "url".
 
     Make sure to configure the Masquerade permissions on the Admin Permissions tab to suit your needs.
