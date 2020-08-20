@@ -1,6 +1,6 @@
 > ---
 > - **Name**: FoF Merge Discussions (`fof/merge-discussions`)
-> - **Author**: Madnest
+> - **Author**: FriendsOfFlarum
 > - **Flarum discussion** [https://discuss.flarum.org/d/19460-friendsofflarum-merge-discussions](https://discuss.flarum.org/d/19460-friendsofflarum-merge-discussions)
 > - **Compatible with FreeFlarum**: Yes
 > - **Approximate time to setup:** 10 seconds - works out of the box, just enable it
