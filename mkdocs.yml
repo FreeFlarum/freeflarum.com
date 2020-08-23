@@ -51,8 +51,9 @@ nav:
         - 'FoF Gamification': 'how-to/extensions/fof-gamification.md'
         - 'FoF Linguist': 'how-to/extensions/fof-linguist.md'
         - 'FoF Links': 'how-to/extensions/fof-links.md'
-        - 'FoF Merge Discussions': 'how-to/extensions/fof-merge-discussions.md'
         - 'FoF Masquerade': 'how-to/extensions/fof-masquerade.md'
+        - 'FoF Merge Discussions': 'how-to/extensions/fof-merge-discussions.md'
+        - 'FoF Night Mode': 'how-to/extensions/fof-nightmode.md'
         - 'FoF Sitemap': 'how-to/extensions/fof-sitemap.md'
   - Third-party Integrations:
     - Analytics:
