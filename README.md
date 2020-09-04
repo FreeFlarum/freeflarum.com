@@ -49,7 +49,7 @@ Please, submit feature and extension request as a new issue in this repository.
 
 ### Debian-based Linus distributions
 
-```
+```bash
 # Install pip first (and Python 3.x, if not yet installed!)
 sudo apt install python3-pip 
 
@@ -66,7 +66,7 @@ And see your live edits at http://localhost:8000/.
 
 ## Deployment
 
-```
+```bash
 # Use the deployment script for simplified process.
 # Will not work on Windows (unless using Git Bash or on WSL)
 ./deploy.sh
