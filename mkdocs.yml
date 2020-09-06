@@ -72,6 +72,7 @@ nav:
 
 extra_css:
   - 'style-tweaks/font-size.css'
+  - 'style-tweaks/font-family.css'
 
 markdown_extensions:
   - admonition
