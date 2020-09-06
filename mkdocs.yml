@@ -3,12 +3,8 @@ site_url: https://www.freeflarum.com/docs/
 
 theme:
    name: 'material'
-   #  custom_dir: theme
+   #  custom_dir: 'theme'
 
-# -----------------------------------------------
-# need to enumerate everything, see this issue:
-# https://github.com/mkdocs/mkdocs/issues/714
-# -----------------------------------------------
 nav:
   - Home: 'https://www.freeflarum.com/docs/'
   - About: 'about.md'
@@ -54,6 +50,7 @@ nav:
         - 'FoF Masquerade': 'how-to/extensions/fof-masquerade.md'
         - 'FoF Merge Discussions': 'how-to/extensions/fof-merge-discussions.md'
         - 'FoF Night Mode': 'how-to/extensions/fof-nightmode.md'
+        - 'FoF Pages': 'how-to/extensions/fof-pages.md'
         - 'FoF Sitemap': 'how-to/extensions/fof-sitemap.md'
   - Third-party Integrations:
     - Analytics:
@@ -78,6 +75,8 @@ extra_css:
 
 markdown_extensions:
   - admonition
+  - toc:
+      permalink: ⚓︎
   
 repo_url: https://github.com/gwillem/freeflarum.com
-# edit_uri is not required for github
+# edit_uri is not required for GitHub
