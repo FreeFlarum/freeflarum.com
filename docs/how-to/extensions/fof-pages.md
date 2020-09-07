@@ -24,11 +24,17 @@
     ![](https://cdn.discordapp.com/attachments/585143304467906581/752058782196039710/unknown.png)
     
     We've got a few settings to modify:
+
     - **Title** - The title of the page that will be displayed on the top of the page.
-    - **Slug** - The ID of the page that will be displayed in the page URL (eg. `./p/<numeric id, not editable>-<slug>` -> `./p/2-slug`)
+
+    - **Slug** - The ID of the page that will be displayed in the page URL (eg. `./p/<numeric id, not editable>-<slug>` -> `./p/2-slug`).
+
     - **Content** - The content of the page. Defaults to Markdown, HTML can also be used (see options below), but not both.
+
     - **Save as draft** - The page will be saved, but will not be displayed/accessible, so that you can edit it later.
+
     - **Restrict access (configure who can access in the Permissions tab)** - Allows you to restrict the visibility/access of this page to certain groups from the "Permissions" Administration tab.
+
     - **Enable HTML** - Allows you to use HTML in the page "**Content**" instead of Markdown.
     
     We've also got a few buttons in the page list:
