@@ -1,6 +1,3 @@
-
-## Login with Google
-
 In this tutorial I'm going to show you how can you allow your Flarum users to login with Google. First, make sure you're logged into your Google account.
 
 **1.** Go to the Google API Console: [https://console.developers.google.com/project/_/apiui/apis/library](https://console.developers.google.com/project/_/apiui/apis/library).
@@ -54,9 +51,9 @@ As for the other settings, you do not need to change them or modify them either.
 ![](https://cdn.discordapp.com/attachments/585143304467906581/742281362920308846/unknown.png)
 
 !!! note "You might be looking for:"
-  - **[Google Analytics](docs/How-to/Integrations/Google-Analytics/)**
-  - **[Facebook Login](docs/How-to/Integrations/Facebook-Login/)**
-  - **[GitHub Login](/docs/how-to/integrations/github-login/)**
-  - **[Discord Login](/docs/how-to/integrations/discord-login/)**
-  - **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
+    - **[Google Analytics](docs/How-to/Integrations/Google-Analytics/)**
+    - **[Facebook Login](docs/How-to/Integrations/Facebook-Login/)**
+    - **[GitHub Login](/docs/how-to/integrations/github-login/)**
+    - **[Discord Login](/docs/how-to/integrations/discord-login/)**
+    - **[Passport Login](/docs/how-to/integrations/laravel-passport/)**
 
