@@ -52,4 +52,4 @@
 
 !!! note "You might be looking for:"
     - **[About Extensions](/docs/how-to/extensions/about-extensions/)**
-    - **[FoF Links](https://www.freeflarum.com/docs/how-to/extensions/fof-links/)
+    - **[FoF Links](https://www.freeflarum.com/docs/how-to/extensions/fof-links/)**
