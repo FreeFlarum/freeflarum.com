@@ -22,16 +22,25 @@
     ![](https://i.imgur.com/lRLGJzSl.png)
     
     Here, we see a few settings:
+    
     - **Question** - The question to ask your users. Example: "Do you like red or green apples?".
+    
     - **Answers** - There can be more of them. They're basically options your users can choose from. Example (could be used along with the first question): Answer #1: "Red"; Answer #2: "Green".
+    
     - **Poll end date** - This setting is optional. It allows you to choose the end date of the poll - after that time, no more votes can be cast. The UI is fancy and easy to choose:
+    
     ![](https://i.imgur.com/ApXfSbLl.png)
+    
     - **Allow people to see who voted** - Defaults to false/off. If this is on, it allows users to see who voted on a poll.
     
     This extension also adds a few permissions to the "Permissions" tab in your Administration panel:
+    
     - **Start a poll** - Allows the user to create a poll.
+    
     - **Vote on polls** - Allows the user to vote on a poll.
+    
     - **Allow users to edit their own polls** - "Allow users to edit their own polls". Quite obvious ¯\_(ツ)_/¯
+    
     - **Edit & remove polls** - Allows the user to edit other polls and to delete them.
 
 !!! note "You might be looking for:"
