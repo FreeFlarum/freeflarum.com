@@ -39,7 +39,7 @@
 
     - **Vote on polls** - Allows the user to vote on a poll.
 
-    - **Allow users to edit their own polls** - "Allow users to edit their own polls". Quite obvious `¯\\_(ツ)_/¯`
+    - **Allow users to edit their own polls** - "Allow users to edit their own polls". Quite obvious `¯\_(ツ)_/¯`
 
     - **Edit & remove polls** - Allows the user to edit other polls and to delete them.
 
