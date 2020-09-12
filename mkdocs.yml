@@ -52,6 +52,7 @@ nav:
         - 'FoF Night Mode': 'how-to/extensions/fof-nightmode.md'
         - 'FoF Pages': 'how-to/extensions/fof-pages.md'
         - 'FoF Passport': 'how-to/extensions/fof-passport.md'
+        - 'FoF Polls': 'how-to/extensions/fof-polls.md'
         - 'FoF Sitemap': 'how-to/extensions/fof-sitemap.md'
   - Third-party Integrations:
     - Analytics:
