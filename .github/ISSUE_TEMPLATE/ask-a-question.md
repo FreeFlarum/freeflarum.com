@@ -1,8 +1,8 @@
 ---
-name: Ask a question
-about: Do you have any question? Sure, we can help.
-title: "[question]"
-labels: ''
+name: 'Ask a question'
+about: 'Do you have any question about FreeFlarum?'
+title: '[Question]'
+labels: '❔'
 assignees: ''
 
 ---
@@ -14,7 +14,7 @@ You can also remove them, if you want. -->
 
 __Your question:__
 
-[//]: # "Please, tell us your question."
+[//]: # "Replace this entire line with your question, or start writing below or above it, preferably below."
 
 <!--
 You can ask us anything you want to know about FreeFlarum. 
