@@ -2,7 +2,7 @@
 name: 'Extension Request'
 about: 'Missing an extension?'
 title: '[Insert name of the extension/feature here]'
-labels: '\U0001F64B  Extension/feature request'
+labels: '🙋 Extension/feature request'
 assignees: ''
 
 ---
