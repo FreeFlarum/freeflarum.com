@@ -1,9 +1,9 @@
 ---
-name: Documentation feedback
-about: Suggest something or share your feedback about our docs.
-title: "[documentation]"
-labels: documentation
-assignees: ''
+name: 'Documentation Feedback'
+about: 'Suggest something or share your feedback about our docs.'
+title: "[Documentation]"
+labels: '\U0001F4D3 Documentation'
+assignees: 'CW_Kevo'
 
 ---
 
