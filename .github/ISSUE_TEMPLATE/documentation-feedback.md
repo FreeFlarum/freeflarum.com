@@ -2,7 +2,7 @@
 name: 'Documentation Feedback'
 about: 'Suggest something or share your feedback about our docs.'
 title: "[Documentation]"
-labels: '\U0001F4D3 Documentation'
+labels: '📓 Documentation'
 assignees: 'CW_Kevo'
 
 ---
