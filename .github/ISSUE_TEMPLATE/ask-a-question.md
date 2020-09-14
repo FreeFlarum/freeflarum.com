@@ -2,7 +2,7 @@
 name: 'Ask a question'
 about: 'Do you have any question about FreeFlarum?'
 title: '[Question]'
-labels: '\U2754 Question'
+labels: '❔ Question'
 assignees: ''
 
 ---
