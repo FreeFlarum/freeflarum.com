@@ -1,8 +1,8 @@
 ---
-name: Extension request
-about: Missing an extension?
-title: Insert name of the extension here
-labels: "\U0001F64B  Extension/feature request"
+name: 'Extension Request'
+about: 'Missing an extension?'
+title: '[Insert name of the extension/feature here]'
+labels: '\U0001F64B  Extension/feature request'
 assignees: ''
 
 ---
@@ -21,7 +21,7 @@ Bazaar or Upload extensions are not compatible with FreeFlarum. See #18 (https:/
 
 __Packagist URL for extension:__
 
-[//]: # "https://packagist.com/... (this line is a comment, it won't be visible. Paste the URL under this, or remove this line)"
+[//]: # "Replace this line with the packagist URL, such as https://packagist.com/..."
 
 __Why should we install this extension?__
 
