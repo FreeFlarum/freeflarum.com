@@ -1,8 +1,8 @@
 ---
-name: Question
-about: Do you have any question?
-title: Question
-labels: "❔  Question"
+name: Ask a question
+about: Do you have any question? Sure, we can help.
+title: "[question]"
+labels: ''
 assignees: ''
 
 ---
@@ -18,7 +18,7 @@ __Your question:__
 
 <!--
 You can ask us anything you want to know about FreeFlarum. 
-However, remember to always stay polite, respectful and patient.
+However, remember to always stay polite, respectful, and patient.
  
 Questions about the Flarum software should be directed to 
 https://discuss.flarum.org instead. Thank you!

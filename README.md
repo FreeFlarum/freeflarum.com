@@ -32,11 +32,11 @@
 <details><summary>Repository Information:</summary>
 <p>
 
-# Repository Info:
+# FreeFlarum Frontend
 
 This repository contains the front-end for FreeFlarum.com:
 
-- [x] docs
+- [x] documentation, built with Mkdocs and Material for Mkdocs
 - [ ] control panel
 
 Works in conjuction with freeflarum-backend.
@@ -45,20 +45,30 @@ Works in conjuction with freeflarum-backend.
 
 Please, submit feature and extension request as a new issue in this repository. 
 
-## How to run locally:
+## Local development
 
-Instructions for Ubuntu:
-```
+### Debian-based Linus distributions
+
+```bash
+# Install pip first (and Python 3.x, if not yet installed!)
 sudo apt install python3-pip 
+
+# Next, install pipenv
 sudo pip3 install pipenv
+
+# Install dependencies within pipenv
 pipenv install
+
+# Run dev server.
 pipenv run mkdocs serve
 ```
-And see your live edits at http://localhost:8000/
+And see your live edits at http://localhost:8000/.
 
-## How to deploy:
+## Deployment
 
-```
+```bash
+# Use the deployment script for simplified process.
+# Will not work on Windows (unless using Git Bash or on WSL)
 ./deploy.sh
 ```
 
