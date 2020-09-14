@@ -1,8 +1,8 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: A very short description/title for the bug
-labels: "\U0001F41E  Bug"
+name: 'Bug report'
+about: 'Create a report to help us improve'
+title: 'A very short description/title for the bug'
+labels: '\U0001F41E  Bug'
 assignees: ''
 
 ---
@@ -15,7 +15,7 @@ You can also remove them, if you want. -->
 
 **Describe the bug:**
 
-[//]: # "A clear and concise description of what the bug is."
+[//]: # "Replace this line with a clear and concise description of what the bug is, or start writing below it."
 
 **My FreeFlarum forum URL:**
 
@@ -25,14 +25,14 @@ You can also remove them, if you want. -->
 
 <!-- Brief and clear steps to reproduce the behavior, for example:
 1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error. -->
+2. Click on '...'
+3. Look at '...'
+4. See the error. -->
 
 **Expected behavior:**
 
 [//]: # "A clear and concise description of what you expected to happen."
 
-**Screenshot(s):**
+**Screenshot(s) (optional):**
 
 [//]: # "If applicable, add screenshot(s) to help explain your problem."
