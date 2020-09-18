@@ -1,5 +1,5 @@
 !!! note "Note"
-     There is an easier way how to setup Google Analytics. Take a look at [this tutorial](/docs/how-to/extensions/analytics/)
+     There is an easier way how to setup Google Analytics. Take a look at [this tutorial](/docs/how-to/extensions/fof-analytics/)
 
 # Google Analytics (the "old" way)
 
@@ -30,6 +30,6 @@ And the **tracking code** for Google Analytics goes into the **footer**.
 > ---
 > #### __You might be looking for:__
 > - **[Google Analytics](/docs/how-to/integrations/google-analytics/)**
-> - **[Analytics Extension](/docs/how-to/extensions/analytics)**
+> - **[Analytics Extension](/docs/how-to/extensions/fof-analytics)**
 >
 > ---
