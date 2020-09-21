@@ -20,6 +20,7 @@ nav:
     - 'What are Extensions?': 'how-to/extensions/about-extensions.md'
     - Extension List:
         - 'Approval': 'how-to/extensions/approval.md'
+        - 'Author Change': 'how-to/extensions/author-change.md'
         - 'BBCode': 'how-to/extensions/bbcode.md'
         - 'Bosnian Language': 'how-to/extensions/bosanski.md'
         - 'Bosnian Language (Extended)': 'how-to/extensions/bosnian-extended-pack.md'
