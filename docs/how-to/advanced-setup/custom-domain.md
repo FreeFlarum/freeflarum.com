@@ -46,6 +46,9 @@ Configuring the DNS can be tricky, because every registrar has a different metho
 
 !!! warning "Proxy"
     Make sure to **disable the proxy** so that the icon is grey (not orange).
+    
+!!! warning "Hostname"
+    A hostname entry usually ends with a dot (`.`) unless you specifically want it to be suffixed by your domain. In other words, if it doesn't work, add a dot (`.`) after your hostname in your CNAME configuration at your domain/hosting provider.
 
 !!! question "Reset the domain"
 
