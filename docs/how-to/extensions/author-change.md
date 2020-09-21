@@ -15,15 +15,21 @@
 
 !!! question "Usage"
     - **Author edit:**
+    
     - - Users with "Update author" permission must also have the "View user list" permission to be able to search for users.
 
     **Date edit:**
+    
     - - The field uses the native datetime-local picker in browsers that support it (at the time of writing, Chrome/Edge/Opera).
+    
     - - The field format in supported browser will match your browser/operating system language and country setting.
+    
     - - The time in the modal is UTC.
 
     **Other:**
+    
     - - The first post of a discussion and the discussion itself are not automatically synced.
+    
     - - You will probably want to edit the data in both places.
     
     Options to edit the posts & discussions are available when clicking on the post & discussion settings
