@@ -47,7 +47,7 @@ Please, submit feature and extension request as a new issue in this repository.
 
 ## Local development
 
-### Debian-based Linus distributions
+### Debian-based Linux distributions
 
 ```bash
 # Install pip first (and Python 3.x, if not yet installed!)
@@ -69,10 +69,12 @@ And see your live edits at http://localhost:8000/.
 ```bash
 # Use the deployment script for simplified process.
 # Will not work on Windows (unless using Git Bash or on WSL)
+# Requires rsync installed
 ./deploy.sh
 ```
 
 ### Note:
-FreeFlarum.com is a community provided host for Flarum. FreeFlarum is NOT affiliated with Flarum. Questions related to forum software should be adressed to the [Flarum's Discussion Forums](https://discuss.flarum.org/).
+FreeFlarum.com is a community provided host for Flarum. FreeFlarum is NOT affiliated with Flarum.
+Questions related to forum software should be adressed to the [Flarum's Discussion Forums](https://discuss.flarum.org/).
 </p>
 </details>
