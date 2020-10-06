@@ -43,7 +43,10 @@ Works in conjuction with freeflarum-backend.
 
 ## Submitting feature/extension requests:
 
-Please, submit feature and extension request as a new issue in this repository. 
+Please, [submit feature and extension request as a new issue][extension-request]
+in this repository.
+
+[extension-request]: https://github.com/gwillem/freeflarum.com/issues/new?assignees=&labels=%F0%9F%99%8B+Extension%2Ffeature+request&template=extension-request.md&title=%5BInsert+name+of+the+extension%2Ffeature+here%5D
 
 ## Local development
 
