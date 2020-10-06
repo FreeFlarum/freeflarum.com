@@ -43,11 +43,14 @@ Works in conjuction with freeflarum-backend.
 
 ## Submitting feature/extension requests:
 
-Please, submit feature and extension request as a new issue in this repository. 
+Please, [submit feature and extension request as a new issue][extension-request]
+in this repository.
+
+[extension-request]: https://github.com/gwillem/freeflarum.com/issues/new?assignees=&labels=%F0%9F%99%8B+Extension%2Ffeature+request&template=extension-request.md&title=%5BInsert+name+of+the+extension%2Ffeature+here%5D
 
 ## Local development
 
-### Debian-based Linus distributions
+### Debian-based Linux distributions
 
 ```bash
 # Install pip first (and Python 3.x, if not yet installed!)
@@ -69,10 +72,12 @@ And see your live edits at http://localhost:8000/.
 ```bash
 # Use the deployment script for simplified process.
 # Will not work on Windows (unless using Git Bash or on WSL)
+# Requires rsync installed
 ./deploy.sh
 ```
 
 ### Note:
-FreeFlarum.com is a community provided host for Flarum. FreeFlarum is NOT affiliated with Flarum. Questions related to forum software should be adressed to the [Flarum's Discussion Forums](https://discuss.flarum.org/).
+FreeFlarum.com is a community provided host for Flarum. FreeFlarum is NOT affiliated with Flarum.
+Questions related to forum software should be adressed to the [Flarum's Discussion Forums](https://discuss.flarum.org/).
 </p>
 </details>
