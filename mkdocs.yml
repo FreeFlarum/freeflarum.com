@@ -55,7 +55,7 @@ nav:
         - 'FoF Passport': 'how-to/extensions/fof-passport.md'
         - 'FoF Polls': 'how-to/extensions/fof-polls.md'
         - 'FoF Sitemap': 'how-to/extensions/fof-sitemap.md'
-    - 'Suggest a extension': 'how-to/extensions/suggest.md'
+    - 'Suggest a extension': 'https://github.com/gwillem/freeflarum.com/issues/new?assignees=&labels=%F0%9F%99%8B+Extension%2Ffeature+request&template=extension-request.md&title=%5BInsert+name+of+the+extension%2Ffeature+here%5D'
   - Third-party Integrations:
     - Analytics:
         - 'Google Analytics': 'how-to/integrations/google-analytics.md'
