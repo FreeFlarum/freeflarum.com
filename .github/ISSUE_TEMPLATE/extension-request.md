@@ -4,7 +4,6 @@ about: 'Missing an extension? We're welcome for your suggestions.'
 title: '[Insert name of the extension/feature here]'
 labels: '🙋 Extension/feature request'
 assignees: ''
-
 ---
 
 <!-- 
