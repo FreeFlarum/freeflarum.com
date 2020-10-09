@@ -1,3 +1,8 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/gwillem/freeflarum.com)
+[![GitHub watchers](https://img.shields.io/github/watchers/gwillem/freeflarum.com?style=social)](https://github.com/gwillem/freeflarum.com/watchers)
+[![GitHub Repo stars](https://img.shields.io/github/stars/gwillem/freeflarum.com?style=social)](https://github.com/gwillem/freeflarum.com/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/gwillem/freeflarum.com?style=social)](https://github.com/gwillem/freeflarum.com/network/members)
+
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/585143304467906581/755338778209681408/freeflarum-logo.svg">
 </p>
@@ -66,6 +71,16 @@ pipenv install
 pipenv run mkdocs serve
 ```
 And see your live edits at http://localhost:8000/.
+
+## With Gitpod
+
+> **Side note**: The `gitpod/workspace-full` image has latest version of Python installed by default, so
+pipenv will prompt you to install v3.5 to continue, as per the `Pipfile`. To prevent this from happening,
+we install that version during workspace build.
+
+1. Open the GitHub repo in Gitpod by appending with `gitpod.io/#`.
+    - When prompted, sign in using your GitHub account. (For first-time users, accept the authorization.)
+2. Wait for the workspace to be built and dependencies for local documentation development is done. Happy editing.
 
 ## Deployment
 

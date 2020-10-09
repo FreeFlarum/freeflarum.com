@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: pipenv install
+    command: pipen run mkdocs serve
