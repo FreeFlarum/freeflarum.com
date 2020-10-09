@@ -6,7 +6,7 @@ theme:
    #  custom_dir: 'theme'
 
 nav:
-  - Home: 'https://www.freeflarum.com/docs/'
+  - Home: 'index.md'
   - About: 'about.md'
   - FaQ: 'faq.md'
   - Troubleshooting: 'troubleshooting.md'
@@ -55,6 +55,7 @@ nav:
         - 'FoF Passport': 'how-to/extensions/fof-passport.md'
         - 'FoF Polls': 'how-to/extensions/fof-polls.md'
         - 'FoF Sitemap': 'how-to/extensions/fof-sitemap.md'
+    - 'Suggest a extension': 'how-to/extensions/suggest.md'
   - Third-party Integrations:
     - Analytics:
         - 'Google Analytics': 'how-to/integrations/google-analytics.md'
