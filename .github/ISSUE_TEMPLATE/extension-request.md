@@ -1,6 +1,6 @@
 ---
 name: 'Extension Request'
-about: ''
+about: 'Extension/feature request'
 title: 'Insert name of the extension/feature here'
 labels: '🙋 Extension/feature request'
 assignees: ''
