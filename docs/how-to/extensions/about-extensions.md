@@ -27,7 +27,7 @@
     If he abandoned the extension for some reason, we're just sorry but we can't really help you with that.
 
 !!! question "When will the X extension update?"
-    We work hard to keep all of your forums as up-to-date as possible. But you can always request to update a specific extension [here](https://www.github.com/gwillem/freeflarum.com/issues/new/choose).
+    We work hard to keep all of your forums as up-to-date as possible. But you can always request to update a specific extension [here][request-your-extensions-here].
     
 !!! question "I need more help..."
     Don't hesitate to [open up an issue](https://www.github.com/gwillem/freeflarum.com/issues/new/choose) then. We will be happy to respond to you as fast as possible.
@@ -46,7 +46,7 @@ You can modify your extension's settings by hovering on the extension and clicki
 
 Or just locate your extension in the menu on right (if available).
 
-You can request other Flarum extensions [here](https://www.github.com/gwillem/freeflarum.com/issues/new), however be sure to check if your extension:
+You can request other Flarum extensions [here][request-your-extensions-here], however be sure to check if your extension:
 
 - does not allow uploads of files directly to FreeFlarum, or run of custom PHP code & must be secure;
 - is stable and up-to-date.

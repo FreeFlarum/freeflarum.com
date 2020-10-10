@@ -3,4 +3,4 @@ image:
 
 tasks:
   - init: pipenv install
-    command: pipen run mkdocs serve
+    command: pipenv run mkdocs serve
