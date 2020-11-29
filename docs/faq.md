@@ -79,7 +79,7 @@ Please, be patient. Big things grow slowly and we have a life too. It may take u
 
 ## __Other questions__
 
-#### Can I report a forum that violates your Terms of Use (or is inappropriate by any other means)?
+#### Can I report a forum that violates your Terms & Conditions (or is inappropriate by any other means)?
 
 Yes, you can send us a mail to [reports@freeflarum.com](mailto:reports@freeflarum.com) and we will review your complaint and potentially take appropriate action.
 In general, your report should follow this template:
@@ -92,12 +92,11 @@ In general, your report should follow this template:
 
 Reports (just like any other mail) will be usually processed within 48 hours from the time of when the report has arrived to our inbox. If it didn't arrive, nothing happens... literally. Spam mails will be ignored.
 
-Forums violating our [Terms of Use](/docs/legal/terms) will be suspended without prior notice.
+Forums violating our [Terms & Conditions](/docs/legal/terms) will be suspended without prior notice.
 
 #### Can I import users from another forum?
 
 Flarum does currently not support adding users from the admin panel or API, there's [an issue for that](https://github.com/flarum/core/issues/885). However, you can use the [Doorman](https://discuss.flarum.org/d/17845-doorman-by-reflar) extension to invite people.
-
 
 #### Can we hire you for a custom job?
 
