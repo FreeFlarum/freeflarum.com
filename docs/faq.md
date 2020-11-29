@@ -92,6 +92,8 @@ In general, your report should follow this template:
 
 Reports (just like any other mail) will be usually processed within 48 hours from the time of when the report has arrived to our inbox. If it didn't arrive, nothing happens... literally. Spam mails will be ignored.
 
+Forums violating our [Terms of Use](/docs/legal/terms) will be suspended without prior notice.
+
 #### Can I import users from another forum?
 
 Flarum does currently not support adding users from the admin panel or API, there's [an issue for that](https://github.com/flarum/core/issues/885). However, you can use the [Doorman](https://discuss.flarum.org/d/17845-doorman-by-reflar) extension to invite people.
