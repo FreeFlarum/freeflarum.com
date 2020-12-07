@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Ultimate Pancake Generator  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 100" style="enable-background:new 0 0 400 100;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FF7F00;}
 	.st1{fill:#BF0000;}
 	.st2{fill:none;}
-	.st3{font-family:'BookmanOldStyle-Bold';}
+	.st3{font-family:'TrebuchetMS';}
 	.st4{font-size:40px;}
-	.st5{font-family:'BookmanOldStyle';}
+	.st5{font-family:'Verdana';}
 	.st6{font-size:13px;}
 </style>
 <g>
@@ -57,6 +56,6 @@
 		C71.8,38.6,71.5,38.7,71.3,38.7z"/>
 </g>
 <rect x="142.3" y="28" class="st2" width="247" height="32.2"/>
-<text transform="matrix(1 0 0 1 145.4347 56.6837)" class="st3 st4">FreeFlarum</text>
-<text transform="matrix(1 0 0 1 174.3247 79.0183)" class="st5 st6">Free Flarum Forums Forever</text>
+<text transform="matrix(1 0 0 1 163.5499 57.4835)" class="st3 st4">FreeFlarum</text>
+<text transform="matrix(1 0 0 1 173.0078 79.1606)" class="st5 st6">Free Flarum Forums Forever</text>
 </svg>
