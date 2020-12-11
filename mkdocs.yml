@@ -6,8 +6,6 @@ theme:
   custom_dir: theme/
 
   language: en
-  features:
-    - navigation.tabs
   palette:
     scheme: slate
     primary: black
