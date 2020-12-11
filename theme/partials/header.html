@@ -1,0 +1,24 @@
+{% set site_url = config.site_url | default(nav.homepage.url, true) | url %}
+{% if not config.use_directory_urls and site_url[0] == site_url[-1] == "." %}
+  {% set site_url = site_url ~ "/index.html" %}
+{% endif %}
+
+<header class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 py-4 lg:py-6 flex justify-between">
+    <a href="/">
+        <span class="sr-only">FreeFlarum.com</span>
+        <img src="{{url_for('static', filename='img/freeflarum-logo.svg')}}" style="width: auto; height: 60px;">
+    </a>
+    <nav class="flex items-center space-x-4">
+    {% for href, id, caption, icon in navigation_bar %}
+        <a href="{{href|e}}" class="flex space-x-1 items-center hover:text-white {% if id == active_page %}text-orange-500{% endif %}">
+            <i class="{{icon|e}} text-orange-500" style="padding: 0 0.1rem;"></i>
+            <span>{{caption|e}}</span>
+        </a>
+    {% endfor %}
+    </nav>
+    {% if "search" in config["plugins"] %}
+    <label class="md-header-nav__button md-icon" for="__search">
+      {% include ".icons/material/magnify.svg" %}
+    </label>
+    {% include "partials/search.html" %}
+</header>
