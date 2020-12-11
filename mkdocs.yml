@@ -6,8 +6,8 @@ theme:
   custom_dir: theme/
   
 theme:
-  name: null
-  custom_dir: material
+  name: "material"
+  #custom_dir: material
 
   # 404 page
   static_templates:
