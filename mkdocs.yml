@@ -15,8 +15,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  icon:
-    logo: /images/freeflarum-logo.svg
 
 nav:
   - Home: 'https://www.freeflarum.com/docs/'
