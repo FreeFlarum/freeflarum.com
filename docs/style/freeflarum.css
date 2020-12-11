@@ -5,7 +5,7 @@ MkDocs
 ======
 */
 
-.md-typeset a {
+a {
     color: orange !important;
 }
 
