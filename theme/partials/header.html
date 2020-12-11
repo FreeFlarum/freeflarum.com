@@ -3,23 +3,27 @@
   {% set site_url = site_url ~ "/index.html" %}
 {% endif %}
 <header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid" aria-label="{{ lang.t('header.title') }}">
-    <label class="md-header-nav__button md-icon" for="__drawer">
-      {% include ".icons/material/menu" ~ ".svg" %}
-    </label>
-    <a href="{{ site_url }}" title="{{ config.site_name | e }}" aria-label="{{ config.site_name }}" class>
-      <img src="https://github.com/gwillem/freeflarum.com/raw/master/images/freeflarum-logo.svg" style="width: 11rem;">
-    </a>
-    {% if "search" in config["plugins"] %}
-      <label class="md-header-nav__button md-icon" for="__search">
-        {% include ".icons/material/magnify.svg" %}
+  <nav class="md-header-nav md-grid flex text-center justify-between" aria-label="{{ lang.t('header.title') }}">
+    <div class="flex">
+      <label class="md-header-nav__button md-icon" for="__drawer">
+        {% include ".icons/material/menu" ~ ".svg" %}
       </label>
-      {% include "partials/search.html" %}
-    {% endif %}
-    {% if config.repo_url %}
-      <div class="md-header-nav__source">
-        {% include "partials/source.html" %}
-      </div>
-    {% endif %}
+      <a href="{{ site_url }}" title="{{ config.site_name | e }}" aria-label="{{ config.site_name }}" class>
+        <img src="https://github.com/gwillem/freeflarum.com/raw/master/images/freeflarum-logo.svg" style="width: 11rem;">
+      </a>
+    </div>
+    <div class="flex">
+      {% if "search" in config["plugins"] %}
+        <label class="md-header-nav__button md-icon" for="__search">
+          {% include ".icons/material/magnify.svg" %}
+        </label>
+        {% include "partials/search.html" %}
+      {% endif %}
+      {% if config.repo_url %}
+        <div class="md-header-nav__source">
+          {% include "partials/source.html" %}
+        </div>
+      {% endif %}
+    </div>
   </nav>
 </header>
