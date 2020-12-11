@@ -5,6 +5,10 @@ MkDocs
 ======
 */
 
+.md-typeset a {
+    color: orange !important;
+}
+
 /*
 Document
 ========
