@@ -1,0 +1,25 @@
+{% set site_url = config.site_url | default(nav.homepage.url, true) | url %}
+{% if not config.use_directory_urls and site_url[0] == site_url[-1] == "." %}
+  {% set site_url = site_url ~ "/index.html" %}
+{% endif %}
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="{{ lang.t('header.title') }}">
+    <a href="{{ site_url }}" title="{{ config.site_name | e }}" class="md-header-nav__button md-logo" aria-label="{{ config.site_name }}">
+      <img src="https://github.com/gwillem/freeflarum.com/raw/master/images/freeflarum-logo.svg">
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      {% include ".icons/material/menu" ~ ".svg" %}
+    </label>
+    {% if "search" in config["plugins"] %}
+      <label class="md-header-nav__button md-icon" for="__search">
+        {% include ".icons/material/magnify.svg" %}
+      </label>
+      {% include "partials/search.html" %}
+    {% endif %}
+    {% if config.repo_url %}
+      <div class="md-header-nav__source">
+        {% include "partials/source.html" %}
+      </div>
+    {% endif %}
+  </nav>
+</header>
