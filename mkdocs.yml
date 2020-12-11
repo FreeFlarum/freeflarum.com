@@ -1,13 +1,9 @@
 site_name: FreeFlarum Documentation
 site_url: https://www.freeflarum.com/docs/
-
-theme:
-  name: null
-  custom_dir: theme/
   
 theme:
   name: "material"
-  #custom_dir: material
+  custom_dir: theme/
 
   # 404 page
   static_templates:
