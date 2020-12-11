@@ -8,17 +8,22 @@
         <span class="sr-only">FreeFlarum.com</span>
         <img src="https://github.com/gwillem/freeflarum.com/raw/master/images/freeflarum-logo.svg" style="width: auto; height: 60px;">
     </a>
+    {% for nav_item in nav %}
+      {% set path = "nav-" ~ loop.index %}
+      {% set level = 1 %}
+      {% include "partials/nav-item.html" %}
+    {% endfor %}
     <nav class="flex items-center space-x-4">
-    {% if "search" in config["plugins"] %}
-    <label class="md-header-nav__button md-icon" for="__search">
-      {% include ".icons/material/magnify.svg" %}
-    </label>
-    {% include "partials/search.html" %}
-    {% endif %}
-    {% if config.repo_url %}
-    <div class="md-header-nav__source">
-      {% include "partials/source.html" %}
-    </div>
-    {% endif %}
-  </nav>
+      {% if "search" in config["plugins"] %}
+      <label class="md-header-nav__button md-icon" for="__search">
+        {% include ".icons/material/magnify.svg" %}
+      </label>
+      {% include "partials/search.html" %}
+      {% endif %}
+      {% if config.repo_url %}
+      <div class="md-header-nav__source">
+        {% include "partials/source.html" %}
+      </div>
+      {% endif %}
+    </nav>
 </header>
