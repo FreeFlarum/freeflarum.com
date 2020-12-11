@@ -1,6 +1,15 @@
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
+MkDocs
+======
+*/
+
+[data-md-color-scheme=slate] {
+  --md-default-bg-color: rgb(16, 24, 39) !important;
+}
+
+/*
 Document
 ========
 */
