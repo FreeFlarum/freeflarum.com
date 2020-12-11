@@ -2,7 +2,7 @@ site_name: FreeFlarum Documentation
 site_url: https://www.freeflarum.com/docs/
 
 theme:
-  name: "material"
+  name: null
   custom_dir: theme/
 
 nav:
