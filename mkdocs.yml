@@ -2,8 +2,8 @@ site_name: FreeFlarum Documentation
 site_url: https://www.freeflarum.com/docs/
 
 theme:
-  name: "material"
-  #custom_dir: theme/
+  name: null
+  custom_dir: theme/
 
 nav:
   - Home: 'https://www.freeflarum.com/docs/'
