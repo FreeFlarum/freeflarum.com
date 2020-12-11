@@ -9,7 +9,11 @@ MkDocs
     color: orange !important;
 }
 
-.md-header, md-tabs {
+.md-header {
+    background-color: rgba(17, 24, 39) !important;
+}
+
+.md-tabs {
     background-color: rgba(17, 24, 39) !important;
 }
 
