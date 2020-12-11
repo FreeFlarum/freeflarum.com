@@ -1,388 +1,197 @@
 <!--
-  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to
-  deal in the Software without restriction, including without limitation the
-  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-  sell copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-
-  The above copyright notice and this permission notice shall be included in
-  all copies or substantial portions of the Software.
-
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-  IN THE SOFTWARE.
+  This Basic theme serves as an example for how to create other
+  themes by demonstrating the features with minimal HTML and CSS.
+  Comments like this will be through the code to explain briefly
+  what each feature is and point you to the MkDocs documentation
+  to find out more.
 -->
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!--
+    The page_title contains the title for a page as shown in the navigation.
+    Site name contains the name as defined in the mkdocs.yml
+  -->
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
 
-{% import "partials/language.html" as lang with context %}
+  <!--
+    Just add a favicon.ico image to the docs.
+  -->
+     <link rel="shortcut icon" href="{{ "img/favicon.ico"|url }}">
 
-<!doctype html>
-<html lang="{{ lang.t('language') }}" class="no-js">
-  <head>
 
-    <!-- Metatags -->
-    {% block site_meta %}
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!--
+    You can include external assets of course, but be aware that it means the
+    documentation may not work well offline.
+  -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
 
-      <!-- Page description -->
-      {% if page and page.meta and page.meta.description %}
-        <meta name="description" content="{{ page.meta.description }}" />
-      {% elif config.site_description %}
-        <meta name="description" content="{{ config.site_description }}" />
-      {% endif %}
+  <link rel="stylesheet" href="{{ "css/theme.css"|url }}">
 
-      <!-- Page keywords -->
-      {% if page and page.meta and page.meta.keywords %}
-        <meta name="keywords" content="{{ page.meta.keywords }}" />
-      {% elif config.site_keywords %}
-        <meta name="keywords" content="{{ config.site_keywords }}" />
-      {% endif %}
+  <!--
+    extra_ess contains paths to CSS files in the users
+    documentation directory or a list of CSS files defined in
+    their mkdocs.yml.
 
-      <!-- Canonical -->
-      {% if page.canonical_url %}
-        <link rel="canonical" href="{{ page.canonical_url }}" />
-      {% endif %}
+    http://www.mkdocs.org/user-guide/configuration/#extra_css
+  -->
+  {% for path in config.extra_css %}
+    <link href="{{ path|url }}" rel="stylesheet">
+  {% endfor %}
 
-      <!-- Page author -->
-      {% if page and page.meta and page.meta.author %}
-        <meta name="author" content="{{ page.meta.author }}" />
-      {% elif config.site_author %}
-        <meta name="author" content="{{ config.site_author }}" />
-      {% endif %}
+  <!--
+    To include static assets from our theme, just add
+    {{ base_url }} beforehand which will be the relative path to
+    the root of the documentation.
+  -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <script src="{{ "js/theme.js"|url }}"></script>
 
-      <!-- Favicon -->
-      <link rel="shortcut icon" href="{{ config.theme.favicon | url }}" />
+  {% block extrahead %}
+  {% endblock %}
 
-      <!-- Generator banner -->
-      <meta
-        name="generator"
-        content="mkdocs-{{ mkdocs_version }}, $md-name$-$md-version$"
-      />
-    {% endblock %}
+  <!--
+    extra_javascript contains paths to JavaScript files in the
+    users documentation directory or a list of JavaScript files
+    defined in their mkdocs.yml.
 
-    <!-- Site title -->
-    {% block htmltitle %}
-      {% if page and page.meta and page.meta.title %}
-        <title>{{ page.meta.title }} - {{ config.site_name }}</title>
-      {% elif page and page.title and not page.is_homepage %}
-        <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
-      {% else %}
-        <title>{{ config.site_name }}</title>
-      {% endif %}
-    {% endblock %}
+    http://www.mkdocs.org/user-guide/configuration/#extra_javascript
+  -->
+  {% for path in config.extra_javascript %}
+    <script src="{{ path|url }}"></script>
+  {% endfor %}
 
-    <!-- Theme-related stylesheets -->
-    {% block styles %}
-      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.css' | url }}" />
+  <!--
+    Include Google Analytics tracking code.
 
-      <!-- Extra color palette -->
-      {% if config.theme.palette %}
-        {% set palette = config.theme.palette %}
-        <link
-          rel="stylesheet"
-          href="{{ 'assets/stylesheets/palette.css' | url }}"
-        />
+    http://www.mkdocs.org/user-guide/configuration/#google_analytics
+  -->
+  {% if config.google_analytics %}
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        <!-- Theme-color meta tag for Android -->
-        {% if palette.primary %}
-          {% import "partials/palette.html" as map %}
-          {% set primary = map.primary(
-            palette.primary | replace(" ", "-") | lower
-          ) %}
-          <meta name="theme-color" content="{{ primary }}" />
-        {% endif %}
-      {% endif %}
-    {% endblock %}
-
-    <!-- JavaScript libraries -->
-    {% block libs %}{% endblock %}
-
-    <!-- Webfonts -->
-    {% block fonts %}
-
-      <!-- Load fonts from Google -->
-      {% if config.theme.font != false %}
-        {% set font = config.theme.font %}
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family={{
-            font.text | replace(' ', '+') + ':300,400,400i,700%7C' +
-            font.code | replace(' ', '+')
-          }}&display=fallback"
-        />
-        <style>
-          body, input {
-            font-family: "{{ font.text }}",
-              -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
-          }
-          pre, code, kbd {
-            font-family: "{{ font.code }}",
-              SFMono-Regular, Consolas, Menlo, monospace;
-          }
-        </style>
-      {% endif %}
-    {% endblock %}
-
-    <!-- Progressive Web App Manifest -->
-    {% if config.extra.manifest %}
-      <link
-        rel="manifest"
-        href="{{ config.extra.manifest | url }}"
-        crossorigin="use-credentials"
-      />
-    {% endif %}
-
-    <!-- Custom stylesheets, might contain media query after URL -->
-    {% for path in config["extra_css"] %}
-      <link rel="stylesheet" href="{{ path | url }}" />
-    {% endfor %}
-
-    <!-- Analytics -->
-    {% block analytics %}
-      {% if config.google_analytics %}
-        {% include "partials/integrations/analytics.html" %}
-      {% endif %}
-    {% endblock %}
-
-    <!-- Custom front matter -->
-    {% block extrahead %}{% endblock %}
-  </head>
-
-  <!-- Text direction and color palette, if defined -->
-  {% set direction = config.theme.direction or lang.t('direction') %}
-  {% if config.theme.palette %}
-    {% set palette = config.theme.palette %}
-    {% if not palette is mapping %}
-      {% set palette = palette | first %}
-    {% endif %}
-    {% set scheme  = palette.scheme  | replace(" ", "-") | lower %}
-    {% set primary = palette.primary | replace(" ", "-") | lower %}
-    {% set accent  = palette.accent  | replace(" ", "-") | lower %}
-    <body
-      dir="{{ direction }}"
-      data-md-color-scheme="{{ scheme }}"
-      data-md-color-primary="{{ primary }}"
-      data-md-color-accent="{{ accent }}"
-    >
-
-      <!-- Experimental: set color scheme based on preference -->
-      {% if "preference" == scheme %}
-        <script>
-          if (matchMedia("(prefers-color-scheme: dark)").matches)
-            document.body.setAttribute("data-md-color-scheme", "slate")
-        </script>
-      {% endif %}
-
-  {% else %}
-    <body dir="{{ direction }}">
+      ga('create', '{{ config.google_analytics[0] }}', '{{ config.google_analytics[1] }}');
+      ga('send', 'pageview');
+  </script>
   {% endif %}
 
-    <!--
-      State toggles - we need to set autocomplete="off" in order to reset the
-      drawer on back button invocation in some browsers
-    -->
-    <input
-      class="md-toggle"
-      data-md-toggle="drawer"
-      type="checkbox"
-      id="__drawer"
-      autocomplete="off"
-    />
-    <input
-      class="md-toggle"
-      data-md-toggle="search"
-      type="checkbox"
-      id="__search"
-      autocomplete="off"
-    />
+</head>
 
-    <!-- Overlay for expanded drawer -->
-    <label class="md-overlay" for="__drawer"></label>
+<body>
 
-    <!-- Link to skip to content -->
-    <div data-md-component="skip">
-      {% if page.toc | first is defined %}
-        {% set skip = page.toc | first %}
-        <a href="{{ skip.url | url }}" class="md-skip">
-          {{ lang.t('skip.link.title') }}
-        </a>
+  <h1>This is an example theme for MkDocs.</h1>
+
+  <p>
+    It is designed to be read by looking at the theme HTML which is heavily
+    commented. The easiest way to do that is by
+    <strong><a href="https://github.com/mkdocs/mkdocs-basic-theme/tree/master/basic_theme">
+    looking at the source on GitHub.</a></strong>. Otherwise this is just a
+    demonstration that the theme is fully functional.
+  </p>
+
+  <hr/>
+
+  <h2>Documentation Navigation</h2>
+
+  <!--
+    Create the navigation for the documentation.
+
+    Because we don't know how many levels deep the navigation is, it needs to
+    be included in it's own file so it can be recursive. Otherwise the theme
+    can also only support a specific number of levels.
+
+    See the nav.html file for more details about how this works.
+  -->
+  <ul>
+  {% for nav_item in nav %}
+    {% include "nav.html" %}
+  {% endfor %}
+  </ul>
+
+  <hr/>
+
+  <h2>Support for search</h2>
+  <!--
+    Create a search form that sends the user to the search.html file - this is
+    the other file in the template which adds search to the theme. The only
+    requirement here is that there is a text input with the name 'q' and the
+    action and methods match below.
+  -->
+  <div role="search">
+    <form action="{{ "search.html"|url }}" method="get">
+      <input type="search" name="q" placeholder="Search docs" />
+    </form>
+  </div>
+
+  <hr/>
+
+  <h2>Next and previous links</h2>
+  <!--
+    Implement the previous and next links to cycle through the pages.
+  -->
+  {% if page.next_page or page.previous_page %}
+    <div>
+      {% if page.previous_page %}
+        <a href="{{ page.previous_page.url|url }}" title="{{ page.previous_page.title }}">&#8592; Previous Page</a>
+      {% else %}
+        &#8592; Previous Page
+      {% endif %}
+      -
+      {% if page.next_page %}
+        <a href="{{ page.next_page.url|url }}" title="{{ page.next_page.title }}"/>Next Page &#8594;</a>
+      {% else %}
+        Next Page &#8594;
       {% endif %}
     </div>
+  {% endif %}
 
-    <!-- Announcement bar -->
-    <div data-md-component="announce">
-      {% if self.announce() %}
-        <aside class="md-announce">
-          <div class="md-announce__inner md-grid md-typeset">
-            {% block announce %}{% endblock %}
-          </div>
-        </aside>
-      {% endif %}
-    </div>
+  <hr/>
 
-    <!-- Application header -->
-    {% block header %}
-      {% include "partials/header.html" %}
-    {% endblock %}
+  <h2>Link to the source</h2>
+  <!--
+    Support repo URL
+  -->
+  {% if page and page.edit_url %}
+    <a href="{{ page.edit_url }}">Edit on {{ config.repo_name }}</a>
+  {% elif config.repo_url %}
+    <a href="{{ config.repo_url }}">{{ config.repo_name }}</a>
+  {% endif %}
 
-    <!-- Container, necessary for web-application context -->
-    <div class="md-container" data-md-component="container">
+  <hr/>
 
-      <!-- Hero teaser -->
-      {% block hero %}{% endblock %}
-
-      <!-- Tabs navigation -->
-      {% block tabs %}
-        {% if "navigation.tabs" in config.theme.features %}
-          {% include "partials/tabs.html" %}
-        {% endif %}
-      {% endblock %}
-
-      <!-- Main area -->
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-
-          <!-- Navigation -->
-          {% block site_nav %}
-
-            <!-- Main navigation -->
-            {% if nav %}
-              <div
-                class="md-sidebar md-sidebar--primary"
-                data-md-component="navigation"
-              >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    {% include "partials/nav.html" %}
-                  </div>
-                </div>
-              </div>
-            {% endif %}
-
-            <!-- Table of contents -->
-            {% if page.toc %}
-              <div
-                class="md-sidebar md-sidebar--secondary"
-                data-md-component="toc"
-              >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    {% include "partials/toc.html" %}
-                  </div>
-                </div>
-              </div>
-            {% endif %}
-          {% endblock %}
-
-          <!-- Article -->
-          <div class="md-content">
-            <article class="md-content__inner md-typeset">
-
-              <!-- Content -->
-              {% block content %}
-
-                <!-- Edit button -->
-                {% if page.edit_url %}
-                  <a
-                    href="{{ page.edit_url }}"
-                    title="{{ lang.t('edit.link.title') }}"
-                    class="md-content__button md-icon"
-                  >
-                    {% include ".icons/material/pencil.svg" %}
-                  </a>
-                {% endif %}
-
-                <!--
-                  Hack: check whether the content contains a h1 headline. If it
-                  doesn't, the page title (or respectively site name) is used
-                  as the main headline.
-                -->
-                {% if not "\x3ch1" in page.content %}
-                  <h1>{{ page.title | default(config.site_name, true)}}</h1>
-                {% endif %}
-
-                <!-- Content -->
-                {{ page.content }}
-
-                <!-- Last update of source file -->
-                {% if page and page.meta %}
-                  {% if page.meta.git_revision_date_localized or
-                        page.meta.revision_date
-                  %}
-                    {% include "partials/source-date.html" %}
-                  {% endif %}
-                {% endif %}
-              {% endblock %}
-
-              <!-- Disqus integration -->
-              {% block disqus %}
-                {% include "partials/integrations/disqus.html" %}
-              {% endblock %}
-            </article>
-          </div>
-        </div>
-      </main>
-
-      <!-- Application footer -->
-      {% block footer %}
-        {% include "partials/footer.html" %}
-      {% endblock %}
-    </div>
-
-    <!-- Theme-related JavaScript -->
-    {% block scripts %}
-      <script src="{{ 'assets/javascripts/vendor.js' | url }}"></script>
-      <script src="{{ 'assets/javascripts/bundle.js' | url }}"></script>
-
-      <!-- Translations -->
-      {%- set translations = {} -%}
-      {%- for key in [
-        "clipboard.copy",
-        "clipboard.copied",
-        "search.config.lang",
-        "search.config.pipeline",
-        "search.config.separator",
-        "search.placeholder",
-        "search.result.placeholder",
-        "search.result.none",
-        "search.result.one",
-        "search.result.other",
-        "search.result.more.one",
-        "search.result.more.other",
-        "search.result.term.missing"
-      ] -%}
-        {%- set _ = translations.update({ key: lang.t(key) }) -%}
-      {%- endfor -%}
-      <script id="__lang" type="application/json">
-        {{- translations | tojson -}}
-      </script>
-
-      <!-- Application configuration -->
-      {% block config %}{% endblock %}
-
-      <!-- Application initialization -->
-      <script>
-        app = initialize({
-          base: "{{ base_url }}",
-          features: {{ config.theme.features or [] | tojson }},
-          search: Object.assign({
-            worker: "{{ 'assets/javascripts/worker/search.js' | url }}"
-          }, typeof search !== "undefined" && search)
-        })
-      </script>
-
-      <!-- Custom JavaScript -->
-      {% for path in config["extra_javascript"] %}
-        <script src="{{ path | url }}"></script>
+  <h2>Show the table of contents for the current page</h2>
+  <ul>
+  {% for toc_item in page.toc %}
+      <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+      {% for toc_item in toc_item.children %}
+          <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
       {% endfor %}
-    {% endblock %}
-  </body>
+  {% endfor %}
+  </ul>
+
+  <hr/>
+
+  {% block content %}
+    {{ page.content }}
+  {% endblock %}
+
+  <hr/>
+
+  Built with <a href="https://www.mkdocs.org">MkDocs</a>.
+
+  <!--
+  MkDocs version      : {{ mkdocs_version }}
+  Docs Build Date UTC : {{ build_date_utc }}
+  -->
+
+</body>
 </html>
