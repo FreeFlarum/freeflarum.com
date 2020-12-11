@@ -5,29 +5,18 @@ theme:
   name: "material"
   #custom_dir: theme/
 
-  # 404 page
-  static_templates:
-    - 404.html
-
-  # Don't include MkDocs' JavaScript
-  include_search_page: false
-  search_index_only: true
-
-  # Default values, taken from mkdocs_theme.yml
   language: en
   features:
     - navigation.tabs
-    #- navigation.instant
   palette:
     scheme: slate
-    primary: rgb(16, 24, 39)
+    primary: black
     accent: orange
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
   icon:
-    logo: logo
+    logo: /images/freeflarum-logo.svg
 
 nav:
   - Home: 'https://www.freeflarum.com/docs/'
