@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/585143304467906581/708964067037020160/freeflarum-logo.png">
+  <img src="https://raw.githubusercontent.com/gwillem/freeflarum.com/master/images/freeflarum-logo.svg">
 </p>
 
 Welcome to the FreeFlarum documentation! Here you can read helpful tutorials that will advice you in building your community! 
