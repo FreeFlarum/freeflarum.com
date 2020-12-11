@@ -3,11 +3,13 @@
   {% set site_url = site_url ~ "/index.html" %}
 {% endif %}
 
-<header class="bg-gray-900 max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 py-4 lg:py-6 flex justify-between">
-    <a href="/">
+<header class="bg-gray-900 flex justify-between">
+    <a href="/docs">
         <span class="sr-only">FreeFlarum.com</span>
         <img src="https://github.com/gwillem/freeflarum.com/raw/master/images/freeflarum-logo.svg" style="width: auto; height: 60px;">
     </a>
+    {% endif %}
+    <nav class="flex items-center space-x-4">
     {% if "search" in config["plugins"] %}
     <label class="md-header-nav__button md-icon" for="__search">
       {% include ".icons/material/magnify.svg" %}
@@ -18,5 +20,5 @@
     <div class="md-header-nav__source">
       {% include "partials/source.html" %}
     </div>
-  {% endif %}
+  </nav>
 </header>
