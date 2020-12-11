@@ -19,9 +19,9 @@ theme:
     - navigation.tabs
     #- navigation.instant
   palette:
-    scheme: default
-    primary: indigo
-    accent: indigo
+    scheme: slate
+    primary: rgb(16, 24, 39)
+    accent: orange
   font:
     text: Roboto
     code: Roboto Mono
