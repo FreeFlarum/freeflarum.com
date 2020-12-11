@@ -5,27 +5,6 @@ theme:
   name: "material"
   custom_dir: material
 
-  static_templates:
-    - 404.html
-
-  include_search_page: false
-  search_index_only: true
-
-  language: en
-  features:
-    - navigation.tabs
-
-  palette:
-    scheme: default
-    primary: indigo
-    accent: indigo
-  font:
-    text: Roboto
-    code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
-
 nav:
   - Home: 'https://www.freeflarum.com/docs/'
   - About: 'about.md'
