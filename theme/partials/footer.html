@@ -1,0 +1,110 @@
+<footer class="md-footer">
+  {% if page.previous_page or page.next_page %}
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="{{ lang.t('footer.title') }}">
+        {% if page.previous_page %}
+          <a href="{{ page.previous_page.url | url }}" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              {% include ".icons/material/arrow-left.svg" %}
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  {{ lang.t("footer.previous") }}
+                </span>
+                {{ page.previous_page.title }}
+              </div>
+            </div>
+          </a>
+        {% endif %}
+        {% if page.next_page %}
+          <a href="{{ page.next_page.url | url }}" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  {{ lang.t("footer.next") }}
+                </span>
+                {{ page.next_page.title }}
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              {% include ".icons/material/arrow-right.svg" %}
+            </div>
+          </a>
+        {% endif %}
+      </nav>
+    </div>
+  {% endif %}
+  <footer class="bg-gray-900 text-gray-200 py-12 xl:pb-24">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-x-8">
+        <div>
+            <h5 class="text-xl font-bold text-orange-500">Flarum</h5>
+            <nav class="mt-4">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="https://flarum.org" class="text-base hover:text-gray-500">Flarum.org</a>
+                    </li>
+                    <li>
+                        <a href="https://discuss.flarum.org" class="text-base hover:text-gray-500">Discuss</a>
+                    </li>
+                    <li>
+                        <a href="https://extiverse.com" class="text-base hover:text-gray-500">Extiverse.com</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h5 class="text-xl font-bold text-orange-500">FreeFlarum</h5>
+            <nav class="mt-4">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="https://discuss.flarum.org/d/7585" class="text-base hover:text-gray-500">Discuss Thread</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/gwillem/freeflarum.com" class="text-base hover:text-gray-500">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@freeflarum.com" class="text-base hover:text-gray-500">E-Mail</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h5 class="text-xl font-bold text-orange-500">About</h5>
+            <nav class="mt-4">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="/docs/about/" class="text-base hover:text-gray-500">About Us</a>
+                    </li>
+                    <li>
+                        <a href="/status" class="text-base hover:text-gray-500">Status</a>
+                    </li>
+                    <li>
+                        <a href="docs/faq/" class="text-base hover:text-gray-500">FaQ</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h5 class="text-xl font-bold text-orange-500">Legal</h5>
+            <nav class="mt-4">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="/docs/legal/terms/" class="text-base hover:text-gray-500">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-base hover:text-gray-500">Privacy Policy</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 flex flex-col md:flex-row justify-between items-center space-y-4 mt-16 lg:mt-20">
+        <div class="text-sm space-y-4 md:space-y-1 text-center md:text-left">
+            <p>&copy; 2017 &dash; 2020 FreeFlarum. FreeFlarum is a community provided service and is not affiliated with Flarum.org.</p>
+            <p class="text-center text-orange-500">Made with <span style="font-size: 20px; color: red; margin-top: 4px;">♥</span> in Europe.</p>
+        </div>
+        <a href="/" class="inline-block bg-gradient-to-br from-orange-600 to-orange-700 hover:from-orange-500 hover:to-orange-700 font-semibold rounded-lg py-4 px-5 lg:px-8 text-white md:transform md:-translate-y-2">Get your Flarum forum</a>
+    </div>
+  </footer>
+</footer>
