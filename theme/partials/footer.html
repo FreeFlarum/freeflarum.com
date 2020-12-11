@@ -2,7 +2,7 @@
   <div class="bg-gray-900 text-gray-200 py-12 xl:pb-24" style="font-size: 0.75rem;">
     {% if page.previous_page or page.next_page %}
       <div class="md-footer-nav">
-        <nav class="mb-12 md-footer-nav__inner md-grid" aria-label="{{ lang.t('footer.title') }}">
+        <nav class="md-footer-nav__inner md-grid" aria-label="{{ lang.t('footer.title') }}">
           {% if page.previous_page %}
             <a href="{{ page.previous_page.url | url }}" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
               <div class="md-footer-nav__button md-icon">
