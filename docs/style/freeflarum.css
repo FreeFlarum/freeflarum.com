@@ -5,12 +5,12 @@ MkDocs
 ======
 */
 
-.md-typeset a {
+html .md-typeset a, .md-nav__link--active {
     color: orange;
 }
 
-body, input {
-    color: lightgray !important;
+html body, input {
+    color: lightgray;
 }
 
 .md-header {
