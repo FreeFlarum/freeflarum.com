@@ -10,7 +10,7 @@ MkDocs
 }
 
 body, input {
-    color: lightgray;
+    color: lightgray !important;
 }
 
 .md-header {
