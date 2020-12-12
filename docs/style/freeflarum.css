@@ -9,6 +9,10 @@ MkDocs
     color: orange;
 }
 
+body, input {
+    color: lightgray;
+}
+
 .md-header {
     background-color: rgba(17, 24, 39) !important;
 }
