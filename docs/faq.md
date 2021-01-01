@@ -16,7 +16,7 @@ To delete your forum, go to your [FreeFlarum settings](/settings) and click "Des
 
 FreeFlarum doesn't have paid accounts and runs entirely on donations. Those are very much welcome, because running this service takes many hours of our unpaid time. And servers aren't free to rent either ;) 
 
-Should you make a voluntary [donation](/donate), we say "thank you!", will name our first born after you and will remove the FreeFlarum footer link on your forum. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you?
+Should you make a voluntary [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info@freeflarum.com&lc=US&amount=7&item_name=FreeFlarum+donation&no_note=0&cn=&currency_code=EUR&bn=PPDonationsBF:btn_donateCC_LG.gif:NonHosted), we say "thank you!", will name our first born after you and will remove the FreeFlarum footer link on your forum. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you?
 
 !!! note
     If you want to donate more, just donate a custom amount to the following PayPal E-Mail: info@freeflarum.com. Don't forget to add your forum name/URL in the message, else we won't know what footer to remove.
