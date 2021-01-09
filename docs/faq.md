@@ -12,19 +12,25 @@ FreeFlarum is meant for smaller forums and supports up to 250 users. When you ha
 
 To delete your forum, go to your [FreeFlarum settings](/settings) and click "Destroy Forum".
 
-#### Can I pay to remove the "powered by FreeFlarum" footer?
+#### Can I pay to remove the "powered by FreeFlarum" footer for my or other forum?
 
 FreeFlarum doesn't have paid accounts and runs entirely on donations. Those are very much welcome, because running this service takes many hours of our unpaid time. And servers aren't free to rent either ;) 
 
-Should you make a voluntary [donation](/donate), we say "thank you!", will name our first born after you and will remove the FreeFlarum footer link on your forum. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you?
+Should you make a voluntary [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info@freeflarum.com&lc=US&amount=7&item_name=FreeFlarum+donation&no_note=0&cn=&currency_code=EUR&bn=PPDonationsBF:btn_donateCC_LG.gif:NonHosted), we say "thank you!", will name our first born after you and will remove the FreeFlarum footer link on your forum. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you?
+
+!!! note
+    If you want to donate more, just donate a custom amount to the following PayPal E-Mail: info@freeflarum.com. Don't forget to add your forum name/URL in the message, else we won't know what footer to remove.
+
 Please send your forum name (the part before `.freeflarum.com` or `.flarum.cloud`) in the donation message. 
 
 !!! note 
     If you donate less than $5, Paypal will take nearly all of it as "transaction fees".
+    
+You may also remove footers on the behalf of other forums. All donations are processed manually - usually within 24 hours from the time the invoice E-Mail has arrived to our mailbox. If your footer is not removed within a day, it means that the receipt didn't arrive. If that's the case, please re-send us the PayPal receipt and we will take a look at it.
 
 ---
 
-## __Errors & glitches__
+## __Errors__
 
 #### I got error: "Error booting Flarum: Return value of Flarum"
 
@@ -73,10 +79,24 @@ Please, be patient. Big things grow slowly and we have a life too. It may take u
 
 ## __Other questions__
 
+#### Can I report a forum that violates your Terms & Conditions (or is inappropriate by any other means)?
+
+Yes, you can send us a mail to [reports@freeflarum.com](mailto:reports@freeflarum.com) and we will review your complaint and potentially take appropriate action.
+In general, your report should follow this template:
+
+1. The URL of the forum.
+
+2. What rule does the forum violate?
+
+3. Why should we remove the forum?
+
+Reports (just like any other mail) will be usually processed within 48 hours from the time of when the report has arrived to our inbox. If it didn't arrive, nothing happens... literally. Spam mails will be ignored.
+
+Forums violating our [Terms & Conditions](/docs/legal/terms) will be suspended without prior notice.
+
 #### Can I import users from another forum?
 
 Flarum does currently not support adding users from the admin panel or API, there's [an issue for that](https://github.com/flarum/core/issues/885). However, you can use the [Doorman](https://discuss.flarum.org/d/17845-doorman-by-reflar) extension to invite people.
-
 
 #### Can we hire you for a custom job?
 

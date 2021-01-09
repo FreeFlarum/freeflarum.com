@@ -40,10 +40,6 @@ We use cookies to understand and save your preferences for future visits and com
 
 We do not sell, trade or otherwise transfer to outside parties your personally identifiable information. This does not include trusted third parties who assist us in operating our site, conducting our business or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies or protect ours or others rights, property or safety. However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising or other uses.
 
-Our website uses Google Analytics, a service which transmits website traffic data to Google servers in the United States. Google Analytics does not identify individual users or associate your IP address with any other data held by Google. We use reports provided by Google Analytics to help us understand website traffic and webpage usage.
-
-By using Flarum, you consent to the processing of data about you by Google in the manner described in Google's Privacy Policy and for the purposes set out above. You can opt out of Google Analytics if you disable or refuse the cookie, disable JavaScript, or use the opt-out service provided by Google. Be aware that if you disable JavaScript completely you will impact the normal functionality of Flarum.
-
 ## Third Party Links
 
 Occasionally, at our discretion, we may include or offer third party products or services on our site. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.

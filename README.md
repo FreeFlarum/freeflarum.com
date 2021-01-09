@@ -4,7 +4,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/gwillem/freeflarum.com?style=social)](https://github.com/gwillem/freeflarum.com/network/members)
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/585143304467906581/755338778209681408/freeflarum-logo.svg">
+  <img src="./images/freeflarum-logo.svg">
 </p>
 
  __FreeFlarum__ is a community provided [Flarum](https://www.flarum.org) hosting allowing you to quickly launch your forum under 1 minute! Flarum can be hard to set up. Not anymore! Create your own Flarum forum instantly and start building your community.

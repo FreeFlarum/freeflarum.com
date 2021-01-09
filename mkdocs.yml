@@ -1,9 +1,18 @@
 site_name: FreeFlarum Documentation
 site_url: https://www.freeflarum.com/docs/
-
+  
 theme:
-   name: 'material'
-   #  custom_dir: 'theme'
+  name: "material"
+  custom_dir: theme/
+
+  language: en
+  palette:
+    scheme: slate
+    primary: black
+    accent: orange
+  font:
+    text: Roboto
+    code: Roboto Mono
 
 nav:
   - Home: 'index.md'
@@ -75,13 +84,15 @@ nav:
     - 'Terms': 'legal/terms.md'
 
 extra_css:
-  - 'style-tweaks/font-size.css'
-  - 'style-tweaks/font-family.css'
+  - 'style/freeflarum.css'
 
 markdown_extensions:
   - admonition
   - toc:
       permalink: ⚓︎
+
+plugins:
+  - search
   
 repo_url: https://github.com/gwillem/freeflarum.com
 # edit_uri is not required for GitHub
