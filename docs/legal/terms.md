@@ -18,7 +18,7 @@
 
 **4.** FreeFlarum reserves the right to cancel forums that are detrimental to its quality of service or reputation, at its sole discretion.
 
-**5.** Forums that are not used for more than 2 months (no logins/posts/visitors) may be removed.
+**5.** Forums that are not used for more than 3 months (no logins/posts/visitors) may be removed.
 
 **6.** Although generous efforts are undertaken to maintain the availability and performance of this service, there is explicitly no warranty given. Use at your own risk.
 
