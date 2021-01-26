@@ -13,7 +13,7 @@ Configuring the DNS can be tricky, because every registrar has a different metho
 
     You should create a CNAME record from your own domain name to FreeFlarum, which looks like this:
 
-    `forum.your.com CNAME you.freeflarum.com`
+    `forum.your.com CNAME you.freeflarum.com.` (note that DNS record usually ends with a dot - `.`)
 
 !!! note "TTL"
     Your provider might ask for a TTL, you should set this as low as possible, eg. 2 minutes. This allows you to change servers quickly, if necessary.
