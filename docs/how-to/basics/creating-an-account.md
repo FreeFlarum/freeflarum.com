@@ -1,6 +1,6 @@
 # Creating an Account
 
-Maybe you wanted to register some accounts for your friends to make a [private forum](/docs/howto/private-forum/). Or you just want to register one for yourself.
+Maybe you wanted to register some accounts for your friends to make a [private forum](/docs/how-to/basics/private-forum/). Or you just want to register one for yourself.
 
 It is very easy. Let's see how it can be done:
 
