@@ -29,7 +29,7 @@
 **8.** You are not allowed to monetize your forum (eg.: by using the "Google Adsense" service, having a "pay-to-see" content and other similar techniques). We are a free, voluentary, community provided service and we are not looking towards to become a commercial entity.
   - If you'd like to monetize your forum, the best option for you right now is to self-host it instead.
 
-**9.** You are required to promptly address any security vulnerabilities at FreeFlarum that you find by [E-mailing us](mailto:info@freeflarum.com].
+**9.** You are required to promptly address any security vulnerabilities at FreeFlarum that you find by [E-mailing us](mailto:info@freeflarum.com).
 
 <p align="center">
     <h6><i>Last updated: 12th February 2021</i></h6>
