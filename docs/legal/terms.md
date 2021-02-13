@@ -39,5 +39,5 @@
 **10.** You are required to promptly address any security vulnerabilities at FreeFlarum that you find by [E-mailing us](mailto:info@freeflarum.com).
 
 <p align="center">
-    <h6><i>Last updated: 12th February 2021</i></h6>
+    <h6><i>Last updated: 13th February 2021, 20:08</i></h6>
 </p>
