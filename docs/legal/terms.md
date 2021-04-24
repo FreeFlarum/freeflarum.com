@@ -32,7 +32,7 @@
 
 **8.** This service is not available to persons or legal entities who operate legal constructs for the purpose of tax evasion or concealment of the ultimate benefactor, such to be determined by FreeFlarum at its sole discretion.
 
-**9.** You are not allowed to monetize your forum (eg.: by using the "Google Adsense" service, having a "pay-to-see" content and other similar techniques). We are a free, voluentary, community provided service and we are not looking towards to become a commercial entity.
+**9.** You are not allowed to monetize your forum (eg.: by using the "Google Adsense" service, having a "pay-to-see" content and other similar techniques). We are a free, voluentary, community provided service and we are not looking towards to become a commercial entity. Getting profit from something that is provided for free is not a good practice either.
 
   - If you'd like to monetize your forum, the best option for you right now is to self-host it instead.
 
