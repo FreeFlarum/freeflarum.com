@@ -18,8 +18,6 @@
 
   - This limit may be surpassed and your forum can function properly, however we do not provide support for forums above the limit because we don't officially support them - if you want to run a busy forum, your best option might be to self-host it instead.
 
-  - [>> More about user limits question](https://discuss.flarum.org/d/7585-free-flarum-hosting-on-an-expert-platform-by-freeflarum-com/2069)
-
 **4.** You are allowed to modify the full appearance of your forum (through the "Administration" panel at your Flarum instance), but it is not allowed to change the appearance as in to hide or otherwise hinder the displayed advertisements of FreeFlarum, such as the FreeFlarum footer. If you would like to remove that footer, please [see this page](./faq/#can-i-pay-to-remove-the-powered-by-freeflarum-footer-for-my-or-other-forum).
 
 **5.** FreeFlarum reserves the right to cancel forums that are detrimental to its quality of service or reputation, at its sole discretion.
