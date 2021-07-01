@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 mkdocs = "*"
 mkdocs-material = "*"
-lunr = "0.5.8"
 
 [dev-packages]
 
