@@ -26,7 +26,7 @@ theme:
     code: Roboto Mono
 
 nav:
-  - Home: 'https://freeflarum.com/docs/'
+  - Home: '/docs/'
   - About: 'about.md'
   - FaQ: 'faq.md'
   - Troubleshooting: 'troubleshooting.md'
