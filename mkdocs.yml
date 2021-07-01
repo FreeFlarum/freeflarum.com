@@ -3,7 +3,6 @@ site_url: https://freeflarum.com/docs/
   
 theme:
   name: "material"
-  custom_dir: theme/
 
   language: en
   palette:
@@ -29,7 +28,7 @@ nav:
     - 'Terms': 'legal/terms.md'
 
 extra_css:
-  - 'theme/style/freeflarum.css'
+  - 'extra/freeflarum.css'
 
 markdown_extensions:
   - admonition
