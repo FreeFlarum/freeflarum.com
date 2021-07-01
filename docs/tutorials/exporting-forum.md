@@ -3,8 +3,6 @@
 FreeFlarum does not want to lock you into its service, so at any time you are free to take your data and move your forum elsewhere. 
 Here are the steps you need:
 
-![](https://buq.eu/screenshots/V8oNk96S9EJhzGhmyzTyOSkr.png)
-
 1. [Log in to FreeFlarum](/settings) and download your database and avatars.
 2. Install Flarum (same version!) elsewhere, and follow the regular documentation to do that. Test if your new installation is working. 
 3. Import your database: `zcat flarum_myforum.sql.gz | mysql -u USER -h HOST -p` where USER and HOST are from your new database account.

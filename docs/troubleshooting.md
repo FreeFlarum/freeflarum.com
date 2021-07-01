@@ -10,7 +10,7 @@
 > 
 > ---
 
-#### My forum showed me a message similar to "Oops! Something went wrong. Try reloading the page."
+### My forum showed me a message similar to "Oops! Something went wrong. Try reloading the page."
 
 This error originates from Flarum, and it could happen because of a frontend or backend error.
 

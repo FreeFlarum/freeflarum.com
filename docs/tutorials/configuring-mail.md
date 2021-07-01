@@ -25,3 +25,5 @@ Of course, you can use your own mail provider/service. Let's see how can this be
     4. Under the Password & sign-in method section, click App passwords.
     5. Make sure Mail or Other (custom name) is selected in the Select app drop-down menu. If you selected Mail, choose a computer or device from the Select device menu. If you selected Other (custom name), type the application or add-on and, optionally, device (like "Mozilla Thunderbird on my Linux laptop") over e.g. YouTube on my Xbox.
     6. Click Generate.
+
+You can then test your configuration by sending a test mail.
