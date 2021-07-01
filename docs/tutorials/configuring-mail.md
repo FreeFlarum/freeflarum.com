@@ -1,16 +1,11 @@
 # Configuring Mail
 
-Sometimes, you want to look more original by using your own mail address for mails sent by Flarum, such as mails for password change links, registration links etc...
+Your FreeFlarum forum is ready to send mail out of the box. These are the default settings (under Administration > Email), that you should not have to touch:
 
-Your FreeFlarum forum is ready to send mail out of the box, using the [Mailgun](https://www.mailgun.com/) service. These are the default settings (under Administration > Email), that you should not have to touch:
+![Image](https://buq.eu/screenshots/y6s4moqOrgj3Wil2WZHFylku.png)
 
-![](https://buq.eu/screenshots/y6s4moqOrgj3Wil2WZHFylku.png)
-
-Of course, you can also use your own mail service. Let's see how can this be done in this Gmail examples:
-
-!!! warning
-    
-    **Carefully enter the mail settings. If you make a typo, it will brick your Flarum install!**
+But sometimes, you want to look more original by using your own mail address for mails sent by Flarum.
+Of course, you can use your own mail provider/service. Let's see how can this be done in this Gmail examples:
 
 !!! question "Use Gmail without 2FA"
 
@@ -18,7 +13,7 @@ Of course, you can also use your own mail service. Let's see how can this be don
 
     **Note:** This method will not work if you have enabled 2-factor authentication (2FA) for your Gmail account. In that case, you should create an app password (tutorial below).
 
-    ![](https://buq.eu/screenshots/e8nMl8RqXNF1W144yH4C7H7b.png)
+    ![Image](https://buq.eu/screenshots/e8nMl8RqXNF1W144yH4C7H7b.png)
 
 !!! question "Use Gmail with 2FA"
 

@@ -1,7 +1,6 @@
-# Requests users to follow the templates:
 blank_issues_enabled: false
 contact_links:
-#...or links in general. Makes sure people stay to the topic on FreeFlarum.
+
   - name: Flarum Discuss
     url: https://discuss.flarum.org
     about: Please, ask questions about Flarum there. This repository is intended for FreeFlarum related issues only.

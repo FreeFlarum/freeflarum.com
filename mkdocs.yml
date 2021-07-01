@@ -1,5 +1,5 @@
 site_name: FreeFlarum Documentation
-site_url: https://www.freeflarum.com/docs/
+site_url: https://freeflarum.com/docs/
   
 theme:
   name: "material"
@@ -15,75 +15,21 @@ theme:
     code: Roboto Mono
 
 nav:
-  - Home: 'https://www.freeflarum.com/docs/'
+  - Home: 'https://freeflarum.com/docs/'
   - About: 'about.md'
   - FaQ: 'faq.md'
   - Troubleshooting: 'troubleshooting.md'
   - Roadmap: 'roadmap.md'
-  - Getting Started:
-    - Basics:
-        - 'Creating an Account': 'how-to/basics/creating-an-account.md'
-        - 'Personalization': 'how-to/basics/personalization.md'
-        - 'Private Forum': 'how-to/basics/private-forum.md'
-  - Extensions:
-    - 'What are Extensions?': 'how-to/extensions/about-extensions.md'
-    - Extension List:
-        - 'Approval': 'how-to/extensions/approval.md'
-        - 'Author Change': 'how-to/extensions/author-change.md'
-        - 'BBCode': 'how-to/extensions/bbcode.md'
-        - 'Bosnian Language': 'how-to/extensions/bosanski.md'
-        - 'Bosnian Language (Extended)': 'how-to/extensions/bosnian-extended-pack.md'
-        - 'Brazilian Portuguese Language': 'how-to/extensions/brazilian-portuguese.md'
-        - 'Canonical URL': 'how-to/extensions/canonical-url.md'
-        - 'Czech': 'how-to/extensions/czech.md'
-        - 'Deutsch Language': 'how-to/extensions/deutsch.md'
-        - 'Discussion Views': 'how-to/extensions/discussion-views.md'
-        - 'Dutch Language': 'how-to/extensions/dutch.md'
-        - 'Embed': 'how-to/extensions/embed.md'
-        - 'Emoji': 'how-to/extensions/emoji.md'
-        - 'English': 'how-to/extensions/english.md'
-        - 'Facebook Login': 'how-to/extensions/facebook-login.md'
-        - 'Flags': 'how-to/extensions/flags.md'
-        - 'FoF Analytics': 'how-to/extensions/fof-analytics.md'
-        - 'FoF BBCode Details': 'how-to/extensions/fof-bbcode-details.md'
-        - 'FoF Ban IPs': 'how-to/extensions/fof-ban-ips.md'
-        - 'FoF Private Discussions (Byōbu)': 'how-to/extensions/fof-byobu.md'
-        - 'FoF Default Group': 'how-to/extensions/fof-default-group.md'
-        - 'FoF Default User Preferences': 'how-to/extensions/fof-default-user-preferences.md'
-        - 'FoF Discord Login': 'how-to/extensions/fof-discord-login.md'
-        - 'FoF Drafts': 'how-to/extensions/fof-drafts.md'
-        - 'FoF Formatting': 'how-to/extensions/fof-formatting.md'
-        - 'FoF Forum Statistics Widget': 'how-to/extensions/fof-forum-statistics-widget.md'
-        - 'FoF Gamification': 'how-to/extensions/fof-gamification.md'
-        - 'FoF Linguist': 'how-to/extensions/fof-linguist.md'
-        - 'FoF Links': 'how-to/extensions/fof-links.md'
-        - 'FoF Masquerade': 'how-to/extensions/fof-masquerade.md'
-        - 'FoF Merge Discussions': 'how-to/extensions/fof-merge-discussions.md'
-        - 'FoF Night Mode': 'how-to/extensions/fof-nightmode.md'
-        - 'FoF Pages': 'how-to/extensions/fof-pages.md'
-        - 'FoF Passport': 'how-to/extensions/fof-passport.md'
-        - 'FoF Polls': 'how-to/extensions/fof-polls.md'
-        - 'FoF Sitemap': 'how-to/extensions/fof-sitemap.md'
-  - Third-party Integrations:
-    - Analytics:
-        - 'Google Analytics': 'how-to/integrations/google-analytics.md'
-    - Logins: 
-        - 'Login Methods': 'how-to/integrations/logins.md'
-        - 'Log In with Google': 'how-to/integrations/google-login.md'
-        - 'Log In with Facebook': 'how-to/integrations/facebook-login.md'
-        - 'Log In with GitHub': 'how-to/integrations/github-login.md'
-        - 'Log In with Discord': 'how-to/integrations/discord-login.md'
-        - 'Log In with Laravel': 'how-to/integrations/laravel-passport.md'
-  - Advanced Usage:
-    - 'Exporting Your Forum': 'how-to/advanced-setup/exporting-forum.md'
-    - 'Custom Domain': 'how-to/advanced-setup/custom-domain.md'
-    - 'Configuring Mail': 'how-to/advanced-setup/configuring-mail.md'
+  - Tutorials:
+    - 'Exporting Your Forum': 'tutorials/exporting-forum.md'
+    - 'Custom Domain': 'tutorials/linking-custom-domain.md'
+    - 'Configuring Mail': 'tutorials/configuring-mail.md'
   - Legal:
     - 'Privacy Policy': 'legal/privacy-policy.md'
     - 'Terms': 'legal/terms.md'
 
 extra_css:
-  - 'style/freeflarum.css'
+  - 'theme/style/freeflarum.css'
 
 markdown_extensions:
   - admonition
@@ -94,4 +40,4 @@ plugins:
   - search
   
 repo_url: https://github.com/gwillem/freeflarum.com
-# edit_uri is not required for GitHub
+

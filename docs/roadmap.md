@@ -1,23 +1,20 @@
-# Roadmap 
+# Roadmap
 
 *FreeFlarum: Powerful communities for everyone!*
 
-Please post feature requests as [new Github issues](https://github.com/gwillem/freeflarum.com/issues). 
+Please post feature requests as [new Github issues](https://github.com/gwillem/freeflarum.com/issues).
 
-## v3.0 (unreleased)
-- Forums can import data from existing forum.
-- Pre-configured Facebook/Twitter login.
+## v3.0 (July 2021)
 
-## v2.4 (unreleased)
-- Forums can reset their header/smtp settings
-- Front-end decoupled from back-end (using JS/API)
-- New design implemented
+- Please, see [our separate page](/docs/changelog/freeflarum-v3.0) as for what had changed.
 
 ## v2.3 (11th August, 2019)
+
 - Forums can be deleted
 - No more ads
 
 ## v2.2 (3rd August, 2019)
+
 - Beta9 support!
 
 ## v2.1 (9th January 2018)
@@ -43,3 +40,4 @@ Please post feature requests as [new Github issues](https://github.com/gwillem/f
 - Under 3 second Flarum site creation.
 - Flarum instances are isolated and cannot influence each other.
 - All forums have SSL protection.
+

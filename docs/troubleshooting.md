@@ -1,59 +1,46 @@
 # <p align="center">Troubleshooting</p>
 
 > ---
+> 
 > **<p align="center">Sometimes your forum might run into some issue. Although the error might be looking scary, in the end it could be just a simple problem with simple solution.</p>**
->
+> 
 > ---
+> 
 > <p align="center">We have created this troubleshooting guide for you to fix the most common issues of your forum without the need of <a href="https://github.com/gwillem/freeflarum.com/issues">creating a new issue</a>.</p>
->
+> 
 > ---
 
-!!! warning
-    It is recommended to always contact us about any issue you might have. Sometimes it can be a FreeFlarum issue, but sometimes it might also be issue with Flarum or any of it's extensions. 
-    We, sadly, can't fix any issues with extensions - issues like this have to be reported to the extension author for assistance to fix 
-    your problem.
-    
-!!! tip "Try clearing your cache"
-    Because Flarum caches things, such as language strings for example, it can sometimes happen that your forum might not work the way it's supposed to. See the issue below for an example of broken language.
-    In cases like this, we always keep telling you to "clear your cache" But how do you do that?
-    
-    It's actually very simple. First, go to the "Administration" section of your forum. Then, click on "Tools" > "Clear cache".
-    
-    ![](https://cdn.discordapp.com/attachments/585143304467906581/745183144298283065/unknown.png)
-    
-    Please note that after clearing the cache, your forum might load for a bit longer the first time you load it after the cache was cleared. This is because of that. Cache is in place to speed your forum up.
-    If you don't really know what a cache is, [learn more here](https://en.wikipedia.org/wiki/Cache_(computing)), or look it up..
-    
-!!! question "The language of my forum is broken. Instead of the actual translation, string IDs appear (for example, instead of the log in button, we can see something like 'flarum.core.login' in the place of the "Log In" text.)"
-    This is currently probably the most common Flarum bug. We sadly don't have the tools to monitor, track and debug these issues,
-    but that doesn't mean that there is no fix.
+#### My forum showed me a message similar to "Oops! Something went wrong. Try reloading the page."
 
-    First of all, try clearing your Flarum cache. If this doesn't help, try out different browser or clear your browser cache to see if it's not a problem on your side.
-    If that didn't help either, check if you have the English language pack enabled. This extension should be always enabled, as it is basically the default language for Flarum.
+This error originates from Flarum, and it could happen because of a frontend or backend error.
 
-    Lastly, it might be an extension conflict. We cannot resolve this kind of issue, and bugs related to extensions should be
-    reported to their authors.
-    
-    This issue was reported [here (#99)](https://github.com/gwillem/freeflarum.com/issues/99), [here (#109)](https://github.com/gwillem/freeflarum.com/issues/109) and also [here (#112)](https://github.com/gwillem/freeflarum.com/issues/112).
-    Please, check those issues - they might help you to fix the problem.
-    
-!!! question "When I try to create a new discussion or post, an error shows up and the discussion is sent. Or it is sent after I reload the page, but the error still appears."
-    This issue appeared when the Tags extension was disabled (as can be seen [here](https://github.com/gwillem/freeflarum.com/issues/102). However, some other factors might cause this issue.
-    Sadly, this problem is somewhat a mysterious one, due to wide variety of extensions at FreeFlarum that might be causing this issue. If you still have concerns, please [open an issue](https://github.com/gwillem/freeflarum.com/issues).
-    
-!!! question "After upgrading to new version of Flarum, one or more extensions do not work correctly."
-    This issue occurs when Flarum gets a new update, and some changes in the API made the extension to stop working or behaving correctly.
-    Again, we are not responsible for extensions. They are community provided ones. If an extension stops working, we have no other choice but remove it from all FreeFlarum forums.
-    You must then report the issue to the extension author. You can see FreeFlarum's extensions listed and documented [here](/docs/how-to/extensions/analytics/).
-    After the issue has been fixed, you can request the extension to be re-added to FreeFlarum [here](https://github.com/gwillem/freeflarum.com/issues).
-    
-!!! question "When I navigate to my forum, I see an error instead."
-    Different errors mean different solutions for them. Please, [open a new issue](https://github.com/gwillem/freeflarum.com/issues) so we can look into that.
-    Do not forget to include the full error in your report.
+Frontend is the Flarum page as you see it, with all those rendered pages and discussions. It is what your browser sees when you access your forum. This also includes the compiled JavaScript, which tends to cause errors like these on the client-side.
 
-    Note: Errors might appear when FreeFlarum is under a maintenance (eg.: updating all extensions. If that's the case, all you can do is wait and the error should be fixed). You can check for FreeFlarum updates at our [official Discuss thread](https://discuss.flarum.org/d/7585-free-flarum-hosting-on-an-expert-platform-by-freeflarum-com/).
-    
-!!! question "I have enabled an extension and when I now try to open my forum, I see an error instead. I bricked my Flarum."
-    First, try to nagivate to your Administrator panel through the direct URL (eg. `https://yourforumname.flarum.cloud/admin#/`) and try to disable the extension from there. There is a chance that the panel was unaffected.
-    If same error shows there and you can't access any of the pages at your forum, please [open a new issue](https://github.com/gwillem/freeflarum.com/issues) and include the bugged extension name in your
-    report along with the error message so we can take care of it.
+Backend is the Flarum's source code (written in PHP). It is not something that your browser reads, but your browser can communicate with the server. If FreeFlarum's server responds with an error code (502, 504, etc.), it gets sent back to the client.
+
+To figure out whether it is a JavaScript (client-side) or server-side error, you can open up the developer tools in your browser and look for errors in the console. This is for advanced users only.
+
+Starting from the July 2021 update of FreeFlarum, you are able to view your forum server-side logs from your settings page at /settings/logs). From there, you can view more instructions on how to proceed.
+
+Since FreeFlarum is not affiliated with Flarum and we are simply just a hosting provider, we can't fix issues in Flarum for our clients. You must report the error to Flarum maintainers at https://discuss.flarum.org.
+
+### My forum won't boot and I can't access it. It says that details have been logged to the logs file.
+
+This is the same scenario as above, except that now the error is critical and Flarum was unable to boot properly.
+
+If that's the case, then please check your most recent log file at /settings/logs and report any errors that you've found to the Flarum team at https://discuss.flarum.org.
+
+### I have reported the error, but Flarum said that it's related to FreeFlarum
+
+In that case, report it to us in [our discussion](/discuss) or by [E-mail](mailto:info@freeflarum.com).
+
+### I can't CNAME my domain to FreeFlarum. It says that my domain does not CNAME to xxx.freeflarum.com.
+
+First of all, check if the domain CNAMEs to FreeFlarum properly. The CNAME record should look like this:
+
+`subdomain.yourdomain.tld.    300    IN   CNAME    yourforumname.freeflarum.com`
+
+Note that CNAMING root domains (e. g. just `yourdomain.tld`) is not possible ([this is a limitation of CNAME](https://ns1.com/resources/cname), although a very few hosting providers might allow it). Only CNAME records are supported - so no ALIAS or A record. FreeFlarum is made to check for CNAME only.
+
+Please, check our [documentation about custom domain linking](/docs/tutorials/linking-custom-domain) for more information.
+

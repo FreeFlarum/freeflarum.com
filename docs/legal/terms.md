@@ -36,6 +36,8 @@
 
 **10.** You are required to promptly address any security vulnerabilities at FreeFlarum that you find by [E-mailing us](mailto:info@freeflarum.com).
 
+**11.** Exploitation and abuse of potential bugs found in FreeFlarum's source code is strictly forbidden. All bugs need to be reported to us promptly.
+
 <p align="center">
-    <h6><i>Last updated: 13th February 2021, 20:08</i></h6>
+    <h6><i>Last updated: the 1st of July 2021, 14:24 UTC +02:00</i></h6>
 </p>
