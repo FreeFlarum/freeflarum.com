@@ -6,8 +6,9 @@ name = "pypi"
 [packages]
 mkdocs = "*"
 mkdocs-material = "*"
+lunr = "0.5.8"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"
