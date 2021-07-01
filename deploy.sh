@@ -1,4 +1,4 @@
 #!/bin/bash
 
 pipenv run mkdocs build
-rsync -va --delete --exclude=.git ./ ff:/data/docs/
+rsync -va --delete --exclude=.git ./ /data/docs/
