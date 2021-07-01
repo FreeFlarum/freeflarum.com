@@ -53,8 +53,8 @@ A paid plans system is not what we are looking for in order to keep FreeFlarum u
 
 Since we aren't being paid for what we do, a donation is always welcome. We need money in order to keep FreeFlarum up and running. But for that, we need some income. So we've decided to create a donation tier system. Donating is optional and will provide the forum some perks in return (so that people are actually willing to donate). These perks should not significantly make a difference between other forums (in terms of support or forum speed, for example). They are merely a token of gratitude, and for people that want a bit more features. They won't give you any sort of forum performance boost, or separate server. They will give you just exactly what's listed in the [donation section](/settings/overview).
 
-#### I have donated. Will you treat my forum differently? Will I get faster response times from support?
-No.
+#### I have donated. Will I get faster response times from support (or any other benefits not listed at the donation page)?
+No, you get what you have donated for only.
 
 #### My forum was removed, and I am a donor. Will I get a refund?
 No, we don't do refunds.
