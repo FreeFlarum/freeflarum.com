@@ -12,14 +12,14 @@ theme:
       primary: orange
       accent: yellow
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: orange
       accent: yellow
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to light mode
   font:
     text: Roboto
@@ -38,6 +38,8 @@ nav:
   - Legal:
     - 'Privacy Policy': 'legal/privacy-policy.md'
     - 'Terms': 'legal/terms.md'
+  - Changelog:
+    - 'FreeFlarum Rebase (July 2021)': 'changelog/freeflarum-v3.0.md'
 
 extra_css:
   - 'extra/freeflarum.css'
