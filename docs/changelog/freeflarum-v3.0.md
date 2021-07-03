@@ -2,74 +2,60 @@
 
 Flarum can be hard to setup for people that are not experienced with server or hosting technology. A few years ago in 2017, an idea was born - provide people a fast and simple, one-click Flarum installation! Thus, FreeFlarum was born.
 
-Now, it's running on Python 2.7 which is pretty old at this point. It is also using old Python packages, and the techniques and code principles have changed a lot nowadays.
+It was running on Python 2.7 to this day, which is pretty old at this point. It is also using old Python packages, and the techniques and code principles have changed a lot nowadays.
 
 So, we have decided to invest our time into updating all (or most of the code) to match new requirements and to make further updates easier to roll out. In little over 5 months (with smaller and bigger breaks here and there), the working implementation is now finished!
 
-# Changes:
+Officially, this puts FreeFlarum to version v3.0 (according to our *ancient* [roadmap](https://freeflarum.com/docs/roadmap/)). This update brings a completely new structure for FreeFlarum, Python 3.9 compatibility, PHP 8.0.8 compatibility, and hopefully some performance boost & more security for everything.
 
-## Important changes:
-- Previously, donors were just marked as donors, and the actual amount that they had donated wasn't saved. However, the new system determines whether or not the forum is donor by the donated amount. Since these were not present, we have assigned every donor a dummy value of 7 €. If you would like to correct that to your actual donor amount, please E-mail us at info@freeflarum.com along with the PayPal receipt, if you still have it. We will fix it for you.
+Here's an important notice for forums that have donated to FreeFlarum:
 
-## Website:
+- Previously, donors were just marked as donors, and the actual amount that they had donated wasn't saved. However, the new system determines whether or not the forum is donor by the donated amount. Since these were not present, we have assigned every donor a dummy value of 7 €. If you would like to correct that to your actual donor amount (and take advantage of more perks in return for higher amount), please E-mail us at info@freeflarum.com along with the PayPal receipt, if you still have it. We will fix it for you.
 
-The frontend (website)'s design was updated once again. We have built upon already existing styles (and added new ones). The color palette became more consistent along with other page elements, and the website is also more responsive on smaller screens.
+## Changes
+---
 
-The biggest difference is that users can now toggle between light and dark mode. This can be done by clicking on the button next to logo in the top left corner of the page (with sun/moon emoji). The preference is saved in a cookie and remembered during next page load. Default mode for new users is night mode, to match our old look. Dark mode also looks better overall, in my opinion.
+#### Main site:
 
-## Settings
+- The design of https://freeflarum.com was updated once again to ensure a consistent color palette.
+- In additon to that, we have also added the ability to toggle between dark and light mode. Default is dark mode, because it's better (or to simply match our previous appearance).
+- A few new pages for all the new features.
+- Status page does not detect all errors correctly 🙈  (will be fixed)
 
-The settings page was split into multiple sub-pages: _Overview_, _Forum Settings_, _Logs_ and _Logout button_.
+### Forum registration
+- The live forum availability checker now uses an API endpoint to check for forum availability, instead of using JavaScript to check whether or not favicon of the forum exists, to bypass 427/Too many requests, which would falsely mark the forum as taken. This also fixes "ghost forums".
+- Soon, it will be possible to choose between several forum functional templates, to quickstart your community. I didn't have time to be fancy with them, but if someone wants to help us, feel free to create some forum boilerplates (e. g. for gaming forum, support forum, chit-chat, etc...). For now, the default is "No template", which is the standard FreeFlarum blank forum as we know it.
+- Instead of sending you a password to your E-mail, we now also send you a password reset link. You can now set your new password with fewer clicks, right from your E-mail - and then, be automatically logged in.
+- If you try to register a forum with an E-mail address that had banned FreeFlarum (ex. China), you will now receive an error message. We are aware that forums are inaccessible from China, and we will resolve it hopefully very soon.
 
-### Overview
+### The settings page
+- ...was now split into multiple sections:
+  - [Overview](https://freeflarum.com/settings/overview) - See your points, rank, donation status, perks and more - all at one place.
+  - [Forum Settings](https://freeflarum.com/settings/forum_settings) - The standard settings page, as you know it - but with a few extra forms in favor of the new features!
+  - [Logs](https://freeflarum.com/settings/logs) - Allows you to view your forum logs (and saves both of us some time, because now you can see the error message, what caused it, and report it to Flarum right away instead of having to wait for us to pull the logs of your forum out).
+  - Logout button - logs you out of FreeFlarum (but not your forum).
 
-Contains information about the forum, such as its rank, points, users, etc...
+### [Support page](https://freeflarum.com/support)
+Don't you just hate it when we silently delete your forum for being inactive for too long? Well, say no more - now, you can reactivate your forum or reset your password right from the [support page](https://freeflarum.com/support). Everything is completely automatic - you just provide us some extra information, so that we can verify that you are indeed the owner of that forum, and the rest will be done automatically.
 
-On the bottom of the page, there is a new section made just for donations. Here, users are able to choose a recommended amount, view the perks that they recieve upon donating that amount and can proceed to PayPal, or donate with cryptocurrency (for people that can't access PayPal from their country).
+### Enhanced E-mail communication
+Our E-mails have gotten new look again. They're even simpler now, and the logo should now render properly (at least for GMail users). It doesn't just end with fancy mails - because now you receive them also when your forum is archived, destroyed or reactivated. Triple the chance of FreeFlarum's mail server to be flagged as spam - hooray! Actually, let's hope that won't happen...
 
-We strongly recommend you to check our [Donation FAQ](/docs/faq#donation-faq) before you make a donation. Donations are always very much appreciated, as servers aren't free to rent. Thanks!
+### Translations
+The FreeFlarum website is now completely translatable! We just haven't finished any translation yet... We have tried [Smartcat](https://smartcat.com/) as the translation service during the testing since Weblate was hard to implement for me (Redis cache, since we don't use that, and GitHub linking specifically), but I will take a look at it again. Meanwhile, I will setup it at Smartcat (at least for now) and we could start accepting translations for the community for the main website (https://freeflarum.com). Note that this is not going to be a paid position!
 
-### Forum Settings
-
-The standard settings page, extended with some more settings, such as forum directory form to change forum description, icon, keywords, bump forum button, etc...
-
-This is all new, and will be explained below in a moment.
-
-### Logs
-
-This page contains all logs of a forum from the "_app/storage/logs_" directory. These logs can be downloaded to your device and viewed. It is not be possible to exploit this to send non-log files to the user – the backend makes sure that just the actual log files can be sent to the client.
-
-A very brief tutorial on how to read the logs can be found at the [actual logs page](/settings/logs).
-
-### Logout button
-
-Pretty self-explanatory - logs the user out.
-
-## Translations
-
-It is now possible for the user to select a language in the frontend and browse FreeFlarum's webpages in their language. The language gets stored in a cookie, so the preference is saved even after the browser is closed.
-
-The translations use Flask-Babel to match the translation phrases to a user. Along with that, there are bash scripts for creating new locales, updating existing ones and compiling the translations.
-
-To make translations easier to maintain, we've chosen [https://smartcat.com/](https://smartcat.com/) as our translation repository service. Weblate required additional setups to be made (such as Redis cache server and linking to GitHub). This was hard for us to get running locally, so we've decided to go with a simpler click-and-go solution.
-
-We are currently looking for translators. Contact us if you're interested. Note that this position will NOT be paid!
-
-# REST API
-
+### API
 Under the hood, the frontend now uses the amazing _Alpine.js's_ powers to fetch data from API routes and render them dynamically on pages.
 
-The API routes are located under "_/api_" endpoint of the main site. All data returned is in JSON format.
+The API routes are located under "_/api_" endpoint of the main site (https://freeflarum.com/api). All data returned is in JSON format.
 
 Our main goal/intention with this was so that third-party tools can now use the API to fetch FreeFlarum's extensions or forums, for example.
 
 This does make scraping easier, but I am personally not against it. It would be possible to scrap all forums from the forum directory page with BeautifulSoup HTML parser for Python very easily anyways. If you can see it, you can get it – so why not make it more accessible for people with good intentions?
 
-### API Routes:
+Currently, there is no documentation on the API routes, and they're pretty much just for FreeFlarum at the moment and therefore aren't very consistent.
 
-Currently, there is no documentation on those, and they're pretty much just for FreeFlarum at the moment and therefore aren't very consistent.
-
-Here's some of the public ones:
+Here's a list of some public ones:
 
 - `/api/check_forum?forum=<forum_name>` - checks if the forum is accessible (by FreeFlarum) or if it exists. This is used by the live forum name availability checker in the registration form.
 - `/api/forum/<forum_name>` - returns a JSON data of the specified forum. This includes the forum's name, post count, user count, rank, points, etc... Only forums marked as public can be viewed. If this route is accessed by the current forum's owner, and they're logged in, then additional data is returned, such as the forum's hostname, whether or not the forum can be bumped, etc...
@@ -86,7 +72,7 @@ There are more API routes, but we deem these to not be important or useful in pl
 
 # Forum directory
 
-This is one of the bigger features in the rebase. Forum directory is a place where forums can be submitted, filtered and viewed. They can be ordered by points, rank, last bumped time (default), or searched by name or keywords. You can scroll the list infinitely, as the JSON API to retrieve the forums is paginated (to prevent server load, so not all forums are returned at once).
+This is one of the bigger features in the rebase. Forum directory is a place where forums can be submitted, filtered and viewed. They can be ordered by points, rank, last bumped time (default), or searched by name or keywords. You can scroll the list infinitely, as the JSON API to retrieve the forums is paginated (to prevent server load, so not all forums are returned at once - although this feature was untested and is probably bugged - this will be fixed).
 
 ## Forum reputation system
 
@@ -114,22 +100,6 @@ Extra points are just like points, except they are not re-calculated (so they're
 
 Is now calculated in real-time (along with last admin online date, last post date, etc.)
 
-## Forum reactivation
-
-Don't you just hate it when we've deleted your forum with no warning and you had to request the reactivation by E-mailing us? And then we'd have to manually reactivate your forum, while you were waiting for us?
-
-Well, we have good news - we no longer silently remove inactive forums. You'll now get a shiny, E-mail notification and some info on how to deal with it. And you can perform a reactivation by yourself (see below).
-
-Please note that we must remove inactive forums, or else our disk space would quickly fill up and we'd have no more space for new forums (or even old ones). It is a necessary precaution. If you don't feel like that you need a forum anymore, or you just came to test Flarum, please do not reactivate your forum for no reason. Thanks!
-
-Every 6 months, a script is ran to check if there are any archived forums older than 6 months. If yes, they are destroyed forever. So, after your forum was archived, you have 6 months before it is gone forever. This is again just a protective measure to not cause our disk pain.
-
-## Support page
-
-In addition to the abovementioned, we've created a new [support](/support) page, where you can perform the reactivation all by yourselves, and even reset your password. You just have to answer 2 things so that we can verify that you're indeed the owner of that forum. These requests are processed immediately and are completely automatic - so your forum can be back online in just a matter of seconds!
-
-We will still allow people to reactivate forums by E-mailing us, however using the support page is the recommended way.
-
 #### Other changes & honorable mentions:
 
 - Improved code stability by using more try/catch and check scenarios.
@@ -138,9 +108,50 @@ We will still allow people to reactivate forums by E-mailing us, however using t
 - New database structure, which makes everything better in overall.
 - The documentation was re-written and simplified a lot. It now includes FreeFlarum related things only.
 
+## Extensions:
+### Added:
+- askvortsov/flarum-checklist
+- clarkwinkelmann/flarum-ext-group-list
+- flarum-lang/brazilian
+- flarum-lang/chinese-simplified
+- flarum-lang/french
+- flarum-lang/german
+- flarum-lang/russian
+- flarum-lang/turkish
+- fof/byobu - still in beta, be careful!
+- fof/mason
+- the-turk/flarum-mathren
+
+### Removed:
+- cryental/flarum-l10n-ext-korean
+- csineneo/lang-traditional-chinese
+- cwkevo/flarum-lang-slovak - soon™
+- darkfoxdeveloper/lang-spanish
+- fof/transliterator
+- itnt/flarum-uitab
+- kakifrucht/flarum-de - replaced by flarum-lang/german
+- kakifrucht/flarum-de-extended - replaced by flarum-lang/german
+- littlegolden/flarum-lang-japanese - not compatible, but [author plans to update it](https://discuss.flarum.org/d/22631/57)
+- marketplace/flarum-l10n-core-russian - replaced by flarum-lang/russian
+- marketplace/flarum-l10n-ext-russian - replaced by flarum-lang/russian
+- luatdolphin/lang-vietnamese
+- menomenta/flarum-ext-norwegian
+- neercsys/flarum-ext-bosanski
+- neercsys/flarum-lang-bosanski
+- persianfla/flarum-ext-persian
+- qiaeru/lang-french - replaced by flarum-lang/french
+- rikusen0335/lang-japanese-extended
+- starsriver/mathplus - replaced by the-turk/flarum-mathren
+- tiu-ram0n/brazilian-portuguese - replaced by flarum-lang/brazilian
+- tolgaaaltas/flarum-ext-turkish - replaced by flarum-lang/turkish
+- tolgaaaltas/flarum-lang-turkish - replaced by flarum-lang/turkish
+- xelson/flarum-ext-chat
+
+I know, the amount of removed extensions might be bigger. But on the bright side, half of them got replacements, which is great, thanks to the efforts of all developers!
+
 ### What's next?
 
-In the following weeks, we will observe how the update goes and fix any issues & bugs that we stumble upon. We hope that this won't be necessary though.
+In the following weeks, we will observe how the update behaves and fix any issues & bugs that we might stumble upon. We hope that this won't be necessary though.
 
 Remember that your feedback matters! If you're unhappy with some change, we will listen to you. Tell us what would you change and why, and we will address your concerns in the next update.
 
@@ -150,11 +161,10 @@ That was definitely a ride. Thank you everyone for using FreeFlarum - it wouldn'
 
 **Thanks to:**
 
-- Willem, for creating FreeFlarum, for his valuable feedback and for providing us a server that we can test things on without breaking the main one. FreeFlarum wouldn't be possible without him.
-- Meetdilip, for valuable feedback, support and optimism in order to keep us going forward.
-- CWKevo, for starting the rebase project and finishing it.
+- @Sanguine, for creating FreeFlarum, for his valuable feedback and for providing us a server that we can test things on without breaking the main one. FreeFlarum wouldn't be possible without him.
+- @meetdilip, for valuable feedback, support and optimism in order to keep us going forward.
+- @CW_Kevo, for starting the rebase project and finishing it.
 
 Also big thanks for the Flarum team for creating such an amazing software, that connects people all around the world! Flarum is simple, yet magnificent. We are all very proud of the stable release and where we've come in all those years!
 
 Great job everyone!
-
