@@ -8,6 +8,11 @@ So, we have decided to invest our time into updating all (or most of the code) t
 
 # Changes:
 
+## Important changes:
+- Previously, donors were just marked as donors, and the actual amount that they had donated wasn't saved. However, the new system determines whether or not the forum is donor by the donated amount. Since these were not present, we have assigned every donor a dummy value of 7 €. If you would like to correct that to your actual donor amount, please E-mail us at info@freeflarum.com along with the PayPal receipt, if you still have it. We will fix it for you.
+
+## Website:
+
 The frontend (website)'s design was updated once again. We have built upon already existing styles (and added new ones). The color palette became more consistent along with other page elements, and the website is also more responsive on smaller screens.
 
 The biggest difference is that users can now toggle between light and dark mode. This can be done by clicking on the button next to logo in the top left corner of the page (with sun/moon emoji). The preference is saved in a cookie and remembered during next page load. Default mode for new users is night mode, to match our old look. Dark mode also looks better overall, in my opinion.
