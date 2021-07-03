@@ -104,6 +104,7 @@ Forum owners can bump their forum once every 12 hours. This recalculates their p
 - Users now receive more feedback in a message box at the bottom of the page. These are flashed messages, and they're pretty much everywhere. Along with that, users are now alterted when their forum is archived, destroyed or reactivated.
 - New database structure, which makes everything better in overall.
 - The documentation was re-written and simplified a lot. It now includes FreeFlarum related things only.
+- You can no longer rename your forum. That feature was hard to maintain, yet noone was using it.
 
 ## Extensions:
 ### Added:
