@@ -23,7 +23,7 @@ FreeFlarum doesn't have paid accounts and runs entirely on donations. Those are 
 
 Should you make a voluntary donation, we say "thank you!", will name our first born after you and will remove the FreeFlarum footer link on your forum. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you?
 
-You can learn more in the donation section at the bottom of your forum overview page at your [FreeFlarum Settings](/settings/overview).
+You can learn more at the [Donation page](/settings/donate).
 
 
 !!! note
@@ -51,7 +51,7 @@ For a FAQ, please read the [Donation FAQ](#donation-faq) below.
 
 A paid plans system is not what we are looking for in order to keep FreeFlarum up and running. It would make people think that we are a commercial service, which we aren't. Soon, they might start to have higher expectations on us, in terms of support speed and forum speed. We can't guarantee you that. FreeFlarum is run by a small team of voluentary people that operate it in their free time. We can't offer people what we can't.
 
-Since we aren't being paid for what we do, a donation is always welcome. We need money in order to keep FreeFlarum up and running. But for that, we need some income. So we've decided to create a donation tier system. Donating is optional and will provide the forum some perks in return (so that people are actually willing to donate). These perks should not significantly make a difference between other forums (in terms of support or forum speed, for example). They are merely a token of gratitude, and for people that want a bit more features. They won't give you any sort of forum performance boost, or separate server. They will give you just exactly what's listed in the [donation section](/settings/overview).
+Since we aren't being paid for what we do, a donation is always welcome. We need money in order to keep FreeFlarum up and running. But for that, we need some income. So we've decided to create a donation tier system. Donating is optional and will provide the forum some perks in return (so that people are actually willing to donate). These perks should not significantly make a difference between other forums (in terms of support or forum speed, for example). They are merely a token of gratitude, and for people that want a bit more features. They won't give you any sort of forum performance boost, or separate server. They will give you just exactly what's listed at the [Donation page](/settings/donate).
 
 #### I have donated. Will I get faster response times from support (or any other benefits not listed at the donation page)?
 No, you get what you have donated for only.
