@@ -1,4 +1,10 @@
 #!/bin/bash
+cd "$(dirname "$0")"
 
-pipenv run mkdocs build
-rsync -va --delete --exclude=.git ./ ff:/data/docs/
+[ ! -d "env" ] && python -m venv env
+
+
+source env/bin/activate
+pip install -r requirements.txt
+
+python -m mkdocs gh-deploy --force

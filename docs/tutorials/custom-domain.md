@@ -1,4 +1,6 @@
-Your forum is initially named `<you>.freeflarum.com` or `<you>.flarum.cloud`. But it is easy (and free) to use your own domain name. It looks more professional and also ensures your independence of FreeFlarum. 
+# Custom Domain
+
+Your forum is initially named `<you>.freeflarum.com` or `<you>.flarum.cloud`. But it is easy (and free) to use your own domain name. It looks more professional and also ensures your independence of FreeFlarum.
 
 If you ever want to migrate your forum elsewhere, you can keep the same name (and data).
 
@@ -28,8 +30,8 @@ Configuring the DNS can be tricky, because every registrar has a different metho
     • You
 
 !!! note
-    If you keep getting an error from FreeFlarum saying that a CNAME cannot be found, first double check whether a CNAME can be found  using a [third party tool](https://www.ultratools.com/tools/dnsLookup). 
-    
+    If you keep getting an error from FreeFlarum saying that a CNAME cannot be found, first double check whether a CNAME can be found  using a [third party tool](https://www.ultratools.com/tools/dnsLookup).
+
     If no CNAME record can be added, your provider probably does support it. You may switch to another DNS provider. These DNS services are known to work with FreeFlarum: [Namecheap](https://www.namecheap.com), [Gandi](https://www.gandi.net), [HiChina](https://www.hichina.com), [Dynadot](https://www.dynadot.com), [Alidns](https://www.alidns.com), [HostFly.by](https://hostfly.by), [NameBright](https://www.namebright.com).
 
 !!! note "Using Namecheap"

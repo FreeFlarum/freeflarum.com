@@ -1,11 +1,10 @@
 site_name: FreeFlarum Documentation
-site_url: https://freeflarum.com/docs/
-  
+site_url: https://docs.freeflarum.com/
+
 theme:
-  name: "material"
+  name: material
 
   language: en
-  palette:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -14,6 +13,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: orange
@@ -25,24 +25,9 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-nav:
-  - Home: '/docs/'
-  - About: 'about.md'
-  - FaQ: 'faq.md'
-  - Troubleshooting: 'troubleshooting.md'
-  - Roadmap: 'roadmap.md'
-  - Tutorials:
-    - 'Exporting Your Forum': 'tutorials/exporting-forum.md'
-    - 'Custom Domain': 'tutorials/linking-custom-domain.md'
-    - 'Configuring Mail': 'tutorials/configuring-mail.md'
-  - Legal:
-    - 'Privacy Policy': 'legal/privacy-policy.md'
-    - 'Terms': 'legal/terms.md'
-  - Changelog:
-    - 'FreeFlarum Rebase (July 2021)': 'changelog/freeflarum-v3.0.md'
 
 extra_css:
-  - 'extra/freeflarum.css'
+  - extra/freeflarum.css
 
 markdown_extensions:
   - admonition
@@ -52,5 +37,5 @@ markdown_extensions:
 plugins:
   - search
   
-repo_url: https://github.com/gwillem/freeflarum.com
 
+repo_url: https://github.com/Free-Flarum/freeflarum.com
