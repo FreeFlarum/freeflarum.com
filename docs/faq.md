@@ -27,8 +27,6 @@ Should you make a voluntary donation, we say "thank you!", will name our first b
 
 You can learn more at the [Donation page](/settings/donate).
 
-!!! note
-    If you want to donate more, just donate a custom amount to the following PayPal E-Mail: info@freeflarum.com.
 
 !!! warning
     Don't forget to add your forum name (part before `.flarum.cloud` or `.freeflarum.com`) in the donation message, or else we won't know which footer to remove.
@@ -77,7 +75,7 @@ Sending mass-mails is currently not supported due to the risk of a spam attack, 
 This is often caused by wrong mail settings.
 Please, review [this guide](/docs/tutorials/configuring-mail/) if you need help setting up mails.
 
-Additionally, you can contact still [contact us](mailto:info@freeflarum.com).
+Additionally, you can still [contact us](mailto:info@freeflarum.com).
 
 ---
 
