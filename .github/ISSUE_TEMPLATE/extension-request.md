@@ -3,7 +3,7 @@ name: 'Extension Request'
 about: 'Extension/feature request'
 title: 'Insert name of the extension/feature here'
 labels: '🙋 Extension/feature request'
-assignees: 'CW_Kevo'
+assignees: 'CWKevo'
 
 ---
 
@@ -16,7 +16,5 @@ assignees: 'CW_Kevo'
 ...
 
 ---
-
 > ###### **Note**: This issue requires at least 5 upvotes (👍) before it can be added to FreeFlarum.
-
 ---
