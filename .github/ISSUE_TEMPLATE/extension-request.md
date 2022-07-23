@@ -24,5 +24,5 @@ https://packagist.org/packages/...
 ...
 
 ---
-> ###### **Note**: This issue requires at least 5 upvotes (👍) before it can be added to FreeFlarum.
+> ###### **Note**: This issue requires at least 5 upvotes (👍) before it can be added to FreeFlarum. Does not apply to extension updates or "re-installations".
 ---
