@@ -25,7 +25,7 @@ FreeFlarum doesn't have paid accounts and runs entirely on donations. Those are 
 
 Should you make a voluntary donation, we say "thank you!", will name our first born after you and will remove the FreeFlarum footer link on your forum. The amount of the donation is entirely up to you: how much is FreeFlarum worth to you?
 
-You can learn more at the [Donation page](/settings/donate).
+You can learn more at the [Donation page](https://freeflarum.com/settings/donate).
 
 
 !!! warning
