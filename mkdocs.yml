@@ -26,10 +26,6 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-
-extra_css:
-  - extra/freeflarum.css
-
 markdown_extensions:
   - admonition
   - toc:
@@ -39,4 +35,4 @@ plugins:
   - search
   
 
-repo_url: https://github.com/Free-Flarum/freeflarum.com
+repo_url: https://github.com/FreeFlarum/freeflarum.com
