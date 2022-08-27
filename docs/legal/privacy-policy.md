@@ -2,7 +2,7 @@
 
 Thank you for using FreeFlarum. This document will inform you about what data FreeFlarum holds about users that have signed up for FreeFlarum. It is important for FreeFlarum to be as open to its users as possible. Hopefully, it will cover most of the answers that you might have, however should anything be left unanswered, you are free to [contact FreeFlarum](https://freeflarum.com/support) at anytime.
 
-> Note that this document is primarily oriented towards FreeFlarum's privacy practices. It explains them in a rather non-formal way, for > everyone to understand.
+> Note that this document is primarily oriented towards FreeFlarum's privacy practices. It explains them in a rather non-formal way, for everyone to understand.
 > Although there may be some mentions of Flarum's privacy policy (as it follows a similar document structure), please be sure to also read [the complete Flarum Privacy Policy](https://flarum.org/privacy) for a full set of privacy practices that are being used by both parties.
 
 ## Information that FreeFlarum collects
@@ -86,7 +86,7 @@ The following third-party services are being used by FreeFlarum:
 
 FreeFlarum does NOT use tracking services, tracking snippets, tracking programs or other third-party services that harvest the visitor's data for marketing or advertisement purposes.
 
-For more information about FreeFlarum's vision and internal workings, please refer to [FreeFlarum's about page](https://docs.freeflarum.com/about)
+For more information about FreeFlarum and its internal workings, please refer to [FreeFlarum's about page](https://docs.freeflarum.com/about).
 
 ## Information that Flarum collects
 

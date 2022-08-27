@@ -1,43 +1,84 @@
-# Terms & Conditions
+# Terms and Conditions & Fair Use Policy
 
-!!! info "Consent"
+Thank you for using FreeFlarum. As a forum owner, you are expected to agree with FreeFlarum's Terms & Conditions and Fair use Policy.
+The terms are explained in a rather non-formal way, to make them more legible for everyone.
 
-    By continuing to use the FreeFlarum service, you agree with the follwing Terms & Conditions. Forums that violate these regulations will be suspended without prior notice.
+Please note that this document may change at any time, either with or without prior notice.
 
-**1.** Your forum mustn't contain: spam, pornography, or other illegal activities per your valid state regulations and laws, such as, but not limited to: multi-level marketing schemes, warez/pirated/cracked content sharing (eg.: content that is normally paid for but shared for free), sharing personal details of other people without their consent, abusive and/or hate speech, homophobia, racism, etc.
+## Terms & Conditions
 
-- FreeFlarum forums are also forbidden to link to external third-party websites & services containing previously mentioned forbidden content.
+The Terms & Conditions explain what should/shouldn't be done at your forum.
 
-**2.** FreeFlarum is directed to people who are at least 13 years old.
+### 1. Agreement
 
-- If you are under the age of 13 without having your parent's/legal guardian's consent, per the requirements of COPPA (Children's Online Privacy Protection Act), you can't use the FreeFlarum service.
+By creating your forum at FreeFlarum, you agree with these Terms & Conditions. Forums that do not comply with these terms may be suspended (either with or without prior notice) by FreeFlarum at its sole discretion.
 
-**3.** The service applies a fair use policy towards resources (storage, server capacity and traffic) of free accounts.
+### 2. Privacy Policy
 
-- The limits are five times the average of all users of the service. Specifically, this means that no more than 250 users per forum are supported.
+This document does not cover FreeFlarum's privacy policy. For reference, please view [FreeFlarum's Privacy Policy](https://docs.freeflarum.com/legal/privacy-policy).
 
-- This limit may be surpassed and your forum can function properly, however we do not provide support for forums above the limit because we don't officially support them - if you want to run a busy forum, your best option might be to self-host it instead.
+### 3. COPPA
 
-**4.** You are allowed to modify the full appearance of your forum (through the "Administration" panel at your Flarum instance), but it is not allowed to change the appearance as in to hide or otherwise hinder the displayed advertisements of FreeFlarum, such as the FreeFlarum footer. If you would like to remove that footer, please [see this page](/faq/#can-i-pay-to-remove-the-powered-by-freeflarum-footer-for-my-or-other-forum).
+If you are under the age of 13 without having your parent's/legal guardian's consent, per the requirements of COPPA (Children's Online Privacy Protection Act), you can't use the FreeFlarum service.
 
-**5.** FreeFlarum reserves the right to cancel forums that are detrimental to its quality of service or reputation, at its sole discretion.
+### 4. Forum content
 
-**6.** Forums that are not used for more than 3 months (no logins/posts/visitors) may be removed without prior notice. These forums may be reactivated upon a request from the forum's owner.
+All users of your FreeFlarum forum (including you) mustn't share forum content that falls into one or more of the following categories:
 
-- We accept requests to remove forums that might be violating these terms. Please, see [this page](/faq/#can-i-report-a-forum-that-violates-your-terms-conditions-or-is-inappropriate-by-any-other-means) on how to proceed.
+- Content deemed illegal, per your state/local laws & regulations;
+- Personal attacks, harassment, absuvie or hate speech, bullying or otherwise attacking someone based on their gender, race, social or religious beliefs, sexual orientation, etc.;
+- "NSFW"/"NSFL" content (pornography/heavy nudity, "gore", heavy/excessive profanity, etc.);
+- "Warez/cracked/pirated" internet content sharing;
+- Multi-level marketing schemes;
+- Anything else that could be viewed as inappropriate for someone's well-being.
 
-**7.** Although generous efforts are undertaken to maintain the availability and performance of this service, there is explicitly no warranty given. Use it at your own risk.
+### 5. FreeFlarum footer
 
-**8.** This service is not available to persons or legal entities who operate legal constructs for the purpose of tax evasion or concealment of the ultimate benefactor, such to be determined by FreeFlarum at its sole discretion.
+You are allowed to modify the full appearance of your forum (through the "Administration > Appearance" page at your Flarum instance), but it is not allowed to change the appearance as in to hide or otherwise hinder the FreeFlarum footer. If you would like to remove that footer, please consider [donating](https://freeflarum.com/donate).
 
-**9.** You are not allowed to monetize your forum (eg.: by using the "Google Adsense" service, having a "pay-to-see" content and other similar techniques). We are a free, voluentary, community provided service and we are not looking towards to become a commercial entity. Getting profit from something that is provided for free is not a good practice either.
+### 6. Forum removals
 
-- If you'd like to monetize your forum, the best option for you right now is to self-host it instead.
+Forums that meet certain criteria of activity may be removed by FreeFlarum's system automatically, based on certain metrics such as discussion, post and user counts. For details, please see the [Fair Use Policy](https://docs.freeflarum.com/legal/terms#fair-use-policy) below.
 
-**10.** You are required to promptly address any security vulnerabilities at FreeFlarum that you find by [E-mailing us](mailto:info@freeflarum.com).
+### 7. Forum monetization
 
-**11.** Exploitation and abuse of potential bugs found in FreeFlarum's source code is strictly forbidden. All bugs need to be reported to us promptly.
+You are not allowed to monetize your forum (e. g.: by using the "Google Adsense" service, having a "pay-to-see" content, or by using other similar techniques).
+
+We are a free and community provided service and we are not looking towards becoming a commercial entity. Getting profit from something that is provided for free is not very nice either.
+
+Your forum may, however, accept voluntary donations from your community, e. g.: via a PayPal button.
+
+### 8. Other
+
+1. Although generous efforts are undertaken to maintain the availability and performance of this service, there is explicitly no warranty given. Use it at your own risk.
+2. The FreeFlarum service is not available to persons or legal entities who operate legal constructs for the purpose of tax evasion or concealment of the ultimate benefactor, such to be determined by FreeFlarum at its sole discretion.
+3. FreeFlarum reserves the right to cancel forums that are detrimental to its quality of service or reputation, at its sole discretion.
+4. You are required to promptly address any security vulnerabilities or bugs found at FreeFlarum's website or API by [contacting us](https://freeflarum.com/support). For bugs and vulnerabilities related to the Flarum software, please [refer to Flarum's GitHub issues page](https://github.com/flarum/framework/issues).
+5. If you believe that a certain forum hosted at FreeFlarum is violating these terms, [contact us](https://freeflarum.com/support).
+
+## Fairy Use Policy
+
+### 1. Limits
+
+As an ever-growing, free service, FreeFlarum reserves the right to impose certain limits related to its forums' storage space, user limit and other metrics, to ensure its stability and availability for everyone.
+
+FreeFlarum isn't recommended for big forums. FreeFlarum's main goal is to help you start from zero. Specifically, this means that FreeFlarum does not currently support more than 50 active visitors at the same time. This limit is not enforced.
+
+You will be notified via E-mail if your forum reaches more than 1 000 (offline) users, 5 000 discussions or 10 000 posts, which FreeFlarum considers to be "very active".
+
+### 2. Inactive/too active forums
+
+FreeFlarum checks for inactive/way too active forums every 3 months.
+
+- **Inactive** are forums that have existed for at least 1 month and haven't had any new users or posts for that month (or simply have less than 2 posts, regardless of other factors).
+- **Too active**, are forums that have more than 20 000 (offline) users, 20 000 discussions or 35 000 posts (exceptions can be made based on certain criteria and/or rare edge cases).
+
+Forums that match one of these criteria are archived by FreeFlarum. If that happens, you will be notified via E-mail that you entered when registering your forum.
+
+Inactive forums can be reactivated for 6 months before they are fully erased from FreeFlarum (too active forums are not eligible for reactivation, because [big forums are problematic for FreeFlarum](https://discuss.flarum.org/d/7585/3828)). If your forum was archived, please [contact me](https://freeflarum.com/support) and I will reactivate it for you, or alternatively send you an E-mail with your data, if that's still possible.
+
+These limits may be surpassed and your forum can function properly, however FreeFlarum does *not* officially provide support for forums above these limits regarding their functionality - in other words, if you want to run a busy forum, your best option might be to self-host it instead or switch to a solution such as [Blomstra](https://blomstra.net), as FreeFlarum is not built, nor intended for large forums.
 
 ---
 
-> Last updated: the 1st of July 2021, 14:24 UTC +02:00</i></h6>
+> *This document was last updated on the 27th of August, 2022*

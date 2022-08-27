@@ -12,4 +12,4 @@ Here are the steps you need:
 
 FreeFlarum is sorry to see you go, but good luck with your forum!
 
-Please, [let us know](/discuss) if you have any suggestions for us to improve our service. Thank you!
+Please, [let us know](https://freeflarum.com/support) if you have any suggestions for us to improve our service. Thank you!

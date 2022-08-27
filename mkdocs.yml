@@ -4,8 +4,8 @@ site_url: https://docs.freeflarum.com/
 theme:
   name: material
   language: en
-  logo: images/freeflarum-logo.png
-  favicon: images/favicon.ico
+  logo: /docs/images/freeflarum-logo-small.png
+  favicon: /docs/images/favicon.ico
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
