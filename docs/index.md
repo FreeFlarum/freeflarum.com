@@ -9,7 +9,7 @@ Additionally, if you find any tutorial that doesn't have the information you are
 
 > ---
 >  
-> **Before you ask us anything, please check [the docs](https://docs.freeflarum.com) or [the issues](https://freeflarum.com/github?path=issues), if your question is not already answered!**
+> **Before you ask us anything, please check [the docs](https://docs.freeflarum.com) or [the issues](https://freeflarum.com/github/issues), if your question is not already answered!**
 >  
 > ---
 >  
