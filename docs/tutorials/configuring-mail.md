@@ -1,8 +1,6 @@
 # Configuring Mail
 
-Your FreeFlarum forum is ready to send mail out of the box. These are the default settings (under Administration > Email), that you should not have to touch:
-
-![Image](https://buq.eu/screenshots/y6s4moqOrgj3Wil2WZHFylku.png)
+Your FreeFlarum forum is ready to send mail out of the box. These are the default settings (under Administration > Email), that you should not have to touch.
 
 But sometimes, you want to look more original by using your own mail address for mails sent by Flarum.
 Of course, you can use your own mail provider/service. Let's see how can this be done in this Gmail examples:

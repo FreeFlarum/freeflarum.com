@@ -81,4 +81,4 @@ These limits may be surpassed and your forum can function properly, however Free
 
 ---
 
-> *This document was last updated on the 27th of August, 2022*
+> *This document was last updated on the 2th of September, 2022*

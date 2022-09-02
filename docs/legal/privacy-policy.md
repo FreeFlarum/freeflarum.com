@@ -95,4 +95,4 @@ Additional information may be collected by Flarum and/or its extensions and held
 
 For details about Flarum's privacy policy, please refer to [the complete Flarum Privacy Policy](https://flarum.org/privacy) and/or the privacy policy of Flarum extensions that are being used at FreeFlarum, if they have any.
 
-> *This document was last updated on the 25th of August, 2022*
+> *This document was last updated on the 2th of September, 2022*

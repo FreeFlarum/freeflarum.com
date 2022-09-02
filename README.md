@@ -8,10 +8,10 @@
 
 FreeFlarum is running on its [main website](https://freeflarum.com/). Start from there, if you are looking to setup your own forum.
 
-If you'd like to help with documentation, please create a new pull request on [GitHub](https://github.com/Free-Flarum/freeflarum.com)
+If you'd like to help with documentation, please create a new pull request on [GitHub](https://freeflarum.com/github)
 
 ## Repository Information
 
 This repository contains the source code for [FreeFlarum's documentation](https://docs.freeflarum.com/) (not its website or logic).
 
-Documentation is automatically built from source by using [GitHub Actions](https://github.com/Free-Flarum/freeflarum.com/actions) ([MkDocs](https://mkdocs.org/))
+Documentation is automatically built from source by using [GitHub Actions](https://freeflarum.com/github?path=actions) ([MkDocs](https://mkdocs.org/))
