@@ -25,5 +25,5 @@ This is to make sure that users actually want the extension to be added. This ru
 
 
 ---
-> ###### **Note**: This issue requires at least 5 upvotes (👍) before it can be added to FreeFlarum. Does not apply to extension updates or "re-installations".
+> ###### **Note**: All new extension requests require at least 5 upvotes (👍) before they can be added to FreeFlarum. If you are interested in this extension, please upvote this issue by adding the "👍" reaction to this comment. [Why?](https://discuss.flarum.org/d/7585/3828)
 ---
