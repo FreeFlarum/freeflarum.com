@@ -1,7 +1,7 @@
 site_name: 'Documentation'
 site_url: https://docs.freeflarum.com/
-docs_dir: '../docs/cn'
-site_dir: '../build/cn'
+docs_dir: '../docs/zh'
+site_dir: '../build/zh'
 
 
 theme:
@@ -9,6 +9,7 @@ theme:
   custom_dir: '../overrides/'
   logo: assets/images/logo.svg
   favicon: assets/images/favicon.ico
+  language: zh
 
   palette:
   - media: "(prefers-color-scheme: light)"
@@ -38,8 +39,8 @@ extra:
       lang: en
 
     - name: Chinese
-      link: /cn/
-      lang: cn
+      link: /zh/
+      lang: zh
 
 
 markdown_extensions:
@@ -50,6 +51,6 @@ markdown_extensions:
 
 plugins:
   - search:                                         
-      lang: cn
+      lang: zh
 
 repo_url: https://github.com/FreeFlarum/freeflarum.com

@@ -10,19 +10,15 @@ jobs:
     name: Deploy docs
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        language: ['en', 'cn']
-
     steps:
       - name: Checkout main
         uses: actions/checkout@v2
 
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CUSTOM_DOMAIN: docs.freeflarum.com
-          CONFIG_FILE: docs/${{ matrix.language }}.yml
-          EXTRA_PACKAGES: build-base
-          REQUIREMENTS: requirements.txt
+      - name: Build docs
+        run: bash deploy.sh
+
+      - name: Deploy to GitHub Pages 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build
