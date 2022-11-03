@@ -7,7 +7,7 @@ site_dir: '../build/zh'
 theme:
   name: material
   custom_dir: '../overrides/'
-  logo: assets/images/logo.svg
+  logo: assets/images/freeflarum-logo.svg
   favicon: assets/images/favicon.ico
   language: zh
 

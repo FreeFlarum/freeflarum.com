@@ -1,5 +1,5 @@
 site_name: 'Documentation'
-site_url: https://docs.freeflarum.com/
+site_url: https://docs.freeflarum.com/en
 docs_dir: '../docs/en'
 site_dir: '../build/en'
 
@@ -7,7 +7,7 @@ site_dir: '../build/en'
 theme:
   name: material
   custom_dir: '../overrides/'
-  logo: assets/images/logo.svg
+  logo: assets/images/freeflarum-logo.svg
   favicon: assets/images/favicon.ico
   language: en
 
