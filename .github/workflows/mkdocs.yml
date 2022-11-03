@@ -17,9 +17,9 @@ jobs:
       - name: Build docs
         run: bash deploy.sh
       
-      - name: Create CNAME file
-        run: |
+      - run: |
           echo "docs.freeflarum.com" > ./build/CNAME
+          echo '<meta http-equiv="refresh" content="0; url=/en"/><a href="/en">Redirect</a>' > ./build/index.html
 
       - name: Deploy to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
