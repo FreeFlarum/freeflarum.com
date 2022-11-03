@@ -23,6 +23,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CUSTOM_DOMAIN: docs.freeflarum.com
-          CONFIG_FILE: ${{ matrix.language }}/mkdocs.yml
+          CONFIG_FILE: docs/${{ matrix.language }}.yml
           EXTRA_PACKAGES: build-base
           REQUIREMENTS: requirements.txt
