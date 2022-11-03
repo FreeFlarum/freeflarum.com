@@ -2,42 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.freeflarum.com/</loc>
-         <lastmod>2022-07-13</lastmod>
+         <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.freeflarum.com/about/</loc>
-         <lastmod>2022-07-13</lastmod>
+         <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.freeflarum.com/faq/</loc>
-         <lastmod>2022-07-13</lastmod>
+         <lastmod>2022-11-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.freeflarum.com/api/</loc>
+         <lastmod>2022-11-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.freeflarum.com/api/authentication/</loc>
+         <lastmod>2022-11-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.freeflarum.com/legal/</loc>
+         <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.freeflarum.com/legal/privacy-policy/</loc>
-         <lastmod>2022-07-13</lastmod>
+         <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.freeflarum.com/legal/terms/</loc>
-         <lastmod>2022-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.freeflarum.com/tutorials/configuring-mail/</loc>
-         <lastmod>2022-07-13</lastmod>
+         <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.freeflarum.com/tutorials/custom-domain/</loc>
-         <lastmod>2022-07-13</lastmod>
+         <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.freeflarum.com/tutorials/exporting-forum/</loc>
-         <lastmod>2022-07-13</lastmod>
+         <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
