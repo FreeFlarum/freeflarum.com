@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.freeflarum.com/</loc>
+         <loc>https://docs.freeflarum.com/en/</loc>
          <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.freeflarum.com/about/</loc>
+         <loc>https://docs.freeflarum.com/en/about/</loc>
          <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.freeflarum.com/faq/</loc>
+         <loc>https://docs.freeflarum.com/en/faq/</loc>
          <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.freeflarum.com/api/</loc>
+         <loc>https://docs.freeflarum.com/en/api/</loc>
          <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.freeflarum.com/api/authentication/</loc>
+         <loc>https://docs.freeflarum.com/en/api/authentication/</loc>
          <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.freeflarum.com/legal/</loc>
+         <loc>https://docs.freeflarum.com/en/legal/</loc>
          <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.freeflarum.com/legal/privacy-policy/</loc>
+         <loc>https://docs.freeflarum.com/en/legal/privacy-policy/</loc>
          <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.freeflarum.com/legal/terms/</loc>
+         <loc>https://docs.freeflarum.com/en/legal/terms/</loc>
          <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.freeflarum.com/tutorials/custom-domain/</loc>
+         <loc>https://docs.freeflarum.com/en/tutorials/custom-domain/</loc>
          <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.freeflarum.com/tutorials/exporting-forum/</loc>
+         <loc>https://docs.freeflarum.com/en/tutorials/exporting-forum/</loc>
          <lastmod>2022-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
