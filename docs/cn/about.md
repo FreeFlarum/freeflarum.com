@@ -1,0 +1,36 @@
+# 关于 FreeFlarum
+
+## 想象
+
+科技巨头 AmaFaceGooAppTwit 已经为我们的社会赢得了巨大的权力。 我们已将我们最宝贵的资产交给他们：我们的关注和信任。 近年来，危险已经显现。 假新闻的扩散，不民主的演员对选举产生影响，大规模操纵出于商业利益。 谷歌和 Facebook 努力（公开）对抗这一点，但他们的手被他们的股东束缚住了——他们追求利润。
+
+现在是社会重新获得这种权力的时候了。我们应该从沟通开始。 思想交流没有理由受到利润或政治风险的影响。
+
+FreeFlarum 的愿景很简单：人们将越来越厌倦跨国公司将他们的生活货币化。 像 Flarum 这样的开放平台是让我们重新掌握一些权力的绝妙方法。
+
+## 使命和价值观
+
+FreeFlarum 致力于使在线社区变得简单，任何人都可以使用。 它通过点击即走服务补充了令人敬畏的开源 Flarum 软件，该服务提供任何人都可以使用的免费、即时和免维护的论坛。
+
+> *使命：人们将再次成为其在线社区的所有者*
+
+<!-- markdownlint-disable -->
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">When you cancel a service, you can tell if a company is a “Keep Customers” company (hostile, tricky policies, retention mazes, etc) or a “Keep Customers Happy” company (easy to cancel, well wishes, fair policies, etc).</p>&mdash; Jason Fried (@jasonfried) <a href="https://twitter.com/jasonfried/status/1018857695003234307?ref_src=twsrc%5Etfw">July 16, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- markdownlint-enable -->
+
+我们是一家“让客户满意”的公司。 您是您的论坛/数据的所有者。 我们不会以任何方式锁定您。 如果你想把你的论坛搬到别处， 我们将全力促进这一点。 我们不会使用黑暗的营销模式。
+
+## 战略
+
+使用 FreeFlarum 优先级对功能请求进行权衡：
+
+1. 它是否使创建和管理社区变得更容易？
+    - 降低使用门槛？
+    - 让管理社区更有趣？
+    - 有助于提高论坛参与度？
+
+2. 它是否有助于让 FreeFlarum 成为一个可持续的项目？
+    - 它对 Flarum 本身有贡献吗？
+    - 吸引更多论坛？
+    - 吸引更大的论坛？

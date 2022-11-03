@@ -1,12 +1,17 @@
-site_name: FreeFlarum Documentation
+site_name: 'Documentation'
 site_url: https://docs.freeflarum.com/
+docs_dir: '../docs/en'
+site_dir: '../build/en'
+
 
 theme:
-  name: material
-  language: en
-  logo: /images/freeflarum-logo-small.png
-  favicon: /images/favicon.ico
-  palette:
+    name: material
+    custom_dir: '../overrides/'
+    logo: assets/images/logo.svg
+    favicon: assets/images/favicon.ico
+    language: en
+
+    palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: orange
@@ -26,13 +31,26 @@ theme:
     text: Roboto
     code: Roboto Mono
 
+
+extra:
+  alternate:  
+    - name: English
+      link: /en/
+      lang: en
+
+    - name: Chinese
+      link: /en/
+      lang: en
+
+
 markdown_extensions:
   - admonition
   - toc:
       permalink: ⚓︎
 
+
 plugins:
-  - search
-  
+  - search:                                         
+      lang: en
 
 repo_url: https://github.com/FreeFlarum/freeflarum.com

@@ -1,19 +1,27 @@
-name: Build MkDocs 
+name: Build documentation
 on:
   push:
     branches:
-      - master 
+      - main
 
 jobs:
-  deploy:
+  languages_matrix:
+    strategy:
+      matrix:
+        language: ['en', 'cn']
+
+  build:
+    name: Deploy docs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: "3.10"
-          cache: 'pip'
+      - name: Checkout main
+        uses: actions/checkout@v2
 
-      - run: |
-          pip install -r requirements.txt
-          mkdocs gh-deploy --force
+      - name: Deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CUSTOM_DOMAIN: docs.freeflarum.com
+          CONFIG_FILE: ${{ matrix.language }}/mkdocs.yml
+          EXTRA_PACKAGES: build-base
+          REQUIREMENTS: requirements.txt
