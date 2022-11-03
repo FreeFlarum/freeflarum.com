@@ -9,7 +9,6 @@ theme:
   custom_dir: '../overrides/'
   logo: assets/images/logo.svg
   favicon: assets/images/favicon.ico
-  language: en
 
   palette:
   - media: "(prefers-color-scheme: light)"
