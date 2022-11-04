@@ -64,7 +64,7 @@ FreeFlarum 的登录表单需要与您的论坛管理员帐户密码相同的密
 
 如果您无法创建 API 请求或者您根本不是技术人员，但需要某些第三方服务的访问令牌，那么我们推荐使用第一种方法。
 
-如果要在保持登录状态时这样做，请打开一个新的无痕窗口（隐私标签页）或通过不同的浏览器/设备访问 FreeFlarum。然后，在不勾选“Remember me”框的情况下登录，您将得到一个临时（1 小时）令牌，但具有 [高级权限](#access-tokens-with-elevated-permissions)。如果您不想要高级权限，那么您需要通过 [api.freeflarum.com](https://api.freeflarum.com) 进行身份验证或发起 API 请求。
+如果要在保持登录状态时这样做，请打开一个新的无痕窗口（隐私标签页）或通过不同的浏览器/设备访问 FreeFlarum。然后，在不勾选“Remember me”框的情况下登录，您将得到一个临时（1 小时）令牌，但具有 [高级权限](#具有“高级权限”的访问令牌)。如果您不想要高级权限，那么您需要通过 [api.freeflarum.com](https://api.freeflarum.com) 进行身份验证或发起 API 请求。
 
 第二种方法非常适合在没有高级权限的情况下获取令牌，并在 [API 文档](https://api.freeflarum.com/#/Authentication/login_authentication_post) 中进行了描述。
 
