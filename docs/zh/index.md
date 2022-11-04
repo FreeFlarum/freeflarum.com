@@ -8,7 +8,7 @@
 
 > ***
 >
-> **在提问之前，请检查** [**文档**](https://docs.freeflarum.com/zh) **或** [**issues**](https://freeflarum.com/github/issues) 中是否有**类似的问题**！
+> **在提问之前，请检查** [**文档**](https://docs.freeflarum.com/zh) **或** [**issues**](https://freeflarum.com/github/issues) **中是否有类似的问题！**
 >
 > ***
 >
