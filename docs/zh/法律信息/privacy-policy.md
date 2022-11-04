@@ -1,4 +1,4 @@
-# Privacy Policy
+# 隐私政策
 
 Thank you for using FreeFlarum. This document will inform you about what data FreeFlarum holds about users that have signed up for FreeFlarum. It is important for FreeFlarum to be as open to its users as possible. Hopefully, it will cover most of the answers that you might have, however should anything be left unanswered, you are free to [contact FreeFlarum](https://freeflarum.com/support) at anytime.
 

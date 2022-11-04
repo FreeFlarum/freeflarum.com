@@ -1,4 +1,4 @@
-# Terms and Conditions & Fair Use Policy
+# 条款和条件以及合理使用政策
 
 Thank you for using FreeFlarum. As a forum owner, you are expected to agree with FreeFlarum's Terms & Conditions and Fair use Policy.
 The terms are explained in a rather non-formal way, to make them more legible for everyone.
