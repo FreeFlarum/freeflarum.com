@@ -8,14 +8,14 @@
 
 > ***
 >
-> **在提问之前，请检查** [**文档**](https://docs.freeflarum.com) **或** [**issues**](https://freeflarum.com/github/issues) 中是否有**类似的问题**！
+> **在提问之前，请检查** [**文档**](https://docs.freeflarum.com/zh) **或** [**issues**](https://freeflarum.com/github/issues) 中是否有**类似的问题**！
 >
 > ***
 >
 > #### 导航
 >
 > 1. [**官网**](https://www.freeflarum.com)
-> 2. [**文档**](https://docs.freeflarum.com)
+> 2. [**文档**](https://docs.freeflarum.com/zh)
 > 3. [**GitHub存储库**](https://freeflarum.com/github)
 >
 > ***
