@@ -1,4 +1,4 @@
-site_name: 'Documentation'
+site_name: '中文文档'
 site_url: https://docs.freeflarum.com/
 docs_dir: '../docs/zh'
 site_dir: '../build/zh'
