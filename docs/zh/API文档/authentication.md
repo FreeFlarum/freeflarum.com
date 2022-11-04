@@ -1,4 +1,4 @@
-# Authentication
+# 身份验证
 
 > This guide covers details about authenticating (logging in to FreeFlarum settings) via [FreeFlarum's API](https://api.freeflarum.com), not [Flarum](https://docs.flarum.org/rest-api/).
 >

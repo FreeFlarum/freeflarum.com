@@ -1,7 +1,8 @@
 # API
 
-Since [U1-2022](https://discuss.flarum.org/d/7585/3885), FreeFlarum now provides you an easy access to its API.
+自 [U1-2022](https://discuss.flarum.org/d/7585/3885) 以来，FreeFlarum 现在为您提供了对其 API 的轻松访问。
 
-[View API documentation (Swagger)](https://api.freeflarum.com)
+[查看 API 文档 (Swagger)](https://api.freeflarum.com)
 
-If you are looking for details about authentication, please read [this page](https://docs.freeflarum.com/api/authentication)
+如果您正在寻找有关身份验证的详细信息，请阅读[此页面](https://docs.freeflarum.com/zh/api/authentication)
+
