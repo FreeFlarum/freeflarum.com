@@ -8,21 +8,21 @@
       
       
       
-        <link rel="canonical" href="https://docs.freeflarum.com/tutorials/custom-domain/">
+        <link rel="canonical" href="https://docs.freeflarum.com/API/">
       
-      <link rel="icon" href="../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.8">
+      <link rel="icon" href="../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.9">
     
     
       
-        <title>自定义域名 - Documentation</title>
+        <title>API - 中文文档</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.20d9efc8.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.815d1a91.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.08040f6c.min.css">
         
       
       
@@ -39,7 +39,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#api" class="md-skip">
           跳转至
         </a>
       
@@ -82,9 +82,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href=".." title="中文文档" class="md-header__button md-logo" aria-label="中文文档" data-md-component="logo">
       
-  <img src="../../assets/images/freeflarum-logo.svg" alt="logo">
+  <img src="../assets/images/freeflarum-logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -94,13 +94,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Documentation
+            中文文档
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              自定义域名
+              API
             
           </span>
         </div>
@@ -111,6 +111,7 @@
         
           
           
+          
           <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="yellow"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
@@ -118,6 +119,7 @@
             </label>
           
         
+          
           
           
           <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="yellow"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
@@ -147,7 +149,7 @@
               
                 <li class="md-select__item">
                   <a href="/zh/" hreflang="zh" class="md-select__link">
-                    Chinese
+                    简体中文
                   </a>
                 </li>
               
@@ -227,12 +229,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href=".." title="中文文档" class="md-nav__button md-logo" aria-label="中文文档" data-md-component="logo">
       
-  <img src="../../assets/images/freeflarum-logo.svg" alt="logo">
+  <img src="../assets/images/freeflarum-logo.svg" alt="logo">
 
     </a>
-    Documentation
+    中文文档
   </label>
   
     <div class="md-nav__source">
@@ -257,8 +259,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
-        Home
+      <a href=".." class="md-nav__link">
+        主页
       </a>
     </li>
   
@@ -272,7 +274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../about/" class="md-nav__link">
+      <a href="../%E5%85%B3%E4%BA%8E/" class="md-nav__link">
         关于 FreeFlarum
       </a>
     </li>
@@ -287,7 +289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../faq/" class="md-nav__link">
+      <a href="../%E9%97%AE%E4%B8%8E%E7%AD%94/" class="md-nav__link">
         问与答
       </a>
     </li>
@@ -300,25 +302,27 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
       
         <label class="md-nav__link" for="__nav_4">
-          Api
+          API
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Api" data-md-level="1">
+      <nav class="md-nav" aria-label="API" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
-          Api
+          API
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -326,11 +330,21 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../api/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         API
       </a>
+      
     </li>
   
 
@@ -342,8 +356,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/authentication/" class="md-nav__link">
-        Authentication
+      <a href="%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81/" class="md-nav__link">
+        身份验证
       </a>
     </li>
   
@@ -373,14 +387,14 @@
       
       
         <label class="md-nav__link" for="__nav_5">
-          Legal
+          教程
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Legal" data-md-level="1">
+      <nav class="md-nav" aria-label="教程" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          Legal
+          教程
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -390,8 +404,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../legal/" class="md-nav__link">
-        法律信息
+      <a href="../%E6%95%99%E7%A8%8B/%E5%AF%BC%E5%87%BA%E8%AE%BA%E5%9D%9B/" class="md-nav__link">
+        导出您的论坛
       </a>
     </li>
   
@@ -404,22 +418,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../legal/privacy-policy/" class="md-nav__link">
-        Privacy Policy
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../legal/terms/" class="md-nav__link">
-        Terms and Conditions & Fair Use Policy
+      <a href="../%E6%95%99%E7%A8%8B/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/" class="md-nav__link">
+        自定义域名
       </a>
     </li>
   
@@ -438,27 +438,25 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
       
       
       
         <label class="md-nav__link" for="__nav_6">
-          Tutorials
+          法律信息
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Tutorials" data-md-level="1">
+      <nav class="md-nav" aria-label="法律信息" data-md-level="1">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
-          Tutorials
+          法律信息
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -466,59 +464,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          自定义域名
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        自定义域名
+    <li class="md-nav__item">
+      <a href="../%E6%B3%95%E5%BE%8B%E4%BF%A1%E6%81%AF/" class="md-nav__link">
+        法律信息
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#dns" class="md-nav__link">
-    一般 DNS 说明
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    使用根域名
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -530,8 +480,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../exporting-forum/" class="md-nav__link">
-        导出您的论坛
+      <a href="../%E6%B3%95%E5%BE%8B%E4%BF%A1%E6%81%AF/%E6%9D%A1%E6%AC%BE%E5%92%8C%E6%9D%A1%E4%BB%B6%E4%BB%A5%E5%8F%8A%E5%90%88%E7%90%86%E4%BD%BF%E7%94%A8%E6%94%BF%E7%AD%96/" class="md-nav__link">
+        条款和条件以及合理使用政策
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E6%B3%95%E5%BE%8B%E4%BF%A1%E6%81%AF/%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96/" class="md-nav__link">
+        隐私政策
       </a>
     </li>
   
@@ -564,28 +528,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#dns" class="md-nav__link">
-    一般 DNS 说明
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    使用根域名
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -598,45 +540,16 @@
                 
                   
 
-  <a href="https://github.com/FreeFlarum/freeflarum.com/edit/master/docs/tutorials/custom-domain.md" title="编辑此页" class="md-content__button md-icon">
+  <a href="https://github.com/FreeFlarum/freeflarum.com/edit/master/docs/API/index.md" title="编辑此页" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-<h1 id="_1">自定义域名<a class="headerlink" href="#_1" title="Permanent link">⚓︎</a></h1>
-<p>您的论坛最初命名为 <code>&lt;forum&gt;.freeflarum.com</code> 或 <code>&lt;forum&gt;.flarum.cloud</code>。但是使用自己的域名很容易（而且免费），让它看起来更专业。
-另外，如果您想将您的论坛迁移到其他地方，您可以保留相同的名称（和数据）。</p>
-<div class="admonition info">
-<p class="admonition-title">要开始使用您自己的域名，请按照下列步骤操作</p>
-<ol>
-<li>获取域名，注册商如腾讯云或阿里云；</li>
-<li>FreeFlarum 主机的 CNAME DNS 记录（见下文）；</li>
-<li>在FreeFlarum 设置 页面中输入您的自定义域。</li>
-</ol>
-</div>
-<p>配置 DNS 可能很棘手，因为每个注册商都有不同的方法和规则来这样做。我们将尝试告诉您入门的基础知识。</p>
-<h2 id="dns">一般 DNS 说明<a class="headerlink" href="#dns" title="Permanent link">⚓︎</a></h2>
-<p>您应该创建一条从您自己的域名到 FreeFlarum 的 CNAME 记录，如下所示： <code>subdomain.yourdomain.tld 300 IN CNAME yourforumname.freeflarum.com</code></p>
-<p>TTL 您的提供商可能会要求 TTL，您应该将其设置得尽可能低，例如：2分钟。这使您可以在必要时快速更改服务器。</p>
-<h2 id="_2">使用根域名<a class="headerlink" href="#_2" title="Permanent link">⚓︎</a></h2>
-<p>没有子域的域（例如 <code>your.tld</code> 而不是 <code>www.your.tld</code>）称为“根”域。根 CNAME 不受 DNS 官方支持，也不与 FreeFlarum 兼容。
-有一个技巧可以“伪造”您的域的根功能，只需使用“www”子域即可。或者，您可以从根域重定向到链接到 FreeFlarum 的子域，例如。 g.：您的论坛位于<code>“your.forum.tld”</code>，<code>“forum.tld”</code>将用户重定向到<code>“your.forum.tld”</code>。可以在您的域注册商处设置重定向规则，如果它们支持的话。
-如果您不断收到来自 FreeFlarum 的错误消息，提示找不到 CNAME，请首先使用 第三方工具仔细检查是否可以找到 CNAME。
-如果无法添加 CNAME 记录，您的提供商可能不它。您可以切换到另一个 DNS 提供商。 这些 DNS 服务可与 FreeFlarum 一起使用：<a href="https://www.namecheap.com">Namecheap</a>, <a href="https://porkbun.com">Porkbun</a>, <a href="https://www.gandi.net">Gandi</a>, <a href="https://www.hichina.com">HiChina</a>, <a href="https://www.dynadot.com">Dynadot</a>, <a href="https://www.alidns.com">Alidns</a>, <a href="https://hostfly.by">HostFly.by</a>, <a href="https://www.namebright.com">NameBright</a>.</p>
-<div class="admonition note">
-<p class="admonition-title">使用 Namecheap</p>
-<p><img alt="" src="https://buq.eu/screenshots/UGyVEpRGUQtalMytIlkH5ijM.png" /></p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">使用 Cloudflare</p>
-<p><img alt="" src="https://buq.eu/screenshots/MMlyMjo6I6Hb7IfSXwHXOaxu.png" /></p>
-</div>
-<p>代理 确保禁用 Cloudflare 代理，使图标为灰色（不是橙色）。</p>
-<div class="admonition question">
-<p class="admonition-title">重置域</p>
-<p>如果您使用了自定义域但不再需要它，您可以在 <a href="https://freeflarum.com/settings/forum_settings">FreeFlarum 设置</a>。 </p>
-</div>
+<h1 id="api">API<a class="headerlink" href="#api" title="Permanent link">⚓︎</a></h1>
+<p>自 <a href="https://discuss.flarum.org/d/7585/3885">U1-2022</a> 以来，FreeFlarum 现在为您提供了对其 API 的轻松访问。</p>
+<p><a href="https://api.freeflarum.com">查看 API 文档 (Swagger)</a></p>
+<p>如果您正在寻找有关身份验证的详细信息，请阅读<a href="/zh/API/身份验证">此页面</a></p>
 
 
 
@@ -657,7 +570,7 @@
     <nav class="md-footer__inner md-grid" aria-label="页脚" >
       
         
-        <a href="../../legal/terms/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Terms and Conditions &amp; Fair Use Policy" rel="prev">
+        <a href="../%E9%97%AE%E4%B8%8E%E7%AD%94/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 问与答" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -666,20 +579,20 @@
               <span class="md-footer__direction">
                 上一页
               </span>
-              Terms and Conditions & Fair Use Policy
+              问与答
             </div>
           </div>
         </a>
       
       
         
-        <a href="../exporting-forum/" class="md-footer__link md-footer__link--next" aria-label="下一页: 导出您的论坛" rel="next">
+        <a href="%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81/" class="md-footer__link md-footer__link--next" aria-label="下一页: 身份验证" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 下一页
               </span>
-              导出您的论坛
+              身份验证
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -710,10 +623,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\uff0c\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\uff0c\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      <script src="../assets/javascripts/bundle.d6c3db9e.min.js"></script>
       
     
   </body>
