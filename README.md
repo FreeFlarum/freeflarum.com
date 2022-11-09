@@ -1,6 +1,6 @@
 # FreeFlarum
 
-![FreeFlarum Logo](/docs/images/freeflarum-logo.svg)
+![FreeFlarum Logo](/overrides/assets//images/freeflarum-logo.svg)
 
 **FreeFlarum** is a community provided [Flarum](https://flarum.org) hosting allowing you to quickly launch your forum in under 1 minute! Flarum can be hard to set up - not anymore! Create your own Flarum forum instantly and start building your community.
 
