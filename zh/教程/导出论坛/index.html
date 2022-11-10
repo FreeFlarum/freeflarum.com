@@ -403,9 +403,40 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          导出您的论坛
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         导出您的论坛
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    以下是迁移步骤：
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -528,6 +559,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    以下是迁移步骤：
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -547,14 +593,14 @@
 
 
 <h1 id="_1">导出您的论坛<a class="headerlink" href="#_1" title="Permanent link">⚓︎</a></h1>
-<p>FreeFlarum 不想将您锁定在我们的服务中，因此您可以随时自由地获取您的数据并将您的论坛转移到其他地方。 </p>
-<p>以下是您需要做的：</p>
+<p>FreeFlarum 不想将您锁定在我们的服务中，因此您可以自由地获取您的数据并将您的论坛迁移到其他地方。 </p>
+<h3 id="_2">以下是迁移步骤：<a class="headerlink" href="#_2" title="Permanent link">⚓︎</a></h3>
 <ol>
 <li>登录 FreeFlarum 并下载您的数据库和头像。</li>
 <li>在别处安装 Flarum的相同版本，然后按照 <a href="https://docs.flarum.org/zh/install/">Flarum官方文档</a> 执行操作。 测试您安装的论坛是否正常工作。</li>
 <li>导入你的数据库：<code>zcat my_freeflarum_database_export.sql.gz | mysql -u USER -h HOST -p</code> 其中 USER 和 HOST 是您的新数据库帐户。</li>
 <li>恢复您的资产：上传并解压您的public assets文件</li>
-<li>最后，清除缓存：<code>php flarum cache:clear</code>并迁移Flarum的数据库：<code>php flarum migrate</code></li>
+<li>最后，清除缓存：运行<code>php flarum cache:clear</code>  ，并迁移Flarum的数据库：运行 <code>php flarum migrate</code></li>
 <li>完成</li>
 </ol>
 <p>尽管FreeFlarum不希望你离开，但我们还是祝愿您的论坛能变得更好！</p>

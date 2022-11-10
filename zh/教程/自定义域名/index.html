@@ -443,7 +443,7 @@
       
         <li class="md-nav__item">
   <a href="#dns" class="md-nav__link">
-    一般 DNS 说明
+    DNS记录配置说明
   </a>
   
 </li>
@@ -574,7 +574,7 @@
       
         <li class="md-nav__item">
   <a href="#dns" class="md-nav__link">
-    一般 DNS 说明
+    DNS记录配置说明
   </a>
   
 </li>
@@ -617,13 +617,13 @@
 <li>在FreeFlarum 设置 页面中输入您的自定义域。</li>
 </ol>
 </div>
-<p>配置 DNS 可能很棘手，因为每个注册商都有不同的方法和规则来这样做。我们将尝试告诉您入门的基础知识。</p>
-<h2 id="dns">一般 DNS 说明<a class="headerlink" href="#dns" title="Permanent link">⚓︎</a></h2>
+<p>配置 DNS 可能很麻烦，因为不同的注册商有不同的方法和规则。我们将告诉您一些基础知识方便您的入门。</p>
+<h2 id="dns">DNS记录配置说明<a class="headerlink" href="#dns" title="Permanent link">⚓︎</a></h2>
 <p>您应该创建一条从您自己的域名到 FreeFlarum 的 CNAME 记录，如下所示： <code>subdomain.yourdomain.tld 300 IN CNAME yourforumname.freeflarum.com</code></p>
 <p>TTL 您的提供商可能会要求 TTL，您应该将其设置得尽可能低，例如：2分钟。这使您可以在必要时快速更改服务器。</p>
 <h2 id="_2">使用根域名<a class="headerlink" href="#_2" title="Permanent link">⚓︎</a></h2>
-<p>没有子域的域（例如 <code>your.tld</code> 而不是 <code>www.your.tld</code>）称为“根”域。根 CNAME 不受 DNS 官方支持，也不与 FreeFlarum 兼容。
-有一个技巧可以“伪造”您的域的根功能，只需使用“www”子域即可。或者，您可以从根域重定向到链接到 FreeFlarum 的子域，例如。 g.：您的论坛位于<code>“your.forum.tld”</code>，<code>“forum.tld”</code>将用户重定向到<code>“your.forum.tld”</code>。可以在您的域注册商处设置重定向规则，如果它们支持的话。
+<p>没有子域的域（例如 <code>your.tld</code> 而不是 <code>www.your.tld</code>）称为“根”域。根域名的 CNAME 不受 DNS 官方支持，也不与 FreeFlarum 兼容。
+有一个方法可以“伪造”您的域的根功能，只需使用“www”子域即可。或者，您可以从根域重定向到链接到 FreeFlarum 的子域，例如：您的论坛位于<code>“your.forum.tld”</code>，<code>“forum.tld”</code>将用户重定向到<code>“your.forum.tld”</code>。可以在您的域注册商处设置重定向规则，如果它们支持的话。
 如果您不断收到来自 FreeFlarum 的错误消息，提示找不到 CNAME，请首先使用 第三方工具仔细检查是否可以找到 CNAME。
 如果无法添加 CNAME 记录，您的提供商可能不它。您可以切换到另一个 DNS 提供商。 这些 DNS 服务可与 FreeFlarum 一起使用：<a href="https://www.namecheap.com">Namecheap</a>, <a href="https://porkbun.com">Porkbun</a>, <a href="https://www.gandi.net">Gandi</a>, <a href="https://www.hichina.com">HiChina</a>, <a href="https://www.dynadot.com">Dynadot</a>, <a href="https://www.alidns.com">Alidns</a>, <a href="https://hostfly.by">HostFly.by</a>, <a href="https://www.namebright.com">NameBright</a>.</p>
 <div class="admonition note">
@@ -634,10 +634,10 @@
 <p class="admonition-title">使用 Cloudflare</p>
 <p><img alt="" src="https://buq.eu/screenshots/MMlyMjo6I6Hb7IfSXwHXOaxu.png" /></p>
 </div>
-<p><strong>确保禁用 Cloudflare 代理</strong>，使图标为灰色（不是橙色）。</p>
+<p>请<strong>确保禁用了 Cloudflare 代理</strong>，确保图标为灰色（不是橙色）。</p>
 <div class="admonition question">
 <p class="admonition-title">重置域</p>
-<p>如果您使用了自定义域但不再需要它，您可以在 <a href="https://freeflarum.com/settings/forum_settings">FreeFlarum 设置</a>。 </p>
+<p>如果您设置了自定义域但不再需要它，您可以在 <a href="https://freeflarum.com/settings/forum_settings">FreeFlarum 设置</a>。 </p>
 </div>
 
 
