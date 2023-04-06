@@ -70,8 +70,8 @@ You will be notified via E-mail if your forum reaches more than 1 000 (offline) 
 
 FreeFlarum checks for inactive/way too active forums every 3 months.
 
-- **Inactive** are forums that have existed for at least 1 month and haven't had any new users or posts for that month (or simply have less than 2 posts, regardless of other factors).
-- **Too active**, are forums that have more than 20 000 (offline) users, 20 000 discussions or 35 000 posts (exceptions can be made based on certain criteria and/or rare edge cases).
+- **Inactive** are forums that have existed for at least 1 month and haven't had any new users or posts for more than 1 month.
+- **Too active**, are forums that have more than 20 000 (offline) users, 20 000 discussions or 35 000 posts.
 
 Forums that match one of these criteria are archived by FreeFlarum. If that happens, you will be notified via E-mail that you entered when registering your forum.
 
@@ -81,4 +81,4 @@ These limits may be surpassed and your forum can function properly, however Free
 
 ---
 
-> *This document was last updated on the 6th of September, 2022*
+> *This document was last updated on the 6th of April, 2023*
