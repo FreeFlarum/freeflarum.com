@@ -54,7 +54,8 @@ Your forum may, however, accept voluntary donations from your community, e. g.: 
 2. The FreeFlarum service is not available to persons or legal entities who operate legal constructs for the purpose of tax evasion or concealment of the ultimate benefactor, such to be determined by FreeFlarum at its sole discretion.
 3. FreeFlarum reserves the right to cancel forums that are detrimental to its quality of service or reputation, at its sole discretion.
 4. You are required to promptly address any security vulnerabilities or bugs found at FreeFlarum's website or API by [contacting us](https://freeflarum.com/support). For bugs and vulnerabilities related to the Flarum software, please [refer to Flarum's GitHub issues page](https://github.com/flarum/framework/issues).
-5. If you believe that a certain forum hosted at FreeFlarum is violating these terms, [contact us](https://freeflarum.com/support).
+5. FreeFlarum does not support premium Flarum extensions (not even if you pay for them yourself).
+6. If you believe that a certain forum hosted at FreeFlarum is violating these terms, [contact us](https://freeflarum.com/support).
 
 ## Fair Use Policy
 
@@ -81,4 +82,4 @@ These limits may be surpassed and your forum can function properly, however Free
 
 ---
 
-> *This document was last updated on the 6th of April, 2023*
+> *This document was last updated on the 29th of April, 2023*
