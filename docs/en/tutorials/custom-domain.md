@@ -38,7 +38,7 @@ Configuring DNS can be tricky, because every registrar has a different method an
 
 !!! note "Using Cloudflare"
 
-    ![](https://buq.eu/screenshots/MMlyMjo6I6Hb7IfSXwHXOaxu.png)
+    ![](https://serv.husky.nz/ffd/freeflarumcloudflarecustomdoamin.png)
 
 !!! warning "Proxy"
     Make sure to **disable the Cloudflare proxy**, so that the icon is grey (not orange).
