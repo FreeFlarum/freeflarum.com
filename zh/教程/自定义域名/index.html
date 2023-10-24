@@ -723,8 +723,8 @@
 </div>
 <p>配置 DNS 可能很麻烦，因为不同的注册商有不同的方法和规则。我们将告诉您一些基础知识帮助您入门。</p>
 <h2 id="dns">DNS记录配置说明<a class="headerlink" href="#dns" title="Permanent link">⚓︎</a></h2>
-<p>您应该创建一条从您自己的域名到 FreeFlarum 的 CNAME 记录，如下所示： <code>subdomain.yourdomain.tld 300 IN CNAME yourforumname.freeflarum.com</code></p>
-<p>TTL 您的提供商可能会要求 TTL，您应该将其设置得尽可能低，例如：2分钟。这使您可以在必要时快速更改服务器。</p>
+<p>您应该创建一条从您自己的域名到 FreeFlarum 的 CNAME 记录，如下所示： <code>subdomain.yourdomain.tld 300 IN CNAME cname.freeflarum.com</code></p>
+<p>TTL 您的提供商可能会要求 TTL，建议使用较小的值，例如2分钟。以便在必要时快速更改服务器。</p>
 <h2 id="_2">使用根域名<a class="headerlink" href="#_2" title="Permanent link">⚓︎</a></h2>
 <p>没有子域的域（例如 <code>your.tld</code> 而不是 <code>www.your.tld</code>）称为“根”域。根域名的 CNAME 不受 DNS 官方支持，也不与 FreeFlarum 兼容。
 有一个方法可以“伪造”您的域的根功能，只需使用“www”子域即可。或者，您可以从根域重定向到链接到 FreeFlarum 的子域，例如：您的论坛位于<code>“your.forum.tld”</code>，<code>“forum.tld”</code>将用户重定向到<code>“your.forum.tld”</code>。可以在您的域注册商处设置重定向规则，如果它们支持的话。
