@@ -1,98 +1,98 @@
-# Privacy Policy
+# Політика конфіденційності
 
-Thank you for using FreeFlarum. This document will inform you about what data FreeFlarum holds about users that have signed up for FreeFlarum. It is important for FreeFlarum to be as open to its users as possible. Hopefully, it will cover most of the answers that you might have, however should anything be left unanswered, you are free to [contact FreeFlarum](https://freeflarum.com/support) at anytime.
+Дякуємо за використання FreeFlarum. Цей документ інформує вас про те, які дані FreeFlarum зберігає про користувачів, що зареєструвалися на FreeFlarum. Для FreeFlarum важливо бути максимально відкритим для своїх користувачів. Сподіваємося, що в ньому ви знайдете відповіді на більшість запитань, однак, якщо щось залишиться без відповіді, ви можете в будь-який час [зв'язатися з FreeFlarum] (https://freeflarum.com/support).
 
-> Note that this document is primarily oriented towards FreeFlarum's privacy practices. It explains them in a rather non-formal way, for everyone to understand.
-> Although there may be some mentions of Flarum's privacy policy (as it follows a similar document structure), please be sure to also read [the complete Flarum Privacy Policy](https://flarum.org/privacy) for a full set of privacy practices that are being used by both parties.
+> Зверніть увагу, що цей документ в першу чергу орієнтований на політику конфіденційності FreeFlarum. Він пояснює їх у досить неформальний спосіб, щоб кожен міг зрозуміти.
+> Незважаючи на те, що тут можуть бути деякі згадки про політику конфіденційності Flarum (оскільки вона має схожу структуру документа), будь ласка, обов'язково прочитайте [повну політику конфіденційності Flarum] (https://flarum.org/privacy) для ознайомлення з повним набором практик конфіденційності, які застосовуються обома сторонами.
 
-## Information that FreeFlarum collects
+## Інформація, яку збирає FreeFlarum
 
-None of the records that FreeFlarum holds about its visitors and/or users were, are being or will ever be sold to third parties by FreeFlarum under any circumstances.
+Жоден із записів, які FreeFlarum зберігає про своїх відвідувачів та/або користувачів, не продавався, не продається і ніколи не буде проданий FreeFlarum третім особам за жодних обставин.
 
-### During signup
+### Під час реєстрації
 
-When you first signup at the main FreeFlarum website [https://freeflarum.com](https://freeflarum.com), you will be asked to enter the following details:
+При першій реєстрації на головному сайті FreeFlarum [https://freeflarum.com](https://freeflarum.com) вам буде запропоновано ввести наступні дані:
 
-- **Forum tag:** Your desired forum name. This will be used in your forum's initial URL (a subdomain that FreeFlarum owns, can be changed) and also as an internal, unique identifier of your forum;
-- **Your E-mail address:** This is the main source of contact that FreeFlarum uses (read below);
-- **The parent domain of your forum:** This will be the initial parent domain of your forum. You can only choose between subdomains that are owned by FreeFlarum;
-- **Forum template:** The forum template that you want to start with. This information is discarded after the sign up process is finished, e. g.: it is not stored anywhere;
-- **Captcha:** This is a third-party widget provided by [hCaptcha](https://hcaptcha.com) to confirm that the forum creation is being requested by a human. [hCaptcha's Privacy Policy](https://www.hcaptcha.com/privacy) applies during this process, make sure to read it.
+- **Тег форуму:** Ваша бажана назва форуму. Вона буде використана в початковій URL-адресі вашого форуму (субдомен, яким володіє FreeFlarum, може бути змінений), а також як внутрішній, унікальний ідентифікатор вашого форуму;
+- **Ваша адреса електронної пошти:** Це основне джерело зв'язку, яке використовує FreeFlarum (читайте нижче);
+- **Батьківський домен вашого форуму:** Це буде початковий батьківський домен вашого форуму. Ви можете вибирати тільки ті субдомени, які належать FreeFlarum;
+- Шаблон форуму:** Шаблон форуму, з якого ви хочете почати. Ця інформація видаляється після завершення процесу реєстрації, наприклад: вона ніде не зберігається;
+- **Captcha:** Це сторонній віджет, наданий [hCaptcha](https://hcaptcha.com), який підтверджує, що запит на створення форуму надходить від людини. Політика конфіденційності [hCaptcha's Privacy Policy](https://www.hcaptcha.com/privacy) застосовується під час цього процесу, обов'язково прочитайте її.
 
-### Your E-mail address
+### Ваша адреса електронної пошти
 
-FreeFlarum uses your E-mail address only for the purposes to contact you about important updates about your forum:
+FreeFlarum використовує вашу електронну адресу тільки для того, щоб зв'язатися з вами щодо важливих оновлень на вашому форумі:
 
-- When your forum is created, FreeFlarum will send you a welcome E-mail with a password reset link that you can use to log into your admin account. Password reset links are valid for 24 hours - after that time passes, it is possible to request a new password reset link through Flarum's "Forgot password?" function (read below);
-- When your forum is taken offline due to being inactive, very active or too active (e. g.: it is unused or generates too much load for FreeFlarum's server to handle, respectively), FreeFlarum *may* send you an E-mail that informs you about this. You can read more about FreeFlarum's Fair Use Policy and how FreeFlarum handles inactive/very active forums [here](https://docs.freeflarum.com/legal/terms#fair-use-policy);
-- By a FreeFlarum staff member to personally inform you of other concerns that cannot be handled by FreeFlarum's system automatically (e. g.: your forum violates FreeFlarum's [Terms and Conditions](https://docs.freeflarum.com/legal/terms)).
+- Коли ваш форум буде створено, FreeFlarum надішле вам привітального листа з посиланням для скидання пароля, за яким ви зможете увійти до свого облікового запису адміністратора. Посилання для скидання паролю дійсне протягом 24 годин - після закінчення цього часу можна запросити нове посилання для скидання паролю за допомогою функції "Забули пароль?" на Flarum (читайте нижче);
+- Коли ваш форум виводиться в офлайн через те, що він неактивний, дуже активний або занадто активний (наприклад: він не використовується або створює занадто велике навантаження на сервер FreeFlarum), FreeFlarum *може* надіслати вам електронного листа, який інформує вас про це. Ви можете прочитати більше про Політику добросовісного використання FreeFlarum і про те, як FreeFlarum працює з неактивними/дуже активними форумами [тут] (https://docs.freeflarum.com/legal/terms#fair-use-policy);
+- Співробітник FreeFlarum особисто повідомить вас про інші проблеми, які не можуть бути вирішені системою FreeFlarum автоматично (наприклад: ваш форум порушує [Правила та умови] FreeFlarum (https://docs.freeflarum.com/legal/terms)).
 
-E-mail addresses that are collected by FreeFlarum have never been, are not and will never be used for purposes such as marketing, newsletters, advertisements, spam or other forms of generally annoying E-mails that are usually sent to users' mailboxes without their prior consent. We only send you important updates (read above), which means that because of this, it is impossible to unsubscribe from FreeFlarum's E-mail notifications.
+Адреси електронної пошти, які збирає FreeFlarum, ніколи не використовувалися, не використовуються і не будуть використовуватися для таких цілей, як маркетинг, інформаційні бюлетені, реклама, спам або інші форми набридливих електронних листів, які зазвичай надсилаються на поштові скриньки користувачів без їхньої попередньої згоди. Ми надсилаємо вам лише важливі оновлення (читайте вище), а це означає, що через це неможливо відписатися від електронних повідомлень FreeFlarum.
 
-### Information that FreeFlarum holds about its forums in its database
+### Інформація, яку FreeFlarum зберігає про свої форуми у своїй базі даних
 
-FreeFlarum's database stores the following records:
+База даних FreeFlarum зберігає наступні записи:
 
-- **Forum tags:** Personal, unique, user-chosen names of forums that are used to identify a particular forum;
-- **E-mail addresses of forum owners:** E-mail address that you used during the sign up process at FreeFlarum's main website [https://freeflarum.com](https://freeflarum.com). Changing your Flarum forum's admin account E-mail address does not change the address that FreeFlarum uses internally. If you'd like to perform a change of the E-mail address that FreeFlarum has saved in its database, please [contact FreeFlarum](https://freeflarum.com/support). This E-mail address is used for the purposes explained above (e. g.: to inform forum owners about their forum's updates);
-- **The date and time of your forum creation:** This is used by FreeFlarum to identify for how long was your forum online, and for FreeFlarum's system to calculate whether your forum should be archived of inactivity or not (read above, or [here](https://docs.freeflarum.com/legal/terms#fair-use-policy));
-- **Your forum's status:** Can only be one out of 3 possible values - `online` (your forum is up and accessible), `offline` (your forum was archived by FreeFlarum due to inactivity, too much activity or it violated FreeFlarum's [Terms and Conditions](https://docs.freeflarum.com/legal/terms)) or `destroyed` (your forum was destroyed and can no longer be reactivated). This is used merely just as an internal flag to maintain proper structure and functionality of FreeFlarum. You can read more about inactive forums and FreeFlarum's Fair Use Policy [here](https://docs.freeflarum.com/legal/terms#fair-use-policy);
-- **Your forum's custom host:** If you have [CNAMEd your domain](https://docs.freeflarum.com/tutorials/custom-domain) to FreeFlarum, connecting it to your forum, FreeFlarum will store the linked host in its database to maintain its proper functionality;
-- **Parent domain:** This is similar to custom host (read above), except it is being used to identify which one of FreeFlarum's available parent domains a forum uses. It may also contain the parent domain of the subdomain that you have linked to FreeFlarum (read above);
-- **Server IP:** Currently unused. At the moment, all values of this record for all forums equal to the current IP of FreeFlarum's server. It will be used in the future, after FreeFlarum upgrades to a multi-server architecture, allowing forums to be hosted all around the world & to speed up loading times for visitors located far away from FreeFlarum's current server;
-- **Created IP:** The IP address that was used during the forum signup process. It is used by FreeFlarum to safeguard the service against potential fraud, spam and DDoS attacks;
-- **Donated amount:** The cumulative amount of euros that the forum had donated in order to support FreeFlarum, as is explained [here](https://freeflarum.com/donate). It is used during FreeFlarum and Flarum's runtime to calculate what perks should the forum receive;
-- **Whether the forum is protected:** Can be yes or no. Protected forums cannot be archived or removed by FreeFlarum, regardless of other factors (such as inactivity, too much activity or donor status). This usually includes forums that are required for FreeFlarum's proper functionality, but it may also include chosen user forums based on the prior approval of an user request by a FreeFlarum staff member;
-- **Whether the forum was noticed about being very active:** Can be yes or no. It is used interally by FreeFlarum to determine, whether an alert should be sent to forum owner to their E-mail address about their forum being very active (these alerts are sent only once). You can read more about very active forums and FreeFlarum's Fair Use Policy [here](https://docs.freeflarum.com/legal/terms#fair-use-policy);
-- **Whether the forum is an "OG Donor":** "OG donors" are all donors that have donated before the FreeFlarum U1-2022 update (summer update, released near the end of August, 2022). These donors may receive additional perks, so this value is used internally by FreeFlarum to determine whether than can really happen;
-- **Removal reason:** The reason why the forum was removed (if it was removed). This message will be rendered in the E-mail notification about forums that have been archived or destroyed. It will be stored for the purposes to make moderation and providing support easier for a FreeFlarum staff member.
+- Теги форуму:** Особисті, унікальні, вибрані користувачем назви форумів, які використовуються для ідентифікації конкретного форуму;
+- **Адреси електронної пошти власників форумів:** Адреса електронної пошти, яку ви використовували під час реєстрації на головному сайті FreeFlarum [https://freeflarum.com](https://freeflarum.com). Зміна адреси електронної пошти вашого облікового запису адміністратора форуму Flarum не змінює адресу, яку використовує FreeFlarum для внутрішніх потреб. Якщо ви хочете змінити адресу електронної пошти, яку FreeFlarum зберіг у своїй базі даних, будь ласка, [зв'яжіться з FreeFlarum](https://freeflarum.com/support). Ця адреса електронної пошти використовується для цілей, описаних вище (наприклад, для інформування власників форумів про оновлення їхніх форумів);
+- **Дата і час створення форуму:** Ця інформація використовується FreeFlarum для того, щоб визначити, як довго ваш форум був онлайн, а також для того, щоб система FreeFlarum могла розрахувати, чи слід архівувати ваш форум за неактивність чи ні (читайте вище або [тут](https://docs.freeflarum.com/legal/terms#fair-use-policy));
+- Статус вашого форуму:** Може мати лише одне з 3 можливих значень - "онлайн" (ваш форум працює і доступний), "офлайн" (ваш форум був заархівований FreeFlarum через неактивність, надмірну активність або порушення [Умов та положень](https://docs.freeflarum.com/legal/terms)) або "знищений" (ваш форум був знищений і більше не може бути реактивований). Це використовується лише як внутрішній прапор для підтримки належної структури і функціональності FreeFlarum. Ви можете прочитати більше про неактивні форуми і Політику добросовісного використання FreeFlarum [тут] (https://docs.freeflarum.com/legal/terms#fair-use-policy);
+- Спеціальний хост вашого форуму:** Якщо ви [CNAME ваш домен](https://docs.freeflarum.com/tutorials/custom-domain) на FreeFlarum, підключивши його до вашого форуму, FreeFlarum зберігатиме пов'язаний хост у своїй базі даних для підтримки його належної функціональності;
+- **Батьківський домен:** Це схоже на користувацький хост (читайте вище), за винятком того, що він використовується для визначення того, який з доступних батьківських доменів FreeFlarum використовує форум. Він також може містити батьківський домен субдомену, який ви прив'язали до FreeFlarum (читайте вище);
+- **IP-адреса сервера:** Наразі не використовується. На даний момент всі значення цього запису для всіх форумів дорівнюють поточному IP-адресу сервера FreeFlarum. Він буде використовуватися в майбутньому, коли FreeFlarum перейде на багатосерверну архітектуру, що дозволить розміщувати форуми по всьому світу і прискорить час завантаження для відвідувачів, які знаходяться далеко від поточного сервера FreeFlarum;
+- **Створений IP:** IP-адреса, яка була використана під час реєстрації на форумі. Вона використовується FreeFlarum для захисту сервісу від потенційного шахрайства, спаму та DDoS-атак;
+- **Пожертвувана сума:** Загальна сума в євро, яку форум пожертвував на підтримку FreeFlarum, як пояснюється [тут] (https://freeflarum.com/donate). Використовується під час роботи FreeFlarum і Flarum для обчислення того, які пільги має отримати форум;
+- Чи є форум захищеним:** Може бути "так" або "ні". Захищені форуми не можуть бути заархівовані або видалені FreeFlarum, незалежно від інших факторів (таких як бездіяльність, надмірна активність або статус донора). Зазвичай це стосується форумів, необхідних для належного функціонування FreeFlarum, але це також можуть бути обрані користувацькі форуми на основі попереднього схвалення запиту користувача співробітником FreeFlarum;
+- Чи був форум помічений як дуже активний:** Може бути "так" або "ні". Використовується всередині FreeFlarum, щоб визначити, чи потрібно надсилати сповіщення власнику форуму на його електронну адресу про те, що його форум дуже активний (ці сповіщення надсилаються лише один раз). Ви можете прочитати більше про дуже активні форуми і Політику добросовісного використання FreeFlarum [тут] (https://docs.freeflarum.com/legal/terms#fair-use-policy);
+- Чи є форум "OG-донором":** "OG-донорами" є всі донори, які зробили пожертвування до оновлення FreeFlarum U1-2022 (літнє оновлення, випущене наприкінці серпня 2022 року). Ці донори можуть отримати додаткові привілеї, тому це значення використовується всередині FreeFlarum, щоб визначити, чи це дійсно може статися;
+- **Причина видалення:** Причина, через яку форум було видалено (якщо його було видалено). Це повідомлення буде показано в повідомленні електронної пошти про форуми, які були заархівовані або знищені. Воно зберігатиметься для того, щоб полегшити модерацію та надання підтримки співробітникам FreeFlarum.
 
-### Authenticating at FreeFlarum
+### Аутентифікація на FreeFlarum
 
-In order to authenticate at FreeFlarum for purposes of forum moderation, your Flarum forum's admin account's password hash will be compared against a hashed version of the password that you entered at FreeFlarum's website during the login process at [https://freeflarum.com/settings/login](https://freeflarum.com/settings/login). This ensures that FreeFlarum does not necessairly store additional hashed versions of passwords and minimizes the risk of a data breach (since passwords are not stored in a central database - read above).
+Для аутентифікації на FreeFlarum з метою модерації форуму хеш пароля вашого облікового запису адміністратора форуму Flarum буде порівнюватися з хешованою версією пароля, який ви ввели на веб-сайті FreeFlarum під час входу на [https://freeflarum.com/settings/login](https://freeflarum.com/settings/login). Це гарантує, що FreeFlarum не обов'язково зберігає додаткові хешовані версії паролів і мінімізує ризик витоку даних (оскільки паролі не зберігаються в центральній базі даних - читайте вище).
 
-- You may change your Flarum forum's admin account password from Flarum's interface. To do this, navigate to your Flarum's forum admin profile settings, then click on the "Change password" button;
-- To request a new password for your forum's admin account in case you forgot the old password, navigate to your forum while logged out (you can visit it in private browsing/incognito mode, if your browser supports such feature), click on the "Login" button in top-right of your forum's header navigation, then click on the "Forgot password?" link in the bottom of the login modal. You will be asked to enter your E-mail address, which is the address that currently belongs to your admin account. If all went well, a new E-mail should arrive with a new password reset link that you may use to continue your forum setup process;
-- All passwords of your Flarum forum's users are hashed using [bcrypt](https://en.wikipedia.org/wiki/Bcrypt). This entire process is handled by Flarum and its internal libraries and components, and FreeFlarum has no influence over how passwords are generated and stored by Flarum internally.
+- Ви можете змінити пароль вашого облікового запису адміністратора форуму Flarum з інтерфейсу Flarum. Для цього перейдіть до налаштувань профілю адміністратора вашого форуму на Flarum і натисніть кнопку "Змінити пароль";
+- Щоб запросити новий пароль для вашого облікового запису адміністратора форуму, якщо ви забули старий пароль, перейдіть на ваш форум, коли ви вийшли з системи (ви можете відвідати його в режимі приватного перегляду/інкогніто, якщо ваш браузер підтримує таку можливість), натисніть кнопку "Вхід" у верхньому правому куті навігації шапки вашого форуму, а потім натисніть на посилання "Забули пароль?" внизу модального вікна входу в систему. Вам буде запропоновано ввести адресу електронної пошти, яка наразі належить вашому обліковому запису адміністратора. Якщо все пройшло успішно, на вашу електронну пошту має надійти нове посилання для відновлення паролю, яке ви можете використати для продовження процесу налаштування форуму;
+- Всі паролі користувачів вашого форуму на Flarum хешуються за допомогою [bcrypt](https://en.wikipedia.org/wiki/Bcrypt). Весь цей процес обробляється Flarum та його внутрішніми бібліотеками і компонентами, і FreeFlarum не має ніякого впливу на те, як паролі генеруються і зберігаються всередині Flarum.
 
-Access tokens are created after a successful login to FreeFlarum's website, and they are stored in a separate table in FreeFlarum's internal database. They include the following records:
+Токени доступу створюються після успішного входу на сайт FreeFlarum і зберігаються в окремій таблиці у внутрішній базі даних FreeFlarum. Вони включають в себе наступні записи:
 
-- **Forum tag:** The tag of the forum that the access token belongs to;
-- **Token:** The access token itself, a string of random characters and numbers;
-- **Created at:** Date and time when was the access token created at;
-- **Expires at:** Date and time when the access token expires, can be nothing for permanent validity;
-- **User agent:** The user agent of the browser that created the access token
-- **Has elevated permissions:** Whether the access token has elevated permissions or not.
+- Тег форуму:** Тег форуму, до якого належить токен доступу;
+- **Токен:** Сам токен доступу, рядок випадкових символів і цифр;
+- **Створено при:** Дата і час, коли було створено токен доступу;
+- **Закінчується в:** Дата і час, коли закінчується термін дії токена доступу, для постійної дійсності може бути порожнім;
+- **Агент користувача:** Агент користувача браузера, який створив токен доступу
+- **Має підвищені дозволи:** Чи має токен доступу підвищені дозволи чи ні.
+  
+Ви можете дізнатися більше про токени доступу та систему автентифікації FreeFlarum [тут](https://docs.freeflarum.com/api/authentication).
 
-You can learn more about access tokens and FreeFlarum's authentication system [here](https://docs.freeflarum.com/api/authentication).
+### Чи використовує FreeFlarum файли cookie?
 
-### Does FreeFlarum use cookies?
+Так, з метою зберігання токенів доступу, які отримуються сервером FreeFlarum для аутентифікації користувача (читайте вище). З міркувань безпеки цей файл cookie позначений як "HttpOnly", і тому не може бути доступний за допомогою JavaScript.
 
-Yes, for the purpose of storing access tokens, which are fetched by FreeFlarum's server to authenticate the user (read above). This cookie is marked as "HttpOnly" for security reasons, and therefore can't be accessed by JavaScript.
+Інші файли cookie можуть походити від сторонніх сервісів, на які FreeFlarum не може впливати (читайте нижче). Файли cookie, якими керує FreeFlarum, використовуються виключно для підтримки належної функціональності і не використовувалися/не використовуються/не будуть використовуватися в маркетингових цілях.
 
-Other cookies may originate from third-party services that can't be influenced by FreeFlarum (read below). Cookies managed by FreeFlarum are strictly used only to maintain its proper functionality, and were not/are not/will not be used for marketing purposes.
+### FreeFlarum та файли журналів
+FreeFlarum зберігає лог-файли своїх системних бібліотек не більше 1 року. Деякі з цих записів містять інформацію про кожен запит, який був зроблений до сервера FreeFlarum, яка може включати (але не обмежується): IP-адресу запиту, метод запиту, URL-адресу запиту тощо...
 
-### FreeFlarum and log files
 
-FreeFlarum retains log files of its system libraries for no more than 1 year. Some of these records include information about every request that was made to FreeFlarum's server, which may include (but is not limited to): request's IP address, request method, request URL, etc...
+## Сторонні сервіси та програмне забезпечення, що використовуються FreeFlarum
 
-## Third-party services & software used by FreeFlarum
+FreeFlarum використовує наступні сторонні сервіси:
 
-The following third-party services are being used by FreeFlarum:
+- [Cloudflare](https://www.cloudflare.com/privacypolicy/), для проксі-серверу запитів на основний сайт FreeFlarum, щоб захистити сервіс від атак та інших потенційних інтернет-потоків;
+- [hCaptcha](https://www.hcaptcha.com/privacy/), для захисту форми реєстрації на форумі на головному сайті FreeFlarum ([https://freeflarum.com](https://freeflarum.com));
+- [IcoMoon](https://icomoon.io/#about), для графіки (у вигляді іконок), що відображається на головному сайті FreeFlarum.
 
-- [Cloudflare](https://www.cloudflare.com/privacypolicy/), for proxying requests made to the main FreeFlarum website to guard the service against attacks and other potential internet threads;
-- [hCaptcha](https://www.hcaptcha.com/privacy/), for protecting the forum registration form at the main FreeFlarum website ([https://freeflarum.com](https://freeflarum.com));
-- [IcoMoon](https://icomoon.io/#about), for graphics (in form of icons) rendered on the main FreeFlarum website.
+FreeFlarum НЕ використовує сервіси відстеження, фрагменти відстеження, програми відстеження або інші сторонні сервіси, які збирають дані відвідувачів для маркетингових або рекламних цілей.
 
-FreeFlarum does NOT use tracking services, tracking snippets, tracking programs or other third-party services that harvest the visitor's data for marketing or advertisement purposes.
+Для отримання додаткової інформації про FreeFlarum та його внутрішню роботу, будь ласка, відвідайте [сторінку про FreeFlarum] (https://docs.freeflarum.com/about).
 
-For more information about FreeFlarum and its internal workings, please refer to [FreeFlarum's about page](https://docs.freeflarum.com/about).
+## Інформація, яку збирає Flarum 
 
-## Information that Flarum collects
+Логіка FreeFlarum і Flarum працює в двох ізольованих і в першу чергу незалежних середовищах.
+Додаткова інформація може збиратися Flarum та/або його розширеннями і зберігатися на сервері FreeFlarum - однак FreeFlarum не має прямого контролю над цим.
 
-The logic of FreeFlarum and Flarum operates in two isolated and primarily independent environments.
-Additional information may be collected by Flarum and/or its extensions and held at FreeFlarum's server - however, FreeFlarum has no direct control over this.
+Щоб дізнатися більше про політику конфіденційності Flarum, будь ласка, зверніться до [повної Політики конфіденційності Flarum] (https://flarum.org/privacy) та/або до політики конфіденційності розширень Flarum, які використовуються на FreeFlarum, якщо такі є.
 
-For details about Flarum's privacy policy, please refer to [the complete Flarum Privacy Policy](https://flarum.org/privacy) and/or the privacy policy of Flarum extensions that are being used at FreeFlarum, if they have any.
-
-> *This document was last updated on the 6th of September, 2022*
+> *Цей документ востаннє було оновлено 6 вересня 2022 року*.
