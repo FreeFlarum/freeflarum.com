@@ -1,77 +1,75 @@
 # Authentication
 
-> This guide covers details about authenticating (logging in to FreeFlarum settings) via [FreeFlarum's API](https://api.freeflarum.com), not [Flarum](https://docs.flarum.org/rest-api/).
->
-> There is also [FreeFlarum Python Package](https://github.com/CWKevo/freeflarum.py), should you be interested in that.
+> Цей посібник описує деталі автентифікації (входу до налаштувань FreeFlarum) через [FreeFlarum's API](https://api.freeflarum.com), а не [Flarum](https://docs.flarum.org/rest-api/).
 
-## Forgot password?
+## Забули пароль?
 
-FreeFlarum's login form expects the same password hash as is your forum admin account's password.
-This means that if you forgot your password, you may reset it at your forum:
+Форма входу на FreeFlarum очікує той самий хеш-пароль, що і пароль вашого облікового запису адміністратора форуму.
+Це означає, що якщо ви забули свій пароль, ви можете відновити його на форумі:
 
-1. Ensure that you are logged out (you can use incognito/private browsing);
-2. Click on the "Log In" button at your Flarum forum;
-3. Click on the "Forgot password?" link in the bottom of the modal;
-4. Input your admin's E-mail address;
-5. Follow the instructions that were sent to that E-mail address and reset your password;
-6. You may now use this new password to log in to FreeFlarum.
+1. Переконайтеся, що ви вийшли з системи (ви можете використовувати інкогніто/приватний перегляд);
+2. Натисніть на кнопку "Увійти" на вашому форумі Flarum;4. Input your admin's E-mail address;
+3. Натисніть на посилання "Забули пароль?" внизу модального вікна;
+4. Введіть адресу електронної пошти вашого адміністратора;
+5. Дотримуйтесь інструкцій, які були надіслані на цю електронну адресу, і скиньте пароль;
+6. Тепер ви можете використовувати цей новий пароль для входу на FreeFlarum.
 
-## Access tokens
+## Токени доступу
 
-If you had the chance to look at your [account settings at FreeFlarum](https://freeflarum.com/settings/account_settings), you might've already
-noticed that there is a section where all of your access tokens are listed.
+Якщо у вас була можливість поглянути на свої [налаштування облікового запису на FreeFlarum](https://freeflarum.com/settings/account_settings), ви вже могли помітити, що
+помітили, що є розділ, де є перераховані всі ваші токени доступу.
 
-Access tokens are created on every successful login to your FreeFlarum forum account. They can be used by outside parties to perform actions on behalf of your account (e. g.: download your forum data, link your domain, fixup your forum, get your forum information, etc...).
+Токени доступу створюються при кожному успішному вході до вашого облікового запису на форумі FreeFlarum. Вони можуть бути використані сторонніми особами для виконання дій від імені вашого облікового запису (наприклад: завантаження ваших даних на форумі, посилання на ваш домен, налаштувати ваш форум, отримати інформацію про ваш форум і т.д..).
 
-The main idea is that you may provide third party migration services with one of your access tokens, and they can fetch your forum data and migrate your forum for you. Or, you might simply want to create a personal script to link your domain under certain conditions, for example.
+Основна ідея полягає в тому, що ви можете надати стороннім службам міграції один з ваших токенів доступу, і вони зможуть отримати дані вашого форуму і перенести його для вас. Або ви можете просто створити персональний скрипт для прив'язки вашого домену за певних умов, наприклад.
 
-All API routes are listed at [https://api.freeflarum.com/](https://api.freeflarum.com/).
+Всі маршрути API перераховані на [https://api.freeflarum.com/](https://api.freeflarum.com/).
 
-### Access tokens with "elevated permissions"
+### Токени доступу з "підвищеними правами"
 
-Access tokens that have "elevated permissions" are created only when you log in to FreeFlarum via its main website ([https://freeflarum.com](https://freeflarum.com)). Any logins/access tokens created outside of the main page will not have elevated permissions.
+Токени доступу з "підвищеними правами" створюються лише тоді, коли ви входите у FreeFlarum через його головний веб-сайт ([https://freeflarum.com](https://freeflarum.com)). Будь-які логіни/токени доступу, створені за межами головної сторінки, не матимуть підвищених дозволів.
 
-#### Table of permissions for access tokens
+#### Таблиця дозволів для токенів доступу
 
-| Can                                           | Normal token  | Token with elevated permissions |
-|-----------------------------------------------|---------------|---------------------------------|
-| Fetch forum information (tag, E-mail, etc...) | ✅            | ✅                             |
-| Fetch FoF Uploads limit                       | ✅            | ✅                             |
-| Fixup forum                                   | ✅            | ✅                             |
-| Link custom domain                            | ✅            | ✅                             |
-| Fetch (available) server logs                 | ✅            | ✅                             |
-| Export your forum data (also to CSV)          | ✅            | ✅                             |
-| Revoke other access tokens                    | ❌            | ✅                             |
-| Remove your forum                             | ❌            | ✅                             |
+| Можеш                                               | Звичайний токен | Токен з підвищеними правами|
+|-----------------------------------------------------|-----------------|----------------------------|
+| Отримати інформацію про форум (тег, E-mail тощо...) | ✅              | ✅                        |
+| Обмеження на завантаження FoF                       | ✅              | ✅                        |
+| Форум Fixup                                         | ✅              | ✅                        |
+| Посилання на власний домен                          | ✅              | ✅                        |
+| Отримання (доступних) логів сервера                 | ✅              | ✅                        |
+| Експортуйте дані вашого форуму (також у CSV)        | ✅              | ✅                        |
+| Відкликати інші токени доступу                      | ❌              | ✅                        |
+| Видаліть свій форум                                 | ❌              | ✅                        |
 
-For security reasons, you may remove your forums and revoke other access tokens only if you log in via the main FreeFlarum website.
+З міркувань безпеки ви можете видалити свої форуми і відкликати інші токени доступу, тільки якщо ви ввійшли через головний сайт FreeFlarum.
 
-However, if you copy a token with elevated permissions and use it outside of FreeFlarum, it will still have elevated permissions.
-It is recommended that you provide third-party services with normal tokens.
+Однак, якщо ви скопіюєте токен з підвищеними правами і використаєте його за межами FreeFlarum, він все одно буде мати підвищені права.
+Рекомендується надавати стороннім сервісам звичайні токени.
 
-### "Remember me"
+### "Пам'ятай мене"
 
-By default, the "Remember me" box is not ticked when logging in to FreeFlarum, and so your access token will expire in 1 hour.
-This is recommended for one-time third-party services (if they finish the task within 1 hour), so that the token is no longer valid after 1 hour.
+За замовчуванням, при вході на FreeFlarum галочка "Запам'ятати мене" не відмічена, тому термін дії вашого токену доступу закінчується через 1 годину.
+Це рекомендується для одноразових сторонніх послуг (якщо вони виконують завдання протягом 1 години), щоб токен більше не був дійсним через 1 годину.
 
-If you tick the "Remember me" box, the token is then valid forever (in other words, you won't be logged out unless the `access_token` cookie is deleted, e. g.: after clearing browsing history).
+Якщо ви поставите галочку "Запам'ятати мене", токен буде дійсним назавжди (іншими словами, ви не вийдете з системи, якщо не видалите файл cookie `access_token`, наприклад: після очищення історії браузера).
 
-### Creating new access tokens
+### Створення нових токенів доступу
 
-You have 2 options to create access tokens:
+У вас є 2 варіанти створення токенів доступу:
 
-1. Log in through FreeFlarum's website;
-2. Send an API request to [https://api.freeflarum.com/authentication](https://api.freeflarum.com/#/Authentication/login_authentication_post).
+1. Увійдіть на сайт FreeFlarum;
+2. Надішліть запит на API на [https://api.freeflarum.com/authentication](https://api.freeflarum.com/#/Authentication/login_authentication_post).
 
-The first method is ideal if you can't create an API request or you simply aren't a technical type, but need the access token for some third-party service. To do it this way while staying logged in via your main token, open a new private browsing/incognito session or visit FreeFlarum through a different browser/device. Then, log in without ticking the "Remember me" box, and you will have a temporary (1 hour) token, with [elevated permissions](#access-tokens-with-elevated-permissions) though. If you don't want elevated permissions, then you will either need to authenticate via [api.freeflarum.com](https://api.freeflarum.com) or forge an API request.
+Перший спосіб ідеальний, якщо ви не можете створити API-запит або просто не є технічним спеціалістом, але вам потрібен токен доступу для якогось стороннього сервісу. Щоб зробити це таким чином, залишаючись у системі під своїм основним токеном, відкрийте новий сеанс приватного перегляду/інкогніто або відвідайте FreeFlarum через інший браузер/пристрій. Потім увійдіть в систему, не ставлячи галочку "Запам'ятати мене", і ви отримаєте тимчасовий (на 1 годину) токен, але з [підвищеними правами] (#access-tokens-with-elevated-permissions). Якщо вам не потрібні підвищені дозволи, вам потрібно буде або авторизуватися через [api.freeflarum.com](https://api.freeflarum.com), або підробити API-запит.
 
-The second method is ideal for obtaining tokens without elevated permissions, and is described [in the API documentation](https://api.freeflarum.com/#/Authentication/login_authentication_post).
+Другий метод ідеально підходить для отримання токенів без підвищених дозволів і описаний [в документації API] (https://api.freeflarum.com/#/Authentication/login_authentication_post).
 
-### Revoking access tokens
+### Відкликання токенів доступу
 
-Again, you have 2 options:
+Знову ж таки, у вас є 2 варіанти:
 
-1. Log in to FreeFlarum.com and revoke it by clicking the trash bin icon on the left of the access token;
-2. Use access token with elevated permissions and send an API request.
-
-Please note that changing your forum admin's password won't revoke existing access tokens (this is due to technical limitations - FreeFlarum's Python backend can't communicate with Flarum's PHP backend easily). If you change your password because of security reasons (e. g.: unauthorized use of your access token or password leak), you will need to revoke all existing access tokens manually (see methods available above).
+1. Увійдіть на сайт FreeFlarum.com і відкликайте його, натиснувши на іконку кошика зліва від токена доступу;
+2. Використовуйте токен доступу з підвищеними правами та надішліть API-запит.
+   
+Зверніть увагу, що зміна пароля адміністратора форуму не призведе до відкликання існуючих токенів доступу (це пов'язано з технічними обмеженнями - Python-бекенд FreeFlarum не може легко взаємодіяти з PHP-бекендом Flarum). Якщо ви змінюєте пароль з міркувань безпеки (наприклад, несанкціоноване використання вашого токена доступу або витік пароля), вам потрібно буде відкликати всі існуючі токени доступу вручну (див. доступні методи вище).
