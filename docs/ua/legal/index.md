@@ -1,5 +1,5 @@
-# Legal
+# Законний
 
-- [Privacy Policy](https://freeflarum.com/privacy);
-- [Terms & Conditions](https://freeflarum.com/terms);
-- [Fair Use Policy](https://freeflarum.com/terms#fair-use-policy);
+- [Політика конфіденційності] (https://freeflarum.com/privacy);
+- [Загальні положення та умови] (https://freeflarum.com/terms);
+- [Політика добросовісного використання] (https://freeflarum.com/terms#fair-use-policy);
