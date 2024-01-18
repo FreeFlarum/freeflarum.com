@@ -1,40 +1,40 @@
-# Custom Domain
+# Спеціальний домен
 
-Your forum is initially named `<you>.freeflarum.com` or `<you>.flarum.cloud`. But it is easy (and free) to use your own domain name to make it look more professional.
+Спочатку ваш форум називається `<you>.freeflarum.com` або `<you>.flarum.cloud`. Але можна легко (і безкоштовно) використовувати власне доменне ім'я, щоб форум виглядав більш професійно.
 
-Plus, if you ever want to migrate your forum elsewhere, you can keep the same name (and data).
+Крім того, якщо ви коли-небудь захочете перенести свій форум в інше місце, ви зможете зберегти ту саму назву (і дані).
 
-!!! info "To start using your own domain name, follow these steps:"
+!!! інформація "Щоб почати використовувати власне доменне ім'я, виконайте такі дії:"
 
-    1. Get a domain name, with a registrar such as [Namecheap](https://namecheap.com) or [Porkbun](https://porkbun.com);
-    2. Add a CNAME DNS record at the registrar's control panel that points to `cname.freeflarum.com`;
-    3. Enter your custom domain in the [FreeFlarum Settings](https://freeflarum.com/settings/forum_settings) page.
+    1. Отримайте доменне ім'я у реєстратора, наприклад, [Namecheap] (https://namecheap.com) або [Porkbun] (https://porkbun.com);
+    2. Додайте DNS-запис CNAME в панелі керування реєстратора, який вказує на `cname.freeflarum.com`;
+    3. Введіть свій власний домен на сторінці [FreeFlarum Settings](https://freeflarum.com/settings/forum_settings).
+    
+Налаштування DNS може бути складним, оскільки кожен реєстратор має свій метод і правила для цього. Ми спробуємо розповісти вам основи, щоб ви могли почати.
 
-Configuring DNS can be tricky, because every registrar has a different method and rules to do so. We will try to tell you the basics to get going.
+!!! інформація "Загальні інструкції з DNS"
 
-!!! info "General DNS instructions"
-
-    You should create a CNAME record from your own domain name to FreeFlarum, which looks like this:
-
+  Ви повинні створити запис CNAME від власного доменного імені до FreeFlarum, який виглядає наступним чином:
+  
     `subdomain.yourdomain.tld. 300 IN CNAME cname.freeflarum.com`
 
-!!! note "TTL"
-    Your provider might ask for a TTL, you should set this as low as possible, e. g.: 2 minutes. This allows you to change servers quickly, if necessary.
+!!! примітка "TTL"
+    Ваш провайдер може попросити вказати час очікування (TTL), ви повинні встановити його якомога меншим, наприклад: 2 хвилини. Це дозволить вам швидко змінювати сервери, якщо це необхідно.
 
-!!! info "Using a root/naked domain"
+!!! інформація "Використання кореневого/голого домену"
 
-    A domain without a subdomain (eg `your.tld` instead of `www.your.tld`) is called a "root" domain. Root CNAMEs are not officially supported by the DNS, and are not compatible with FreeFlarum either.
+    Домен без субдомену (наприклад, `your.tld` замість `www.your.tld`) називається "кореневим" доменом. Кореневі імена CNAME офіційно не підтримуються DNS і не сумісні з FreeFlarum.
 
-    There's one trick to "fake" the root functionality of your domain, simply by using a "www" subdomain. Or, you can make a redirect from your root domain to your subdomain linked to FreeFlarum, e. g.: your forum is at `your.forum.tld`, and `forum.tld` redirects users to `your.forum.tld`. Redirection rules can be set up at your domain registar, if they support them.
+    Існує один трюк, щоб "підробити" кореневі функції вашого домену, просто використовуючи субдомен "www". Або ви можете зробити перенаправлення з вашого кореневого домену на ваш субдомен, пов'язаний з FreeFlarum, наприклад: ваш форум знаходиться за адресою `your.forum.tld`, а `forum.tld` перенаправляє користувачів на `your.forum.tld`. Правила перенаправлення можна налаштувати у реєстраторі вашого домену, якщо він їх підтримує.
 
-!!! note
-    If you keep getting an error from FreeFlarum saying that a CNAME cannot be found, first double check whether a CNAME can be found  using a [third party tool](https://www.ultratools.com/tools/dnsLookup).
+!!! примітка
+    Якщо FreeFlarum продовжує видавати помилку про те, що CNAME не може бути знайдено, спочатку перевірте, чи можна знайти CNAME за допомогою [стороннього інструменту] (https://www.ultratools.com/tools/dnsLookup).
 
-    If no CNAME record can be added, your provider probably does support it. You may switch to another DNS provider. These DNS services are known to work with FreeFlarum: [Namecheap](https://www.namecheap.com), [Porkbun](https://porkbun.com), [Gandi](https://www.gandi.net), [HiChina](https://www.hichina.com), [Dynadot](https://www.dynadot.com), [Alidns](https://www.alidns.com), [HostFly.by](https://hostfly.by), [NameBright](https://www.namebright.com).
+    Якщо запис CNAME не вдається додати, ймовірно, ваш провайдер його підтримує. Ви можете перейти до іншого DNS-провайдера. Відомо, що ці DNS-сервіси працюють з FreeFlarum: [Namecheap](https://www.namecheap.com), [Porkbun](https://porkbun.com), [Gandi](https://www.gandi.net), [HiChina](https://www.hichina.com), [Dynadot](https://www.dynadot.com), [Alidns](https://www.alidns.com), [HostFly.by](https://hostfly.by), [NameBright](https://www.namebright.com).
 
-!!! warning "Proxy"
-    Make sure to **disable the Cloudflare proxy**, so that the icon is grey (not orange).
+!!! попередження "Проксі"
+    Переконайтеся, що **вимкнено проксі Cloudflare**, щоб іконка була сірого (а не помаранчевого) кольору.
 
-!!! question "Reset the domain"
+!!! питання "Скинути домен"
 
-    If you used a custom domain but don't want it anymore, you can enter your old `xxx.freeflarum.com` (or `xxx.flarum.cloud`) hostname in the [FreeFlarum settings](https://freeflarum.com/settings/forum_settings).
+    Якщо ви використовували власний домен, але більше не бажаєте його використовувати, ви можете ввести старе ім'я хоста `xxx.freeflarum.com` (або `xxx.flarum.cloud`) в [Налаштуваннях FreeFlarum](https://freeflarum.com/settings/forum_settings).
