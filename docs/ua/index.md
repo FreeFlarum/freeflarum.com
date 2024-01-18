@@ -1,10 +1,10 @@
-# Home
+# Головна
 ![FreeFlarum Logo](https://raw.githubusercontent.com/FreeFlarum/freeflarum.com/master/overrides/assets/images/freeflarum-logo.svg)
 
 
-Welcome to the FreeFlarum documentation! Here you can read helpful tutorials that will advice you in building your community!
-Keep in mind that some of these tutorials may be outdated or will no longer work.
+Ласкаво просимо до документації FreeFlarum! Тут ви можете прочитати корисні підручники, які допоможуть вам у створенні вашої спільноти!
+Майте на увазі, що деякі з цих підручників можуть бути застарілими або більше не працювати.
 
-Additionally, if you find any tutorial that doesn't have the information you are looking for, you can always [contact us by E-mail](mailto:info@freeflarum.com) or in our [discussion thread](https://freeflarum.com/discuss) and we will help you right away.
+Крім того, якщо ви знайдете будь-який підручник, в якому немає інформації, яку ви шукаєте, ви завжди можете [зв'язатися з нами електронною поштою](mailto:info@freeflarum.com) або в нашій [дискусійній гілці](https://freeflarum.com/discuss), і ми негайно допоможемо вам.
 
-Thank you for using FreeFlarum!
+Дякуємо за використання FreeFlarum!
