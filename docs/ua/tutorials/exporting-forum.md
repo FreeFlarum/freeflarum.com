@@ -1,15 +1,15 @@
-# Exporting your forum
+# Експорт вашого форуму
 
-FreeFlarum does not want to lock you into its service, so at any time you are free to take your data and move your forum elsewhere.
-Here are the steps you need:
+FreeFlarum не хоче прив'язувати вас до свого сервісу, тому в будь-який час ви можете забрати свої дані і перенести форум в інше місце.
+Нижче наведені кроки, які вам знадобляться:
 
-1. [Log in to FreeFlarum](https://freeflarum.com/settings/account_settings) and download your database and avatars.
-2. Install Flarum (same version!) elsewhere, and follow the [regular documentation](https://docs.flarum.org/install/) to do that. Test if your new installation is working.
-3. Import your database: `zcat my_freeflarum_database_export.sql.gz | mysql -u USER -h HOST -p` where USER and HOST are from your new database account.
-4. Restore your assets: unzip your `public` assets export
-5. To be sure, clear the cache: `php flarum cache:clear` and migrate Flarum's database: `php flarum migrate`
-6. Finished :)
+1. [Увійдіть до FreeFlarum] (https://freeflarum.com/settings/account_settings) і завантажте свою базу даних та аватарки.
+2. Встановіть Flarum (ту саму версію!) в іншому місці і дотримуйтесь [звичайної документації] (https://docs.flarum.org/install/), щоб зробити це. Перевірте, чи працює ваша нова інсталяція.
+3. Імпортуйте вашу базу даних: `zcat my_freeflarum_database_export.sql.gz | mysql -u USER -h HOST -p`, де USER і HOST - з вашого нового облікового запису бази даних.
+4. Відновіть свої активи: розстебніть "блискавку" експорту "публічних" активів
+5. Щоб бути впевненим, очистіть кеш: `php flarum cache:clear` і перенесіть базу даних Flarum: `php flarum migrate`.
+6. Готово :)
 
-FreeFlarum is sorry to see you go, but good luck with your forum!
+FreeFlarum шкодує, що ви покидаєте нас, але бажаємо вам успіхів на вашому форумі!
 
-Please, [let us know](https://freeflarum.com/support) if you have any suggestions for us to improve our service. Thank you!
+Будь ласка, [дайте нам знати] (https://freeflarum.com/support), якщо у вас є якісь пропозиції щодо покращення нашого сервісу. Дякуємо!
