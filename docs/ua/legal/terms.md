@@ -1,85 +1,84 @@
-# Terms and Conditions & Fair Use Policy
+# Загальні положення та умови та політика добросовісного використання
 
-Thank you for using FreeFlarum. As a forum owner, you are expected to agree with FreeFlarum's Terms & Conditions and Fair use Policy.
-The terms are explained in a rather non-formal way, to make them more legible for everyone.
+Дякуємо за використання FreeFlarum. Як власник форуму, ви повинні погодитися з Умовами та положеннями FreeFlarum і Політикою добросовісного використання.
+Умови пояснюються в досить неформальній формі, щоб зробити їх більш зрозумілими для всіх.
 
-Please note that this document may change at any time, either with or without prior notice.
+Зверніть увагу, що цей документ може бути змінений у будь-який час з попереднім повідомленням або без нього.
 
-## Terms & Conditions
+## Умови та положення
 
-The Terms & Conditions explain what should/shouldn't be done at your forum.
+Загальні положення та умови пояснюють, що слід/не слід робити на вашому форумі.
 
-### 1. Agreement
+### 1. Угода
 
-By creating your forum at FreeFlarum, you agree with these Terms & Conditions. Forums that do not comply with these terms may be suspended (either with or without prior notice) by FreeFlarum at its sole discretion.
+Створюючи свій форум на FreeFlarum, ви погоджуєтеся з цими Умовами та положеннями. Форуми, які не відповідають цим умовам, можуть бути призупинені (з попереднім повідомленням або без нього) FreeFlarum на власний розсуд.
 
-### 2. Privacy Policy
+### 2. Політика конфіденційності
 
-This document does not cover FreeFlarum's privacy policy. For reference, please view [FreeFlarum's Privacy Policy](https://docs.freeflarum.com/legal/privacy-policy).
+Цей документ не охоплює політику конфіденційності FreeFlarum. Для довідки, будь ласка, перегляньте [Політику конфіденційності FreeFlarum] (https://docs.freeflarum.com/legal/privacy-policy).
 
-### 3. COPPA
+### 3. COPPA 
 
-If you are under the age of 13 without having your parent's/legal guardian's consent, per the requirements of COPPA (Children's Online Privacy Protection Act), you can't use the FreeFlarum service.
+Якщо вам не виповнилося 13 років і ви не маєте згоди батьків або законного опікуна, відповідно до вимог COPPA (Закон про захист конфіденційності дітей в Інтернеті), ви не можете користуватися сервісом FreeFlarum.
 
-### 4. Forum content
+### 4. Зміст форуму
 
-All users of your FreeFlarum forum (including you) mustn't share forum content that falls into one or more of the following categories:
+Всі користувачі вашого форуму FreeFlarum (включно з вами) не повинні ділитися вмістом форуму, який підпадає під одну або більше з наступних категорій:
 
-- Content deemed illegal, per your state/local laws & regulations;
-- Personal attacks, harassment, absuvie or hate speech, bullying or otherwise attacking someone based on their gender, race, social or religious beliefs, sexual orientation, etc.;
-- "NSFW"/"NSFL" content (pornography/heavy nudity, "gore", heavy/excessive profanity, etc.);
-- "Warez/cracked/pirated" internet content sharing;
-- Multi-level marketing schemes;
-- Anything else that could be viewed as inappropriate for someone's well-being.
+- Вміст, який вважається незаконним згідно з державними/місцевими законами та правилами;
+- Особисті напади, переслідування, абсурд або мова ненависті, знущання або інші напади на когось на основі їхньої статі, раси, соціальних або релігійних переконань, сексуальної орієнтації і т.д.;
+- "NSFW"/"NSFL" контент (порнографія/відверта нагота, "кров", важка/надмірна ненормативна лексика тощо);
+- "Варезний/зламаний/піратський" обмін інтернет-контентом;
+- Схеми багаторівневого маркетингу;
+- Будь-що інше, що може розглядатися як невідповідне для чийогось благополуччя.
+  
+### 5. Нижній колонтитул FreeFlarum
 
-### 5. FreeFlarum footer
+Ви можете змінювати зовнішній вигляд вашого форуму (через сторінку "Адміністрування > Зовнішній вигляд" у вашому екземплярі Flarum), але не дозволяється змінювати зовнішній вигляд, наприклад, приховувати або іншим чином заважати нижньому колонтитулу FreeFlarum. Якщо ви бажаєте видалити нижній колонтитул, будь ласка, розгляньте можливість [пожертвування] (https://freeflarum.com/donate).
 
-You are allowed to modify the full appearance of your forum (through the "Administration > Appearance" page at your Flarum instance), but it is not allowed to change the appearance as in to hide or otherwise hinder the FreeFlarum footer. If you would like to remove that footer, please consider [donating](https://freeflarum.com/donate).
+### 6. Видалення форуму
 
-### 6. Forum removals
+Форуми, які відповідають певним критеріям активності, можуть бути видалені системою FreeFlarum автоматично, на основі певних показників, таких як кількість обговорень, повідомлень і користувачів. Для більш детальної інформації, будь ласка, ознайомтеся з [Політикою добросовісного використання] (https://docs.freeflarum.com/legal/terms#fair-use-policy) нижче.
 
-Forums that meet certain criteria of activity may be removed by FreeFlarum's system automatically, based on certain metrics such as discussion, post and user counts. For details, please see the [Fair Use Policy](https://docs.freeflarum.com/legal/terms#fair-use-policy) below.
+### 7. Монетизація форуму
 
-### 7. Forum monetization
-
-You are not allowed to monetize your forum (e. g.: by using the "Google Adsense" service, having a "pay-to-see" content, or by using other similar techniques).
-
+Ви не маєте права монетизувати свій форум (наприклад, за допомогою сервісу "Google Adsense", розміщення контенту з оплатою за перегляд або за допомогою інших подібних методів).
 We are a free and community provided service and we are not looking towards becoming a commercial entity. Getting profit from something that is provided for free is not very nice either.
 
-Your forum may, however, accept voluntary donations from your community, e. g.: via a PayPal button.
+Однак ваш форум може приймати добровільні пожертви від вашої спільноти, наприклад, за допомогою кнопки PayPal.
 
-### 8. Other
+### 8. Інше
 
-1. Although generous efforts are undertaken to maintain the availability and performance of this service, there is explicitly no warranty given. Use it at your own risk.
-2. The FreeFlarum service is not available to persons or legal entities who operate legal constructs for the purpose of tax evasion or concealment of the ultimate benefactor, such to be determined by FreeFlarum at its sole discretion.
-3. FreeFlarum reserves the right to cancel forums that are detrimental to its quality of service or reputation, at its sole discretion.
-4. You are required to promptly address any security vulnerabilities or bugs found at FreeFlarum's website or API by [contacting us](https://freeflarum.com/support). For bugs and vulnerabilities related to the Flarum software, please [refer to Flarum's GitHub issues page](https://github.com/flarum/framework/issues).
-5. FreeFlarum does not support premium Flarum extensions (not even if you pay for them yourself).
-6. If you believe that a certain forum hosted at FreeFlarum is violating these terms, [contact us](https://freeflarum.com/support).
+1. Незважаючи на те, що ми докладаємо значних зусиль для підтримки доступності та працездатності цього сервісу, ми не надаємо жодних гарантій. Використовуйте його на свій страх і ризик.
+2. Сервіс FreeFlarum не доступний фізичним або юридичним особам, які використовують юридичні конструкції з метою ухилення від сплати податків або приховування кінцевого благодійника, який визначається FreeFlarum на власний розсуд.
+3. FreeFlarum залишає за собою право на власний розсуд скасовувати форуми, які завдають шкоди його якості обслуговування або репутації.
+4. Ви зобов'язані негайно усунути будь-які уразливості безпеки або помилки, виявлені на веб-сайті або API FreeFlarum, [зв'язавшись з нами] (https://freeflarum.com/support). Щодо помилок та вразливостей, пов'язаних з програмним забезпеченням Flarum, будь ласка, [зверніться до сторінки проблем Flarum на GitHub](https://github.com/flarum/framework/issues).
+5. FreeFlarum не підтримує преміум-розширення Flarum (навіть якщо ви платите за них самостійно).
+6. Якщо ви вважаєте, що певний форум, розміщений на FreeFlarum, порушує ці умови, [зв'яжіться з нами](https://freeflarum.com/support).
 
-## Fair Use Policy
+## Політика добросовісного використання
 
-### 1. Limits
+### 1. Обмеження
 
-As an ever-growing, free service, FreeFlarum reserves the right to impose certain limits related to its forums' storage space, user limit and other metrics, to ensure its stability and availability for everyone.
+Як постійно зростаючий безкоштовний сервіс, FreeFlarum залишає за собою право накладати певні обмеження, пов'язані з обсягом пам'яті форумів, лімітом користувачів та іншими показниками, щоб забезпечити його стабільність і доступність для всіх бажаючих.
 
-FreeFlarum isn't recommended for big forums. FreeFlarum's main goal is to help you start from zero. Specifically, this means that FreeFlarum does not currently support more than 50 active visitors at the same time. This limit is not enforced.
+FreeFlarum не рекомендується для великих форумів. Основна мета FreeFlarum - допомогти вам почати з нуля. Зокрема, це означає, що наразі FreeFlarum не підтримує більше 50 активних відвідувачів одночасно. Це обмеження не є примусовим.
 
-You will be notified via E-mail if your forum reaches more than 1 000 (offline) users, 5 000 discussions or 10 000 posts, which FreeFlarum considers to be "very active".
+Ви отримаєте повідомлення по електронній пошті, якщо ваш форум досягне більше 1 000 (офлайн) користувачів, 5 000 обговорень або 10 000 повідомлень, які FreeFlarum вважає "дуже активними".
 
-### 2. Inactive/too active forums
+### 2. Неактивні/занадто активні форуми
 
-FreeFlarum checks for inactive/way too active forums every 3 months.
+FreeFlarum перевіряє неактивні/занадто активні форуми кожні 3 місяці.
 
-- **Inactive** are forums that have existed for at least 1 month and the main admin account of that forum was last seen/was online before 60 days.
-- **Too active**, are forums that have more than 20 000 (offline) users, 20 000 discussions or 35 000 posts.
+- **Неактивні** - це форуми, які існують щонайменше 1 місяць, а головний обліковий запис адміністратора цього форуму востаннє бачили/перебував в онлайні не раніше, ніж 60 днів тому.
+- **Занадто активні** - це форуми, які мають більше 20 000 користувачів (офлайн), 20 000 обговорень або 35 000 повідомлень.
 
-Forums that match one of these criteria are archived by FreeFlarum. If that happens, you will be notified via E-mail that you entered when registering your forum.
+Форуми, які відповідають одному з цих критеріїв, архівуються FreeFlarum. Якщо це станеться, ви отримаєте сповіщення на електронну пошту, яку ви вказали при реєстрації форуму.
 
-Inactive forums can be reactivated for 6 months before they are fully erased from FreeFlarum (too active forums are not eligible for reactivation, because [big forums are problematic for FreeFlarum](https://discuss.flarum.org/d/7585/3828)). If your forum was archived, please [contact me](https://freeflarum.com/support) and I will reactivate it for you, or alternatively send you an E-mail with your data, if that's still possible.
+Неактивні форуми можна реактивувати протягом 6 місяців, перш ніж вони будуть повністю видалені з FreeFlarum (занадто активні форуми не підлягають реактивації, оскільки [великі форуми є проблематичними для FreeFlarum](https://discuss.flarum.org/d/7585/3828)). Якщо ваш форум було заархівовано, будь ласка, [зв'яжіться зі мною](https://freeflarum.com/support), і я реактивую його для вас, або ж надішлю вам електронного листа з вашими даними, якщо це ще можливо.
 
-These limits may be surpassed and your forum can function properly, however FreeFlarum does *not* officially provide support for forums above these limits regarding their functionality - in other words, if you want to run a busy forum, your best option might be to self-host it instead or switch to a solution such as [Blomstra](https://blomstra.net), as FreeFlarum is not built, nor intended for large forums.
+Ці ліміти можуть бути перевищені, і ваш форум може функціонувати належним чином, однак FreeFlarum *не* офіційно надає підтримку форумів, що перевищують ці ліміти щодо їх функціональності - іншими словами, якщо ви хочете запустити жвавий форум, найкращим варіантом може бути самостійний хостинг або перехід на таке рішення, як [Blomstra](https://blomstra.net), оскільки FreeFlarum не створений і не призначений для великих форумів.
 
 ---
 
-> *This document was last updated on the 27th of July, 2023*
+> *Цей документ востаннє було оновлено 27 липня 2023 року*.
