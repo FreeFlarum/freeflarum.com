@@ -15,7 +15,7 @@ FreeFlarum працює над тим, щоб зробити онлайн-спі
 > *Місія: люди знову стануть господарями своїх онлайн-спільнот*
 
 <!-- markdownlint-disable -->
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Коли ви скасовуєте послугу, ви можете визначити, чи є компанія "Утримувати клієнтів" (ворожа, хитра політика, лабіринти утримання тощо), чи "Робити клієнтів щасливими" (легко скасовувати, добрі побажання, чесна політика тощо).</p>&mdash; Jason Fried (@jasonfried) <a href="https://twitter.com/jasonfried/status/1018857695003234307?ref_src=twsrc%5Etfw">16 липня 2018 року</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">When you cancel a service, you can tell if a company is a “Keep Customers” company (hostile, tricky policies, retention mazes, etc) or a “Keep Customers Happy” company (easy to cancel, well wishes, fair policies, etc).</p>&mdash; Jason Fried (@jasonfried) <a href="https://twitter.com/jasonfried/status/1018857695003234307?ref_src=twsrc%5Etfw">July 16, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <!-- markdownlint-enable -->
 
