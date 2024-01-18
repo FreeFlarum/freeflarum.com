@@ -1,21 +1,21 @@
-# FaQ
+#  Питання-відповідь
 
-## Flarum extensions and upgrades
+## Розширення та оновлення Flarum
 
-### What happens when Flarum or its extension has a new update?
+### Що відбувається, коли Flarum або його розширення випускає нове оновлення?
 
-FreeFlarum will do a manual update for all FreeFlarum Flarum forums as soon as majority of the extensions installed at FreeFlarum
-are compatible with the latest Flarum version.
+FreeFlarum виконає ручне оновлення всіх форумів FreeFlarum Flarum, як тільки більшість розширень, встановлених на FreeFlarum
+будуть сумісні з останньою версією Flarum.
 
-Minor patches and security updates will be applied right away, usually within 3 days (if time allows it). In case of a breaking major change, it can take at around 3 weeks until FreeFlarum updates, due to some unique extensions not being compatible with the latest Flarum.
+Незначні виправлення та оновлення безпеки будуть застосовані негайно, зазвичай протягом 3 днів (якщо дозволяє час). У випадку серйозних змін, оновлення FreeFlarum може зайняти близько 3 тижнів через те, що деякі унікальні розширення не сумісні з останньою версією Flarum.
 
-Extensions that are used by the majority of FreeFlarum forums will be prioritized over other extensions (this means that if a majority of the most used FreeFlarum Flarum extensions are compatible with the latest Flarum, FreeFlarum may update to the next version, temporarily removing incompatible extensions until their author updates them or a replacement is found).
+Розширення, які використовуються більшістю форумів FreeFlarum, матимуть пріоритет над іншими розширеннями (це означає, що якщо більшість найбільш використовуваних розширень FreeFlarum Flarum сумісні з останньою версією Flarum, FreeFlarum може оновитися до наступної версії, тимчасово видаливши несумісні розширення, поки їх автор не оновить їх або не знайде їм заміну).
 
-### Can I request an extension to be added?
+### Чи можу я попросити про продовження терміну дії?
 
-Yes, you can use FreeFlarum's [GitHub repository](https://freeflarum.com/github/issues) for this purpose. Extension requests via E-mail are possible too (if you don't have a GitHub account) - in both instances, please follow the extension template:
+Так, ви можете використовувати для цього [GitHub репозиторій] FreeFlarum (https://freeflarum.com/github/issues). Запити на розширення також можна надсилати електронною поштою (якщо у вас немає акаунта на GitHub) - в обох випадках, будь ласка, дотримуйтесь шаблону розширення:
 
-- **URL to the extension:** This can be an Extiverse, Flarum Discuss or Packagist link, e. g.: [https://extiverse.com/extension/flarum/tags](https://extiverse.com/extension/flarum/tags)
-- **Why should FreeFlarum include this extension:** Provide a brief reason why should this extension be added to FreeFlarum, what are its benefits and features that could be useful for forum owners, etc...
-
-If you request your extension via E-mail (info@freeflarum.com), your request will be manually posted at our GitHub. FreeFlarum honors extension requests that have received 5 or more upvotes (👍 GH issue reaction) from the community.
+- **URL-адреса розширення:** Це може бути посилання на Extiverse, Flarum Discuss або Packagist, наприклад [https://extiverse.com/extension/flarum/tags](https://extiverse.com/extension/flarum/tags)
+- **Чому FreeFlarum має включати це розширення:** Наведіть коротку причину, чому це розширення слід додати до FreeFlarum, які його переваги та функції можуть бути корисними для власників форумів і т.д...
+  
+Якщо ви надішлете запит на продовження по електронній пошті (info@freeflarum.com), ваш запит буде вручну розміщено на нашому GitHub. FreeFlarum задовольняє запити на продовження, які отримали 5 або більше голосів (👍 реакція GH) від спільноти.
