@@ -1,7 +1,7 @@
 site_name: 'Documentation'
-site_url: https://docs.freeflarum.com/ua
-docs_dir: '../docs/ua'
-site_dir: '../build/ua'
+site_url: https://docs.freeflarum.com/uk
+docs_dir: '../docs/uk'
+site_dir: '../build/uk'
 
 
 theme:
@@ -9,7 +9,7 @@ theme:
   custom_dir: '../overrides/'
   logo: assets/images/freeflarum-logo.svg
   favicon: assets/images/favicon.ico
-  language: ua
+  language: uk
 
   palette:
   - media: "(prefers-color-scheme: light)"
@@ -43,8 +43,8 @@ extra:
       lang: zh
 
     - name: Ukrainian
-      link: /ua/
-      lang: ua
+      link: /uk/
+      lang: uk
 
 
 markdown_extensions:
@@ -55,6 +55,6 @@ markdown_extensions:
 
 plugins:
   - search:                                         
-      lang: ua
+      lang: uk
 
 repo_url: https://github.com/FreeFlarum/freeflarum.com

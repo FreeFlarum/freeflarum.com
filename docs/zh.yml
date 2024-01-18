@@ -43,8 +43,8 @@ extra:
       lang: zh
 
     - name: Ukrainian
-      link: /ua/
-      lang: ua
+      link: /uk/
+      lang: uk
 
 
 markdown_extensions:
