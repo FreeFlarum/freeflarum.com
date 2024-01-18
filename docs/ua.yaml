@@ -1,0 +1,60 @@
+site_name: 'Documentation'
+site_url: https://docs.freeflarum.com/ua
+docs_dir: '../docs/ua'
+site_dir: '../build/ua'
+
+
+theme:
+  name: material
+  custom_dir: '../overrides/'
+  logo: assets/images/freeflarum-logo.svg
+  favicon: assets/images/favicon.ico
+  language: ua
+
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: orange
+    accent: yellow
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: orange
+    accent: yellow
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+
+extra:
+  alternate:  
+    - name: English
+      link: /en/
+      lang: en
+
+    - name: 简体中文
+      link: /zh/
+      lang: zh
+
+    - name: Ukrainian
+      link: /ua/
+      lang: ua
+
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: ⚓︎
+
+
+plugins:
+  - search:                                         
+      lang: ua
+
+repo_url: https://github.com/FreeFlarum/freeflarum.com
