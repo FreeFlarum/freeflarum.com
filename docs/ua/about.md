@@ -1,38 +1,38 @@
-# About FreeFlarum
+# Про FreeFlarum
 
-## Vision
+## Бачення
 
-The tech giants AmaFaceGooAppTwit have won enormous power over our society. We have handed them our most precious asset: our attention and trust. In recent years the dangers have shown. Proliferation of fake news, undemocratic actors gaining influence over elections, [mass manipulation](https://twitter.com/gchaslot/status/1036323806242066432) for commercial interest. Google and Facebook make an effort to (publicly) fight this, but their hands are tied by their shareholder masters -- who demand profits.
+Технологічні гіганти AmaFaceGooAppTwit здобули величезну владу над нашим суспільством. Ми віддали їм наш найцінніший актив: нашу увагу та довіру. Останніми роками стали очевидними небезпеки. Поширення фейкових новин, недемократичні актори, які отримують вплив на вибори, [масові маніпуляції] (https://twitter.com/gchaslot/status/1036323806242066432) з комерційною метою. Google і Facebook докладають зусиль, щоб (публічно) боротися з цим, але їхні руки зв'язані їхніми господарями-акціонерами, які вимагають прибутку.
 
-It is time that society regains that power. And we should start with communication. There is no reason why the exchange of ideas should be subjected to profits or political stakes.
+Настав час, щоб суспільство повернуло собі цю силу. І починати треба з комунікації. Немає жодної причини, чому обмін ідеями має бути підпорядкований прибуткам чи політичним ставкам.
 
-The FreeFlarum vision is simple: people will get increasingly sick of multinationals monetizing their lives. And an open platform such as Flarum is a fantastic means to take some power back in our own hands.
+Бачення FreeFlarum просте: людей все більше нудить від того, що транснаціональні корпорації монетизують їхнє життя. І така відкрита платформа, як Flarum, є фантастичним засобом для того, щоб повернути частину влади в наші власні руки.
 
-## Mission & values
+## Місія та цінності
 
-FreeFlarum works to make online communities simple and available to anyone. It complements the awesome, open source Flarum software with a click-and-go service, that provides free, instant and maintenance free forums that can be used by anyone.
+FreeFlarum працює над тим, щоб зробити онлайн-спільноти простими і доступними для всіх. Він доповнює чудове програмне забезпечення Flarum з відкритим вихідним кодом сервісом, який надає безкоштовні, миттєві та необслуговувані форуми, якими може користуватися будь-хто.
 
-> *Mission: people will be the owner of their online communities once again*
+> *Місія: люди знову стануть господарями своїх онлайн-спільнот*
 
 <!-- markdownlint-disable -->
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">When you cancel a service, you can tell if a company is a “Keep Customers” company (hostile, tricky policies, retention mazes, etc) or a “Keep Customers Happy” company (easy to cancel, well wishes, fair policies, etc).</p>&mdash; Jason Fried (@jasonfried) <a href="https://twitter.com/jasonfried/status/1018857695003234307?ref_src=twsrc%5Etfw">July 16, 2018</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Коли ви скасовуєте послугу, ви можете визначити, чи є компанія "Утримувати клієнтів" (ворожа, хитра політика, лабіринти утримання тощо), чи "Робити клієнтів щасливими" (легко скасовувати, добрі побажання, чесна політика тощо).</p>&mdash; Jason Fried (@jasonfried) <a href="https://twitter.com/jasonfried/status/1018857695003234307?ref_src=twsrc%5Etfw">16 липня 2018 року</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <!-- markdownlint-enable -->
 
-We are a "keep customers happy" company. You are the owner of your forum/data.
-We will not lock you in, in any way. If you want to move your forum elsewhere,
-we will totally facilitate that. We will not use dark marketing patterns.
+Ми - компанія, яка "робить клієнтів щасливими". Ви є власником свого форуму/даних.
+Ми не будемо вас утримувати в жодному разі. Якщо ви хочете перенести свій форум в інше місце,
+ми повністю сприятимемо цьому. Ми не будемо використовувати темні маркетингові схеми.
 
-## Strategy
+## Стратегія
 
-Feature requests are weighed using the FreeFlarum priorities:
+Запити на розробку функцій зважуються за допомогою пріоритетів FreeFlarum:
 
-1. Does it make starting and managing communities easier?
-    - Lowers entry barrier to use?
-    - Makes managing a community more fun?
-    - Helps improve forum engagement?
+1. Чи полегшує це створення та управління спільнотами?
+    - Знижує вхідний бар'єр для використання?
+    - Робить керування спільнотою цікавішим?
+    - Допомагає покращити залученість до форуму?
 
-2. Does it contribute to keep FreeFlarum a sustainable project?
-    - Does it contribute to Flarum itself?
-    - Attracts more forums?
-    - Attracts larger forums?
+2. Чи сприяє це підтримці сталого розвитку ФріФларуму?
+    - Чи сприяє розвитку самого Flarum?
+    - Залучає більше форумів?
+    - Залучає більші форуми?
