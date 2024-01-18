@@ -42,6 +42,10 @@ extra:
       link: /zh/
       lang: zh
 
+    - name: Ukrainian
+      link: /ua/
+      lang: ua
+
 
 markdown_extensions:
   - admonition
