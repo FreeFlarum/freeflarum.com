@@ -16,16 +16,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.freeflarum.com/en/api/</loc>
-         <lastmod>2024-03-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.freeflarum.com/en/api/authentication/</loc>
-         <lastmod>2024-03-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://docs.freeflarum.com/en/legal/</loc>
          <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
