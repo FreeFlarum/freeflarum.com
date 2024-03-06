@@ -64,8 +64,6 @@ Access tokens are created after a successful login to FreeFlarum's website, and 
 - **User agent:** The user agent of the browser that created the access token
 - **Has elevated permissions:** Whether the access token has elevated permissions or not.
 
-You can learn more about access tokens and FreeFlarum's authentication system [here](https://docs.freeflarum.com/api/authentication).
-
 ### Does FreeFlarum use cookies?
 
 Yes, for the purpose of storing access tokens, which are fetched by FreeFlarum's server to authenticate the user (read above). This cookie is marked as "HttpOnly" for security reasons, and therefore can't be accessed by JavaScript.
