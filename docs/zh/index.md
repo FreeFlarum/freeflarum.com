@@ -29,8 +29,8 @@
 >
 >如需获取更加准确的信息，请访问[英文版文档](https://docs.freeflarum.com/en/)
 >
->请放心，我将会在接下来的一段时间不断修改完善，确保内容便于理解
+>请放心，我将会在接下来的一段时间不断修改完善，确保内容便于理解。您也可以访问我们的GitHub进行帮助翻译
 >
 >感谢FreeFlarum的信任
 >
->译者 essesoul 注
+>译者 essesoul & Googologyer 注
