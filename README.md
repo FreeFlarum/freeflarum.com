@@ -15,3 +15,7 @@ If you'd like to help with documentation, please create a new pull request on [G
 This repository contains the source code for [FreeFlarum's documentation](https://docs.freeflarum.com/) (not its website or logic).
 
 Documentation is automatically built from source by using [GitHub Actions](https://freeflarum.com/github/actions) ([MkDocs](https://mkdocs.org/))
+
+## Note
+
+Please, use [https://support.freeflarum.com/t/extension-requests](https://support.freeflarum.com/t/extension-requests) to submit extension requests.
