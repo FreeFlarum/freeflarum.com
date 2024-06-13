@@ -26,11 +26,11 @@ If you are under the age of 13 without having your parent's/legal guardian's con
 All users of your FreeFlarum forum (including you) mustn't share forum content that falls into one or more of the following categories:
 
 - Content deemed illegal, per your state/local laws & regulations;
+- Content deemed illegal, per laws and regulations of the European Union or Slovak republic;
 - Personal attacks, harassment, absuvie or hate speech, bullying or otherwise attacking someone based on their gender, race, social or religious beliefs, sexual orientation, etc.;
 - "NSFW"/"NSFL" content (pornography/heavy nudity, "gore", heavy/excessive profanity, etc.);
 - "Warez/cracked/pirated" internet content sharing;
 - Multi-level marketing schemes;
-- Anything else that could be viewed as inappropriate for someone's well-being.
 
 ### 5. FreeFlarum footer
 
@@ -53,9 +53,10 @@ Your forum may, however, accept voluntary donations from your community, e. g.: 
 1. Although generous efforts are undertaken to maintain the availability and performance of this service, there is explicitly no warranty given. Use it at your own risk.
 2. The FreeFlarum service is not available to persons or legal entities who operate legal constructs for the purpose of tax evasion or concealment of the ultimate benefactor, such to be determined by FreeFlarum at its sole discretion.
 3. FreeFlarum reserves the right to cancel forums that are detrimental to its quality of service or reputation, at its sole discretion.
-4. You are required to promptly address any security vulnerabilities or bugs found at FreeFlarum's website or API by [contacting us](https://freeflarum.com/support). For bugs and vulnerabilities related to the Flarum software, please [refer to Flarum's GitHub issues page](https://github.com/flarum/framework/issues).
-5. FreeFlarum does not support premium Flarum extensions (not even if you pay for them yourself).
-6. If you believe that a certain forum hosted at FreeFlarum is violating these terms, [contact us](https://freeflarum.com/support).
+4. You are required to promptly address any security vulnerabilities or bugs found at FreeFlarum's website or API by [contacting us](https://freeflarum.com/support). For bugs and vulnerabilities related to the Flarum software, please [refer to Flarum's Security Policy](https://github.com/flarum/flarum/security).
+5. FreeFlarum does not support premium (paid) Flarum extensions.
+6. It is forbidden to create a forum that impersonates existing individual, group of people, company or FreeFlarum itself.
+7. If you believe that a certain forum hosted at FreeFlarum is violating these terms, please [e-mail us](mailto:info@freeflarum.com).
 
 ## Fair Use Policy
 
@@ -82,4 +83,4 @@ These limits may be surpassed and your forum can function properly, however Free
 
 ---
 
-> *This document was last updated on the 27th of July, 2023*
+> *This document was last updated on the 13th of June, 2024*
