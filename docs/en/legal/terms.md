@@ -26,7 +26,7 @@ If you are under the age of 13 without having your parent's/legal guardian's con
 All users of your FreeFlarum forum (including you) mustn't share forum content that falls into one or more of the following categories:
 
 - Content deemed illegal, per your state/local laws & regulations;
-- Content deemed illegal, per laws and regulations of the European Union or Slovak republic;
+- Content deemed illegal, per laws and regulations of the European Union;
 - Personal attacks, harassment, absuvie or hate speech, bullying or otherwise attacking someone based on their gender, race, social or religious beliefs, sexual orientation, etc.;
 - "NSFW"/"NSFL" content (pornography/heavy nudity, "gore", heavy/excessive profanity, etc.);
 - "Warez/cracked/pirated" internet content sharing;
