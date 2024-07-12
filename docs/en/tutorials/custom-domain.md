@@ -33,7 +33,7 @@ Configuring DNS can be tricky, because every registrar has a different method an
     If no CNAME record can be added, your provider probably does support it. You may switch to another DNS provider. These DNS services are known to work with FreeFlarum: [Namecheap](https://www.namecheap.com), [Porkbun](https://porkbun.com), [Gandi](https://www.gandi.net), [HiChina](https://www.hichina.com), [Dynadot](https://www.dynadot.com), [Alidns](https://www.alidns.com), [HostFly.by](https://hostfly.by), [NameBright](https://www.namebright.com).
 
 !!! warning "Proxy"
-    Make sure to **disable the Cloudflare proxy**, so that the icon is grey (not orange).
+    Make sure to **disable the Cloudflare proxy** in Cloudflare DNS settings, so that the icon is grey (not orange).
 
 !!! question "Reset the domain"
 
