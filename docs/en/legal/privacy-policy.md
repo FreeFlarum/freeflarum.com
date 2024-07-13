@@ -78,7 +78,7 @@ FreeFlarum retains log files of its system libraries for no more than 1 year. So
 
 The following third-party services are being used by FreeFlarum:
 
-- [Cloudflare](https://www.cloudflare.com/privacypolicy/), for proxying requests made to the main FreeFlarum website and forums that are using one of the available FreeFlarum domains, to guard the service against attacks and other potential internet threads;
+- [Cloudflare](https://www.cloudflare.com/privacypolicy/), for proxying requests made to the main FreeFlarum website and forums that are using one of the available FreeFlarum domains, to guard the service against attacks and other potential internet threats;
 - [hCaptcha](https://www.hcaptcha.com/privacy/), for protecting the forum registration form at the main FreeFlarum website ([https://freeflarum.com](https://freeflarum.com));
 - [IcoMoon](https://icomoon.io/#about), for graphics (in form of icons) rendered on the main FreeFlarum website.
 
