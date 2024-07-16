@@ -4,6 +4,10 @@ Your forum is initially named `<you>.freeflarum.com` or `<you>.flarum.cloud`. Bu
 
 Plus, if you ever want to migrate your forum elsewhere, you can keep the same name (and data).
 
+!!! danger "Cloudflare Protection"
+
+    If you are using a custom domain for your forum, you lose the benefits of Cloudflare's protection that FreeFlarum enables for all forums under one of FreeFlarum's default domains. In that case, it is your responsibility to ensure that your domain remains protected from internet threats.
+
 !!! info "To start using your own domain name, follow these steps:"
 
     1. Get a domain name, with a registrar such as [Namecheap](https://namecheap.com) or [Porkbun](https://porkbun.com);
