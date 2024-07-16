@@ -17,11 +17,12 @@ Users must be at least 13 years old to use FreeFlarum services. If you are under
 
 ### 2.4. Forum Content
 Users of FreeFlarum forums are prohibited from sharing content that:
-- Violates local, state, or European Union laws and regulations
-- Constitutes personal attacks, harassment, abusive or hate speech, or bullying
-- Contains explicit sexual content, extreme violence, or excessive profanity
-- Promotes piracy or illegal file sharing
-- Advertises multi-level marketing schemes
+
+- Violates local, state, or European Union laws and regulations;
+- Constitutes personal attacks, harassment, abusive or hate speech, or bullying;
+- Contains explicit sexual content, extreme violence, or excessive profanity;
+- Promotes piracy or illegal file sharing;
+- Advertises multi-level marketing schemes;
 
 ### 2.5. FreeFlarum Footer
 While you may customize your forum's appearance, removing or obscuring the FreeFlarum footer is not permitted. To remove the footer, please consider [making a donation](https://freeflarum.com/donate).
