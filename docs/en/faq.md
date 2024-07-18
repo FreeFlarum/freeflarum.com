@@ -13,4 +13,4 @@ Extensions that are used by the majority of FreeFlarum forums will be prioritize
 
 ### Can I request an extension to be added?
 
-Yes, please see [https://support.freeflarum.com/t/extension-requests](https://support.freeflarum.com/t/extension-requests)
+Yes, please see [https://support.freeflarum.com/t/extension-request](https://support.freeflarum.com/t/extension-request)
