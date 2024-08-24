@@ -34,7 +34,8 @@ FreeFlarum may automatically remove forums based on inactivity or excessive reso
 Monetization of FreeFlarum forums through advertising, paid content, or similar methods is strictly prohibited. Voluntary donations from your community are permitted.
 
 ### 2.8. Limitation of Liability
-FreeFlarum provides its services on an "as-is" basis and makes no warranties regarding service availability, performance, or suitability for any purpose. Use of the service is at your own risk.
+FreeFlarum provides its services on an "as-is" basis and makes no warranties regarding service and forum availability, performance, or suitability for any purpose.
+FreeFlarum is NOT recommended for professional projects or for storing any other important data. Use of the service is at your own risk. You have been warned.
 
 ### 2.9. Service Availability
 While we strive to maintain high availability and performance, FreeFlarum does not guarantee uninterrupted service or specific uptime levels.
@@ -54,7 +55,10 @@ FreeFlarum does not support or allow the use of premium (paid) Flarum extensions
 ### 2.14. Impersonation
 Creating forums that impersonate existing individuals, groups, companies, or FreeFlarum itself is strictly forbidden.
 
-### 2.15. Reporting Violations
+### 2.15. Evading bans
+If a terminated forum or user account is re-created one or multiple times, FreeFlarum reserved the right to terminate it again without prior notice, as well as to block the IP address, e-mail or username from further sign ups or even block access from the entire FreeFlarum platform, should that be necessary.
+
+### 2.16. Reporting Violations
 If you believe a forum hosted on FreeFlarum violates these terms, please report it privately at [info@freeflarum.com](mailto:info@freeflarum.com).
 
 ## 3. Fair Use Policy
@@ -93,4 +97,4 @@ Support: [https://freeflarum.com/support](https://freeflarum.com/support)
 
 ---
 
-Last updated: July 9, 2024
+Last updated: August 24, 2024
