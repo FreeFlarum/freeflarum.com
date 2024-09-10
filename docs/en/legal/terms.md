@@ -100,4 +100,4 @@ Support: [https://freeflarum.com/support](https://freeflarum.com/support)
 
 ---
 
-Last updated: August 24, 2024
+Last updated: September 10, 2024
