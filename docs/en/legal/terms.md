@@ -52,13 +52,16 @@ Users are required to promptly report any security vulnerabilities or bugs found
 ### 2.13. Premium Extensions
 FreeFlarum does not support or allow the use of premium (paid) Flarum extensions. For more information, please have a look at our [Guidelines for Submitting an Extension Request](https://support.freeflarum.com/d/71).
 
-### 2.14. Impersonation
+### 2.14. Malicious & spam content
+Forums created with the purpose of hosting malicious software or other kind of malicious spam content, or legitimate forums that contain abundance of unmoderated spam posts, will be removed permanently without prior notice. It is your responsibility to employ extensions that combat spam in order to minimize the amount of malicious content at your forum as much as possible.
+
+### 2.15. Impersonation
 Creating forums that impersonate existing individuals, groups, companies, or FreeFlarum itself is strictly forbidden.
 
-### 2.15. Evading bans
+### 2.16. Evading bans
 If a terminated forum or user account is re-created one or multiple times, FreeFlarum reserves the right to terminate it again without prior notice, as well as to block the IP address, e-mail or username from further sign ups or even block access from the entire FreeFlarum platform, should that be necessary.
 
-### 2.16. Reporting Violations
+### 2.17. Reporting Violations
 If you believe a forum hosted on FreeFlarum violates these terms, please report it privately at [info@freeflarum.com](mailto:info@freeflarum.com).
 
 ## 3. Fair Use Policy
