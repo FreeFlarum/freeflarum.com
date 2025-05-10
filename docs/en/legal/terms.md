@@ -35,7 +35,7 @@ Monetization of FreeFlarum forums through advertising, paid content, or similar 
 
 ### 2.8. Limitation of Liability
 FreeFlarum provides its services on an "as-is" basis and makes no warranties regarding service and forum availability, performance, or suitability for any purpose.
-FreeFlarum is NOT recommended for professional projects or for storing any other important data. Use of the service is at your own risk. You have been warned.
+FreeFlarum is NOT recommended for professional projects or for exchanging and storing any other important or business critical data. Use of the service is at your own risk!
 
 ### 2.9. Service Availability
 While we strive to maintain high availability and performance, FreeFlarum does not guarantee uninterrupted service or specific uptime levels.
@@ -66,19 +66,20 @@ If a terminated forum or user account is re-created one or multiple times, FreeF
 FreeFlarum may periodically review forums for presence of CSAM, spam or otherwise illegal content, and take appropriate action should a forum host this type of content.
 
 ### 2.18. Reporting Violations
-If you believe a forum hosted on FreeFlarum violates these terms, please report it privately at [info@freeflarum.com](mailto:info@freeflarum.com).
+If you believe a forum hosted on FreeFlarum violates these terms, please report it *privately* to the following e-mail address: [info@freeflarum.com](mailto:info@freeflarum.com).
 
 ## 3. Fair Use Policy
 
 ### 3.1. Usage Limits
-To ensure service stability and availability, FreeFlarum imposes the following soft limits:
-- Maximum 50 active visitors simultaneously
+To ensure service stability and availability, FreeFlarum may impose the following limits:
+
+- Maximum 50 active visitors simultaneously, forum-wide
 - 1,000 registered users
 - 5,000 discussions
 - 10,000 posts
 - The cumulative forum size does not exceed 1 GB (assets, file uploads, etc...)
 
-Forums exceeding the limits for users, discussions and posts will be notified via email. Active visitors are not checked automatically.
+Forums exceeding the limits for users, discussions and posts may be notified via e-mail to the forum's main administrator's inbox (the e-mail used during sign up at FreeFlarum's main website).
 
 ### 3.2. Forum Activity Monitoring
 FreeFlarum conducts quarterly checks for inactive and excessively active forums. Criteria for these categories are:
@@ -90,6 +91,8 @@ Forums meeting inactivity or excessive activity criteria may be archived. Inacti
 
 ### 3.4. Support for Large Forums
 While forums may continue to function beyond the stated limits, FreeFlarum does not officially support or guarantee performance for forums exceeding these thresholds. Users with high-traffic forums are advised to consider self-hosting or professional hosting solutions.
+
+If your forum grows and FreeFlarum can no longer accommodate it, we encourage you to migrate to a different hosting provider instead, one that can offer you additional resources – this might not be an issue for your forum right now, and we'll e-mail you personally when your forum is too large for FreeFlarum to handle.
 
 ## 4. Amendments
 
@@ -104,4 +107,4 @@ Support: [https://freeflarum.com/support](https://freeflarum.com/support)
 
 ---
 
-Last updated: September 10, 2024
+Last updated: May 10, 2025
