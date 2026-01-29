@@ -32,7 +32,7 @@ Configuring DNS can be tricky, because every registrar has a different method an
     There's one trick to "fake" the root functionality of your domain, simply by using a "www" subdomain. Or, you can make a redirect from your root domain to your subdomain linked to FreeFlarum, e. g.: your forum is at `your.forum.tld`, and `forum.tld` redirects users to `your.forum.tld`. Redirection rules can be set up at your domain registar, if they support them.
 
 !!! note
-    If you keep getting an error from FreeFlarum saying that a CNAME cannot be found, first double check whether a CNAME can be found  using a [third party tool](https://www.ultratools.com/tools/dnsLookup).
+    If you keep getting an error from FreeFlarum saying that a CNAME cannot be found, first double check whether a CNAME can be found  using a [third party tool](https://toolbox.googleapps.com/apps/dig/#CNAME/).
 
     If no CNAME record can be added, your provider probably does support it. You may switch to another DNS provider. These DNS services are known to work with FreeFlarum: [Namecheap](https://www.namecheap.com), [Porkbun](https://porkbun.com), [Gandi](https://www.gandi.net), [HiChina](https://www.hichina.com), [Dynadot](https://www.dynadot.com), [Alidns](https://www.alidns.com), [HostFly.by](https://hostfly.by), [NameBright](https://www.namebright.com).
 
