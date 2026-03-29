@@ -1,6 +1,6 @@
-# FreeFlarum Statistics as of 2026-03-29
+# FreeFlarum Statistics as of 2026-03
 
-This page presents an overview of FreeFlarum's platform statistics, covering forum creation patterns, growth trends, geographic distribution, and more. All data is based on a snapshot taken on 2026-03-29.
+This page presents an overview of FreeFlarum's platform statistics, covering forum creation patterns, growth trends, geographic distribution, and more. All data is based on a snapshot taken on 2026-03.
 
 ---
 
