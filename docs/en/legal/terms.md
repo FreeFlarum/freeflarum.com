@@ -94,6 +94,10 @@ While forums may continue to function beyond the stated limits, FreeFlarum does 
 
 If your forum grows and FreeFlarum can no longer accommodate it, we encourage you to migrate to a different hosting provider instead, one that can offer you additional resources – this might not be an issue for your forum right now, and we'll e-mail you personally when your forum is too large for FreeFlarum to handle.
 
+### 3.5 Abuse of the service
+
+The abuse of the service, for example through mass creation of forums that are tied to one individual, is not allowed. You should generally have no need to create more than 5 forums and we are monitoring this. However, if you believe your use case requires having more than 5 forums, we may make an exception.
+
 ## 4. Amendments
 
 FreeFlarum reserves the right to modify these Terms and Conditions and Fair Use Policy at any time, with or without prior notice. It is your responsibility to review this document periodically for changes.
@@ -107,4 +111,4 @@ Support: [https://freeflarum.com/support](https://freeflarum.com/support)
 
 ---
 
-Last updated: May 10, 2025
+Last updated: November 3, 2026
